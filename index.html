@@ -1174,10 +1174,110 @@
   }
 
   /* MOBILE RESPONSIVE (basic) */
+  /* HAMBURGER BUTTON */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    z-index: 200;
+  }
+  .hamburger-line {
+    display: block;
+    width: 22px;
+    height: 1px;
+    background: var(--white);
+    transition: transform 0.4s ease, opacity 0.3s ease, width 0.3s ease;
+    transform-origin: center;
+  }
+  .hamburger.open .hamburger-line:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .hamburger.open .hamburger-line:nth-child(2) { opacity: 0; width: 0; }
+  .hamburger.open .hamburger-line:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  /* MOBILE MENU */
+  .mobile-menu {
+    position: fixed;
+    inset: 0;
+    z-index: 95;
+    background: var(--navy-mid);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 40px 80px;
+    transform: translateY(-100%);
+    transition: transform 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+    pointer-events: none;
+    overflow: hidden;
+  }
+  .mobile-menu::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(184,151,90,0.3), transparent);
+  }
+  .mobile-menu.open { transform: translateY(0); pointer-events: all; }
+  .mobile-nav-links { list-style: none; display: flex; flex-direction: column; gap: 4px; }
+  .mobile-nav-links li {
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  .mobile-menu.open .mobile-nav-links li:nth-child(1) { opacity: 1; transform: translateY(0); transition-delay: 0.18s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(2) { opacity: 1; transform: translateY(0); transition-delay: 0.26s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(3) { opacity: 1; transform: translateY(0); transition-delay: 0.34s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(4) { opacity: 1; transform: translateY(0); transition-delay: 0.42s; }
+  .mobile-nav-links a {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 9vw, 52px);
+    font-weight: 300;
+    color: rgba(245,242,236,0.35);
+    text-decoration: none;
+    letter-spacing: -0.01em;
+    line-height: 1.4;
+    display: block;
+    transition: color 0.3s ease, letter-spacing 0.3s ease;
+  }
+  .mobile-nav-links a:hover { color: var(--white); letter-spacing: 0.02em; }
+  .mobile-menu-bottom {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    opacity: 0;
+    transition: opacity 0.4s ease 0.5s;
+  }
+  .mobile-menu.open .mobile-menu-bottom { opacity: 1; }
+  .mobile-menu-line { width: 40px; height: 1px; background: var(--gold); opacity: 0.5; }
+  .mobile-menu-contact { font-size: 10px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); }
+  .mobile-menu-deco {
+    position: absolute;
+    right: 30px; bottom: 60px;
+    font-family: var(--font-display);
+    font-size: 200px;
+    font-weight: 300;
+    color: rgba(184,151,90,0.04);
+    line-height: 1;
+    user-select: none;
+  }
+
+  /* Hide cursor on touch devices */
+  @media (hover: none) {
+    .cursor, .cursor-ring { display: none !important; }
+    * { cursor: auto !important; }
+  }
+
+  /* TABLET — 900px */
   @media (max-width: 900px) {
     nav { padding: 20px 24px; }
     nav.scrolled { padding: 14px 24px; }
     .nav-links { display: none; }
+    .hamburger { display: flex; }
     .hero-content { padding: 0 24px; }
     .hero-stats-float { display: none; }
     .hero-scroll-indicator { left: 24px; }
@@ -1199,6 +1299,39 @@
     footer { padding: 60px 24px 40px; }
     .footer-top { grid-template-columns: 1fr; gap: 40px; }
     .footer-bottom { flex-direction: column; gap: 20px; text-align: center; }
+  }
+
+  /* PHONE — 600px */
+  @media (max-width: 600px) {
+    .hero-eyebrow span { font-size: 8px; letter-spacing: 0.18em; }
+    .hero-cta-group { flex-direction: column; align-items: flex-start; gap: 16px; }
+    .btn-primary, .btn-ghost { width: 100%; justify-content: center; }
+    .split-panel { padding: 60px 20px; }
+    .split-title { font-size: 28px; }
+    .stat-number { font-size: 52px; }
+    .about-credentials { grid-template-columns: 1fr; }
+    .contact-big-text { font-size: clamp(36px, 10vw, 56px); }
+    .newsletter-title { font-size: 28px; }
+    .form-field input,
+    .form-field textarea,
+    .form-field select,
+    .newsletter-form input { font-size: 16px; }
+  }
+
+  /* SMALL PHONE — 430px */
+  @media (max-width: 430px) {
+    .hero-title { font-size: clamp(36px, 10vw, 52px); }
+    .hero-title-bold { font-size: clamp(36px, 10vw, 52px); }
+    .hero-subtitle { font-size: 12px; }
+    .about-image-frame { aspect-ratio: 4/5; }
+    .stat-number { font-size: 44px; }
+    .stats-section { padding: 60px 24px; }
+    .about-section { padding: 80px 20px; }
+    .publications-section { padding: 80px 20px; }
+    .contact-section { padding: 80px 20px; }
+    .split-panel { padding: 48px 20px; }
+    .pub-card { padding: 28px 24px; }
+    footer { padding: 48px 20px 32px; }
   }
 </style>
 </head>
@@ -1225,7 +1358,27 @@
     <span class="lang-divider">|</span>
     <button class="lang-btn">EN</button>
   </div>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+  </button>
 </nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-deco">D</div>
+  <ul class="mobile-nav-links">
+    <li><a href="#about" class="mobile-nav-link">Despre</a></li>
+    <li><a href="#cabinets" class="mobile-nav-link">Servicii</a></li>
+    <li><a href="#publications" class="mobile-nav-link">Publicații</a></li>
+    <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+  </ul>
+  <div class="mobile-menu-bottom">
+    <div class="mobile-menu-line"></div>
+    <span class="mobile-menu-contact">+40 745 755 301</span>
+  </div>
+</div>
 
 <!-- HERO -->
 <section class="hero">
@@ -1790,6 +1943,24 @@
     btn.addEventListener('click', () => {
       document.querySelectorAll('.lang-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+    });
+  });
+
+  // HAMBURGER MENU
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  hamburger.addEventListener('click', () => {
+    const isOpen = hamburger.classList.toggle('open');
+    mobileMenu.classList.toggle('open', isOpen);
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  document.querySelectorAll('.mobile-nav-link').forEach(a => {
+    a.addEventListener('click', () => {
+      hamburger.classList.remove('open');
+      mobileMenu.classList.remove('open');
+      document.body.style.overflow = '';
     });
   });
 </script>
