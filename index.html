@@ -147,9 +147,7 @@
   }
   .hero-bg-parallax {
     position: absolute;
-    top: -20%; left: 0; right: 0;
-    height: 140%;
-    will-change: transform;
+    inset: 0;
   }
   .hero-video-wrap img {
     width: 100%; height: 100%;
@@ -2214,10 +2212,6 @@
     if (heroContent) {
       heroContent.style.transform = `translateY(${scrollY * 0.15}px)`;
       heroContent.style.opacity = 1 - scrollY / 600;
-    }
-    const heroBg = document.querySelector('.hero-bg-parallax');
-    if (heroBg) {
-      heroBg.style.transform = `translateY(${scrollY * 0.2}px)`;
     }
   });
 
