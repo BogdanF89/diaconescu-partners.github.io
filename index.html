@@ -1084,6 +1084,128 @@
     text-transform: uppercase;
   }
 
+  /* NEWS SECTION */
+  .news-section {
+    padding: 120px 0;
+    background: var(--navy-mid);
+    position: relative;
+    overflow: hidden;
+  }
+  .news-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(184,151,90,0.3), transparent);
+  }
+  .news-header {
+    padding: 0 60px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 56px;
+  }
+  .news-live {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .news-live-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    animation: livePulse 1.8s ease-in-out infinite;
+  }
+  @keyframes livePulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.3; transform: scale(0.7); }
+  }
+  .news-live-label {
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .news-marquee { overflow: hidden; }
+  .news-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: newsScroll 70s linear infinite;
+    padding: 0 20px;
+  }
+  .news-track:hover { animation-play-state: paused; }
+  @keyframes newsScroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  .news-card {
+    width: 320px;
+    flex-shrink: 0;
+    padding: 28px;
+    background: rgba(13,27,42,0.6);
+    border: 1px solid rgba(184,151,90,0.08);
+    position: relative;
+    transition: all 0.35s ease;
+    cursor: default;
+  }
+  .news-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 0; height: 2px;
+    background: var(--gold);
+    transition: width 0.4s ease;
+  }
+  .news-card:hover {
+    background: rgba(30,58,95,0.35);
+    border-color: rgba(184,151,90,0.2);
+    transform: translateY(-4px);
+  }
+  .news-card:hover::after { width: 100%; }
+  .news-card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  .news-cat {
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-width: 1px;
+    border-style: solid;
+  }
+  .news-cat.civil    { border-color: rgba(100,160,255,0.35); color: rgba(130,180,255,0.85); }
+  .news-cat.comercial{ border-color: rgba(184,151,90,0.45); color: var(--gold); }
+  .news-cat.insolventa{ border-color: rgba(200,130,70,0.4); color: rgba(220,150,80,0.9); }
+  .news-cat.penal    { border-color: rgba(210,80,80,0.35); color: rgba(220,110,110,0.9); }
+  .news-cat.legislatie{ border-color: rgba(100,200,140,0.35); color: rgba(120,210,150,0.9); }
+  .news-date {
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    color: var(--gray);
+  }
+  .news-headline {
+    font-family: var(--font-display);
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--white);
+    line-height: 1.45;
+    margin-bottom: 12px;
+  }
+  .news-excerpt {
+    font-size: 11px;
+    color: rgba(138,155,176,0.65);
+    line-height: 1.75;
+  }
+  @media (max-width: 600px) {
+    .news-header { padding: 0 20px; }
+    .news-card { width: 280px; padding: 22px; }
+  }
+
   /* SCROLL REVEAL */
   .reveal {
     opacity: 0;
@@ -1355,6 +1477,7 @@
     <li><a href="#about" data-i18n="nav.about">Despre</a></li>
     <li><a href="#cabinets" data-i18n="nav.services">Servicii</a></li>
     <li><a href="#publications" data-i18n="nav.publications">Publicații</a></li>
+    <li><a href="#news" data-i18n="nav.news">Noutăți</a></li>
     <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
   </ul>
   <div class="nav-lang">
@@ -1376,6 +1499,7 @@
     <li><a href="#about" class="mobile-nav-link" data-i18n="nav.about">Despre</a></li>
     <li><a href="#cabinets" class="mobile-nav-link" data-i18n="nav.services">Servicii</a></li>
     <li><a href="#publications" class="mobile-nav-link" data-i18n="nav.publications">Publicații</a></li>
+    <li><a href="#news" class="mobile-nav-link" data-i18n="nav.news">Noutăți</a></li>
     <li><a href="#contact" class="mobile-nav-link" data-i18n="nav.contact">Contact</a></li>
   </ul>
   <div class="mobile-menu-bottom">
@@ -1690,6 +1814,170 @@
   </div>
 </section>
 
+<!-- NEWS SECTION -->
+<section class="news-section" id="news">
+  <div class="news-header">
+    <div>
+      <div class="section-tag reveal" style="justify-content:flex-start;display:inline-flex;" data-i18n="news.tag">Noutăți Juridice</div>
+      <h2 class="section-title reveal delay-1" style="margin-top:16px;" data-i18n-html="news.title">Actualitate <em>legislativă</em></h2>
+    </div>
+    <div class="news-live reveal">
+      <div class="news-live-dot"></div>
+      <span class="news-live-label" data-i18n="news.live">Actualizat continuu</span>
+    </div>
+  </div>
+  <div class="news-marquee">
+    <div class="news-track">
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat insolventa">Insolvență</span>
+          <span class="news-date">Mai 2025</span>
+        </div>
+        <div class="news-headline">Modificări aduse Legii nr. 85/2014 — noi mecanisme de prevenire a insolvenței</div>
+        <div class="news-excerpt">Amendamentele recente introduc instrumente de avertizare timpurie și facilități pentru restructurarea pre-insolvență a debitorilor aflați în dificultate financiară.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat civil">Civil</span>
+          <span class="news-date">Apr 2025</span>
+        </div>
+        <div class="news-headline">ÎCCJ — Decizie de unificare a practicii privind prescripția în materie contractuală</div>
+        <div class="news-excerpt">Înalta Curte clarifică momentul de la care curge termenul de prescripție în cazul obligațiilor cu executare succesivă și a efectelor suspendării.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat comercial">Comercial</span>
+          <span class="news-date">Mar 2025</span>
+        </div>
+        <div class="news-headline">Transpunerea Directivei UE 2019/1023 — stadiul implementării în legislația română</div>
+        <div class="news-excerpt">România are obligația de a integra integral directiva privind cadrele de restructurare preventivă, lichidarea și remiterea de datorie pentru antreprenori.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat penal">Penal</span>
+          <span class="news-date">Feb 2025</span>
+        </div>
+        <div class="news-headline">CCR: Decizie privind răspunderea penală a persoanei juridice în materie economică</div>
+        <div class="news-excerpt">Curtea Constituțională s-a pronunțat asupra normelor ce reglementează infracțiunile economice comise în numele sau în beneficiul entităților juridice.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat legislatie">Legislație</span>
+          <span class="news-date">Ian 2025</span>
+        </div>
+        <div class="news-headline">Noi reglementări privind executarea silită — modificări la Codul de Procedură Civilă</div>
+        <div class="news-excerpt">Modificările aduc clarificări importante privind procedura popririi, contestațiile la executare și executarea creanțelor comerciale transfrontaliere.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat insolventa">Insolvență</span>
+          <span class="news-date">Dec 2024</span>
+        </div>
+        <div class="news-headline">UNPIR — Actualizarea standardelor de practică pentru practicienii în insolvență</div>
+        <div class="news-excerpt">Noile standarde introduc cerințe suplimentare pentru raportarea și transparența în procedurile de reorganizare judiciară și faliment.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat civil">Civil</span>
+          <span class="news-date">Nov 2024</span>
+        </div>
+        <div class="news-headline">Legea nr. 243/2024 — modificări privind răspunderea civilă delictuală</div>
+        <div class="news-excerpt">Noile prevederi aduc clarificări privind calculul despăgubirilor în cazul vătămărilor corporale, prejudiciilor patrimoniale și morale.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat comercial">Comercial</span>
+          <span class="news-date">Oct 2024</span>
+        </div>
+        <div class="news-headline">Actualizarea pragurilor pentru deschiderea procedurii insolvenței — impact asupra creditorilor</div>
+        <div class="news-excerpt">Creșterea valorii-prag minime a creanței introduce condiții mai restrictive pentru cererile creditorilor și modifică dinamica recuperărilor.</div>
+      </div>
+
+      <!-- Duplicate for infinite scroll -->
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat insolventa">Insolvență</span>
+          <span class="news-date">Mai 2025</span>
+        </div>
+        <div class="news-headline">Modificări aduse Legii nr. 85/2014 — noi mecanisme de prevenire a insolvenței</div>
+        <div class="news-excerpt">Amendamentele recente introduc instrumente de avertizare timpurie și facilități pentru restructurarea pre-insolvență a debitorilor aflați în dificultate financiară.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat civil">Civil</span>
+          <span class="news-date">Apr 2025</span>
+        </div>
+        <div class="news-headline">ÎCCJ — Decizie de unificare a practicii privind prescripția în materie contractuală</div>
+        <div class="news-excerpt">Înalta Curte clarifică momentul de la care curge termenul de prescripție în cazul obligațiilor cu executare succesivă și a efectelor suspendării.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat comercial">Comercial</span>
+          <span class="news-date">Mar 2025</span>
+        </div>
+        <div class="news-headline">Transpunerea Directivei UE 2019/1023 — stadiul implementării în legislația română</div>
+        <div class="news-excerpt">România are obligația de a integra integral directiva privind cadrele de restructurare preventivă, lichidarea și remiterea de datorie pentru antreprenori.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat penal">Penal</span>
+          <span class="news-date">Feb 2025</span>
+        </div>
+        <div class="news-headline">CCR: Decizie privind răspunderea penală a persoanei juridice în materie economică</div>
+        <div class="news-excerpt">Curtea Constituțională s-a pronunțat asupra normelor ce reglementează infracțiunile economice comise în numele sau în beneficiul entităților juridice.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat legislatie">Legislație</span>
+          <span class="news-date">Ian 2025</span>
+        </div>
+        <div class="news-headline">Noi reglementări privind executarea silită — modificări la Codul de Procedură Civilă</div>
+        <div class="news-excerpt">Modificările aduc clarificări importante privind procedura popririi, contestațiile la executare și executarea creanțelor comerciale transfrontaliere.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat insolventa">Insolvență</span>
+          <span class="news-date">Dec 2024</span>
+        </div>
+        <div class="news-headline">UNPIR — Actualizarea standardelor de practică pentru practicienii în insolvență</div>
+        <div class="news-excerpt">Noile standarde introduc cerințe suplimentare pentru raportarea și transparența în procedurile de reorganizare judiciară și faliment.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat civil">Civil</span>
+          <span class="news-date">Nov 2024</span>
+        </div>
+        <div class="news-headline">Legea nr. 243/2024 — modificări privind răspunderea civilă delictuală</div>
+        <div class="news-excerpt">Noile prevederi aduc clarificări privind calculul despăgubirilor în cazul vătămărilor corporale, prejudiciilor patrimoniale și morale.</div>
+      </div>
+
+      <div class="news-card">
+        <div class="news-card-top">
+          <span class="news-cat comercial">Comercial</span>
+          <span class="news-date">Oct 2024</span>
+        </div>
+        <div class="news-headline">Actualizarea pragurilor pentru deschiderea procedurii insolvenței — impact asupra creditorilor</div>
+        <div class="news-excerpt">Creșterea valorii-prag minime a creanței introduce condiții mai restrictive pentru cererile creditorilor și modifică dinamica recuperărilor.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- NEWSLETTER STRIP -->
 <div class="newsletter-strip">
   <div class="newsletter-text">
@@ -1945,7 +2233,7 @@
   // I18N
   const i18n = {
     ro: {
-      'nav.about':'Despre','nav.services':'Servicii','nav.publications':'Publicații','nav.contact':'Contact',
+      'nav.about':'Despre','nav.services':'Servicii','nav.publications':'Publicații','nav.news':'Noutăți','nav.contact':'Contact',
       'hero.eyebrow':'Avocat · Practician în Insolvență · București',
       'hero.subtitle':'Avocat & Practician în Insolvență cu 15+ ani de expertiză<br>în mandate complexe. Drept. Restructurare. Recuperare.',
       'hero.cta.primary':'Contactați-ne','hero.cta.secondary':'Explorați serviciile',
@@ -1982,9 +2270,10 @@
       'footer.fp1':'Drept Civil','footer.fp2':'Drept Comercial','footer.fp3':'Insolvență & Faliment','footer.fp4':'Restructurare','footer.fp5':'Litigii & Arbitraj','footer.fp6':'Dreptul Muncii','footer.fp7':'Imobiliare','footer.fp8':'Contencios Fiscal',
       'footer.copy':'© 2026 Diaconescu Roxana-Elena — Cabinet de Avocat & Cabinet Individual de Insolvență. Toate drepturile rezervate.',
       'footer.privacy':'Politică de Confidențialitate','footer.terms':'Termeni & Condiții',
+      'news.tag':'Noutăți Juridice','news.title':'Actualitate <em>legislativă</em>','news.live':'Actualizat continuu',
     },
     en: {
-      'nav.about':'About','nav.services':'Services','nav.publications':'Publications','nav.contact':'Contact',
+      'nav.about':'About','nav.services':'Services','nav.publications':'Publications','nav.news':'Updates','nav.contact':'Contact',
       'hero.eyebrow':'Attorney at Law · Insolvency Practitioner · Bucharest',
       'hero.subtitle':'Attorney & Insolvency Practitioner with 15+ years of expertise<br>in complex mandates. Law. Restructuring. Recovery.',
       'hero.cta.primary':'Contact Us','hero.cta.secondary':'Explore Services',
@@ -2021,6 +2310,7 @@
       'footer.fp1':'Civil Law','footer.fp2':'Commercial Law','footer.fp3':'Insolvency & Bankruptcy','footer.fp4':'Restructuring','footer.fp5':'Litigation & Arbitration','footer.fp6':'Labor Law','footer.fp7':'Real Estate','footer.fp8':'Tax Disputes',
       'footer.copy':'© 2026 Diaconescu Roxana-Elena — Law Firm & Individual Insolvency Practice. All rights reserved.',
       'footer.privacy':'Privacy Policy','footer.terms':'Terms & Conditions',
+      'news.tag':'Legal Updates','news.title':'Legislative <em>news</em>','news.live':'Continuously updated',
     }
   };
 
