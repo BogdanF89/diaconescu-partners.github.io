@@ -145,10 +145,24 @@
     object-fit: cover;
     opacity: 0.18;
   }
+  .hero-bg-parallax {
+    position: absolute;
+    top: -20%; left: 0; right: 0;
+    height: 140%;
+    will-change: transform;
+  }
   .hero-video-wrap img {
     width: 100%; height: 100%;
     object-fit: cover;
-    object-position: center top;
+    object-position: center 20%;
+    animation: kenBurns 22s ease-in-out infinite;
+    transform-origin: center center;
+    will-change: transform;
+  }
+  @keyframes kenBurns {
+    0%   { transform: scale(1.0) translate(0, 0); }
+    50%  { transform: scale(1.07) translate(-1%, 0.8%); }
+    100% { transform: scale(1.0) translate(0, 0); }
   }
   .hero-video-fallback {
     position: absolute;
@@ -1535,7 +1549,9 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-video-wrap">
-    <img src="background1.jpeg" alt="">
+    <div class="hero-bg-parallax">
+      <img src="background1.jpeg" alt="">
+    </div>
     <div class="hero-video-fallback"></div>
   </div>
   <div class="hero-grid"></div>
@@ -2198,6 +2214,10 @@
     if (heroContent) {
       heroContent.style.transform = `translateY(${scrollY * 0.15}px)`;
       heroContent.style.opacity = 1 - scrollY / 600;
+    }
+    const heroBg = document.querySelector('.hero-bg-parallax');
+    if (heroBg) {
+      heroBg.style.transform = `translateY(${scrollY * 0.2}px)`;
     }
   });
 
