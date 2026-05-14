@@ -1,0 +1,16 @@
+<svg viewBox="110 50 180 155" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Cabinet de Avocat — Shield & Scales</title>
+  <path d="M200 60 L280 88 L280 168 Q280 220 200 248 Q120 220 120 168 L120 88 Z" fill="none" stroke="#b8975a" stroke-width="1.5"/>
+  <path d="M200 72 L272 96 L272 165 Q272 212 200 238 Q128 212 128 165 L128 96 Z" fill="none" stroke="#b8975a" stroke-width="0.5" opacity="0.35"/>
+  <line x1="200" y1="108" x2="200" y2="192" stroke="#b8975a" stroke-width="1.2"/>
+  <line x1="162" y1="122" x2="238" y2="122" stroke="#b8975a" stroke-width="1.2"/>
+  <line x1="168" y1="122" x2="162" y2="150" stroke="#b8975a" stroke-width="0.8"/>
+  <line x1="162" y1="122" x2="156" y2="150" stroke="#b8975a" stroke-width="0.8"/>
+  <line x1="232" y1="122" x2="238" y2="150" stroke="#b8975a" stroke-width="0.8"/>
+  <line x1="238" y1="122" x2="244" y2="150" stroke="#b8975a" stroke-width="0.8"/>
+  <path d="M150 150 Q159 160 168 150" stroke="#b8975a" stroke-width="1" fill="none"/>
+  <path d="M232 150 Q241 160 250 150" stroke="#b8975a" stroke-width="1" fill="none"/>
+  <circle cx="200" cy="108" r="3.5" fill="#b8975a"/>
+  <rect x="192" y="192" width="16" height="2" fill="#b8975a" opacity="0.5"/>
+  <rect x="188" y="195" width="24" height="1.5" fill="#b8975a" opacity="0.3"/>
+</svg>
