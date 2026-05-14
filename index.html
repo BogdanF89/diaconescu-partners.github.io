@@ -1565,15 +1565,6 @@
     <div class="hero-video-fallback"></div>
   </div>
   <div class="hero-grid"></div>
-  <div class="hero-line-left"></div>
-
-  <div class="hero-content">
-    <h1 class="hero-title">
-      Diaconescu<br>
-      <em>Roxana-Elena</em>
-    </h1>
-    <span class="hero-title-bold">Partners</span>
-  </div>
 
   <div class="hero-bottom">
     <div class="hero-cta-group">
@@ -1588,12 +1579,9 @@
       </a>
     </div>
   </div>
-
-    <div class="hero-scroll-indicator">
-    <div class="scroll-line"></div>
-    <span>Scroll</span>
-  </div>
 </section>
+
+
 
 <!-- SPLIT CABINETS -->
 <section class="split-section" id="cabinets">
@@ -2200,11 +2188,7 @@
     if (grid) {
       grid.style.transform = `translateY(${scrollY * 0.3}px)`;
     }
-    const heroContent = document.querySelector('.hero-content');
-    if (heroContent) {
-      heroContent.style.transform = `translateY(${scrollY * 0.15}px)`;
-      heroContent.style.opacity = 1 - scrollY / 600;
-    }
+
   });
 
   // COUNTER ANIMATION
