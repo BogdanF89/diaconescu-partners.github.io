@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diaconescu Partners — Hero Font Options</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400;600;700&family=Bodoni+Moda:ital,opsz,wght@0,6..96,300;0,6..96,400;1,6..96,300;1,6..96,400&family=EB+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Italiana&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400;1,600&family=Forum&family=Spectral:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #b8975a;
+    --gold-light: #d4b483;
+    --white: #f5f2ec;
+    --gray: #8a9bb0;
+    --navy: #0d1b2a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #060e16;
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /* Shared hero-like background for each card */
+  .font-card {
+    position: relative;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 80px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(184,151,90,0.1);
+  }
+  .font-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url('background1.jpeg');
+    background-size: cover;
+    background-position: center top;
+    z-index: 0;
+  }
+  .font-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 70% 50%, rgba(30,58,95,0.65) 0%, transparent 60%),
+      linear-gradient(135deg, rgba(13,27,42,0.88) 0%, rgba(21,34,56,0.82) 50%, rgba(13,27,42,0.88) 100%);
+    z-index: 1;
+  }
+  .font-card-content { position: relative; z-index: 2; max-width: 700px; }
+
+  /* Labels */
+  .font-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .font-label::before {
+    content: '';
+    width: 30px; height: 1px;
+    background: var(--gold);
+    opacity: 0.5;
+  }
+  .font-number {
+    position: absolute;
+    top: 24px; right: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: rgba(184,151,90,0.3);
+    z-index: 2;
+  }
+  .font-descriptor {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(138,155,176,0.55);
+    display: flex;
+    gap: 20px;
+  }
+  .font-descriptor span { color: rgba(184,151,90,0.5); }
+
+  /* Subtitle shared style */
+  .hero-sub {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    color: var(--gray);
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+
+  /* Page header */
+  .page-header {
+    padding: 56px 80px 40px;
+    border-bottom: 1px solid rgba(184,151,90,0.12);
+  }
+  .page-header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: rgba(184,151,90,0.5);
+    margin-bottom: 8px;
+  }
+  .page-header p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--white);
+  }
+
+  /* ===================== FONT-SPECIFIC STYLES ===================== */
+
+  /* 01 — Cormorant Garamond (CURRENT) */
+  .f01-title {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: clamp(52px, 7vw, 88px);
+    font-weight: 300;
+    line-height: 1.0;
+    color: var(--white);
+  }
+  .f01-title em { font-style: italic; color: var(--gold-light); }
+  .f01-bold {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: clamp(52px, 7vw, 88px);
+    font-weight: 600;
+    line-height: 1.0;
+    color: var(--white);
+    display: block;
+  }
+
+  /* 02 — Playfair Display */
+  .f02-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(42px, 5.5vw, 72px);
+    font-weight: 400;
+    line-height: 1.05;
+    color: var(--white);
+  }
+  .f02-title em { font-style: italic; color: var(--gold-light); }
+  .f02-bold {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(42px, 5.5vw, 72px);
+    font-weight: 700;
+    line-height: 1.05;
+    color: var(--white);
+    display: block;
+  }
+
+  /* 03 — Cinzel */
+  .f03-title {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(32px, 4.5vw, 60px);
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 0.08em;
+    color: var(--white);
+  }
+  .f03-title em { font-style: normal; color: var(--gold); }
+  .f03-bold {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(32px, 4.5vw, 60px);
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.08em;
+    color: var(--white);
+    display: block;
+  }
+
+  /* 04 — Bodoni Moda */
+  .f04-title {
+    font-family: 'Bodoni Moda', Georgia, serif;
+    font-size: clamp(44px, 6vw, 80px);
+    font-weight: 300;
+    line-height: 1.0;
+    color: var(--white);
+  }
+  .f04-title em { font-style: italic; color: var(--gold-light); }
+  .f04-bold {
+    font-family: 'Bodoni Moda', Georgia, serif;
+    font-size: clamp(44px, 6vw, 80px);
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.0;
+    color: var(--white);
+    display: block;
+  }
+
+  /* 05 — EB Garamond */
+  .f05-title {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: clamp(50px, 6.5vw, 86px);
+    font-weight: 300;
+    line-height: 1.0;
+    color: var(--white);
+  }
+  .f05-title em { font-style: italic; color: var(--gold-light); }
+  .f05-bold {
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: clamp(50px, 6.5vw, 86px);
+    font-weight: 400;
+    line-height: 1.0;
+    color: var(--white);
+    display: block;
+  }
+
+  /* 06 — Italiana */
+  .f06-title {
+    font-family: 'Italiana', Georgia, serif;
+    font-size: clamp(52px, 7vw, 92px);
+    font-weight: 400;
+    line-height: 1.0;
+    color: var(--white);
+    letter-spacing: 0.02em;
+  }
+  .f06-title em { font-style: italic; color: var(--gold-light); letter-spacing: 0; }
+  .f06-bold {
+    font-family: 'Italiana', Georgia, serif;
+    font-size: clamp(52px, 7vw, 92px);
+    font-weight: 400;
+    line-height: 1.0;
+    color: var(--white);
+    display: block;
+  }
+
+  /* 07 — Libre Baskerville */
+  .f07-title {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: clamp(34px, 4.5vw, 60px);
+    font-weight: 400;
+    line-height: 1.1;
+    color: var(--white);
+  }
+  .f07-title em { font-style: italic; color: var(--gold-light); }
+  .f07-bold {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: clamp(34px, 4.5vw, 60px);
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--white);
+    display: block;
+  }
+
+  /* 08 — Lora */
+  .f08-title {
+    font-family: 'Lora', Georgia, serif;
+    font-size: clamp(40px, 5.5vw, 74px);
+    font-weight: 400;
+    line-height: 1.05;
+    color: var(--white);
+  }
+  .f08-title em { font-style: italic; color: var(--gold-light); }
+  .f08-bold {
+    font-family: 'Lora', Georgia, serif;
+    font-size: clamp(40px, 5.5vw, 74px);
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.05;
+    color: var(--white);
+    display: block;
+  }
+
+  /* 09 — Forum */
+  .f09-title {
+    font-family: 'Forum', Georgia, serif;
+    font-size: clamp(48px, 6.5vw, 86px);
+    font-weight: 400;
+    line-height: 1.0;
+    color: var(--white);
+    letter-spacing: 0.03em;
+  }
+  .f09-title em { font-style: normal; color: var(--gold); }
+  .f09-bold {
+    font-family: 'Forum', Georgia, serif;
+    font-size: clamp(48px, 6.5vw, 86px);
+    font-weight: 400;
+    line-height: 1.0;
+    color: var(--gold-light);
+    display: block;
+    letter-spacing: 0.03em;
+  }
+
+  /* 10 — Spectral */
+  .f10-title {
+    font-family: 'Spectral', Georgia, serif;
+    font-size: clamp(46px, 6vw, 82px);
+    font-weight: 300;
+    line-height: 1.0;
+    color: var(--white);
+  }
+  .f10-title em { font-style: italic; color: var(--gold-light); }
+  .f10-bold {
+    font-family: 'Spectral', Georgia, serif;
+    font-size: clamp(46px, 6vw, 82px);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.0;
+    color: var(--white);
+    display: block;
+  }
+
+  /* CURRENT badge */
+  .badge-current {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--navy);
+    background: var(--gold);
+    padding: 3px 10px;
+    margin-left: 12px;
+    vertical-align: middle;
+  }
+
+  @media (max-width: 700px) {
+    .font-card { padding: 48px 24px; }
+    .page-header { padding: 40px 24px 32px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>Hero Typography Options · Diaconescu Partners</h1>
+  <p>Scroll to compare — each card uses the actual site background</p>
+</div>
+
+<!-- ============ 01: CORMORANT GARAMOND (CURRENT) ============ -->
+<div class="font-card">
+  <span class="font-number">01</span>
+  <div class="font-card-content">
+    <div class="font-label">Cormorant Garamond <span class="badge-current">Current</span></div>
+    <h1 class="f01-title">
+      Diaconescu<br>
+      <em>Roxana-Elena</em>
+    </h1>
+    <span class="f01-bold">Partners</span>
+    <p class="hero-sub">Avocat · Practician în Insolvență · București</p>
+    <div class="font-descriptor">
+      <span>Refined</span> · <span>Feminine</span> · <span>Elegant</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 02: PLAYFAIR DISPLAY ============ -->
+<div class="font-card">
+  <span class="font-number">02</span>
+  <div class="font-card-content">
+    <div class="font-label">Playfair Display</div>
+    <h1 class="f02-title">
+      Diaconescu<br>
+      <em>Roxana-Elena</em>
+    </h1>
+    <span class="f02-bold">Partners</span>
+    <p class="hero-sub">Avocat · Practician în Insolvență · București</p>
+    <div class="font-descriptor">
+      <span>Editorial</span> · <span>Bold</span> · <span>Prestigious</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 03: CINZEL ============ -->
+<div class="font-card">
+  <span class="font-number">03</span>
+  <div class="font-card-content">
+    <div class="font-label">Cinzel</div>
+    <h1 class="f03-title">
+      Diaconescu<br>
+      <em>Roxana-Elena</em>
+    </h1>
+    <span class="f03-bold">Partners</span>
+    <p class="hero-sub">Avocat · Practician în Insolvență · București</p>
+    <div class="font-descriptor">
+      <span>Classical</span> · <span>Institutional</span> · <span>Roman</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 04: BODONI MODA ============ -->
+<div class="font-card">
+  <span class="font-number">04</span>
+  <div class="font-card-content">
+    <div class="font-label">Bodoni Moda</div>
+    <h1 class="f04-title">
+      Diaconescu<br>
+      <em>Roxana-Elena</em>
+    </h1>
+    <span class="f04-bold">Partners</span>
+    <p class="hero-sub">Avocat · Practician în Insolvență · București</p>
+    <div class="font-descriptor">
+      <span>Luxury</span> · <span>High contrast</span> · <span>Fashion-forward</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 05: EB GARAMOND ============ -->
+<div class="font-card">
+  <span class="font-number">05</span>
+  <div class="font-card-content">
+    <div class="font-label">EB Garamond</div>
+    <h1 class="f05-title">
+      Diaconescu<br>
+      <em>Roxana-Elena</em>
+    </h1>
+    <span class="f05-bold">Partners</span>
+    <p class="hero-sub">Avocat · Practician în Insolvență · București</p>
+    <div class="font-descriptor">
+      <span>Scholarly</span> · <span>Trustworthy</span> · <span>Classic</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 06: ITALIANA ============ -->
+<div class="font-card">
+  <span class="font-number">06</span>
+  <div class="font-card-content">
+    <div class="font-label">Italiana</div>
+    <h1 class="f06-title">
+      Diaconescu<br>
+      <em>Roxana-Elena</em>
+    </h1>
+    <span class="f06-bold">Partners</span>
+    <p class="hero-sub">Avocat · Practician în Insolvență · București</p>
+    <div class="font-descriptor">
+      <span>Thin</span> · <span>Airy</span> · <span>Ultra-elegant</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 07: LIBRE BASKERVILLE ============ -->
+<div class="font-card">
+  <span class="font-number">07</span>
+  <div class="font-card-content">
+    <div class="font-label">Libre Baskerville</div>
+    <h1 class="f07-title">
+      Diaconescu<br>
+      <em>Roxana-Elena</em>
+    </h1>
+    <span class="f07-bold">Partners</span>
+    <p class="hero-sub">Avocat · Practician în Insolvență · București</p>
+    <div class="font-descriptor">
+      <span>Traditional</span> · <span>Solid</span> · <span>Dependable</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 08: LORA ============ -->
+<div class="font-card">
+  <span class="font-number">08</span>
+  <div class="font-card-content">
+    <div class="font-label">Lora</div>
+    <h1 class="f08-title">
+      Diaconescu<br>
+      <em>Roxana-Elena</em>
+    </h1>
+    <span class="f08-bold">Partners</span>
+    <p class="hero-sub">Avocat · Practician în Insolvență · București</p>
+    <div class="font-descriptor">
+      <span>Contemporary</span> · <span>Warm</span> · <span>Readable</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 09: FORUM ============ -->
+<div class="font-card">
+  <span class="font-number">09</span>
+  <div class="font-card-content">
+    <div class="font-label">Forum</div>
+    <h1 class="f09-title">
+      Diaconescu<br>
+      <em>Roxana-Elena</em>
+    </h1>
+    <span class="f09-bold">Partners</span>
+    <p class="hero-sub">Avocat · Practician în Insolvență · București</p>
+    <div class="font-descriptor">
+      <span>Regal</span> · <span>Roman</span> · <span>Timeless</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 10: SPECTRAL ============ -->
+<div class="font-card">
+  <span class="font-number">10</span>
+  <div class="font-card-content">
+    <div class="font-label">Spectral</div>
+    <h1 class="f10-title">
+      Diaconescu<br>
+      <em>Roxana-Elena</em>
+    </h1>
+    <span class="f10-bold">Partners</span>
+    <p class="hero-sub">Avocat · Practician în Insolvență · București</p>
+    <div class="font-descriptor">
+      <span>Editorial</span> · <span>Literary</span> · <span>Refined</span>
+    </div>
+  </div>
+</div>
+
+<p style="text-align:center;padding:40px 0 60px;font-family:'Montserrat',sans-serif;font-size:8px;letter-spacing:0.35em;text-transform:uppercase;color:rgba(184,151,90,0.2);">
+  Tell me the number and I'll apply it to the site
+</p>
+
+</body>
+</html>
