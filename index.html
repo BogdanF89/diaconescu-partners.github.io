@@ -2341,11 +2341,15 @@
   });
   applyLang(savedLang);
 
-  // HERO BG — align center to nav links center
+  // HERO BG — align center to nav links center (desktop), center viewport (mobile)
   function alignHeroBg() {
     const navLinks = document.querySelector('.nav-links');
     const heroBgImg = document.querySelector('.hero-video-wrap img');
-    if (!navLinks || !heroBgImg) return;
+    if (!heroBgImg) return;
+    if (!navLinks || navLinks.getBoundingClientRect().width === 0) {
+      heroBgImg.style.left = '50%';
+      return;
+    }
     const rect = navLinks.getBoundingClientRect();
     const centerPct = ((rect.left + rect.width / 2) / window.innerWidth) * 100;
     heroBgImg.style.left = centerPct + '%';
