@@ -154,7 +154,7 @@
     position: absolute;
     height: 100%;
     width: auto;
-    left: 60%;
+    left: 50%;
     animation: kenBurns 22s ease-in-out infinite;
     transform-origin: center center;
     will-change: transform;
@@ -2344,6 +2344,18 @@
     });
   });
   applyLang(savedLang);
+
+  // HERO BG — align center to nav links center
+  function alignHeroBg() {
+    const navLinks = document.querySelector('.nav-links');
+    const heroBgImg = document.querySelector('.hero-video-wrap img');
+    if (!navLinks || !heroBgImg) return;
+    const rect = navLinks.getBoundingClientRect();
+    const centerPct = ((rect.left + rect.width / 2) / window.innerWidth) * 100;
+    heroBgImg.style.left = centerPct + '%';
+  }
+  alignHeroBg();
+  window.addEventListener('resize', alignHeroBg);
 
   // HAMBURGER MENU
   const hamburger = document.getElementById('hamburger');
