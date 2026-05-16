@@ -173,10 +173,15 @@
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    height: auto;
-    min-height: 56%;
+    height: 100%;
+    width: auto;
     opacity: 0.35;
+  }
+  @media (max-width: 900px) {
+    .hero-video-wrap video {
+      width: 100%;
+      height: auto;
+    }
   }
   .hero-video-fallback {
     position: absolute;
