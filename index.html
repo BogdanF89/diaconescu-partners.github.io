@@ -170,50 +170,20 @@
     z-index: 0;
   }
   .hero-video-wrap video {
-    width: 100%; height: 100%;
-    object-fit: cover;
-    opacity: 0.18;
-  }
-  .hero-bg-parallax {
     position: absolute;
     inset: 0;
-    overflow: hidden;
-  }
-  .hero-video-wrap img {
-    position: absolute;
-    height: 100%;
-    width: auto;
-    left: 50%;
-    animation: kenBurns 22s ease-in-out infinite;
-    transform-origin: center center;
-    will-change: transform;
-  }
-  @keyframes kenBurns {
-    0%   { transform: translateX(-50%) scale(1.0); }
-    50%  { transform: translateX(-50%) scale(1.06) translate(-1%, 0.8%); }
-    100% { transform: translateX(-50%) scale(1.0); }
+    width: 100%; height: 100%;
+    object-fit: cover;
+    opacity: 0.35;
   }
   .hero-video-fallback {
     position: absolute;
     inset: 0;
     background:
-      linear-gradient(to right,
-        rgba(13,27,42,1)    0%,
-        rgba(13,27,42,0.92) 8%,
-        rgba(13,27,42,0.72) 17%,
-        rgba(13,27,42,0.42) 27%,
-        rgba(13,27,42,0.15) 36%,
-        rgba(13,27,42,0)    45%),
-      linear-gradient(to left,
-        rgba(13,27,42,1)    0%,
-        rgba(13,27,42,0.92) 8%,
-        rgba(13,27,42,0.72) 17%,
-        rgba(13,27,42,0.42) 27%,
-        rgba(13,27,42,0.15) 36%,
-        rgba(13,27,42,0)    45%),
-      linear-gradient(to bottom, rgba(13,27,42,0.6) 0%, transparent 22%),
-      linear-gradient(to top,    rgba(13,27,42,0.7) 0%, transparent 28%),
-      radial-gradient(ellipse at center, rgba(13,27,42,0.2) 0%, rgba(13,27,42,0.55) 100%);
+      radial-gradient(ellipse at 60% 50%, rgba(30,58,95,0.5) 0%, transparent 65%),
+      linear-gradient(to bottom, rgba(13,27,42,0.55) 0%, transparent 30%),
+      linear-gradient(to top,    rgba(13,27,42,0.65) 0%, transparent 35%),
+      linear-gradient(135deg, rgba(13,27,42,0.7) 0%, rgba(21,34,56,0.5) 50%, rgba(13,27,42,0.7) 100%);
   }
   /* Animated grid lines */
   .hero-grid {
@@ -1589,9 +1559,9 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-video-wrap">
-    <div class="hero-bg-parallax">
-      <img src="background1.jpeg" alt="">
-    </div>
+    <video autoplay muted loop playsinline>
+      <source src="background_video.mp4" type="video/mp4">
+    </video>
     <div class="hero-video-fallback"></div>
   </div>
 
@@ -2363,22 +2333,6 @@
     });
   });
   applyLang(savedLang);
-
-  // HERO BG — align center to nav links center (desktop), center viewport (mobile)
-  function alignHeroBg() {
-    const navLinks = document.querySelector('.nav-links');
-    const heroBgImg = document.querySelector('.hero-video-wrap img');
-    if (!heroBgImg) return;
-    if (!navLinks || navLinks.getBoundingClientRect().width === 0) {
-      heroBgImg.style.left = '50%';
-      return;
-    }
-    const rect = navLinks.getBoundingClientRect();
-    const centerPct = ((rect.left + rect.width / 2) / window.innerWidth) * 100;
-    heroBgImg.style.left = centerPct + '%';
-  }
-  alignHeroBg();
-  window.addEventListener('resize', alignHeroBg);
 
   // COLOUR SCHEME TOGGLE (gold ↔ silver)
   const themeToggle = document.getElementById('themeToggle');
