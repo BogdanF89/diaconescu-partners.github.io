@@ -2351,6 +2351,22 @@
     sessionStorage.setItem('silver-theme', isNowSilver ? '1' : '0');
   });
 
+  // ALIGN VIDEO CENTER TO NAV LINKS CENTER (desktop only)
+  function alignHeroVideo() {
+    const navLinks = document.querySelector('.nav-links');
+    const video = document.querySelector('.hero-video-wrap video');
+    if (!video) return;
+    if (!navLinks || navLinks.getBoundingClientRect().width === 0) {
+      video.style.left = '50%';
+      return;
+    }
+    const rect = navLinks.getBoundingClientRect();
+    const centerPct = ((rect.left + rect.width / 2) / window.innerWidth) * 100;
+    video.style.left = centerPct + '%';
+  }
+  alignHeroVideo();
+  window.addEventListener('resize', alignHeroVideo);
+
   // HAMBURGER MENU
   const hamburger = document.getElementById('hamburger');
   const mobileMenu = document.getElementById('mobileMenu');
