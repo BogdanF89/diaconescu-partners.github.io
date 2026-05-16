@@ -22,6 +22,11 @@
     --font-title: 'EB Garamond', Georgia, serif;
     --font-body: 'Montserrat', sans-serif;
   }
+  :root.silver-theme {
+    --gold: #96afc0;
+    --gold-light: #b0c6d4;
+    --gold-pale: #ccdae2;
+  }
 
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
   a[href^="tel"], a[href^="mailto"] { cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: rgba(184,151,90,0.15); }
@@ -127,6 +132,28 @@
   .lang-btn.active { color: var(--gold); border-bottom: 1px solid var(--gold); }
   .lang-btn:hover { color: var(--white); }
   .lang-divider { color: var(--navy-light); font-size: 12px; }
+  .theme-toggle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    border: 1px solid rgba(255,255,255,0.08);
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 20px;
+    transition: border-color 0.3s;
+    margin-left: 8px;
+  }
+  .theme-toggle:hover { border-color: rgba(255,255,255,0.2); }
+  .theme-dot {
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  .theme-dot-gold { background: #b8975a; }
+  .theme-dot-silver { background: #96afc0; opacity: 0.4; }
+  .silver-theme .theme-dot-gold { opacity: 0.4; }
+  .silver-theme .theme-dot-silver { opacity: 1; }
 
   /* HERO */
   .hero {
@@ -1535,6 +1562,10 @@
     <button class="lang-btn active">RO</button>
     <span class="lang-divider">|</span>
     <button class="lang-btn">EN</button>
+    <button class="theme-toggle" id="themeToggle" title="Toggle colour scheme">
+      <span class="theme-dot theme-dot-gold"></span>
+      <span class="theme-dot theme-dot-silver"></span>
+    </button>
   </div>
   <button class="hamburger" id="hamburger" aria-label="Toggle menu">
     <span class="hamburger-line"></span>
@@ -2348,6 +2379,16 @@
   }
   alignHeroBg();
   window.addEventListener('resize', alignHeroBg);
+
+  // COLOUR SCHEME TOGGLE (gold ↔ silver)
+  const themeToggle = document.getElementById('themeToggle');
+  if (sessionStorage.getItem('silver-theme') === '1') {
+    document.documentElement.classList.add('silver-theme');
+  }
+  themeToggle.addEventListener('click', () => {
+    const isNowSilver = document.documentElement.classList.toggle('silver-theme');
+    sessionStorage.setItem('silver-theme', isNowSilver ? '1' : '0');
+  });
 
   // HAMBURGER MENU
   const hamburger = document.getElementById('hamburger');
