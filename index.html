@@ -1034,6 +1034,319 @@
   .form-submit:hover::before { transform: translateX(0); }
   .form-submit span { position: relative; z-index: 1; }
 
+  /* FAQ SECTION */
+  .faq-section {
+    padding: 160px 60px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .faq-section::before {
+    content: '?';
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    font-family: var(--font-display);
+    font-size: 500px;
+    font-weight: 300;
+    color: rgba(184,151,90,0.025);
+    line-height: 1;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .faq-section::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(184,151,90,0.3), transparent);
+  }
+
+  .faq-grid-bg {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(184,151,90,0.02) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(184,151,90,0.02) 1px, transparent 1px);
+    background-size: 80px 80px;
+    pointer-events: none;
+  }
+
+  .faq-line-left {
+    position: absolute;
+    left: 60px;
+    top: 0; bottom: 0;
+    width: 1px;
+    background: linear-gradient(to bottom, transparent, rgba(184,151,90,0.15), transparent);
+  }
+
+  .faq-header {
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .faq-tag {
+    font-size: 9px;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .faq-tag::before, .faq-tag::after {
+    content: '';
+    width: 30px; height: 1px;
+    background: rgba(184,151,90,0.4);
+  }
+
+  .faq-title {
+    font-family: var(--font-display);
+    font-size: clamp(36px, 4vw, 60px);
+    font-weight: 400;
+    color: var(--white);
+    line-height: 1.1;
+    margin-bottom: 16px;
+  }
+  .faq-title em { font-style: italic; color: var(--gold-light); }
+
+  .faq-subtitle {
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    color: var(--gray);
+    max-width: 520px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+
+  .faq-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-bottom: 64px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .faq-tab {
+    padding: 16px 36px;
+    font-family: var(--font-body);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gray);
+    background: rgba(255,255,255,0.02);
+    border: 1px solid rgba(184,151,90,0.1);
+    cursor: pointer;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .faq-tab::before {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 0; height: 2px;
+    background: var(--gold);
+    transition: width 0.4s ease;
+  }
+  .faq-tab:hover {
+    border-color: rgba(184,151,90,0.3);
+    color: var(--white);
+    background: rgba(184,151,90,0.03);
+  }
+  .faq-tab.active {
+    color: var(--gold);
+    border-color: rgba(184,151,90,0.3);
+    background: rgba(184,151,90,0.05);
+  }
+  .faq-tab.active::before { width: 100%; }
+
+  .faq-tab-icon {
+    display: inline-block;
+    margin-right: 10px;
+    opacity: 0.6;
+  }
+  .faq-tab.active .faq-tab-icon { opacity: 1; }
+
+  .faq-container {
+    max-width: 880px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .faq-panel { display: none; }
+  .faq-panel.active { display: block; }
+
+  .faq-item {
+    border-bottom: 1px solid rgba(184,151,90,0.08);
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: faqFadeIn 0.5s ease forwards;
+  }
+  .faq-item:first-child {
+    border-top: 1px solid rgba(184,151,90,0.08);
+  }
+
+  @keyframes faqFadeIn {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .faq-item:nth-child(1) { animation-delay: 0.05s; }
+  .faq-item:nth-child(2) { animation-delay: 0.1s; }
+  .faq-item:nth-child(3) { animation-delay: 0.15s; }
+  .faq-item:nth-child(4) { animation-delay: 0.2s; }
+  .faq-item:nth-child(5) { animation-delay: 0.25s; }
+
+  .faq-item::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 0;
+    background: var(--gold);
+    transition: width 0.3s ease;
+  }
+  .faq-item:hover::before,
+  .faq-item.open::before { width: 2px; }
+
+  .faq-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 32px 28px 36px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    gap: 20px;
+  }
+  .faq-question:hover { background: rgba(184,151,90,0.02); }
+
+  .faq-q-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1;
+  }
+
+  .faq-num {
+    font-family: var(--font-display);
+    font-size: 28px;
+    font-weight: 400;
+    color: rgba(184,151,90,0.15);
+    line-height: 1;
+    flex-shrink: 0;
+    min-width: 36px;
+    transition: color 0.3s ease;
+  }
+  .faq-item.open .faq-num,
+  .faq-item:hover .faq-num { color: rgba(184,151,90,0.4); }
+
+  .faq-q-text {
+    font-family: var(--font-display);
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--white);
+    line-height: 1.4;
+    padding-top: 4px;
+    transition: color 0.3s ease;
+  }
+  .faq-item.open .faq-q-text { color: var(--gold-light); }
+
+  .faq-toggle {
+    width: 32px; height: 32px;
+    border: 1px solid rgba(184,151,90,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  .faq-item.open .faq-toggle {
+    border-color: var(--gold);
+    background: rgba(184,151,90,0.06);
+    transform: rotate(45deg);
+  }
+
+  .faq-toggle-line-h,
+  .faq-toggle-line-v {
+    position: absolute;
+    background: var(--gold);
+    transition: all 0.3s ease;
+  }
+  .faq-toggle-line-h { width: 12px; height: 1px; }
+  .faq-toggle-line-v { width: 1px; height: 12px; }
+
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.3s ease;
+  }
+  .faq-item.open .faq-answer { max-height: 400px; }
+
+  .faq-answer-inner {
+    padding: 0 32px 32px 92px;
+    font-size: 13px;
+    line-height: 2;
+    color: rgba(245,242,236,0.6);
+  }
+
+  .faq-answer-inner a {
+    color: var(--gold);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(184,151,90,0.3);
+    transition: border-color 0.3s;
+  }
+  .faq-answer-inner a:hover { border-color: var(--gold); }
+
+  .faq-cta {
+    text-align: center;
+    margin-top: 80px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .faq-cta-text {
+    font-family: var(--font-display);
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--gold-light);
+    margin-bottom: 24px;
+  }
+
+  .faq-cta-desc {
+    font-size: 12px;
+    color: var(--gray);
+    letter-spacing: 0.1em;
+    margin-bottom: 32px;
+  }
+
+  /* FAQ MOBILE */
+  @media (max-width: 900px) {
+    .faq-section { padding: 100px 24px; }
+    .faq-section::before { font-size: 260px; right: 10px; top: 20px; }
+    .faq-line-left { left: 24px; }
+    .faq-tabs { flex-wrap: wrap; }
+    .faq-tab { padding: 12px 20px; font-size: 9px; }
+    .faq-question { padding: 20px 20px 20px 24px; }
+    .faq-q-text { font-size: 16px; }
+    .faq-num { font-size: 22px; min-width: 28px; }
+    .faq-answer-inner { padding: 0 20px 24px 68px; }
+    .faq-q-left { gap: 14px; }
+  }
+
+  @media (max-width: 500px) {
+    .faq-answer-inner { padding: 0 16px 24px 16px; }
+  }
+
   /* FOOTER */
   footer {
     padding: 60px 60px 40px;
@@ -1399,6 +1712,8 @@
   .mobile-menu.open .mobile-nav-links li:nth-child(2) { opacity: 1; transform: translateY(0); transition-delay: 0.26s; }
   .mobile-menu.open .mobile-nav-links li:nth-child(3) { opacity: 1; transform: translateY(0); transition-delay: 0.34s; }
   .mobile-menu.open .mobile-nav-links li:nth-child(4) { opacity: 1; transform: translateY(0); transition-delay: 0.42s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(5) { opacity: 1; transform: translateY(0); transition-delay: 0.50s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(6) { opacity: 1; transform: translateY(0); transition-delay: 0.58s; }
   .mobile-nav-links a {
     font-family: var(--font-display);
     font-size: clamp(32px, 9vw, 52px);
@@ -1533,6 +1848,7 @@
     <li><a href="#cabinets" data-i18n="nav.services">Servicii</a></li>
     <li><a href="#publications" data-i18n="nav.publications">Articole</a></li>
     <li><a href="#news" data-i18n="nav.news">Știri</a></li>
+    <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
     <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
   </ul>
   <div class="nav-lang">
@@ -1559,6 +1875,7 @@
     <li><a href="#cabinets" class="mobile-nav-link" data-i18n="nav.services">Servicii</a></li>
     <li><a href="#publications" class="mobile-nav-link" data-i18n="nav.publications">Articole</a></li>
     <li><a href="#news" class="mobile-nav-link" data-i18n="nav.news">Știri</a></li>
+    <li><a href="#faq" class="mobile-nav-link" data-i18n="nav.faq">FAQ</a></li>
     <li><a href="#contact" class="mobile-nav-link" data-i18n="nav.contact">Contact</a></li>
   </ul>
 </div>
@@ -1989,6 +2306,247 @@
 
 
 
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+  <div class="faq-grid-bg"></div>
+  <div class="faq-line-left"></div>
+
+  <div class="faq-header">
+    <div class="faq-tag">Întrebări Frecvente</div>
+    <h2 class="faq-title">Răspunsuri la <em>întrebările dvs.</em></h2>
+    <p class="faq-subtitle">
+      Cele mai frecvente întrebări adresate Cabinetului de Avocat și Cabinetului de Insolvență — actualizate 2025 &amp; 2026.
+    </p>
+  </div>
+
+  <div class="faq-tabs">
+    <button class="faq-tab active" data-tab="avocat">
+      <span class="faq-tab-icon">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M7 1L10 4H4L7 1Z" fill="currentColor" opacity="0.6"/>
+          <path d="M2 7H12M2 9.5H10M2 12H8" stroke="currentColor" stroke-width="1"/>
+        </svg>
+      </span>
+      Cabinet de Avocat
+    </button>
+    <button class="faq-tab" data-tab="insolventa">
+      <span class="faq-tab-icon">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M2 12L5 7L8 9L11 4L13 6" stroke="currentColor" stroke-width="1"/>
+          <circle cx="13" cy="6" r="1.5" fill="currentColor" opacity="0.4"/>
+        </svg>
+      </span>
+      Cabinet de Insolvență
+    </button>
+  </div>
+
+  <div class="faq-container">
+
+    <!-- AVOCAT PANEL -->
+    <div class="faq-panel active" id="panel-avocat">
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="faq-q-left">
+            <span class="faq-num">01</span>
+            <span class="faq-q-text">Ce arii de practică acoperă Cabinetul de Avocat?</span>
+          </div>
+          <div class="faq-toggle">
+            <div class="faq-toggle-line-h"></div>
+            <div class="faq-toggle-line-v"></div>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Cabinetul oferă asistență juridică completă în drept civil, drept comercial, dreptul muncii, contencios administrativ și fiscal, drept penal, litigii și arbitraj, drept imobiliar și asigurări. Fiecare mandat este abordat cu o analiză riguroasă și o strategie personalizată în funcție de specificul situației dumneavoastră.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="faq-q-left">
+            <span class="faq-num">02</span>
+            <span class="faq-q-text">Cum se desfășoară prima consultație juridică?</span>
+          </div>
+          <div class="faq-toggle">
+            <div class="faq-toggle-line-h"></div>
+            <div class="faq-toggle-line-v"></div>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Primul contact poate fi realizat telefonic, prin email sau prin completarea formularului de pe site. În cadrul consultației inițiale, analizăm situația juridică, identificăm opțiunile legale disponibile și propunem o strategie adaptată. Consultațiile se pot desfășura atât la sediul cabinetului din București, cât și online.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="faq-q-left">
+            <span class="faq-num">03</span>
+            <span class="faq-q-text">Puteți reprezenta clienți din afara Bucureștiului sau din străinătate?</span>
+          </div>
+          <div class="faq-toggle">
+            <div class="faq-toggle-line-h"></div>
+            <div class="faq-toggle-line-v"></div>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Da. Cabinetul poate reprezenta clienți din orice localitate din România, asigurând prezența în instanțe la nivel național. Pentru clienți din diaspora sau parteneri internaționali, consultațiile se desfășoară online, iar corespondența se poate realiza în limba engleză, franceză sau spaniolă.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="faq-q-left">
+            <span class="faq-num">04</span>
+            <span class="faq-q-text">Ce documente sunt necesare pentru deschiderea unui dosar?</span>
+          </div>
+          <div class="faq-toggle">
+            <div class="faq-toggle-line-h"></div>
+            <div class="faq-toggle-line-v"></div>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Documentele necesare variază în funcție de tipul cauzei. Ca regulă generală, sunt utile: actele de identitate, contractele relevante, corespondența purtată, hotărâri judecătorești anterioare și orice alte înscrisuri cu valoare probatorie. La prima consultație, vă vom indica exact ce documente sunt relevante pentru situația dumneavoastră.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="faq-q-left">
+            <span class="faq-num">05</span>
+            <span class="faq-q-text">Cum funcționează onorariul și care sunt modalitățile de plată?</span>
+          </div>
+          <div class="faq-toggle">
+            <div class="faq-toggle-line-h"></div>
+            <div class="faq-toggle-line-v"></div>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Onorariul se stabilește prin negociere liberă între avocat și client, în conformitate cu Statutul profesiei de avocat și Ghidul de onorarii minimale recomandate de UNBR. Modalitățile de plată pot fi fixe, orare sau mixte, în funcție de complexitatea cauzei. Toate condițiile financiare sunt transparente și stabilite prin contractul de asistență juridică înainte de începerea mandatului.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- INSOLVENTA PANEL -->
+    <div class="faq-panel" id="panel-insolventa">
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="faq-q-left">
+            <span class="faq-num">01</span>
+            <span class="faq-q-text">Ce înseamnă insolvența și când se consideră că o firmă este în insolvență?</span>
+          </div>
+          <div class="faq-toggle">
+            <div class="faq-toggle-line-h"></div>
+            <div class="faq-toggle-line-v"></div>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Insolvența este starea patrimoniului debitorului caracterizată prin insuficiența fondurilor bănești disponibile pentru plata datoriilor certe, lichide și exigibile. Conform Legii nr. 85/2014, insolvența se prezumă atunci când debitorul nu a plătit datoria sa față de creditor în termen de 60 de zile de la scadență. Această prezumție este relativă și poate fi combătută.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="faq-q-left">
+            <span class="faq-num">02</span>
+            <span class="faq-q-text">Ce modificări importante aduce Legea 239/2025 privind insolvența?</span>
+          </div>
+          <div class="faq-toggle">
+            <div class="faq-toggle-line-h"></div>
+            <div class="faq-toggle-line-v"></div>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Legea 239/2025, intrată în vigoare la 18 decembrie 2025, aduce modificări semnificative: obligația de notificare a ANAF cu 15 zile înainte de depunerea cererii de insolvență, extinderea cercului persoanelor care pot fi trase la răspundere (inclusiv cele cu control efectiv asupra deciziilor financiare), introducerea interdicției de a fi administrator timp de 10 ani și de a înființa societăți timp de 5 ani, în cazul hotărârii definitive de atragere a răspunderii.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="faq-q-left">
+            <span class="faq-num">03</span>
+            <span class="faq-q-text">Care este diferența dintre reorganizare și faliment?</span>
+          </div>
+          <div class="faq-toggle">
+            <div class="faq-toggle-line-h"></div>
+            <div class="faq-toggle-line-v"></div>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Reorganizarea presupune continuarea activității debitorului pe baza unui plan aprobat de creditori, cu o durată de implementare de maximum 48 de luni. Falimentul implică încetarea activității, lichidarea bunurilor din avere și distribuirea sumelor către creditori, conform ordinii de prioritate legale. Cabinetul nostru analizează fiecare situație pentru a identifica cea mai potrivită variantă.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="faq-q-left">
+            <span class="faq-num">04</span>
+            <span class="faq-q-text">Pot fi tras la răspundere personal ca administrator dacă firma intră în insolvență?</span>
+          </div>
+          <div class="faq-toggle">
+            <div class="faq-toggle-line-h"></div>
+            <div class="faq-toggle-line-v"></div>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Răspunderea personală a administratorului nu este automată. Aceasta intervine doar pe baza unei hotărâri judecătorești definitive, în cazul în care se dovedesc fapte culpabile conform art. 169 din Legea nr. 85/2014 — de exemplu, folosirea bunurilor societății în interes personal, nerespectarea obligațiilor contabile sau efectuarea de tranzacții fictive. Consultarea unui specialist din timp poate preveni consecințe grave.
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="faq-q-left">
+            <span class="faq-num">05</span>
+            <span class="faq-q-text">Cum mă pot înscrie la masa credală și care sunt termenele?</span>
+          </div>
+          <div class="faq-toggle">
+            <div class="faq-toggle-line-h"></div>
+            <div class="faq-toggle-line-v"></div>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">
+            Înscrierea la masa credală se realizează prin depunerea unei cereri de admitere a creanței în termenul stabilit prin hotărârea de deschidere a procedurii de insolvență. Cererea trebuie să cuprindă mențiunile prevăzute la art. 104 din Legea nr. 85/2014 și să fie însoțită de documentele justificative. Nedepunerea în termen duce la pierderea dreptului de a participa la procedură. Este esențial să acționați prompt din momentul publicării hotărârii în Buletinul Procedurilor de Insolvență.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- CTA -->
+  <div class="faq-cta">
+    <p class="faq-cta-text">Nu ați găsit răspunsul căutat?</p>
+    <p class="faq-cta-desc">Contactați-ne pentru o consultație personalizată.</p>
+    <a href="#contact" class="btn-primary">
+      <span>Contactați-ne</span>
+      <svg width="16" height="10" viewBox="0 0 16 10" fill="none">
+        <path d="M11 1L15 5M15 5L11 9M15 5H1" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
 <!-- CONTACT -->
 <section class="contact-section" id="contact">
   <div class="contact-inner">
@@ -2382,6 +2940,36 @@
       hamburger.classList.remove('open');
       mobileMenu.classList.remove('open');
       document.body.style.overflow = '';
+    });
+  });
+</script>
+<script>
+  // FAQ TAB SWITCHING
+  document.querySelectorAll('.faq-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.faq-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.faq-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      const panelId = 'panel-' + tab.getAttribute('data-tab');
+      document.getElementById(panelId).classList.add('active');
+      document.querySelectorAll('.faq-item').forEach(item => item.classList.remove('open'));
+      const items = document.getElementById(panelId).querySelectorAll('.faq-item');
+      items.forEach((item, i) => {
+        item.style.animation = 'none';
+        item.offsetHeight;
+        item.style.animation = '';
+        item.style.animationDelay = (i * 0.05) + 's';
+      });
+    });
+  });
+
+  // FAQ ACCORDION
+  document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+      const item = question.closest('.faq-item');
+      const wasOpen = item.classList.contains('open');
+      item.closest('.faq-panel').querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!wasOpen) item.classList.add('open');
     });
   });
 </script>
