@@ -1,0 +1,42 @@
+name: Refresh legal news feed
+
+on:
+  schedule:
+    # every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-news
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Fetch & aggregate feeds
+        run: npm run fetch-news
+
+      - name: Commit updated news.json
+        run: |
+          if git diff --quiet news.json; then
+            echo "No changes to news.json"
+            exit 0
+          fi
+          git config user.name  "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add news.json
+          git commit -m "chore(news): refresh feed [skip ci]"
+          git push
