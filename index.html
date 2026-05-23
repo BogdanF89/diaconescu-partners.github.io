@@ -1794,31 +1794,52 @@
     background: linear-gradient(to right, transparent, rgba(184,151,90,0.3), transparent);
   }
   .mobile-menu.open { transform: translateY(0); pointer-events: all; }
-  .mobile-nav-links { list-style: none; display: flex; flex-direction: column; gap: 4px; }
+  .mobile-nav-links { list-style: none; display: flex; flex-direction: column; gap: 0; }
   .mobile-nav-links li {
-    overflow: hidden;
     opacity: 0;
-    transform: translateY(24px);
-    transition: opacity 0.4s ease, transform 0.4s ease;
+    transform: translateY(14px);
+    transition: opacity 0.35s ease, transform 0.35s ease;
   }
-  .mobile-menu.open .mobile-nav-links li:nth-child(1) { opacity: 1; transform: translateY(0); transition-delay: 0.18s; }
-  .mobile-menu.open .mobile-nav-links li:nth-child(2) { opacity: 1; transform: translateY(0); transition-delay: 0.26s; }
-  .mobile-menu.open .mobile-nav-links li:nth-child(3) { opacity: 1; transform: translateY(0); transition-delay: 0.34s; }
-  .mobile-menu.open .mobile-nav-links li:nth-child(4) { opacity: 1; transform: translateY(0); transition-delay: 0.42s; }
-  .mobile-menu.open .mobile-nav-links li:nth-child(5) { opacity: 1; transform: translateY(0); transition-delay: 0.50s; }
-  .mobile-menu.open .mobile-nav-links li:nth-child(6) { opacity: 1; transform: translateY(0); transition-delay: 0.58s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(1)  { opacity: 1; transform: translateY(0); transition-delay: 0.12s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(2)  { opacity: 1; transform: translateY(0); transition-delay: 0.18s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(3)  { opacity: 1; transform: translateY(0); transition-delay: 0.23s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(4)  { opacity: 1; transform: translateY(0); transition-delay: 0.28s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(5)  { opacity: 1; transform: translateY(0); transition-delay: 0.33s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(6)  { opacity: 1; transform: translateY(0); transition-delay: 0.38s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(7)  { opacity: 1; transform: translateY(0); transition-delay: 0.43s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(8)  { opacity: 1; transform: translateY(0); transition-delay: 0.48s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(9)  { opacity: 1; transform: translateY(0); transition-delay: 0.53s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(10) { opacity: 1; transform: translateY(0); transition-delay: 0.58s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(11) { opacity: 1; transform: translateY(0); transition-delay: 0.63s; }
+  .mobile-menu.open .mobile-nav-links li:nth-child(12) { opacity: 1; transform: translateY(0); transition-delay: 0.68s; }
+  .mobile-nav-group-label {
+    font-family: var(--font-body);
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    opacity: 0.55;
+    padding: 22px 0 6px;
+  }
   .mobile-nav-links a {
-    font-family: var(--font-display);
-    font-size: clamp(32px, 9vw, 52px);
-    font-weight: 300;
-    color: rgba(245,242,236,0.35);
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(245,242,236,0.7);
     text-decoration: none;
-    letter-spacing: -0.01em;
-    line-height: 1.4;
     display: block;
-    transition: color 0.3s ease, letter-spacing 0.3s ease;
+    padding: 11px 0;
+    transition: color 0.3s ease;
   }
-  .mobile-nav-links a:hover { color: var(--white); letter-spacing: 0.02em; }
+  .mobile-nav-links a:hover { color: var(--white); }
+  .mobile-nav-links .mobile-nav-sub {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    color: rgba(245,242,236,0.45);
+    padding: 9px 0 9px 14px;
+  }
   .mobile-menu-bottom {
     margin-top: 48px;
     display: flex;
@@ -2881,21 +2902,6 @@
       </p>
       <ul class="contact-info-list">
         <li class="contact-info-item reveal delay-2" style="position:relative;">
-          <a href="https://maps.google.com/?q=Str.+Gheorghe+Buciumat+nr.+26,+Bl.+A,+Sector+1,+Bucuresti" style="position:absolute;inset:0;z-index:2;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:rgba(184,151,90,0.15);" aria-label="Deschide în Google Maps"></a>
-          <div class="contact-info-icon">📍</div>
-          <div>
-            <div class="contact-info-label" data-i18n="contact.addr">Adresă</div>
-            <div class="contact-info-value">Str. Gheorghe Buciumat nr. 26, Bl. A, Et. 4,<br>Ap. 401, Sector 1, București</div>
-          </div>
-        </li>
-        <li class="contact-info-item reveal delay-2">
-          <div class="contact-info-icon">🕐</div>
-          <div>
-            <div class="contact-info-label" data-i18n="contact.hours.label">Program</div>
-            <div class="contact-info-value" data-i18n="contact.hours.value">L-Vi: 09.00 – 18.00</div>
-          </div>
-        </li>
-        <li class="contact-info-item reveal delay-3" style="position:relative;">
           <a href="tel:+40745755301" style="position:absolute;inset:0;z-index:2;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:rgba(184,151,90,0.15);" aria-label="Apelați +40 745 755 301"></a>
           <div class="contact-info-icon">📞</div>
           <div>
@@ -2903,7 +2909,7 @@
             <div class="contact-info-value">+40 745 755 301</div>
           </div>
         </li>
-        <li class="contact-info-item reveal delay-4" style="position:relative;">
+        <li class="contact-info-item reveal delay-2" style="position:relative;">
           <a href="mailto:office@diaconescu-partners.ro" style="position:absolute;inset:0;z-index:2;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:rgba(184,151,90,0.15);" aria-label="Email office@diaconescu-partners.ro"></a>
           <div class="contact-info-icon">✉</div>
           <div>
@@ -2911,7 +2917,14 @@
             <div class="contact-info-value">office@diaconescu-partners.ro</div>
           </div>
         </li>
-        <li class="contact-info-item reveal delay-4" style="position:relative;">
+        <li class="contact-info-item reveal delay-3">
+          <div class="contact-info-icon">🕐</div>
+          <div>
+            <div class="contact-info-label" data-i18n="contact.hours.label">Program</div>
+            <div class="contact-info-value" data-i18n="contact.hours.value">L-Vi: 09.00 – 18.00</div>
+          </div>
+        </li>
+        <li class="contact-info-item reveal delay-3" style="position:relative;">
           <a href="https://www.linkedin.com/in/roxana-diaconescu-27993420b" target="_blank" rel="noopener" style="position:absolute;inset:0;z-index:2;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:rgba(184,151,90,0.15);" aria-label="LinkedIn Roxana-Elena Diaconescu"></a>
           <div class="contact-info-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -2921,6 +2934,14 @@
           <div>
             <div class="contact-info-label" data-i18n="contact.linkedin.label">LinkedIn</div>
             <div class="contact-info-value">Roxana-Elena Diaconescu</div>
+          </div>
+        </li>
+        <li class="contact-info-item reveal delay-4" style="position:relative;">
+          <a href="https://maps.google.com/?q=Str.+Gheorghe+Buciumat+nr.+26,+Bl.+A,+Sector+1,+Bucuresti" style="position:absolute;inset:0;z-index:2;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:rgba(184,151,90,0.15);" aria-label="Deschide în Google Maps"></a>
+          <div class="contact-info-icon">📍</div>
+          <div>
+            <div class="contact-info-label" data-i18n="contact.addr">Adresă</div>
+            <div class="contact-info-value">Str. Gheorghe Buciumat nr. 26, Bl. A, Et. 4,<br>Ap. 401, Sector 1, București</div>
           </div>
         </li>
         <li class="contact-info-item reveal delay-4" style="position:relative;">
