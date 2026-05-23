@@ -1,0 +1,95 @@
+===SERVICII/SERVICES content structure part2===
+
+B.Cabinetul de Insolvență 
+B.0.RO Main page content (RO):
+
+Ca experți în domeniul insolvenței, oferim clienților consultanță cu privire la toate aspectele legate de insolvență și restructurare, inclusiv redresarea întreprinderilor, tranzacții cu entități aflate în dificultate, executarea creanțelor, proceduri de insolvență și restructurări transfrontaliere.
+
+Practica noastră oferă soluții strategice, orientate către aspectele comerciale, menite să protejeze valoarea, să gestioneze riscurile și să susțină continuitatea activității în situații financiare complexe.
+
+De asemenea, acționăm în calitate de administratori judiciari și lichidatori numiți de instanță în cadrul unor proceduri complexe de restructurare și insolvență, coordonând recuperarea activelor, relațiile cu creditorii, reorganizarea afacerilor și procesele de lichidare.
+
+Chenarele să cuprindă următoarele arii de practică:
+
+•	Acordul de restructurare
+•	Concordatul preventiv
+•	Insolvență
+•	Reorganizare
+•	Faliment
+•	Restructurare extrajudiciară
+•	Lichidări voluntare persoane juridice
+•	Lichidarea organizațiilor non-profit
+•	Recuperări creanțe
+•	Executări silite
+
+La detalii servicii, după accesarea butonului să ajungem pe o nouă pagină care să cuprindă următoarele:
+
+
+Citat titlu: „Egalitate în fața Legii”
+
+
+Principii generale:
+
+Echitatea față de creditori și debitori este un principiu fundamental care ghidează activitatea practicianului în insolvență. În cadrul procedurilor de insolvență, practicianul trebuie să acționeze în mod imparțial, transparent și în conformitate cu legea, pentru a proteja interesele tuturor părților implicate.
+
+Față de creditori, practicianul asigură un tratament egal, verificarea corespunzătoare a creanțelor și o distribuire echitabilă a activelor debitorului, în conformitate cu ordinea legală de prioritate. În același timp, practicianul trebuie să respecte drepturile debitorului prin păstrarea valorii întreprinderii, sprijinirea reorganizării acolo unde este posibil și asigurarea faptului că debitorul beneficiază de o procedură echitabilă și transparentă.
+
+Prin independența profesională, buna-credință și supravegherea judiciară, practicianul joacă un rol esențial în echilibrarea intereselor creditorilor și debitorilor și în obținerea unui rezultat echitabil în cazurile de insolvență.
+
+Ce facem:
+
+Oferim îndrumare clară și strategică pentru a ajuta companiile să se descurce în cadrul unor reglementări complexe, să gestioneze tranzițiile critice și să soluționeze cu încredere litigiile de mare importanță. Abordarea noastră depășește simpla consultanță juridică și financiară. Oferim consiliere practică și precisă, care vă protejează activitatea și susține creșterea pe termen lung.
+
+Fiecare colaborare are ca obiectiv oferirea de claritate, reducerea incertitudinii și asigurarea faptului că aspectele juridice și economice ale afacerii dumneavoastră funcționează eficient, fără sincope și în mod previzibil.
+
+Abordarea noastră combină expertiza juridică, financiară și operațională pentru a maximiza recuperarea valorii masei credale, a asigura respectarea reglementărilor și a gestiona eficient situațiile de criză.
+
+Realizăm o evaluare rapidă, dar în același timp aprofundată a dificultăților financiare și operaționale ale companiei, identificând riscurile critice și măsurile imediate necesare pentru protejarea lichidităților și limitarea pierderilor de numerar. 
+
+Elaborăm și implementăm planuri de acțiune pentru stabilizarea activității, optimizarea fluxurilor financiare și restructurarea operațională, oferind totodată analiză strategică și soluții sustenabile pentru redresarea și dezvoltarea viitoare a afacerii.
+	
+B.0.EN Main page content (EN):
+As insolvency experts, we advise clients on all aspects of insolvency and restructuring, including corporate recovery, distressed transactions, debt enforcement, insolvency proceedings, and cross-border restructurings.
+
+Our practice delivers strategic, commercially focused solutions designed to protect value, manage risk, and support business continuity in complex financial situations.
+
+We also act as court-appointed insolvency administrators and liquidators in complex restructuring and insolvency proceedings, overseeing asset recovery, creditor relations, business reorganization and liquidation processes. 
+
+
+
+•	Restructuring Agreement
+•	Preventive Composition Agreement
+•	Insolvency 
+•	Reorganization
+•	Bankruptcy
+•	Extrajudicial restructuring
+•	Voluntary Liquidation of Legal Entities
+•	Liquidation of Nonprofit Organizations
+•	Debt Collection
+•	Enforcement Proceedings
+
+B.1.EN:
+
+“Equal Justice under Law”
+
+General principles:
+
+Fairness to creditors and debtors is a core principle guiding the activity of the insolvency practitioner. In insolvency proceedings, the practitioner must act impartially, transparently and in accordance with the law to protect the interests of all parties involved.
+
+Toward creditors, the insolvency practitioner ensures equal treatment, proper verification of claims and a fair distribution of the debtor’s assets according to the legal order of priority. At the same time, the practitioner must respect the rights of the debtor by preserving the value of the business, supporting reorganization where possible and ensuring that the debtor benefits from a fair and transparent procedure.
+
+Through professional independence, good faith and judicial supervision, the insolvency practitioner plays an essential role in balancing the interests of creditors and debtors and in achieving an equitable outcome in insolvency cases.
+
+What we do:
+
+We provide clear, strategic legal guidance to help businesses navigate complex regulations, manage critical transitions and resolve high-stakes disputes, with confidence. Our approach goes beyond legal and financial advice. We deliver practical, precise counsel that protects your operations and supports long-term growth.
+
+Every engagement is focused on offering clarity, reducing uncertainty and ensuring the legal and financial side of your business operates efficiently, seamlessly and predictably.
+
+Our approach combines legal, financial and operational expertise to maximize value recovery, ensure regulatory compliance and efficiently manage distressed situations.
+
+We conduct a rapid, yet at the same time in-depth assessment of the company’s financial and operational challenges, identifying critical risks and the immediate measures needed to protect liquidity and limit cash losses. 
+
+We develop and implement action plans to stabilize operations, optimize cash flows and restructure operations, while also providing strategic analysis and sustainable solutions for the recovery and future growth of the business.
+
+

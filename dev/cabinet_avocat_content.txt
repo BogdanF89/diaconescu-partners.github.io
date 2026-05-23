@@ -1,0 +1,120 @@
+===SERVICII/SERVICES content structure===
+
+A. Cabinetul de Avocat 
+A.0.RO Main page content (RO):
+
+Oferim consultanță juridică, asistență și reprezentare în fața instanțelor, autorităților și instituțiilor publice, persoanelor fizice și juridice, precum și redactarea de acte juridice, participarea la negocieri și alte activități specifice profesiei de avocat.
+
+Fiecare mandat este abordat cu rigurozitate analitică, oferind o strategie personalizată care ține seama de circumstanțele specifice ale fiecărui caz. Scopul nostru este să oferim soluții eficiente, orientate către aspectele comerciale și rentabile.
+
+Chenarele să cuprindă următoarele arii de practică:
+
+•	Civil & Comercial
+•	Societar
+•	Recuperări creanțe & Executări silite
+•	Litigii & Arbitraj
+•	Contravențional & Penal
+•	Muncă & Relații de muncă
+•	Construcții, Infrastructură & Imobiliare
+•	Tehnologie & Protecția datelor
+•	Contencios Administrativ & Fiscal
+•	Asigurări
+
+
+A.1.RO Pagina Detalii(RO) -> apare la click pe butonul de Detalii Servicii
+
+Titlu/citat: „Justiția, Gardianul Libertății” - centru - font mare
+
+•Civil, Comercial & Societar
+Oferim consultanță juridică strategică în materie de re-/structurare corporativă, guvernanță, operațiuni comerciale și acorduri contractuale complexe. Serviciile noastre acoperă atât aspectele operaționale cotidiene ale companiei, cât și procesul de luare a deciziilor strategice la nivel înalt.
+
+•Recuperări creanțe & Executări silite
+Asigurăm servicii în legătură cu toate aspectele juridice complexe privind gestionarea și recuperarea creanțelor atât în cadrul procedurii de insolvență/faliment, cât și în procedurile civile speciale și/sau execuționale, inclusiv în legătură cu recunoașterea dreptului
+creditorului bancar sau nebancar la plata accesoriilor la care este îndreptățit, după caz.
+
+•Litigii & Arbitraj
+
+Reprezentăm și oferim consultanță clienților în cadrul procedurilor judiciare și de arbitraj, punând accentul pe elaborarea unor strategii clare pentru fiecare caz, a unor cadre de negociere eficiente și pe soluționarea favorabilă a litigiilor comerciale complexe. Evaluăm toate căile viabile care conduc la o astfel de soluție, asigurându-ne că orice acord negociat este pe deplin aliniat la obiectivele strategice, comerciale și operaționale ale clientului.
+
+•Contravențional & Penal
+Planurile strategice elaborate cu atenție la detalii stau la baza serviciilor noastre complete de apărare pe latură contravențională și penală, garantând că niciun aspect nu este trecut cu vederea. În același timp, redactăm toate documentele procedurale necesare ce promovează interesele clientului nostru atât în faza de urmărire penală, cât și în instanță, cu eficacitate și, mai ales, orientate spre rezultat.
+În plus, oferim sprijin și în cadrul procedurilor extrajudiciare și facilităm tranzacțiile civile și comerciale care decurg din procedurile penale.
+
+
+•Muncă & Relații de muncă
+Oferim consultanță angajatorilor cu privire la toate aspectele legate de dreptul muncii, inclusiv politici la locul de muncă, relații de muncă, conformitate, restructurări, investigații interne și schimbări organizaționale.
+Activitatea noastră include, de asemenea, elaborarea și implementarea unor cadre de prevenire a hărțuirii, gestionarea procedurilor de reclamații la locul de muncă, precum și îndrumări privind conduita la locul de muncă și obligațiile de conformitate aferente.
+Pregătim inclusiv mijloacele de apărare necesare unui angajat pentru a-și apăra drepturile sale în situații prejudiciabile sau discriminatorii.
+
+
+•Construcții, Infrastructură & Imobiliare
+Oferim consultanță juridică și strategică pentru proiecte din domeniul construcțiilor, infrastructurii și imobiliarelor pe întreaga durată a ciclului lor de viață, de la structurare și dezvoltare până la finalizare și exploatare. Activitatea noastră include redactarea și negocierea contractelor, inclusiv acorduri bazate pe standardele FIDIC și cadre de execuție a proiectelor, precum și asigurarea conformității cu reglementările și gestionarea întârzierilor, a problemelor legate de performanță și a litigiilor.
+Expertiza noastră în sectorul imobiliar include proiecte de dezvoltare, închiriere, gestionarea activelor, due diligence, aspecte legate de titluri de proprietate și autorizații, precum și negocieri comerciale complexe. Oferim soluții orientate spre profitabilitate, ce adaugă valoare în etapele critice ale tranzacțiilor și implementării proiectelor, ajutând clientul să abordeze cu încredere riscurile juridice și să rezolve eficient obstacolele cu care se confruntă.
+
+•Tehnologie & Protecția datelor
+Oferim consultanță juridică și de reglementare cu privire la modelele de afaceri bazate pe tehnologie, operațiunile digitale, guvernanța datelor, gestionarea riscurilor legate de inteligența artificială, conformitatea cu RGPD și acordurile comerciale bazate pe platforme.
+Abordarea noastră este concepută pentru a ajuta companiile să navigheze în ecosisteme digitale complexe și în continuă evoluție, asigurând în același timp reziliența operațională, conformitatea cu reglementările și creșterea durabilă.
+
+•Contencios Administrativ & Fiscal
+Reprezentăm clienți în litigii administrative și fiscale complexe, oferind asistență strategică în dispute care implică autorități de reglementare, controale fiscale, sancțiuni administrative și chestiuni de drept public. 
+Combinând o expertiză juridică aprofundată cu o abordare orientată către aspectele comerciale, sprijinim companiile să-și reducă riscurile, să-și protejeze interesele și să gestioneze procedurile contencioase cu precizie și încredere.
+
+•Asigurări
+Oferim consultanță și reprezentăm clienții într-o gamă largă de aspecte legate de asigurări și reasigurări, inclusiv conformitatea cu reglementările, litigiile privind acoperirea polițelor, gestionarea cererilor de despăgubire și litigiile complexe din domeniul asigurărilor.
+Practica noastră combină expertiza specifică sectorului cu o viziune strategică pentru a ajuta asigurătorii, reasigurătorii, brokerii și asigurații corporativi să se adapteze la cadrele de reglementare în continuă evoluție, să gestioneze riscurile în mod eficient și să soluționeze litigiile cu eficiență.
+În același timp, sprijinim creditorii de asigurări să își recupereze creanțele într-un procent semnificativ în cadrul procedurilor de faliment ale societăților de asigurări.
+	
+***A.0.EN MAIN PAGE SERVICES
+We provide legal advice, assistance, and representation before courts, public authorities, and institutions, as well as to individuals and legal entities; we also draft legal documents, participate in negotiations, and perform other activities specific to the legal profession.
+Each mandate is approached with analytical rigor, resulting in a tailored strategy considering the specific circumstances of each matter. Our result is to deliver efficient, commercially driven and cost-effective solutions.
+
+•	Civil & Commercial
+•	Corporate
+•	Debt Collection & Enforcement
+•	Litigation & Arbitration
+•	Misdemeanors & Criminal defense
+•	Labor & Employment
+•	Construction, Infrastructure & Real Estate
+•	Technology & Data Protection
+•	Administrative & Tax Litigation
+•	Insurance
+
+
+***A.1.EN SERVICES DETAILS (EN)
+
+“Justice, the Guardian of Liberty” - title quote
+
+•Civil, Commercial & Corporate
+We provide strategic legal counsel on corporate structuring, governance, commercial operations and complex contractual arrangements. Our services encompass both day-to-day corporate matters and high-level strategic decision-making.
+
+•Debt Collection & Enforcement
+We provide services covering all complex legal aspects related to debt management and recovery, both within insolvency/bankruptcy proceedings and within special civil and/or enforcement proceedings, including the recognition of the right of the banking or non-banking creditor to receive the ancillary payments to which they are entitled, as applicable.
+
+•Litigation & Arbitration
+We represent and advise clients in litigation and arbitration proceedings, with a focus on developing clear case strategies, effective negotiation frameworks and the resolution of complex, high-value commercial disputes. We assess all viable avenues toward a favorable resolution, ensuring that any negotiated settlement is fully aligned with our clients’ strategic, commercial and operational objectives. 
+
+•Misdemeanors & Criminal defense
+Meticulously shaped strategic plans underline our comprehensive misdemeanor and criminal defense, ensuring no detail is overlooked. At the same time, we draft all the procedural documents in accordance with our client’ interests, both during the criminal investigation phase, but also during court judgement, with effectiveness and with a focus on achieving results. 
+Moreover, we extend our support to extrajudicial processes and facilitate civil/commercial transactions arising from criminal proceedings.
+
+•Labor & Employment
+We advise employers on all aspects of employment and labour law, including workplace policies, employment relations, compliance, restructurings, internal investigations and organisational change. 
+Our practice also includes the development and implementation of harassment prevention frameworks, management of workplace complaints procedures and guidance on workplace conduct and related compliance obligations.
+We also provide the necessary tools for employees to defend their rights in situations that are harmful or discriminatory.
+
+•Construction, Infrastructure & Real Estate
+We provide legal and strategic advice on construction, infrastructure and real estate projects across their full lifecycle, from structuring and development through to completion and operation. Our work includes contract drafting and negotiation, including FIDIC-based arrangements, project execution frameworks, regulatory compliance and the management of delays, performance issues and finally, disputes.
+Our expertise in the real estate sector includes development projects, leasing, asset management, due diligence, titles and permits, as well as complex commercial negotiations. We deliver commercially focused solutions that add value at critical stages of transactions and project implementation, helping the client to address legal risks and efficiently resolve obstacles.
+
+•Technology & Data Protection
+We provide strategic legal and regulatory counsel on technology-driven business models, digital operations, data governance, AI-related risk management, GDPR compliance and platform-based commercial arrangements. 
+Our approach is designed to help businesses navigate complex and rapidly evolving digital ecosystems while ensuring operational resilience, regulatory alignment and sustainable growth.
+
+•Administrative & Tax Litigation
+We represent clients in complex administrative and tax litigation, delivering strategic advocacy in disputes involving regulatory authorities, fiscal assessments, administrative sanctions and public law matters. 
+Combining deep legal expertise with a commercially driven approach, we help businesses mitigate risk, protect their interests and navigate contentious proceedings with precision and confidence.
+
+•Insurance
+We advise and represent clients across a broad range of insurance and reinsurance matters, including regulatory compliance, policy coverage disputes, claims management and complex insurance litigation. 
+Our practice combines sector-specific expertise with strategic insight to help insurers, reinsurers, brokers and corporate policyholders navigate evolving regulatory frameworks, manage risk effectively and resolve disputes efficiently.
+At the same time, we assist insurance creditors in recovering a significant amount of their claims during the bankruptcy proceedings of insurance companies.

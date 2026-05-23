@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>Cabinet Individual de Insolvență — Servicii | Diaconescu Partners</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@300;400;500&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy:        #0d1b2a;
+      --navy-mid:    #152238;
+      --navy-light:  #1e3a5f;
+      --gold:        #b8975a;
+      --gold-light:  #d4b483;
+      --white:       #f5f2ec;
+      --gray:        #8a9bb0;
+      --font-display: 'EB Garamond', Georgia, serif;
+      --font-body:    'Montserrat', sans-serif;
+    }
+
+    :root.silver-theme {
+      --gold:       #96afc0;
+      --gold-light: #b0c8d8;
+    }
+
+    html, body {
+      background: var(--navy);
+      color: var(--white);
+      font-family: var(--font-body);
+      font-size: 14px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: clip;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 60px;
+      height: 72px;
+      background: rgba(13, 27, 42, 0.96);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(184, 151, 90, 0.12);
+    }
+
+    .nav-logo {
+      font-family: 'Cinzel', serif;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      color: var(--white);
+      text-decoration: none;
+      opacity: 0.85;
+      transition: opacity 0.3s;
+      white-space: nowrap;
+    }
+    .nav-logo:hover { opacity: 1; }
+
+    .nav-center {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-body);
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      text-decoration: none;
+      transition: opacity 0.3s;
+    }
+    .nav-center::before {
+      content: '';
+      display: block;
+      width: 28px;
+      height: 1px;
+      background: var(--gold);
+      transition: width 0.3s;
+    }
+    .nav-center:hover { opacity: 0.75; }
+    .nav-center:hover::before { width: 18px; }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .lang-btn {
+      background: none;
+      border: none;
+      font-family: var(--font-body);
+      font-size: 10px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(245, 242, 236, 0.45);
+      cursor: pointer;
+      padding: 4px 2px;
+      transition: color 0.3s;
+    }
+    .lang-btn.active { color: var(--white); }
+    .lang-btn:hover { color: rgba(245, 242, 236, 0.8); }
+    .lang-divider {
+      color: rgba(184, 151, 90, 0.3);
+      font-size: 10px;
+      pointer-events: none;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      padding: 152px 60px 72px;
+      text-align: center;
+    }
+
+    .hero-icon {
+      width: 64px; height: 64px;
+      margin: 0 auto 36px;
+      opacity: 0.75;
+    }
+    .hero-icon img {
+      width: 64px; height: 64px;
+      object-fit: contain;
+      filter: brightness(0) saturate(100%) invert(70%) sepia(30%) saturate(400%) hue-rotate(5deg);
+    }
+
+    .hero-eyebrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      font-size: 9px;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 28px;
+    }
+    .hero-eyebrow::before,
+    .hero-eyebrow::after {
+      content: '';
+      width: 36px; height: 1px;
+      background: var(--gold);
+      opacity: 0.5;
+    }
+
+    .hero-quote {
+      font-family: var(--font-display);
+      font-size: clamp(30px, 4vw, 54px);
+      font-weight: 300;
+      font-style: italic;
+      color: var(--white);
+      line-height: 1.2;
+      max-width: 820px;
+      margin: 0 auto;
+    }
+
+    /* ── SERVICE LIST INTRO ── */
+    .services-intro {
+      max-width: 900px;
+      margin: 80px auto 0;
+      padding: 0 60px;
+    }
+    .services-intro-label {
+      font-size: 9px;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 24px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .services-intro-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(184, 151, 90, 0.2);
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 0;
+      border-top: 1px solid rgba(184, 151, 90, 0.1);
+    }
+    .service-pill {
+      padding: 18px 0;
+      border-bottom: 1px solid rgba(184, 151, 90, 0.1);
+      font-size: 12px;
+      letter-spacing: 0.02em;
+      color: var(--gray);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .service-pill::before {
+      content: '';
+      width: 4px; height: 4px;
+      border-radius: 50%;
+      background: var(--gold);
+      opacity: 0.6;
+      flex-shrink: 0;
+    }
+
+    /* ── CONTENT SECTIONS ── */
+    .content-sections {
+      max-width: 820px;
+      margin: 80px auto 0;
+      padding: 0 60px 120px;
+    }
+
+    .content-section {
+      padding: 64px 0;
+      border-top: 1px solid rgba(184, 151, 90, 0.1);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .content-section.visible {
+      opacity: 1;
+      transform: none;
+    }
+    .content-section:last-child {
+      border-bottom: 1px solid rgba(184, 151, 90, 0.1);
+    }
+
+    .section-eyebrow {
+      font-size: 9px;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+    }
+
+    .section-heading {
+      font-family: var(--font-display);
+      font-size: clamp(24px, 3vw, 36px);
+      font-weight: 400;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 32px;
+    }
+    .section-heading em {
+      font-style: italic;
+      color: var(--gold-light);
+    }
+
+    .section-body p {
+      font-size: 13.5px;
+      line-height: 1.95;
+      color: var(--gray);
+      margin-bottom: 20px;
+    }
+    .section-body p:last-child { margin-bottom: 0; }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid rgba(184, 151, 90, 0.1);
+      background: var(--navy-mid);
+      padding: 36px 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .footer-copy {
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      color: rgba(245, 242, 236, 0.28);
+    }
+    .footer-back {
+      font-size: 10px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      text-decoration: none;
+      opacity: 0.65;
+      transition: opacity 0.3s;
+      white-space: nowrap;
+    }
+    .footer-back:hover { opacity: 1; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      nav { padding: 0 24px; }
+      .nav-center { display: none; }
+      .hero { padding: 120px 24px 60px; }
+      .services-intro { padding: 0 24px; }
+      .services-grid { grid-template-columns: 1fr 1fr; }
+      .content-sections { padding: 0 24px 80px; }
+      .content-section { padding: 48px 0; }
+      footer { padding: 28px 24px; flex-direction: column; text-align: center; }
+    }
+
+    @media (max-width: 480px) {
+      .services-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="../index.html" class="nav-logo">DIACONESCU PARTNERS</a>
+  <a href="../index.html#cabinets" class="nav-center" data-i18n="nav.back">Înapoi la servicii</a>
+  <div class="nav-right">
+    <button class="lang-btn active" id="btnRo" onclick="setLang('ro')">RO</button>
+    <span class="lang-divider">|</span>
+    <button class="lang-btn" id="btnEn" onclick="setLang('en')">EN</button>
+  </div>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-icon">
+      <img src="../assets/icons/icon-insolventa.svg" alt="">
+    </div>
+    <div class="hero-eyebrow" data-i18n="hero.eyebrow">Cabinet Individual de Insolvență</div>
+    <h1 class="hero-quote" data-i18n="hero.quote">„Egalitate în fața Legii"</h1>
+  </section>
+
+  <!-- CONTENT SECTIONS -->
+  <div class="content-sections">
+
+    <!-- Section 1: General Principles -->
+    <div class="content-section">
+      <div class="section-eyebrow" data-i18n="sec1.eyebrow">Principii generale</div>
+      <h2 class="section-heading" data-i18n-html="sec1.heading">Echitate &amp; <em>Imparțialitate</em></h2>
+      <div class="section-body">
+        <p data-i18n="sec1.p1">Echitatea față de creditori și debitori este un principiu fundamental care ghidează activitatea practicianului în insolvență. În cadrul procedurilor de insolvență, practicianul trebuie să acționeze în mod imparțial, transparent și în conformitate cu legea, pentru a proteja interesele tuturor părților implicate.</p>
+        <p data-i18n="sec1.p2">Față de creditori, practicianul asigură un tratament egal, verificarea corespunzătoare a creanțelor și o distribuire echitabilă a activelor debitorului, în conformitate cu ordinea legală de prioritate. În același timp, practicianul trebuie să respecte drepturile debitorului prin păstrarea valorii întreprinderii, sprijinirea reorganizării acolo unde este posibil și asigurarea faptului că debitorul beneficiază de o procedură echitabilă și transparentă.</p>
+        <p data-i18n="sec1.p3">Prin independența profesională, buna-credință și supravegherea judiciară, practicianul joacă un rol esențial în echilibrarea intereselor creditorilor și debitorilor și în obținerea unui rezultat echitabil în cazurile de insolvență.</p>
+      </div>
+    </div>
+
+    <!-- Section 2: What we do -->
+    <div class="content-section">
+      <div class="section-eyebrow" data-i18n="sec2.eyebrow">Ce facem</div>
+      <h2 class="section-heading" data-i18n-html="sec2.heading">Expertiză juridică, <em>financiară</em> și operațională</h2>
+      <div class="section-body">
+        <p data-i18n="sec2.p1">Oferim îndrumare clară și strategică pentru a ajuta companiile să se descurce în cadrul unor reglementări complexe, să gestioneze tranzițiile critice și să soluționeze cu încredere litigiile de mare importanță. Abordarea noastră depășește simpla consultanță juridică și financiară. Oferim consiliere practică și precisă, care vă protejează activitatea și susține creșterea pe termen lung.</p>
+        <p data-i18n="sec2.p2">Fiecare colaborare are ca obiectiv oferirea de claritate, reducerea incertitudinii și asigurarea faptului că aspectele juridice și economice ale afacerii dumneavoastră funcționează eficient, fără sincope și în mod previzibil.</p>
+        <p data-i18n="sec2.p3">Abordarea noastră combină expertiza juridică, financiară și operațională pentru a maximiza recuperarea valorii masei credale, a asigura respectarea reglementărilor și a gestiona eficient situațiile de criză.</p>
+        <p data-i18n="sec2.p4">Realizăm o evaluare rapidă, dar în același timp aprofundată a dificultăților financiare și operaționale ale companiei, identificând riscurile critice și măsurile imediate necesare pentru protejarea lichidităților și limitarea pierderilor de numerar.</p>
+        <p data-i18n="sec2.p5">Elaborăm și implementăm planuri de acțiune pentru stabilizarea activității, optimizarea fluxurilor financiare și restructurarea operațională, oferind totodată analiză strategică și soluții sustenabile pentru redresarea și dezvoltarea viitoare a afacerii.</p>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <span class="footer-copy">© 2026 Diaconescu Roxana-Elena — Cabinet de Avocat &amp; Cabinet Individual de Insolvență</span>
+  <a href="../index.html#cabinets" class="footer-back" data-i18n="footer.back">← Înapoi la servicii</a>
+</footer>
+
+<script>
+  /* ── i18n ── */
+  const i18n = {
+    ro: {
+      'nav.back':         'Înapoi la servicii',
+      'hero.eyebrow':     'Cabinet Individual de Insolvență',
+      'hero.quote':       '„Egalitate în fața Legii"',
+      'services.label':   'Arii de activitate',
+      's1':  'Acordul de restructurare',
+      's2':  'Concordatul preventiv',
+      's3':  'Insolvență',
+      's4':  'Reorganizare',
+      's5':  'Faliment',
+      's6':  'Restructurare extrajudiciară',
+      's7':  'Lichidări voluntare persoane juridice',
+      's8':  'Lichidarea organizațiilor non-profit',
+      's9':  'Recuperări creanțe',
+      's10': 'Executări silite',
+      'sec1.eyebrow':  'Principii generale',
+      'sec1.heading':  'Echitate &amp; <em>Imparțialitate</em>',
+      'sec1.p1': 'Echitatea față de creditori și debitori este un principiu fundamental care ghidează activitatea practicianului în insolvență. În cadrul procedurilor de insolvență, practicianul trebuie să acționeze în mod imparțial, transparent și în conformitate cu legea, pentru a proteja interesele tuturor părților implicate.',
+      'sec1.p2': 'Față de creditori, practicianul asigură un tratament egal, verificarea corespunzătoare a creanțelor și o distribuire echitabilă a activelor debitorului, în conformitate cu ordinea legală de prioritate. În același timp, practicianul trebuie să respecte drepturile debitorului prin păstrarea valorii întreprinderii, sprijinirea reorganizării acolo unde este posibil și asigurarea faptului că debitorul beneficiază de o procedură echitabilă și transparentă.',
+      'sec1.p3': 'Prin independența profesională, buna-credință și supravegherea judiciară, practicianul joacă un rol esențial în echilibrarea intereselor creditorilor și debitorilor și în obținerea unui rezultat echitabil în cazurile de insolvență.',
+      'sec2.eyebrow':  'Ce facem',
+      'sec2.heading':  'Expertiză juridică, <em>financiară</em> și operațională',
+      'sec2.p1': 'Oferim îndrumare clară și strategică pentru a ajuta companiile să se descurce în cadrul unor reglementări complexe, să gestioneze tranzițiile critice și să soluționeze cu încredere litigiile de mare importanță. Abordarea noastră depășește simpla consultanță juridică și financiară. Oferim consiliere practică și precisă, care vă protejează activitatea și susține creșterea pe termen lung.',
+      'sec2.p2': 'Fiecare colaborare are ca obiectiv oferirea de claritate, reducerea incertitudinii și asigurarea faptului că aspectele juridice și economice ale afacerii dumneavoastră funcționează eficient, fără sincope și în mod previzibil.',
+      'sec2.p3': 'Abordarea noastră combină expertiza juridică, financiară și operațională pentru a maximiza recuperarea valorii masei credale, a asigura respectarea reglementărilor și a gestiona eficient situațiile de criză.',
+      'sec2.p4': 'Realizăm o evaluare rapidă, dar în același timp aprofundată a dificultăților financiare și operaționale ale companiei, identificând riscurile critice și măsurile imediate necesare pentru protejarea lichidităților și limitarea pierderilor de numerar.',
+      'sec2.p5': 'Elaborăm și implementăm planuri de acțiune pentru stabilizarea activității, optimizarea fluxurilor financiare și restructurarea operațională, oferind totodată analiză strategică și soluții sustenabile pentru redresarea și dezvoltarea viitoare a afacerii.',
+      'footer.back': '← Înapoi la servicii',
+    },
+    en: {
+      'nav.back':         'Back to services',
+      'hero.eyebrow':     'Individual Insolvency Practice',
+      'hero.quote':       '"Equal Justice under Law"',
+      'services.label':   'Areas of activity',
+      's1':  'Restructuring Agreement',
+      's2':  'Preventive Composition Agreement',
+      's3':  'Insolvency',
+      's4':  'Reorganization',
+      's5':  'Bankruptcy',
+      's6':  'Extrajudicial Restructuring',
+      's7':  'Voluntary Liquidation of Legal Entities',
+      's8':  'Liquidation of Nonprofit Organizations',
+      's9':  'Debt Collection',
+      's10': 'Enforcement Proceedings',
+      'sec1.eyebrow':  'General principles',
+      'sec1.heading':  'Fairness &amp; <em>Impartiality</em>',
+      'sec1.p1': 'Fairness to creditors and debtors is a core principle guiding the activity of the insolvency practitioner. In insolvency proceedings, the practitioner must act impartially, transparently and in accordance with the law to protect the interests of all parties involved.',
+      'sec1.p2': 'Toward creditors, the insolvency practitioner ensures equal treatment, proper verification of claims and a fair distribution of the debtor\'s assets according to the legal order of priority. At the same time, the practitioner must respect the rights of the debtor by preserving the value of the business, supporting reorganization where possible and ensuring that the debtor benefits from a fair and transparent procedure.',
+      'sec1.p3': 'Through professional independence, good faith and judicial supervision, the insolvency practitioner plays an essential role in balancing the interests of creditors and debtors and in achieving an equitable outcome in insolvency cases.',
+      'sec2.eyebrow':  'What we do',
+      'sec2.heading':  'Legal, <em>financial</em> and operational expertise',
+      'sec2.p1': 'We provide clear, strategic legal guidance to help businesses navigate complex regulations, manage critical transitions and resolve high-stakes disputes with confidence. Our approach goes beyond legal and financial advice. We deliver practical, precise counsel that protects your operations and supports long-term growth.',
+      'sec2.p2': 'Every engagement is focused on offering clarity, reducing uncertainty and ensuring the legal and financial side of your business operates efficiently, seamlessly and predictably.',
+      'sec2.p3': 'Our approach combines legal, financial and operational expertise to maximize value recovery, ensure regulatory compliance and efficiently manage distressed situations.',
+      'sec2.p4': 'We conduct a rapid, yet at the same time in-depth assessment of the company\'s financial and operational challenges, identifying critical risks and the immediate measures needed to protect liquidity and limit cash losses.',
+      'sec2.p5': 'We develop and implement action plans to stabilize operations, optimize cash flows and restructure operations, while also providing strategic analysis and sustainable solutions for the recovery and future growth of the business.',
+      'footer.back': '← Back to services',
+    }
+  };
+
+  /* ── Language ── */
+  let currentLang = localStorage.getItem('dp_lang') || 'ro';
+
+  function applyLang(lang) {
+    currentLang = lang;
+    localStorage.setItem('dp_lang', lang);
+    document.documentElement.lang = lang;
+    document.getElementById('btnRo').classList.toggle('active', lang === 'ro');
+    document.getElementById('btnEn').classList.toggle('active', lang === 'en');
+    document.querySelectorAll('[data-i18n]').forEach(function(el) {
+      var key = el.getAttribute('data-i18n');
+      if (i18n[lang] && i18n[lang][key] !== undefined) {
+        el.textContent = i18n[lang][key];
+      }
+    });
+    document.querySelectorAll('[data-i18n-html]').forEach(function(el) {
+      var key = el.getAttribute('data-i18n-html');
+      if (i18n[lang] && i18n[lang][key] !== undefined) {
+        el.innerHTML = i18n[lang][key];
+      }
+    });
+    document.title = lang === 'en'
+      ? 'Individual Insolvency Practice — Services | Diaconescu Partners'
+      : 'Cabinet Individual de Insolvență — Servicii | Diaconescu Partners';
+  }
+
+  function setLang(lang) { applyLang(lang); }
+
+  applyLang(currentLang);
+
+  /* ── Scroll reveal ── */
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08 });
+
+  document.querySelectorAll('.content-section').forEach(function(el) {
+    observer.observe(el);
+  });
+
+  /* ── Silver theme (inherit from session) ── */
+  if (sessionStorage.getItem('dp_theme') === 'silver') {
+    document.documentElement.classList.add('silver-theme');
+  }
+</script>
+</body>
+</html>

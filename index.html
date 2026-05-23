@@ -488,7 +488,7 @@
     padding: 120px 80px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     position: relative;
     overflow: hidden;
     transition: background 0.5s ease;
@@ -533,7 +533,9 @@
   }
   .split-icon {
     width: 80px;
-    height: auto;
+    height: 80px;
+    object-fit: contain;
+    object-position: left center;
     margin-bottom: 36px;
   }
   .split-tag {
@@ -962,6 +964,95 @@
     border: 1px solid rgba(184,151,90,0.2);
     color: rgba(184,151,90,0.6);
   }
+  /* Publications — editorial hierarchy */
+  .pub-featured {
+    grid-column: 1 / -1;
+    display: flex;
+    gap: 48px;
+    align-items: stretch;
+  }
+  .pub-featured-main { flex: 1; min-width: 0; }
+  .pub-featured .pub-title { font-size: 22px; }
+  .pub-featured .pub-tag {
+    position: static;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .pub-featured-aside {
+    width: 190px;
+    flex-shrink: 0;
+    border-left: 1px solid rgba(184,151,90,0.1);
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 18px;
+  }
+  .pub-excerpt {
+    font-size: 12px;
+    line-height: 1.85;
+    color: var(--gray);
+    margin-top: 14px;
+  }
+  .pub-read-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: gap 0.3s;
+  }
+  .pub-read-link::after {
+    content: '';
+    width: 20px; height: 1px;
+    background: var(--gold);
+    transition: width 0.3s;
+  }
+  .pub-read-link:hover { gap: 16px; }
+  .pub-read-link:hover::after { width: 28px; }
+  .pub-lang-badges {
+    display: flex;
+    gap: 6px;
+    margin-top: 14px;
+  }
+  .pub-lang-badge {
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    padding: 3px 8px;
+    border: 1px solid rgba(184,151,90,0.2);
+    color: rgba(184,151,90,0.55);
+  }
+  .pub-archive {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 12px 28px;
+    background: transparent;
+    opacity: 0.42;
+    padding: 20px 36px;
+  }
+  .pub-archive:hover {
+    background: transparent;
+    opacity: 0.68;
+    transform: none;
+  }
+  .pub-archive:hover::before { width: 0; }
+  .pub-archive-label {
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gray);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .pub-archive .pub-year { margin-bottom: 0; flex-shrink: 0; }
+  .pub-archive .pub-title { font-size: 14px; margin-bottom: 0; flex: 1; min-width: 180px; }
+  .pub-archive .pub-source { flex-shrink: 0; }
 
   /* CONTACT SECTION */
   .contact-section {
@@ -1890,6 +1981,8 @@
     .industries-section { padding: 100px 0; }
     .publications-section { padding: 100px 24px; }
     .publications-grid { grid-template-columns: 1fr; }
+    .pub-featured { flex-direction: column; gap: 0; }
+    .pub-featured-aside { width: auto; border-left: none; padding-left: 0; border-top: 1px solid rgba(184,151,90,0.1); padding-top: 24px; margin-top: 24px; flex-direction: row; align-items: center; justify-content: space-between; }
     .contact-section { padding: 100px 24px; }
     .contact-inner { grid-template-columns: 1fr; gap: 60px; }
     .form-row { grid-template-columns: 1fr; }
@@ -2205,7 +2298,7 @@
     </h2>
     <p class="split-slogan" data-i18n="split.law.slogan">Apărare. Consultanță. Reprezentare.</p>
     <p class="split-desc" data-i18n="split.law.desc">
-      Oferim consultanță juridică, asistență și reprezentare în fața instanțelor, autorităților și instituțiilor publice, persoanelor fizice și juridice, precum și redactarea de acte juridice, participarea la negocieri și alte activități specifice profesiei de avocat. Fiecare mandat este abordat cu rigurozitate analitică, oferind o strategie personalizată care ține seama de circumstanțele specifice ale fiecărui caz.
+      Oferim consultanță juridică, asistență și reprezentare în fața instanțelor, autorităților și instituțiilor publice, persoanelor fizice și juridice, precum și redactarea de acte juridice, participarea la negocieri și alte activități specifice profesiei de avocat. Fiecare mandat este abordat cu rigurozitate analitică, oferind o strategie personalizată care ține seama de circumstanțele specifice ale fiecărui caz. Scopul nostru este să oferim soluții eficiente, orientate către aspectele comerciale și rentabile.
     </p>
     <ul class="split-services">
       <li data-i18n="split.law.s1">Civil & Comercial</li>
@@ -2219,7 +2312,7 @@
       <li data-i18n="split.law.s9">Contencios Administrativ & Fiscal</li>
       <li data-i18n="split.law.s10">Asigurări</li>
     </ul>
-    <a href="#" class="split-link">
+    <a href="services/cabinet-avocat.html" class="split-link">
       <span data-i18n="split.link">Detalii servicii</span>
       <div class="split-link-arrow"></div>
     </a>
@@ -2249,7 +2342,7 @@
       <li data-i18n="split.ins.s9">Recuperări creanțe</li>
       <li data-i18n="split.ins.s10">Executări silite</li>
     </ul>
-    <a href="#" class="split-link">
+    <a href="services/cabinet-insolventa.html" class="split-link">
       <span data-i18n="split.link">Detalii servicii</span>
       <div class="split-link-arrow"></div>
     </a>
@@ -2405,41 +2498,57 @@
       <h2 class="section-title reveal delay-1" data-i18n-html="pub.title">Voce de <em>referință</em><br><em>în domeniu</em></h2>
     </div>
     <div class="publications-grid">
-      <div class="pub-card reveal">
-        <span class="pub-tag">International</span>
-        <div class="pub-year">2025</div>
-        <a href="https://ceelegalmatters.com/romania/25513-streamlining-insolvency-prevention-and-insolvency-procedures-by-amending-the-romanian-legislation" target="_blank" rel="noopener" style="text-decoration:none;">
+
+      <!-- FEATURED: CEE Legal Matters 2025 -->
+      <div class="pub-card pub-featured reveal">
+        <div class="pub-featured-main">
+          <span class="pub-tag">International</span>
+          <div class="pub-year">2025</div>
           <div class="pub-title">Streamlining insolvency prevention and insolvency procedures by amending the Romanian legislation</div>
-        </a>
-        <div class="pub-source">CEE Legal Matters</div>
+          <div class="pub-excerpt" data-i18n="pub.ex1">Examinează amendamentele legislative recente care simplifică mecanismele de prevenire a insolvenței și procedurile judiciare din România, analizând impactul practic asupra creditorilor, debitorilor și practicii judiciare.</div>
+        </div>
+        <div class="pub-featured-aside">
+          <div class="pub-source">CEE Legal Matters</div>
+          <a href="https://ceelegalmatters.com/magazine-articles/10756-issue-12-8/31330-romania-streamlining-insolvency-prevention-and-insolvency-procedures-by-amending-the-romanian-legislation" target="_blank" rel="noopener" class="pub-read-link" data-i18n="pub.read">Citește articolul</a>
+        </div>
       </div>
+
+      <!-- Juridice.ro + LIR — Law in Review 2023 (same article, RO & EN) -->
       <div class="pub-card reveal delay-1">
         <div class="pub-year">2023</div>
-        <a href="https://www.juridice.ro/791558/avertizarea-timpurie-prevazuta-de-actualele-norme-speciale-ale-insolventei.html" target="_blank" rel="noopener" style="text-decoration:none;">
-          <div class="pub-title" data-i18n="pub2.title">Avertizarea timpurie conform normelor speciale actuale ale insolvenței</div>
-        </a>
-        <div class="pub-source">Juridice.ro</div>
+        <div class="pub-title" data-i18n="pub2.title">Avertizarea timpurie conform normelor speciale actuale ale insolvenței</div>
+        <div class="pub-excerpt" data-i18n="pub.ex2">Analizează instrumentele de avertizare timpurie disponibile sub legislația română actuală a insolvenței, cu accent pe aplicabilitatea practică pentru companiile în dificultate.</div>
+        <div class="pub-lang-badges">
+          <span class="pub-lang-badge">RO</span>
+          <span class="pub-lang-badge">EN</span>
+        </div>
+        <div class="pub-source" style="margin-top:14px;">Juridice.ro &middot; LIR — Law in Review</div>
       </div>
+
+      <!-- BizLawyer 2019 -->
       <div class="pub-card reveal delay-2">
-        <div class="pub-year">2023</div>
-        <div class="pub-title">Early warning tools available for the Romanian public</div>
-        <div class="pub-source">LIR — Law in Review</div>
-      </div>
-      <div class="pub-card reveal delay-1">
         <div class="pub-year">2019</div>
         <div class="pub-title" data-i18n="pub4.title">Comentarii privind influențele aduse pieței insolvenței prin modificarea Legii nr. 85/2014</div>
+        <div class="pub-excerpt" data-i18n="pub.ex4">Analizează modul în care modificările din 2019 ale Legii nr. 85/2014 reconfigurează piața insolvenței, afectând ordinea de prioritate a creditorilor și practica judiciară.</div>
         <div class="pub-source">BizLawyer</div>
       </div>
-      <div class="pub-card reveal delay-2">
+
+      <!-- Capital 2019 -->
+      <div class="pub-card reveal delay-3">
         <div class="pub-year">2019</div>
         <div class="pub-title" data-i18n="pub5.title">Comentarii privind impactul adus mediului de afaceri prin modificarea Codului Insolvenței</div>
+        <div class="pub-excerpt" data-i18n="pub.ex5">Evaluează consecințele pentru mediul de afaceri ale Codului insolvenței modificat, inclusiv impactul asupra viabilității restructurării și ratelor de recuperare ale creditorilor.</div>
         <div class="pub-source">Capital</div>
       </div>
-      <div class="pub-card reveal delay-3">
+
+      <!-- ARCHIVE: Business & Money Magazine 2011 -->
+      <div class="pub-card pub-archive reveal">
+        <span class="pub-archive-label" data-i18n="pub.archive">Lucrare de pionierat</span>
         <div class="pub-year">2011</div>
         <div class="pub-title" data-i18n="pub6.title">Procedura insolvenței în România și salariații</div>
-        <div class="pub-source">Business & Money Magazine</div>
+        <div class="pub-source">Business &amp; Money Magazine</div>
       </div>
+
     </div>
   </div>
 </section>
@@ -3178,11 +3287,11 @@
       'hero.stat1':'Ani de<br>practică','hero.stat2':'Calificări<br>profesionale','hero.stat3':'Industrii<br>deservite',
       'hero.quote.text':'„Nimeni nu este mai presus de lege și nimeni nu este sub ea. Dreptatea este conștiința, nu o conștiință personală, ci conștiința întregii umanități."',
       'split.law.tag':'Cabinet de Avocat','split.law.slogan':'Apărare. Consultanță. Reprezentare.',
-      'split.law.desc':'Oferim consultanță juridică, asistență și reprezentare în fața instanțelor, autorităților și instituțiilor publice, persoanelor fizice și juridice, precum și redactarea de acte juridice, participarea la negocieri și alte activități specifice profesiei de avocat. Fiecare mandat este abordat cu rigurozitate analitică, oferind o strategie personalizată care ține seama de circumstanțele specifice ale fiecărui caz.',
+      'split.law.desc':'Oferim consultanță juridică, asistență și reprezentare în fața instanțelor, autorităților și instituțiilor publice, persoanelor fizice și juridice, precum și redactarea de acte juridice, participarea la negocieri și alte activități specifice profesiei de avocat. Fiecare mandat este abordat cu rigurozitate analitică, oferind o strategie personalizată care ține seama de circumstanțele specifice ale fiecărui caz. Scopul nostru este să oferim soluții eficiente, orientate către aspectele comerciale și rentabile.',
       'split.law.s1':'Civil & Comercial','split.law.s2':'Societar','split.law.s3':'Recuperări creanțe & Executări silite','split.law.s4':'Litigii & Arbitraj','split.law.s5':'Contravențional & Penal','split.law.s6':'Muncă & Relații de muncă','split.law.s7':'Construcții, Infrastructură & Imobiliare','split.law.s8':'Tehnologie & Protecția datelor','split.law.s9':'Contencios Administrativ & Fiscal','split.law.s10':'Asigurări',
       'split.link':'Detalii servicii',
       'split.ins.tag':'Cabinet Individual de Insolvență','split.ins.slogan':'Restructurare. Recuperare. Redresare.',
-      'split.ins.desc':'Ca experți în domeniul insolvenței, oferim clienților consultanță cu privire la toate aspectele legate de insolvență și restructurare, inclusiv redresarea întreprinderilor, tranzacții cu entități aflate în dificultate, executarea creanțelor, proceduri de insolvență și restructurări transfrontaliere. De asemenea, acționăm în calitate de administratori judiciari și lichidatori numiți de instanță în cadrul unor proceduri complexe.',
+      'split.ins.desc':'Ca experți în domeniul insolvenței, oferim clienților consultanță cu privire la toate aspectele legate de insolvență și restructurare, inclusiv redresarea întreprinderilor, tranzacții cu entități aflate în dificultate, executarea creanțelor, proceduri de insolvență și restructurări transfrontaliere. Practica noastră oferă soluții strategice, orientate către aspectele comerciale, menite să protejeze valoarea, să gestioneze riscurile și să susțină continuitatea activității în situații financiare complexe. De asemenea, acționăm în calitate de administratori judiciari și lichidatori numiți de instanță în cadrul unor proceduri complexe de restructurare și insolvență, coordonând recuperarea activelor, relațiile cu creditorii, reorganizarea afacerilor și procesele de lichidare.',
       'split.ins.s1':'Acordul de restructurare','split.ins.s2':'Concordatul preventiv','split.ins.s3':'Insolvență','split.ins.s4':'Reorganizare','split.ins.s5':'Faliment','split.ins.s6':'Restructurare extrajudiciară','split.ins.s7':'Lichidări voluntare persoane juridice','split.ins.s8':'Lichidarea organizațiilor non-profit','split.ins.s9':'Recuperări creanțe','split.ins.s10':'Executări silite',
       'about.tag':'Cunoaște fondatorul','about.img.role':'Fondator',
       'about.title':'Expertiză solidă.<br><em>Soluții adaptate.</em>',
@@ -3196,6 +3305,12 @@
       'pub4.title':'Comentarii privind influențele aduse pieței insolvenței prin modificarea Legii nr. 85/2014',
       'pub5.title':'Comentarii privind impactul adus mediului de afaceri prin modificarea Codului Insolvenței',
       'pub6.title':'Procedura insolvenței în România și salariații',
+      'pub.ex1':'Examinează amendamentele legislative recente care simplifică mecanismele de prevenire a insolvenței și procedurile judiciare din România, analizând impactul practic asupra creditorilor, debitorilor și practicii judiciare.',
+      'pub.ex2':'Analizează instrumentele de avertizare timpurie disponibile sub legislația română actuală a insolvenței, cu accent pe aplicabilitatea practică pentru companiile în dificultate.',
+      'pub.ex4':'Analizează modul în care modificările din 2019 ale Legii nr. 85/2014 reconfigurează piața insolvenței, afectând ordinea de prioritate a creditorilor și practica judiciară.',
+      'pub.ex5':'Evaluează consecințele pentru mediul de afaceri ale Codului insolvenței modificat, inclusiv impactul asupra viabilității restructurării și ratelor de recuperare ale creditorilor.',
+      'pub.read':'Citește articolul',
+      'pub.archive':'Lucrare de pionierat',
       'newsletter.title':'Newsletter juridic','newsletter.sub':'Noutăți legislative și articole de specialitate, direct în inbox.','newsletter.ph':'Adresa de email','newsletter.btn':'Abonați-vă',
       'contact.title':'Să<br>discutăm<br><em>cazul dvs.</em>',
       'contact.desc':'Disponibili pentru consultații în București și online. Comunicarea inițială poate fi realizată telefonic, prin email sau prin formularul de contact.',
@@ -3260,11 +3375,11 @@
       'hero.stat1':'Years of<br>practice','hero.stat2':'Professional<br>qualifications','hero.stat3':'Industries<br>served',
       'hero.quote.text':'"No man is above the law and no man below it. Justice is conscience, not a personal conscience but the conscience of the whole humanity."',
       'split.law.tag':'Law Firm','split.law.slogan':'Defense. Consulting. Representation.',
-      'split.law.desc':'We provide legal advice, assistance and representation before courts, authorities and public institutions, for individuals and legal entities, as well as drafting legal documents, participation in negotiations and other activities specific to the legal profession. Each mandate is approached with analytical rigor, providing a personalised strategy that takes into account the specific circumstances of each case.',
-      'split.law.s1':'Civil & Commercial','split.law.s2':'Corporate','split.law.s3':'Debt Recovery & Enforcement','split.law.s4':'Litigation & Arbitration','split.law.s5':'Administrative Offences & Criminal','split.law.s6':'Employment & Labour Relations','split.law.s7':'Construction, Infrastructure & Real Estate','split.law.s8':'Technology & Data Protection','split.law.s9':'Administrative & Tax Disputes','split.law.s10':'Insurance',
+      'split.law.desc':'We provide legal advice, assistance and representation before courts, authorities and public institutions, for individuals and legal entities, as well as drafting legal documents, participation in negotiations and other activities specific to the legal profession. Each mandate is approached with analytical rigor, providing a personalised strategy that takes into account the specific circumstances of each case. Our goal is to deliver efficient, commercially driven and cost-effective solutions.',
+      'split.law.s1':'Civil & Commercial','split.law.s2':'Corporate','split.law.s3':'Debt Collection & Enforcement','split.law.s4':'Litigation & Arbitration','split.law.s5':'Misdemeanors & Criminal defense','split.law.s6':'Labor & Employment','split.law.s7':'Construction, Infrastructure & Real Estate','split.law.s8':'Technology & Data Protection','split.law.s9':'Administrative & Tax Litigation','split.law.s10':'Insurance',
       'split.link':'Service Details',
       'split.ins.tag':'Individual Insolvency Practice','split.ins.slogan':'Restructuring. Recovery. Rehabilitation.',
-      'split.ins.desc':'As insolvency experts, we advise clients on all aspects of insolvency and restructuring, including business recovery, distressed transactions, creditor enforcement, insolvency proceedings and cross-border restructurings. We also act as court-appointed judicial administrators and liquidators in complex restructuring and insolvency proceedings.',
+      'split.ins.desc':'As insolvency experts, we advise clients on all aspects of insolvency and restructuring, including corporate recovery, distressed transactions, debt enforcement, insolvency proceedings and cross-border restructurings. Our practice delivers strategic, commercially focused solutions designed to protect value, manage risk and support business continuity in complex financial situations. We also act as court-appointed insolvency administrators and liquidators in complex restructuring and insolvency proceedings, overseeing asset recovery, creditor relations, business reorganization and liquidation processes.',
       'split.ins.s1':'Restructuring Agreement','split.ins.s2':'Preventive Concordat','split.ins.s3':'Insolvency','split.ins.s4':'Reorganisation','split.ins.s5':'Bankruptcy','split.ins.s6':'Out-of-court Restructuring','split.ins.s7':'Voluntary Liquidations of Legal Entities','split.ins.s8':'Liquidation of Non-profit Organisations','split.ins.s9':'Debt Recovery','split.ins.s10':'Enforcement Proceedings',
       'about.tag':'Meet the Founder','about.img.role':'Founder',
       'about.title':'Solid expertise.<br><em>Tailored solutions.</em>',
@@ -3274,10 +3389,16 @@
       'stat1':'Years of<br>experience','stat2':'Professional<br>qualifications','stat3':'Industries<br>served','stat4':'Working<br>languages',
       'ind.tag':'Industries served','ind.title':'<em>Multisectoral</em> expertise',
       'pub.tag':'Publications & Visibility','pub.title':'A leading<br><em>voice in the field</em>',
-      'pub2.title':'Early warning tools according to current special insolvency regulations',
+      'pub2.title':'Early warning tools available for the Romanian public',
       'pub4.title':'Comments on the influences brought to the insolvency market by amending Law no. 85/2014',
       'pub5.title':'Comments on the impact brought to the business environment by amending the Insolvency Code',
       'pub6.title':'Insolvency proceedings in Romania and employees',
+      'pub.ex1':'Examines recent legislative amendments streamlining Romania\'s insolvency prevention mechanisms and insolvency proceedings, analysing their practical impact on creditors, debtors and judicial practice.',
+      'pub.ex2':'Analyzes the early warning tools available under Romania\'s current insolvency legislation, focusing on practical application for distressed businesses.',
+      'pub.ex4':'Examines how the 2019 amendments to Law 85/2014 reshape the insolvency market, affecting creditor rankings, procedural timelines and judicial practice.',
+      'pub.ex5':'Assesses the business-facing consequences of the amended Insolvency Code, including effects on restructuring viability and creditor recovery rates.',
+      'pub.read':'Read the article',
+      'pub.archive':'Foundational work',
       'newsletter.title':'Legal Newsletter','newsletter.sub':'Legislative updates and specialty articles, directly in your inbox.','newsletter.ph':'Email address','newsletter.btn':'Subscribe',
       'contact.title':'Let\'s discuss<br>your<br><em>case.</em>',
       'contact.desc':'Available for consultations in Bucharest and online. Initial contact can be made by phone, email or through the contact form.',
