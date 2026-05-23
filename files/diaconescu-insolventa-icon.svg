@@ -1,30 +1,30 @@
 <svg viewBox="100 75 200 255" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
   <title>Cabinet Individual de Insolvență — Phoenix</title>
-  <path d="M200 210 L165 195 L130 187 L112 180 L120 172" fill="none" stroke="#b8975a" stroke-width="1.5" stroke-linejoin="bevel"/>
-  <path d="M200 218 L160 202 L125 195 L108 190" fill="none" stroke="#b8975a" stroke-width="0.8" stroke-linejoin="bevel" opacity="0.4"/>
-  <line x1="165" y1="195" x2="157" y2="181" stroke="#b8975a" stroke-width="0.6" opacity="0.35"/>
-  <line x1="143" y1="189" x2="138" y2="176" stroke="#b8975a" stroke-width="0.6" opacity="0.3"/>
-  <path d="M120 172 L108 162 L114 172" fill="none" stroke="#b8975a" stroke-width="0.9" opacity="0.6"/>
-  <path d="M200 210 L235 195 L270 187 L288 180 L280 172" fill="none" stroke="#b8975a" stroke-width="1.5" stroke-linejoin="bevel"/>
-  <path d="M200 218 L240 202 L275 195 L292 190" fill="none" stroke="#b8975a" stroke-width="0.8" stroke-linejoin="bevel" opacity="0.4"/>
-  <line x1="235" y1="195" x2="243" y2="181" stroke="#b8975a" stroke-width="0.6" opacity="0.35"/>
-  <line x1="257" y1="189" x2="262" y2="176" stroke="#b8975a" stroke-width="0.6" opacity="0.3"/>
-  <path d="M280 172 L292 162 L286 172" fill="none" stroke="#b8975a" stroke-width="0.9" opacity="0.6"/>
-  <line x1="200" y1="260" x2="200" y2="142" stroke="#b8975a" stroke-width="2.2"/>
-  <path d="M200 130 L206 138 L200 146 L194 138 Z" fill="#b8975a" opacity="0.8"/>
-  <line x1="193" y1="132" x2="188" y2="108" stroke="#b8975a" stroke-width="1" stroke-linecap="square"/>
-  <line x1="200" y1="129" x2="200" y2="95" stroke="#b8975a" stroke-width="1.3" stroke-linecap="square"/>
-  <line x1="207" y1="132" x2="212" y2="108" stroke="#b8975a" stroke-width="1" stroke-linecap="square"/>
-  <path d="M188 108 L190 103 L188 98 L186 103 Z" fill="#b8975a" opacity="0.5"/>
-  <path d="M200 95 L203 89 L200 83 L197 89 Z" fill="#b8975a" opacity="0.6"/>
-  <path d="M212 108 L214 103 L212 98 L210 103 Z" fill="#b8975a" opacity="0.5"/>
-  <path d="M200 260 L191 285 L200 280 L209 285 Z" fill="#b8975a" opacity="0.5"/>
-  <path d="M200 280 L189 308 L200 301 L211 308 Z" fill="#b8975a" opacity="0.35"/>
-  <path d="M200 301 L193 322 L200 317 L207 322 Z" fill="#b8975a" opacity="0.2"/>
-  <path d="M191 285 L180 297 L189 292" fill="none" stroke="#b8975a" stroke-width="0.7" opacity="0.3"/>
-  <path d="M209 285 L220 297 L211 292" fill="none" stroke="#b8975a" stroke-width="0.7" opacity="0.3"/>
-  <path d="M178 128 L180 124 L178 120 L176 124 Z" fill="#b8975a" opacity="0.15"/>
-  <path d="M225 122 L227 118 L225 114 L223 118 Z" fill="#b8975a" opacity="0.12"/>
-  <path d="M184 104 L185.5 101 L184 98 L182.5 101 Z" fill="#b8975a" opacity="0.1"/>
-  <path d="M218 108 L219.5 105 L218 102 L216.5 105 Z" fill="#b8975a" opacity="0.1"/>
+  <path d="M200 210 L165 195 L130 187 L112 180 L120 172" fill="none" stroke="#b8975a" stroke-width="10" stroke-linejoin="bevel"/>
+  <path d="M200 218 L160 202 L125 195 L108 190" fill="none" stroke="#b8975a" stroke-width="5" stroke-linejoin="bevel" opacity="0.4"/>
+  <line x1="165" y1="195" x2="157" y2="181" stroke="#b8975a" stroke-width="4" opacity="0.5"/>
+  <line x1="143" y1="189" x2="138" y2="176" stroke="#b8975a" stroke-width="4" opacity="0.4"/>
+  <path d="M120 172 L108 162 L114 172" fill="none" stroke="#b8975a" stroke-width="6" opacity="0.7"/>
+  <path d="M200 210 L235 195 L270 187 L288 180 L280 172" fill="none" stroke="#b8975a" stroke-width="10" stroke-linejoin="bevel"/>
+  <path d="M200 218 L240 202 L275 195 L292 190" fill="none" stroke="#b8975a" stroke-width="5" stroke-linejoin="bevel" opacity="0.4"/>
+  <line x1="235" y1="195" x2="243" y2="181" stroke="#b8975a" stroke-width="4" opacity="0.5"/>
+  <line x1="257" y1="189" x2="262" y2="176" stroke="#b8975a" stroke-width="4" opacity="0.4"/>
+  <path d="M280 172 L292 162 L286 172" fill="none" stroke="#b8975a" stroke-width="6" opacity="0.7"/>
+  <line x1="200" y1="260" x2="200" y2="142" stroke="#b8975a" stroke-width="12"/>
+  <path d="M200 130 L206 138 L200 146 L194 138 Z" fill="#b8975a" opacity="0.9"/>
+  <line x1="193" y1="132" x2="188" y2="108" stroke="#b8975a" stroke-width="6" stroke-linecap="square"/>
+  <line x1="200" y1="129" x2="200" y2="95" stroke="#b8975a" stroke-width="8" stroke-linecap="square"/>
+  <line x1="207" y1="132" x2="212" y2="108" stroke="#b8975a" stroke-width="6" stroke-linecap="square"/>
+  <path d="M188 108 L190 103 L188 98 L186 103 Z" fill="#b8975a" opacity="0.7"/>
+  <path d="M200 95 L203 89 L200 83 L197 89 Z" fill="#b8975a" opacity="0.8"/>
+  <path d="M212 108 L214 103 L212 98 L210 103 Z" fill="#b8975a" opacity="0.7"/>
+  <path d="M200 260 L191 285 L200 280 L209 285 Z" fill="#b8975a" opacity="0.7"/>
+  <path d="M200 280 L189 308 L200 301 L211 308 Z" fill="#b8975a" opacity="0.5"/>
+  <path d="M200 301 L193 322 L200 317 L207 322 Z" fill="#b8975a" opacity="0.35"/>
+  <path d="M191 285 L180 297 L189 292" fill="none" stroke="#b8975a" stroke-width="4" opacity="0.5"/>
+  <path d="M209 285 L220 297 L211 292" fill="none" stroke="#b8975a" stroke-width="4" opacity="0.5"/>
+  <path d="M178 128 L180 124 L178 120 L176 124 Z" fill="#b8975a" opacity="0.3"/>
+  <path d="M225 122 L227 118 L225 114 L223 118 Z" fill="#b8975a" opacity="0.25"/>
+  <path d="M184 104 L185.5 101 L184 98 L182.5 101 Z" fill="#b8975a" opacity="0.2"/>
+  <path d="M218 108 L219.5 105 L218 102 L216.5 105 Z" fill="#b8975a" opacity="0.2"/>
 </svg>

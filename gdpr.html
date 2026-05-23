@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDPR — Protecția Datelor — Diaconescu Partners</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy:      #0d1b2a;
+      --navy-mid:  #152238;
+      --gold:      #b8975a;
+      --gold-light:#d4b483;
+      --white:     #f5f2ec;
+      --gray:      #8a9bb0;
+      --font-display: 'EB Garamond', serif;
+      --font-body:    'Montserrat', sans-serif;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { background: var(--navy); color: var(--white); font-family: var(--font-body); -webkit-font-smoothing: antialiased; }
+
+    nav {
+      position: sticky; top: 0; z-index: 10;
+      padding: 18px 60px;
+      background: rgba(13,27,42,0.97);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(184,151,90,0.15);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo { font-family: var(--font-display); font-size: 20px; font-weight: 400; color: var(--white); text-decoration: none; }
+    .nav-logo span { color: var(--gold); }
+    .nav-back { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gray); text-decoration: none; transition: color 0.3s; display: flex; align-items: center; gap: 8px; }
+    .nav-back::before { content: '←'; font-size: 12px; }
+    .nav-back:hover { color: var(--gold); }
+
+    main { max-width: 820px; margin: 0 auto; padding: 80px 40px 120px; }
+    .doc-tag { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; }
+    h1 { font-family: var(--font-display); font-size: 44px; font-weight: 400; color: var(--white); line-height: 1.15; margin-bottom: 12px; }
+    .doc-sub { font-family: var(--font-display); font-size: 22px; font-weight: 400; font-style: italic; color: var(--gray); margin-bottom: 12px; }
+    .doc-meta { font-size: 11px; color: var(--gray); letter-spacing: 0.05em; margin-bottom: 56px; padding-bottom: 40px; border-bottom: 1px solid rgba(184,151,90,0.12); }
+    h2 { font-size: 10px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin: 52px 0 20px; }
+    .section-number { display: inline-block; font-size: 9px; letter-spacing: 0.15em; color: rgba(184,151,90,0.45); margin-right: 8px; }
+    p { font-size: 14px; line-height: 1.9; color: rgba(245,242,236,0.72); margin-bottom: 14px; }
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { color: var(--gold-light); text-decoration: underline; }
+    .divider { height: 1px; background: linear-gradient(90deg, rgba(184,151,90,0.2), transparent); margin: 20px 0 0; }
+
+    /* RIGHTS GRID */
+    .rights-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 8px 0 24px; }
+    .right-card {
+      border: 1px solid rgba(184,151,90,0.12);
+      border-radius: 2px;
+      padding: 22px 24px;
+      background: rgba(21,34,56,0.4);
+      transition: border-color 0.3s;
+    }
+    .right-card:hover { border-color: rgba(184,151,90,0.28); }
+    .right-article {
+      font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase;
+      color: rgba(184,151,90,0.5); margin-bottom: 8px;
+    }
+    .right-card h3 {
+      font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--white); margin-bottom: 10px; font-weight: 500;
+    }
+    .right-card p { font-size: 13px; line-height: 1.75; margin: 0; }
+
+    /* ANSPDCP BLOCK */
+    .authority-block {
+      border-left: 2px solid rgba(184,151,90,0.3);
+      padding: 20px 28px;
+      margin: 24px 0;
+      background: rgba(21,34,56,0.3);
+    }
+    .authority-block p { margin-bottom: 8px; font-size: 13px; }
+    .authority-block p:last-child { margin-bottom: 0; }
+
+    /* CONTACT BLOCK */
+    .contact-block {
+      border: 1px solid rgba(184,151,90,0.15);
+      border-radius: 2px;
+      padding: 28px 32px;
+      margin-top: 16px;
+      background: rgba(21,34,56,0.4);
+    }
+    .contact-block p { margin-bottom: 8px; font-size: 14px; }
+    .contact-block p:last-child { margin-bottom: 0; }
+
+    footer { text-align: center; padding: 36px 40px; border-top: 1px solid rgba(184,151,90,0.08); font-size: 11px; color: rgba(138,155,176,0.4); letter-spacing: 0.05em; }
+    footer a { color: rgba(138,155,176,0.4); text-decoration: none; margin: 0 12px; transition: color 0.3s; }
+    footer a:hover { color: var(--gray); text-decoration: none; }
+
+    @media (max-width: 700px) {
+      nav { padding: 16px 24px; }
+      main { padding: 48px 24px 80px; }
+      h1 { font-size: 32px; }
+      .rights-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">Diaconescu <span>Partners</span></a>
+  <a class="nav-back" href="index.html">Înapoi la site</a>
+</nav>
+
+<main>
+  <p class="doc-tag">Regulamentul UE nr. 679/2016</p>
+  <h1>GDPR</h1>
+  <p class="doc-sub">Protecția datelor dumneavoastră personale</p>
+  <p class="doc-meta">Ultima actualizare: mai 2026</p>
+
+  <p>Cabinet de Avocat Diaconescu Roxana-Elena este angajat față de respectarea și protejarea drepturilor dumneavoastră în conformitate cu <strong>Regulamentul General privind Protecția Datelor (GDPR — Regulamentul UE nr. 679/2016)</strong>, în vigoare pe teritoriul Uniunii Europene începând cu 25 mai 2018.</p>
+  <p>În calitate de cabinet de avocat și practician în insolvență, suntem, de asemenea, supuși unor obligații suplimentare de confidențialitate prin Legea nr. 51/1995 și Legea nr. 85/2014, ceea ce conferă datelor furnizate în contextul unui mandat juridic cel mai înalt nivel de protecție legală.</p>
+  <div class="divider"></div>
+
+  <h2><span class="section-number">01.</span> Drepturile dumneavoastră</h2>
+  <p>În temeiul GDPR, beneficiați de următoarele drepturi în legătură cu datele dumneavoastră cu caracter personal:</p>
+
+  <div class="rights-grid">
+    <div class="right-card">
+      <p class="right-article">Art. 15 GDPR</p>
+      <h3>Dreptul de acces</h3>
+      <p>Solicitați o copie a datelor personale pe care le deținem despre dumneavoastră, alături de informații privind scopul, durata prelucrării și categoriile de destinatari.</p>
+    </div>
+    <div class="right-card">
+      <p class="right-article">Art. 16 GDPR</p>
+      <h3>Dreptul la rectificare</h3>
+      <p>Solicitați corectarea sau completarea datelor personale inexacte sau incomplete care vă privesc.</p>
+    </div>
+    <div class="right-card">
+      <p class="right-article">Art. 17 GDPR</p>
+      <h3>Dreptul la ștergere</h3>
+      <p>Solicitați ștergerea datelor dumneavoastră atunci când acestea nu mai sunt necesare scopului pentru care au fost colectate sau când vă retrageți consimțământul.</p>
+    </div>
+    <div class="right-card">
+      <p class="right-article">Art. 18 GDPR</p>
+      <h3>Dreptul la restricționare</h3>
+      <p>Solicitați suspendarea prelucrării datelor dumneavoastră în anumite circumstanțe, de exemplu atunci când contestați exactitatea datelor.</p>
+    </div>
+    <div class="right-card">
+      <p class="right-article">Art. 20 GDPR</p>
+      <h3>Dreptul la portabilitate</h3>
+      <p>Primiți datele pe care ni le-ați furnizat într-un format structurat, lizibil automat, și să le transmiteți unui alt operator de date.</p>
+    </div>
+    <div class="right-card">
+      <p class="right-article">Art. 21 GDPR</p>
+      <h3>Dreptul de opoziție</h3>
+      <p>Opuneți-vă prelucrării datelor dumneavoastră bazate pe interesul nostru legitim sau în scopuri de marketing direct, fără a fi necesară o justificare din partea dumneavoastră.</p>
+    </div>
+    <div class="right-card">
+      <p class="right-article">Art. 22 GDPR</p>
+      <h3>Dreptul față de decizia automată</h3>
+      <p>Nu utilizăm procese automate de luare a deciziilor sau profilare cu efecte juridice semnificative. Toate deciziile referitoare la mandatele juridice implică analiză umană.</p>
+    </div>
+    <div class="right-card">
+      <p class="right-article">Art. 7 GDPR</p>
+      <h3>Retragerea consimțământului</h3>
+      <p>Atunci când prelucrarea se bazează pe consimțământul dumneavoastră, îl puteți retrage în orice moment, fără a afecta legalitatea prelucrării anterioare retragerii.</p>
+    </div>
+  </div>
+  <div class="divider"></div>
+
+  <h2><span class="section-number">02.</span> Cum vă exercitați drepturile</h2>
+  <p>Transmiteți solicitarea dumneavoastră scrisă prin oricare dintre mijloacele de mai jos. Vom răspunde în termen de <strong>maximum 30 de zile calendaristice</strong> de la primirea solicitării.</p>
+  <div class="contact-block">
+    <p><strong>Cabinet de Avocat Diaconescu Roxana-Elena</strong></p>
+    <p>E-mail: <a href="mailto:office@diaconescu-partners.ro">office@diaconescu-partners.ro</a></p>
+    <p>Telefon: <a href="tel:+40745755301">+40 745 755 301</a></p>
+    <p>Adresă: Str. Gheorghe Buciumat nr. 26, Bl. A, Et. 4, Ap. 401, Sector 1, București, România</p>
+  </div>
+  <div class="divider"></div>
+
+  <h2><span class="section-number">03.</span> Autoritatea de supraveghere</h2>
+  <p>Dacă considerați că drepturile dumneavoastră au fost încălcate sau că datele dumneavoastră personale sunt prelucrate în mod nelegal, aveți dreptul de a formula o plângere la autoritatea națională de supraveghere:</p>
+  <div class="authority-block">
+    <p><strong>Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP)</strong></p>
+    <p>Website: <a href="https://www.dataprotection.ro" target="_blank" rel="noopener">www.dataprotection.ro</a></p>
+    <p>E-mail: <a href="mailto:anspdcp@dataprotection.ro">anspdcp@dataprotection.ro</a></p>
+    <p>Adresă: B-dul G-ral. Gheorghe Magheru 28–30, Sector 1, București, România</p>
+  </div>
+  <p>Ne-ar face plăcere să soluționăm preocupările dumneavoastră direct, înainte de a vă adresa autorității — vă rugăm să ne contactați în primă instanță.</p>
+  <div class="divider"></div>
+
+  <h2><span class="section-number">04.</span> Documentele complete</h2>
+  <p>Pentru informații detaliate despre modul în care colectăm, stocăm și prelucrăm datele dumneavoastră, consultați documentele noastre complete:</p>
+  <p>
+    → <a href="politica-confidentialitate.html">Politică de Confidențialitate</a> — prelucrarea datelor personale, scopuri, temeiuri juridice, perioadă de retenție.<br>
+    → <a href="politica-cookies.html">Politică de Cookies</a> — tipuri de cookies utilizate și modul de gestionare.<br>
+    → <a href="termeni-conditii.html">Termeni &amp; Condiții</a> — condițiile de utilizare ale website-ului.
+  </p>
+</main>
+
+<footer>
+  <p>© 2026 Diaconescu Roxana-Elena — Cabinet de Avocat &amp; Cabinet Individual de Insolvență</p>
+  <p style="margin-top:12px;">
+    <a href="politica-cookies.html">Politică de Cookies</a>
+    <a href="politica-confidentialitate.html">Politică de Confidențialitate</a>
+    <a href="gdpr.html">GDPR</a>
+    <a href="termeni-conditii.html">Termeni &amp; Condiții</a>
+  </p>
+</footer>
+
+</body>
+</html>

@@ -22,12 +22,6 @@
     --font-title: 'EB Garamond', Georgia, serif;
     --font-body: 'Montserrat', sans-serif;
   }
-  :root.silver-theme {
-    --gold: #96afc0;
-    --gold-light: #b0c6d4;
-    --gold-pale: #ccdae2;
-  }
-
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
   a[href^="tel"], a[href^="mailto"] { cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: rgba(184,151,90,0.15); }
 
@@ -56,7 +50,6 @@
     padding: 28px 60px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     transition: all 0.5s ease;
   }
   nav.scrolled {
@@ -65,12 +58,14 @@
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(184,151,90,0.15);
   }
-  .nav-logo {
+  a.nav-logo {
+    text-decoration: none;
+    color: inherit;
     display: flex;
     align-items: center;
     gap: 14px;
-    text-decoration: none;
   }
+  a.nav-logo:hover { opacity: 1; }
   .nav-logo-svg {
     height: 56px;
     width: auto;
@@ -91,9 +86,12 @@
   }
   .nav-links {
     display: flex;
-    gap: 40px;
+    gap: 24px;
     list-style: none;
     align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .nav-links a {
     font-size: 11px;
@@ -114,47 +112,127 @@
   }
   .nav-links a:hover { color: var(--white); }
   .nav-links a:hover::after { width: 100%; }
+
+  /* NAV DROPDOWN */
+  .nav-dropdown {
+    position: relative;
+  }
+  .nav-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 20px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-6px);
+    background: rgba(13,27,42,0.98);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(184,151,90,0.18);
+    border-radius: 2px;
+    padding: 8px 0;
+    list-style: none;
+    min-width: 240px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 200;
+  }
+  .nav-dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -1px; left: 24px; right: 24px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    opacity: 0.6;
+  }
+  /* transparent bridge fills the gap so hover isn't lost while moving mouse down */
+  .nav-dropdown-menu::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 0; right: 0;
+    height: 20px;
+  }
+  .nav-dropdown:hover .nav-dropdown-menu {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateX(-50%) translateY(0);
+  }
+  .nav-dropdown-menu li a {
+    display: block;
+    padding: 9px 22px;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(245,242,236,0.65);
+    text-decoration: none;
+    transition: color 0.2s, padding-left 0.2s;
+    white-space: nowrap;
+  }
+  .nav-dropdown-menu li a:hover {
+    color: var(--gold);
+    padding-left: 28px;
+  }
+  .nav-dropdown-menu li a::after { display: none !important; }
+
+  /* MOBILE NAV GROUP LABEL */
+  .mobile-nav-group-label {
+    font-size: 9px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--gold);
+    opacity: 0.8;
+    padding: 18px 0 6px;
+    list-style: none;
+  }
+  .mobile-nav-sub {
+    font-size: 10px !important;
+    padding-left: 14px !important;
+    opacity: 0.7;
+  }
+
+  /* PLACEHOLDER SECTIONS */
+  .placeholder-section {
+    padding: 80px 60px;
+    text-align: center;
+    border-top: 1px solid rgba(184,151,90,0.08);
+  }
+  .placeholder-inner {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .placeholder-desc {
+    color: var(--gray);
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 1.75;
+  }
+  @media (max-width: 900px) {
+    .placeholder-section { padding: 60px 24px; }
+  }
   .nav-lang {
     display: flex;
-    gap: 8px;
+    gap: 0;
     align-items: center;
+    margin-left: auto;
+    margin-right: 0;
+    border: 1px solid rgba(245,242,236,0.15);
+    border-radius: 20px;
+    padding: 2px 4px;
   }
   .lang-btn {
-    font-size: 10px;
-    letter-spacing: 0.2em;
-    color: var(--gray);
+    font-size: 9px;
+    letter-spacing: 0.18em;
+    color: rgba(245,242,236,0.75);
     background: none;
     border: none;
     cursor: none;
     transition: color 0.3s;
-    padding: 4px 8px;
+    padding: 3px 7px;
+    font-family: var(--font-body);
+    font-weight: 500;
   }
-  .lang-btn.active { color: var(--gold); border-bottom: 1px solid var(--gold); }
+  .lang-btn.active { color: var(--gold); }
   .lang-btn:hover { color: var(--white); }
-  .lang-divider { color: var(--navy-light); font-size: 12px; }
-  .theme-toggle {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    background: none;
-    border: 1px solid rgba(255,255,255,0.08);
-    cursor: pointer;
-    padding: 5px 8px;
-    border-radius: 20px;
-    transition: border-color 0.3s;
-    margin-left: 8px;
-  }
-  .theme-toggle:hover { border-color: rgba(255,255,255,0.2); }
-  .theme-dot {
-    width: 9px; height: 9px;
-    border-radius: 50%;
-    transition: opacity 0.3s, transform 0.3s;
-  }
-  .theme-dot-gold { background: #b8975a; }
-  .theme-dot-silver { background: #96afc0; opacity: 0.4; }
-  .silver-theme .theme-dot-gold { opacity: 0.4; }
-  .silver-theme .theme-dot-silver { opacity: 1; }
-
+  .lang-divider { color: rgba(245,242,236,0.2); font-size: 10px; }
   /* HERO */
   .hero {
     position: relative;
@@ -272,9 +350,10 @@
     animation: fadeUp 1s ease 0.8s forwards;
   }
   .hero-cta-group {
-    display: flex;
-    gap: 24px;
-    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
   }
   .btn-primary {
     display: inline-flex;
@@ -306,6 +385,7 @@
   .btn-ghost {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 12px;
     padding: 16px 36px;
     border: 1px solid rgba(184,151,90,0.4);
@@ -1146,6 +1226,8 @@
     transition: all 0.4s ease;
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
   }
   .faq-tab::before {
     content: '';
@@ -1168,9 +1250,11 @@
   .faq-tab.active::before { width: 100%; }
 
   .faq-tab-icon {
-    display: inline-block;
-    margin-right: 10px;
-    opacity: 0.6;
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    flex-shrink: 0;
+    opacity: 0.85;
   }
   .faq-tab.active .faq-tab-icon { opacity: 1; }
 
@@ -1289,13 +1373,22 @@
     overflow: hidden;
     transition: max-height 0.5s ease, padding 0.3s ease;
   }
-  .faq-item.open .faq-answer { max-height: 400px; }
+  .faq-item.open .faq-answer { max-height: 900px; }
 
   .faq-answer-inner {
     padding: 0 32px 32px 92px;
     font-size: 13px;
     line-height: 2;
     color: rgba(245,242,236,0.6);
+  }
+
+  .faq-answer-inner ul {
+    margin: 10px 0 12px 20px;
+    padding: 0;
+  }
+  .faq-answer-inner ul li {
+    margin-bottom: 4px;
+    padding-left: 4px;
   }
 
   .faq-answer-inner a {
@@ -1818,6 +1911,155 @@
     .pub-card { padding: 28px 24px; }
     footer { padding: 48px 20px 32px; }
   }
+
+  /* HERO QUOTE */
+  .hero-quote {
+    position: absolute;
+    left: 80px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    max-width: 280px;
+    opacity: 0;
+    animation: fadeUp 1s ease 1.1s forwards;
+  }
+  .hero-quote-text {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.8;
+    color: rgba(245,242,236,0.65);
+    margin-bottom: 14px;
+  }
+  .hero-quote-line {
+    display: block;
+    width: 30px;
+    height: 1px;
+    background: var(--gold);
+    margin-bottom: 10px;
+    opacity: 0.6;
+  }
+  .hero-quote-author {
+    display: block;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  @media (max-width: 900px) {
+    .hero-quote { display: none; }
+  }
+
+  /* CAREERS SECTION */
+  .careers-section {
+    padding: 160px 60px;
+    background: var(--navy-mid);
+    position: relative;
+    overflow: hidden;
+  }
+  .careers-section::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(184,151,90,0.3), transparent);
+  }
+  .careers-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 120px;
+    align-items: start;
+  }
+  .careers-left {}
+  .careers-title {
+    font-family: var(--font-display);
+    font-size: clamp(32px, 3.5vw, 52px);
+    font-weight: 300;
+    line-height: 1.1;
+    color: var(--white);
+    margin-bottom: 24px;
+  }
+  .careers-title em { font-style: italic; color: var(--gold-light); }
+  .careers-desc {
+    font-size: 14px;
+    line-height: 2;
+    color: var(--gray);
+  }
+  .careers-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .careers-consent {
+    font-size: 11px;
+    line-height: 1.7;
+    color: rgba(138,155,176,0.6);
+    margin-top: 8px;
+  }
+  .careers-consent a {
+    color: var(--gold);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(184,151,90,0.3);
+    transition: border-color 0.3s;
+  }
+  .careers-consent a:hover { border-color: var(--gold); }
+  .form-upload-label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .form-upload-tag {
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gray);
+  }
+  .form-upload-tag .optional {
+    color: rgba(138,155,176,0.45);
+    font-size: 8px;
+    letter-spacing: 0.1em;
+    text-transform: none;
+    margin-left: 4px;
+  }
+  .form-field input[type="file"] {
+    padding: 14px 20px;
+    color: var(--gray);
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .form-field input[type="file"]::file-selector-button {
+    background: transparent;
+    border: 1px solid rgba(184,151,90,0.25);
+    color: var(--gold);
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .form-field input[type="file"]::file-selector-button:hover {
+    background: rgba(184,151,90,0.06);
+    border-color: var(--gold);
+  }
+  @media (max-width: 900px) {
+    .careers-section { padding: 100px 24px; }
+    .careers-inner { grid-template-columns: 1fr; gap: 60px; }
+  }
+
+  /* MEMBERSHIP BADGE AS LINK */
+  a.membership-badge {
+    text-decoration: none;
+    transition: color 0.3s, border-color 0.3s;
+  }
+  a.membership-badge:hover {
+    color: var(--gold);
+    border-color: rgba(184,151,90,0.4);
+  }
 </style>
 </head>
 <body>
@@ -1828,7 +2070,7 @@
 
 <!-- NAV -->
 <nav id="mainNav">
-  <div class="nav-logo">
+  <a class="nav-logo" href="#hero" aria-label="Acasă">
     <svg class="nav-logo-svg" viewBox="0 0 160 130" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M80 10 L104 18 L118 38 L118 62 L104 82 L80 90 L56 82 L42 62 L42 38 L56 18 Z" stroke="#b8975a" stroke-width="1" fill="none" opacity="0.5"/>
       <path d="M80 16 L101 23 L113 41 L113 59 L101 77 L80 84 L59 77 L47 59 L47 41 L59 23 Z" stroke="#b8975a" stroke-width="0.4" fill="none" opacity="0.25"/>
@@ -1842,23 +2084,33 @@
     <div class="nav-logo-text">
       <span class="nav-logo-main">Diaconescu Partners</span>
     </div>
-  </div>
+  </a>
   <ul class="nav-links">
-    <li><a href="#about" data-i18n="nav.about">Despre</a></li>
-    <li><a href="#cabinets" data-i18n="nav.services">Servicii</a></li>
-    <li><a href="#publications" data-i18n="nav.publications">Articole</a></li>
-    <li><a href="#news" data-i18n="nav.news">Știri</a></li>
-    <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+    <li><a href="#about" data-i18n="nav.about">Despre noi</a></li>
+    <li class="nav-dropdown">
+      <a href="#cabinets" data-i18n="nav.services">Servicii</a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="#cabinets" data-i18n="nav.svc.law">Cabinet de Avocat</a></li>
+        <li><a href="#cabinets" data-i18n="nav.svc.ins">Cabinet de Insolvență</a></li>
+        <li><a href="#portfolio" data-i18n="nav.svc.portfolio">Portofoliu</a></li>
+      </ul>
+    </li>
+    <li class="nav-dropdown">
+      <a href="#publications" data-i18n="nav.pub.group">Publicații</a>
+      <ul class="nav-dropdown-menu">
+        <li><a href="#publications" data-i18n="nav.pub.articles">Articole</a></li>
+        <li><a href="#news" data-i18n="nav.pub.news">Noutăți juridice</a></li>
+        <li><a href="#resources" data-i18n="nav.pub.useful">Resurse utile</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+      </ul>
+    </li>
+    <li><a href="#cariere" data-i18n="nav.careers">Cariere</a></li>
     <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
   </ul>
   <div class="nav-lang">
     <button class="lang-btn active">RO</button>
     <span class="lang-divider">|</span>
     <button class="lang-btn">EN</button>
-    <button class="theme-toggle" id="themeToggle" title="Toggle colour scheme">
-      <span class="theme-dot theme-dot-gold"></span>
-      <span class="theme-dot theme-dot-silver"></span>
-    </button>
   </div>
   <button class="hamburger" id="hamburger" aria-label="Toggle menu">
     <span class="hamburger-line"></span>
@@ -1871,17 +2123,23 @@
 <div class="mobile-menu" id="mobileMenu">
   <div class="mobile-menu-deco">D</div>
   <ul class="mobile-nav-links">
-    <li><a href="#about" class="mobile-nav-link" data-i18n="nav.about">Despre</a></li>
-    <li><a href="#cabinets" class="mobile-nav-link" data-i18n="nav.services">Servicii</a></li>
-    <li><a href="#publications" class="mobile-nav-link" data-i18n="nav.publications">Articole</a></li>
-    <li><a href="#news" class="mobile-nav-link" data-i18n="nav.news">Știri</a></li>
-    <li><a href="#faq" class="mobile-nav-link" data-i18n="nav.faq">FAQ</a></li>
+    <li><a href="#about" class="mobile-nav-link" data-i18n="nav.about">Despre noi</a></li>
+    <li class="mobile-nav-group-label" data-i18n="nav.services">Servicii</li>
+    <li><a href="#cabinets" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.svc.law">Cabinet de Avocat</a></li>
+    <li><a href="#cabinets" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.svc.ins">Cabinet de Insolvență</a></li>
+    <li><a href="#portfolio" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.svc.portfolio">Portofoliu</a></li>
+    <li class="mobile-nav-group-label" data-i18n="nav.pub.group">Publicații</li>
+    <li><a href="#publications" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.pub.articles">Articole</a></li>
+    <li><a href="#news" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.pub.news">Noutăți juridice</a></li>
+    <li><a href="#resources" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.pub.useful">Resurse utile</a></li>
+    <li><a href="#faq" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.faq">FAQ</a></li>
+    <li><a href="#cariere" class="mobile-nav-link" data-i18n="nav.careers">Cariere</a></li>
     <li><a href="#contact" class="mobile-nav-link" data-i18n="nav.contact">Contact</a></li>
   </ul>
 </div>
 
 <!-- HERO -->
-<section class="hero">
+<section class="hero" id="hero">
   <div class="hero-video-wrap">
     <video autoplay muted loop playsinline>
       <source src="background_video.mp4" type="video/mp4">
@@ -1889,16 +2147,22 @@
     <div class="hero-video-fallback"></div>
   </div>
 
+  <div class="hero-quote">
+    <span class="hero-quote-text" data-i18n="hero.quote.text">„Nimeni nu este mai presus de lege și nimeni nu este sub ea. Dreptatea este conștiința, nu o conștiință personală, ci conștiința întregii umanități."</span>
+    <span class="hero-quote-line"></span>
+    <span class="hero-quote-author">Abraham Lincoln</span>
+  </div>
+
   <div class="hero-bottom">
     <div class="hero-cta-group">
+      <a href="#cabinets" class="btn-ghost">
+        <span data-i18n="hero.cta.secondary">Explorați serviciile</span>
+      </a>
       <a href="#contact" class="btn-primary">
         <span data-i18n="hero.cta.primary">Contactăți-ne</span>
         <svg width="16" height="10" viewBox="0 0 16 10" fill="none">
           <path d="M11 1L15 5M15 5L11 9M15 5H1" stroke="currentColor" stroke-width="1.5"/>
         </svg>
-      </a>
-      <a href="#cabinets" class="btn-ghost">
-        <span data-i18n="hero.cta.secondary">Explorați serviciile</span>
       </a>
     </div>
   </div>
@@ -1920,17 +2184,19 @@
     </h2>
     <p class="split-slogan" data-i18n="split.law.slogan">Apărare. Consultanță. Reprezentare.</p>
     <p class="split-desc" data-i18n="split.law.desc">
-      Asistență juridică completă în litigii civile și comerciale, dreptul muncii, contencios administrativ, drept penal și proceduri speciale. Fiecare mandat este abordat cu rigurozitate analitică și strategie adaptată.
+      Oferim consultanță juridică, asistență și reprezentare în fața instanțelor, autorităților și instituțiilor publice, persoanelor fizice și juridice, precum și redactarea de acte juridice, participarea la negocieri și alte activități specifice profesiei de avocat. Fiecare mandat este abordat cu rigurozitate analitică, oferind o strategie personalizată care ține seama de circumstanțele specifice ale fiecărui caz.
     </p>
     <ul class="split-services">
-      <li data-i18n="split.law.s1">Drept Civil</li>
-      <li data-i18n="split.law.s2">Drept Comercial</li>
-      <li data-i18n="split.law.s3">Dreptul Muncii</li>
-      <li data-i18n="split.law.s4">Contencios Fiscal</li>
-      <li data-i18n="split.law.s5">Drept Penal</li>
-      <li data-i18n="split.law.s6">Litigii & Arbitraj</li>
-      <li data-i18n="split.law.s7">Imobiliare</li>
-      <li data-i18n="split.law.s8">Asigurări</li>
+      <li data-i18n="split.law.s1">Civil & Comercial</li>
+      <li data-i18n="split.law.s2">Societar</li>
+      <li data-i18n="split.law.s3">Recuperări creanțe & Executări silite</li>
+      <li data-i18n="split.law.s4">Litigii & Arbitraj</li>
+      <li data-i18n="split.law.s5">Contravențional & Penal</li>
+      <li data-i18n="split.law.s6">Muncă & Relații de muncă</li>
+      <li data-i18n="split.law.s7">Construcții, Infrastructură & Imobiliare</li>
+      <li data-i18n="split.law.s8">Tehnologie & Protecția datelor</li>
+      <li data-i18n="split.law.s9">Contencios Administrativ & Fiscal</li>
+      <li data-i18n="split.law.s10">Asigurări</li>
     </ul>
     <a href="#" class="split-link">
       <span data-i18n="split.link">Detalii servicii</span>
@@ -1948,20 +2214,33 @@
     </h2>
     <p class="split-slogan" data-i18n="split.ins.slogan">Restructurare. Recuperare. Redresare.</p>
     <p class="split-desc" data-i18n="split.ins.desc">
-      Proceduri complexe de insolvență, reorganizare și faliment, lichidări voluntare și recuperare creanțe. Expertiză validată în mandate cu impact național, din industrii diverse și contexte multidisciplinare.
+      Ca experți în domeniul insolvenței, oferim clienților consultanță cu privire la toate aspectele legate de insolvență și restructurare, inclusiv redresarea întreprinderilor, tranzacții cu entități aflate în dificultate, executarea creanțelor, proceduri de insolvență și restructurări transfrontaliere. De asemenea, acționăm în calitate de administratori judiciari și lichidatori numiți de instanță în cadrul unor proceduri complexe.
     </p>
     <ul class="split-services">
-      <li data-i18n="split.ins.s1">Insolvență & Faliment</li>
-      <li data-i18n="split.ins.s2">Restructurare</li>
-      <li data-i18n="split.ins.s3">Prevenirea Insolvenței</li>
-      <li data-i18n="split.ins.s4">Lichidări Voluntare</li>
-      <li data-i18n="split.ins.s5">Recuperare Creanțe</li>
-      <li data-i18n="split.ins.s6">Executări Silite</li>
+      <li data-i18n="split.ins.s1">Acordul de restructurare</li>
+      <li data-i18n="split.ins.s2">Concordatul preventiv</li>
+      <li data-i18n="split.ins.s3">Insolvență</li>
+      <li data-i18n="split.ins.s4">Reorganizare</li>
+      <li data-i18n="split.ins.s5">Faliment</li>
+      <li data-i18n="split.ins.s6">Restructurare extrajudiciară</li>
+      <li data-i18n="split.ins.s7">Lichidări voluntare persoane juridice</li>
+      <li data-i18n="split.ins.s8">Lichidarea organizațiilor non-profit</li>
+      <li data-i18n="split.ins.s9">Recuperări creanțe</li>
+      <li data-i18n="split.ins.s10">Executări silite</li>
     </ul>
     <a href="#" class="split-link">
       <span data-i18n="split.link">Detalii servicii</span>
       <div class="split-link-arrow"></div>
     </a>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="placeholder-section" id="portfolio">
+  <div class="placeholder-inner reveal">
+    <span class="section-tag" data-i18n="nav.svc.portfolio">Portofoliu</span>
+    <h2 class="section-title" data-i18n-html="portfolio.title">Mandate de <em>referință</em></h2>
+    <p class="placeholder-desc" data-i18n="portfolio.desc">Această secțiune va prezenta mandate reprezentative şi proiecte de referință. Reveniți în curând.</p>
   </div>
 </section>
 
@@ -1986,10 +2265,10 @@
         <em>Soluții adaptate.</em>
       </h2>
       <p class="about-text reveal delay-2" data-i18n="about.text1">
-        Cu o experiență juridică de peste 15 ani, Roxana Diaconescu a fost implicată în numeroase mandate civile și comerciale, proiecte complexe de insolvență, reorganizare, faliment și proceduri de prevenire a insolvenței, ce i-au permis să ofere clienților o perspectivă cuprinzătoare asupra problemelor de drept existente.
+        Avocat și practician în insolvență cu peste 15 ani de experiență în gestionarea mandatelor juridice complexe, inclusiv proiecte cu impact național, Roxana Diaconescu acordă asistență și reprezentare juridică strategică pentru clienți români și străini. Activitatea sa profesională include, printre altele, reprezentarea clienților și susținerea cauzelor în fața tuturor gradelor de jurisdicție, precum și furnizarea de servicii de avocatură de business pentru mari companii din diverse industrii.
       </p>
       <p class="about-text reveal delay-3" data-i18n="about.text2">
-        Dubla calificare de avocat și practician în insolvență, combinată cu experiența în mandate cu impact național, îi conferă o poziție unică pe piața avocaturii de business din România.
+        Specializarea în lichidări voluntare, restructurare, insolvență și faliment este susținută de o practică solidă, recunoscută internațional prin includerea sa în clasamentele Legal500 pentru aria de Insolvență & Restructurare.
       </p>
 
       <div class="about-credentials reveal delay-4">
@@ -2005,11 +2284,11 @@
         </div>
         <div class="credential-item">
           <div class="credential-year">2016</div>
-          <div class="credential-title" data-i18n="cred3.title">Practician în Insolvență</div>
-          <div class="credential-org">UNPIR — Certificare</div>
+          <div class="credential-title" data-i18n="cred3.title">Membru UNPIR</div>
+          <div class="credential-org">UNPIR — Filiala București</div>
         </div>
         <div class="credential-item">
-          <div class="credential-year">EN · FR · ES</div>
+          <div class="credential-year">RO · EN · FR · ES</div>
           <div class="credential-title" data-i18n="cred4.title">Limbi de lucru</div>
           <div class="credential-org" data-i18n="cred4.org">Mandate internaționale</div>
         </div>
@@ -2034,7 +2313,7 @@
       <span class="stat-label" data-i18n-html="stat3">Industrii<br>deservite</span>
     </div>
     <div class="stat-item reveal delay-3">
-      <span class="stat-number">3</span>
+      <span class="stat-number">4</span>
       <span class="stat-label" data-i18n-html="stat4">Limbi de<br>lucru</span>
     </div>
   </div>
@@ -2102,18 +2381,22 @@
         <span data-i18n="pub.tag">Publicații & Vizibilitate</span>
         <span style="width:30px;height:1px;background:rgba(184,151,90,0.4);display:inline-block;"></span>
       </div>
-      <h2 class="section-title reveal delay-1" data-i18n-html="pub.title">Voce <em>autoritară</em><br><em>în domeniu</em></h2>
+      <h2 class="section-title reveal delay-1" data-i18n-html="pub.title">Voce de <em>referință</em><br><em>în domeniu</em></h2>
     </div>
     <div class="publications-grid">
       <div class="pub-card reveal">
         <span class="pub-tag">International</span>
         <div class="pub-year">2025</div>
-        <div class="pub-title">Streamlining insolvency prevention and insolvency procedures by amending the Romanian legislation</div>
+        <a href="https://ceelegalmatters.com/romania/25513-streamlining-insolvency-prevention-and-insolvency-procedures-by-amending-the-romanian-legislation" target="_blank" rel="noopener" style="text-decoration:none;">
+          <div class="pub-title">Streamlining insolvency prevention and insolvency procedures by amending the Romanian legislation</div>
+        </a>
         <div class="pub-source">CEE Legal Matters</div>
       </div>
       <div class="pub-card reveal delay-1">
         <div class="pub-year">2023</div>
-        <div class="pub-title" data-i18n="pub2.title">Avertizarea timpurie conform normelor speciale actuale ale insolvenței</div>
+        <a href="https://www.juridice.ro/791558/avertizarea-timpurie-prevazuta-de-actualele-norme-speciale-ale-insolventei.html" target="_blank" rel="noopener" style="text-decoration:none;">
+          <div class="pub-title" data-i18n="pub2.title">Avertizarea timpurie conform normelor speciale actuale ale insolvenței</div>
+        </a>
         <div class="pub-source">Juridice.ro</div>
       </div>
       <div class="pub-card reveal delay-2">
@@ -2306,35 +2589,38 @@
 
 
 
+<!-- RESOURCES -->
+<section class="placeholder-section" id="resources">
+  <div class="placeholder-inner reveal">
+    <span class="section-tag" data-i18n="nav.pub.useful">Resurse utile</span>
+    <h2 class="section-title" data-i18n-html="resources.title">Resurse <em>juridice</em></h2>
+    <p class="placeholder-desc" data-i18n="resources.desc">Această secțiune va cuprinde materiale juridice, ghiduri practice şi link-uri utile. Reveniți în curând.</p>
+  </div>
+</section>
+
 <!-- FAQ -->
 <section class="faq-section" id="faq">
   <div class="faq-grid-bg"></div>
   <div class="faq-line-left"></div>
 
   <div class="faq-header">
-    <div class="faq-tag">Întrebări Frecvente</div>
-    <h2 class="faq-title">Răspunsuri la <em>întrebările dvs.</em></h2>
+    <div class="faq-tag" data-i18n="faq.tag">Întrebări Frecvente</div>
+    <h2 class="faq-title" data-i18n-html="faq.title">Răspunsuri la <em>întrebările dvs.</em></h2>
 
   </div>
 
   <div class="faq-tabs">
     <button class="faq-tab active" data-tab="avocat">
       <span class="faq-tab-icon">
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-          <path d="M7 1L10 4H4L7 1Z" fill="currentColor" opacity="0.6"/>
-          <path d="M2 7H12M2 9.5H10M2 12H8" stroke="currentColor" stroke-width="1"/>
-        </svg>
+        <img src="files/diaconescu-avocat-icon.svg" alt="" aria-hidden="true" height="32">
       </span>
-      Cabinet de Avocat
+      <span data-i18n="faq.tab.avocat">Cabinet de Avocat</span>
     </button>
     <button class="faq-tab" data-tab="insolventa">
       <span class="faq-tab-icon">
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-          <path d="M2 12L5 7L8 9L11 4L13 6" stroke="currentColor" stroke-width="1"/>
-          <circle cx="13" cy="6" r="1.5" fill="currentColor" opacity="0.4"/>
-        </svg>
+        <img src="files/diaconescu-insolventa-icon.svg" alt="" aria-hidden="true" height="32">
       </span>
-      Cabinet de Insolvență
+      <span data-i18n="faq.tab.insolventa">Cabinet de Insolvență</span>
     </button>
   </div>
 
@@ -2347,7 +2633,7 @@
         <div class="faq-question">
           <div class="faq-q-left">
             <span class="faq-num">01</span>
-            <span class="faq-q-text">Ce arii de practică acoperă Cabinetul de Avocat?</span>
+            <span class="faq-q-text" data-i18n="faq.a.q1">Ce servicii oferă Cabinetul de Avocat?</span>
           </div>
           <div class="faq-toggle">
             <div class="faq-toggle-line-h"></div>
@@ -2355,9 +2641,7 @@
           </div>
         </div>
         <div class="faq-answer">
-          <div class="faq-answer-inner">
-            Cabinetul oferă asistență juridică completă în drept civil, drept comercial, dreptul muncii, contencios administrativ și fiscal, drept penal, litigii și arbitraj, drept imobiliar și asigurări. Fiecare mandat este abordat cu o analiză riguroasă și o strategie personalizată în funcție de specificul situației dumneavoastră.
-          </div>
+          <div class="faq-answer-inner" data-i18n-html="faq.a.a1">Cabinetul de Avocat oferă servicii juridice în conformitate cu prevederile Legii nr. 51/1995 privind organizarea și exercitarea profesiei de avocat și ale Statutului profesiei de avocat, spre exemplu, dar fără a se limita la:<ul><li>consultații şi cereri cu caracter juridic;</li><li>asistenţă şi reprezentare juridică în faţa instanţelor judecătoreşti, a organelor de urmărire penală, a autorităţilor cu atribuţii jurisdicţionale, a notarilor publici şi a executorilor judecătoreşti, a organelor administraţiei publice şi a instituţiilor, precum şi a altor persoane juridice;</li><li>redactarea de acte juridice, atestarea identităţii părţilor, a conţinutului şi a datei actelor prezentate spre autentificare;</li><li>apărarea şi reprezentarea cu mijloace juridice specifice a drepturilor şi intereselor legitime ale persoanelor fizice şi juridice în raporturile acestora cu autorităţile publice, cu instituţiile şi cu orice persoană română sau străină;</li><li>activităţi de mediere etc.</li></ul>Fiecare mandat este abordat cu o analiză riguroasă și o strategie personalizată în funcție de specificul situației dumneavoastră.</div>
         </div>
       </div>
 
@@ -2365,7 +2649,7 @@
         <div class="faq-question">
           <div class="faq-q-left">
             <span class="faq-num">02</span>
-            <span class="faq-q-text">Cum se desfășoară prima consultație juridică?</span>
+            <span class="faq-q-text" data-i18n="faq.a.q2">Ce onorarii percepe Cabinetul de Avocat?</span>
           </div>
           <div class="faq-toggle">
             <div class="faq-toggle-line-h"></div>
@@ -2373,9 +2657,7 @@
           </div>
         </div>
         <div class="faq-answer">
-          <div class="faq-answer-inner">
-            Primul contact poate fi realizat telefonic, prin email sau prin completarea formularului de pe site. În cadrul consultației inițiale, analizăm situația juridică, identificăm opțiunile legale disponibile și propunem o strategie adaptată. Consultațiile se pot desfășura atât la sediul cabinetului din București, cât și online.
-          </div>
+          <div class="faq-answer-inner" data-i18n-html="faq.a.a2">Onorariile sunt stabilite în funcție de natura, complexitatea și durata activității juridice, prin raportare la dispozițiile art. 127 din Statutul profesiei de avocat. Toate condițiile financiare sunt transparente şi se prevăd în mod expres în Contractul de asistență juridică la data încheierii acestuia, înainte de începerea mandatului.<br><br>Onorariile pot fi orare, fixe (forfetare), de succes sau o combinație a acestora.</div>
         </div>
       </div>
 
@@ -2383,7 +2665,7 @@
         <div class="faq-question">
           <div class="faq-q-left">
             <span class="faq-num">03</span>
-            <span class="faq-q-text">Puteți reprezenta clienți din afara Bucureștiului sau din străinătate?</span>
+            <span class="faq-q-text" data-i18n="faq.a.q3">Puteți reprezenta clienți din afara Bucureștiului sau din străinătate?</span>
           </div>
           <div class="faq-toggle">
             <div class="faq-toggle-line-h"></div>
@@ -2391,9 +2673,7 @@
           </div>
         </div>
         <div class="faq-answer">
-          <div class="faq-answer-inner">
-            Da. Cabinetul poate reprezenta clienți din orice localitate din România, asigurând prezența în instanțe la nivel național. Pentru clienți din diaspora sau parteneri internaționali, consultațiile se desfășoară online, iar corespondența se poate realiza în limba engleză, franceză sau spaniolă.
-          </div>
+          <div class="faq-answer-inner" data-i18n-html="faq.a.a3">Da. Cabinetul poate asista și reprezenta atât clienți din orice localitate din România, cât și clienți UE și/sau non-UE, asigurând deplasări interne și/sau internaționale. Corespondența cu oricare dintre aceștia se poate realiza prin platformele de comunicare online, cu respectarea programului de lucru al clientului străin.</div>
         </div>
       </div>
 
@@ -2401,7 +2681,7 @@
         <div class="faq-question">
           <div class="faq-q-left">
             <span class="faq-num">04</span>
-            <span class="faq-q-text">Ce documente sunt necesare pentru deschiderea unui dosar?</span>
+            <span class="faq-q-text" data-i18n="faq.a.q4">Ce documente sunt necesare pentru prima evaluare a unui caz?</span>
           </div>
           <div class="faq-toggle">
             <div class="faq-toggle-line-h"></div>
@@ -2409,9 +2689,7 @@
           </div>
         </div>
         <div class="faq-answer">
-          <div class="faq-answer-inner">
-            Documentele necesare variază în funcție de tipul cauzei. Ca regulă generală, sunt utile: actele de identitate, contractele relevante, corespondența purtată, hotărâri judecătorești anterioare și orice alte înscrisuri cu valoare probatorie. La prima consultație, vă vom indica exact ce documente sunt relevante pentru situația dumneavoastră.
-          </div>
+          <div class="faq-answer-inner" data-i18n-html="faq.a.a4">Documentele necesare variază în funcție de tipul situației dumneavoastră. Ca regulă generală, sunt utile: actele de identitate, contractele relevante, corespondența purtată pe subiect, hotărâri judecătorești anterioare, rezoluții, ordonanțe etc. și orice alte înscrisuri cu valoare probatorie. La finalul primei discuții, vă vom indica exact ce alte documente sunt relevante pentru caz.</div>
         </div>
       </div>
 
@@ -2419,7 +2697,7 @@
         <div class="faq-question">
           <div class="faq-q-left">
             <span class="faq-num">05</span>
-            <span class="faq-q-text">Cum funcționează onorariul și care sunt modalitățile de plată?</span>
+            <span class="faq-q-text" data-i18n="faq.a.q5">Cum sunt stocate și prelucrate informațiile și documentele furnizate Cabinetului de Avocat?</span>
           </div>
           <div class="faq-toggle">
             <div class="faq-toggle-line-h"></div>
@@ -2427,9 +2705,7 @@
           </div>
         </div>
         <div class="faq-answer">
-          <div class="faq-answer-inner">
-            Onorariul se stabilește prin negociere liberă între avocat și client, în conformitate cu Statutul profesiei de avocat și Ghidul de onorarii minimale recomandate de UNBR. Modalitățile de plată pot fi fixe, orare sau mixte, în funcție de complexitatea cauzei. Toate condițiile financiare sunt transparente și stabilite prin contractul de asistență juridică înainte de începerea mandatului.
-          </div>
+          <div class="faq-answer-inner" data-i18n-html="faq.a.a5">Toate informațiile furnizate de client sunt protejate prin secretul profesional, conform legislației specifice. Cabinetul nu va dezvălui datele sau documentele primite fără consimțământul clientului, cu excepția cazurilor prevăzute de lege. Cabinetul prelucrează datele personale ale clienților săi în conformitate cu prevederile Regulamentului (UE) 2016/679 (GDPR), strict în scopul prestării serviciilor juridice.</div>
         </div>
       </div>
 
@@ -2442,7 +2718,7 @@
         <div class="faq-question">
           <div class="faq-q-left">
             <span class="faq-num">01</span>
-            <span class="faq-q-text">Ce înseamnă insolvența și când se consideră că o firmă este în insolvență?</span>
+            <span class="faq-q-text" data-i18n="faq.i.q1">Ce servicii oferă Cabinetul de Insolvență?</span>
           </div>
           <div class="faq-toggle">
             <div class="faq-toggle-line-h"></div>
@@ -2450,9 +2726,7 @@
           </div>
         </div>
         <div class="faq-answer">
-          <div class="faq-answer-inner">
-            Insolvența este starea patrimoniului debitorului caracterizată prin insuficiența fondurilor bănești disponibile pentru plata datoriilor certe, lichide și exigibile. Conform Legii nr. 85/2014, insolvența se prezumă atunci când debitorul nu a plătit datoria sa față de creditor în termen de 60 de zile de la scadență. Această prezumție este relativă și poate fi combătută.
-          </div>
+          <div class="faq-answer-inner" data-i18n-html="faq.i.a1">Cabinetul de Insolvență oferă servicii potrivit reglementărilor specifice profesiei regăsite în Ordonanţa de urgenţă nr. 86/2006 privind organizarea activităţii practicienilor în insolvenţă, Statutul privind organizarea și exercitarea profesiei de practician în insolvență și Codul de etică.<br><br>Cabinetul de Insolvență poate deține, pe întreg teritoriul României, calitatea de administrator concordatar, administrator al restructurării, administrator judiciar, lichidator, conciliator, precum şi orice altă calitate prevăzută de lege. Îndeplinirea acestor calităţi se face prin preluarea funcţiei şi exercitarea atribuţiilor specifice în condiţiile legii şi ale actului de numire ori a hotărârii de desemnare.</div>
         </div>
       </div>
 
@@ -2460,7 +2734,7 @@
         <div class="faq-question">
           <div class="faq-q-left">
             <span class="faq-num">02</span>
-            <span class="faq-q-text">Ce modificări importante aduce Legea 239/2025 privind insolvența?</span>
+            <span class="faq-q-text" data-i18n="faq.i.q2">Ce onorarii percepe Cabinetul de Insolvență?</span>
           </div>
           <div class="faq-toggle">
             <div class="faq-toggle-line-h"></div>
@@ -2468,9 +2742,7 @@
           </div>
         </div>
         <div class="faq-answer">
-          <div class="faq-answer-inner">
-            Legea 239/2025, intrată în vigoare la 18 decembrie 2025, aduce modificări semnificative: obligația de notificare a ANAF cu 15 zile înainte de depunerea cererii de insolvență, extinderea cercului persoanelor care pot fi trase la răspundere (inclusiv cele cu control efectiv asupra deciziilor financiare), introducerea interdicției de a fi administrator timp de 10 ani și de a înființa societăți timp de 5 ani, în cazul hotărârii definitive de atragere a răspunderii.
-          </div>
+          <div class="faq-answer-inner" data-i18n-html="faq.i.a2">Pentru activitatea desfăşurată, în funcție de complexitatea acesteia, dar și a procedurii în sine, Cabinetul de Insolvență poate stabili un onorariu fix global sau lunar, un onorariu de succes sau o combinație a acestora, cu respectarea prevederilor art. 38 și următ. din Ordonanţa de urgenţă nr. 86/2006 privind organizarea activităţii practicienilor în insolvenţă.<br><br>Onorariul provizoriu pentru perioada de observație este stabilit de judecătorul-sindic la deschiderea procedurii de insolvență, în temeiul criteriilor legale, însă acesta va putea fi modificat de Adunarea creditorilor.</div>
         </div>
       </div>
 
@@ -2478,7 +2750,7 @@
         <div class="faq-question">
           <div class="faq-q-left">
             <span class="faq-num">03</span>
-            <span class="faq-q-text">Care este diferența dintre reorganizare și faliment?</span>
+            <span class="faq-q-text" data-i18n="faq.i.q3">Ce înseamnă insolvența și când se consideră că o firmă este în insolvență?</span>
           </div>
           <div class="faq-toggle">
             <div class="faq-toggle-line-h"></div>
@@ -2486,9 +2758,7 @@
           </div>
         </div>
         <div class="faq-answer">
-          <div class="faq-answer-inner">
-            Reorganizarea presupune continuarea activității debitorului pe baza unui plan aprobat de creditori, cu o durată de implementare de maximum 48 de luni. Falimentul implică încetarea activității, lichidarea bunurilor din avere și distribuirea sumelor către creditori, conform ordinii de prioritate legale. Cabinetul nostru analizează fiecare situație pentru a identifica cea mai potrivită variantă.
-          </div>
+          <div class="faq-answer-inner" data-i18n-html="faq.i.a3">Insolvența este starea patrimoniului debitorului caracterizată prin insuficiența fondurilor bănești disponibile pentru plata datoriilor certe, lichide și exigibile. Conform Legii nr. 85/2014 privind procedurile de prevenire a insolvenței și de insolvență, insolvența se prezumă atunci când debitorul nu a plătit datoria sa față de creditor în termen de 60 de zile de la scadență. Această prezumție este relativă și poate fi combătută.</div>
         </div>
       </div>
 
@@ -2496,7 +2766,7 @@
         <div class="faq-question">
           <div class="faq-q-left">
             <span class="faq-num">04</span>
-            <span class="faq-q-text">Pot fi tras la răspundere personal ca administrator dacă firma intră în insolvență?</span>
+            <span class="faq-q-text" data-i18n="faq.i.q4">Care este diferența dintre reorganizare și faliment?</span>
           </div>
           <div class="faq-toggle">
             <div class="faq-toggle-line-h"></div>
@@ -2504,9 +2774,7 @@
           </div>
         </div>
         <div class="faq-answer">
-          <div class="faq-answer-inner">
-            Răspunderea personală a administratorului nu este automată. Aceasta intervine doar pe baza unei hotărâri judecătorești definitive, în cazul în care se dovedesc fapte culpabile conform art. 169 din Legea nr. 85/2014 — de exemplu, folosirea bunurilor societății în interes personal, nerespectarea obligațiilor contabile sau efectuarea de tranzacții fictive. Consultarea unui specialist din timp poate preveni consecințe grave.
-          </div>
+          <div class="faq-answer-inner" data-i18n-html="faq.i.a4">Reorganizarea presupune continuarea activității debitorului pe baza unui plan aprobat de creditori, cu o durată de implementare de maximum 48 de luni. Falimentul implică încetarea activității, lichidarea bunurilor din avere și distribuirea sumelor către creditori, conform ordinii de prioritate legale.</div>
         </div>
       </div>
 
@@ -2514,7 +2782,7 @@
         <div class="faq-question">
           <div class="faq-q-left">
             <span class="faq-num">05</span>
-            <span class="faq-q-text">Cum mă pot înscrie la masa credală și care sunt termenele?</span>
+            <span class="faq-q-text" data-i18n="faq.i.q5">Cum mă pot înscrie la masa credală și care sunt termenele?</span>
           </div>
           <div class="faq-toggle">
             <div class="faq-toggle-line-h"></div>
@@ -2522,9 +2790,23 @@
           </div>
         </div>
         <div class="faq-answer">
-          <div class="faq-answer-inner">
-            Înscrierea la masa credală se realizează prin depunerea unei cereri de admitere a creanței în termenul stabilit prin hotărârea de deschidere a procedurii de insolvență. Cererea trebuie să cuprindă mențiunile prevăzute la art. 104 din Legea nr. 85/2014 și să fie însoțită de documentele justificative. Nedepunerea în termen duce la pierderea dreptului de a participa la procedură. Este esențial să acționați prompt din momentul publicării hotărârii în Buletinul Procedurilor de Insolvență.
+          <div class="faq-answer-inner" data-i18n-html="faq.i.a5">Înscrierea la masa credală se realizează prin depunerea unei cereri de admitere a creanței în termenul stabilit prin hotărârea de deschidere a procedurii de insolvență. Cererea trebuie să cuprindă mențiunile prevăzute la art. 104 din Legea nr. 85/2014 privind procedurile de prevenire a insolvenței și de insolvență și să fie însoțită de documentele justificative. Nedepunerea în termen duce la pierderea dreptului de a participa la procedură. Este esențial să acționați prompt din momentul publicării hotărârii în Buletinul Procedurilor de Insolvență.</div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">
+          <div class="faq-q-left">
+            <span class="faq-num">06</span>
+            <span class="faq-q-text" data-i18n="faq.i.q6">Pot fi tras la răspundere personal ca administrator dacă firma intră în insolvență?</span>
           </div>
+          <div class="faq-toggle">
+            <div class="faq-toggle-line-h"></div>
+            <div class="faq-toggle-line-v"></div>
+          </div>
+        </div>
+        <div class="faq-answer">
+          <div class="faq-answer-inner" data-i18n-html="faq.i.a6">Răspunderea personală a administratorului nu este automată. Aceasta intervine doar pe baza unei hotărâri judecătorești definitive, în cazul în care se dovedesc fapte culpabile conform prevederilor speciale ale art. 169 din Legea nr. 85/2014 privind procedurile de prevenire a insolvenței și de insolvență. Consultarea unui specialist din timp poate preveni consecințe grave.</div>
         </div>
       </div>
 
@@ -2534,14 +2816,55 @@
 
   <!-- CTA -->
   <div class="faq-cta">
-    <p class="faq-cta-text">Nu ați găsit răspunsul căutat?</p>
-    <p class="faq-cta-desc">Contactați-ne pentru o consultație personalizată.</p>
+    <p class="faq-cta-text" data-i18n="faq.cta.q">Nu ați găsit răspunsul căutat?</p>
+    <p class="faq-cta-desc" data-i18n="faq.cta.desc">Contactați-ne pentru o consultație personalizată.</p>
     <a href="#contact" class="btn-primary">
-      <span>Contactați-ne</span>
+      <span data-i18n="faq.cta.btn">Contactați-ne</span>
       <svg width="16" height="10" viewBox="0 0 16 10" fill="none">
         <path d="M11 1L15 5M15 5L11 9M15 5H1" stroke="currentColor" stroke-width="1.5"/>
       </svg>
     </a>
+  </div>
+</section>
+
+<!-- CAREERS -->
+<section class="careers-section reveal" id="cariere">
+  <div class="careers-inner">
+    <div class="careers-left">
+      <span class="section-tag" data-i18n="careers.tag">Cariere</span>
+      <h2 class="section-title" data-i18n-html="careers.title">Alătură-te<br><em>echipei noastre</em></h2>
+      <p class="careers-desc" data-i18n="careers.desc">Dacă activezi la intersecția dintre drept și afaceri și îți place să transformi provocările complexe în soluții clare, ne-ar face plăcere să te cunoaștem. Așteptăm cu interes să ne trimiți candidatura ta prin intermediul formularului de mai jos:</p>
+    </div>
+    <div class="careers-right">
+      <form class="careers-form" onsubmit="return false;">
+        <div class="form-row">
+          <div class="form-field">
+            <input type="text" data-i18n-ph="careers.fname" placeholder="Prenume">
+          </div>
+          <div class="form-field">
+            <input type="text" data-i18n-ph="careers.lname" placeholder="Nume">
+          </div>
+        </div>
+        <div class="form-field">
+          <input type="text" data-i18n-ph="careers.area" placeholder="Aria de practică de interes">
+        </div>
+        <div class="form-field">
+          <input type="url" data-i18n-ph="careers.linkedin" placeholder="Profil LinkedIn (opțional)">
+        </div>
+        <div class="form-field">
+          <label class="careers-file-label" data-i18n="careers.cv">Încarcă CV *</label>
+          <input type="file" accept=".pdf,.doc,.docx">
+        </div>
+        <div class="form-field">
+          <label class="careers-file-label" data-i18n="careers.letter">Scrisoare de intenție (opțional)</label>
+          <input type="file" accept=".pdf,.doc,.docx">
+        </div>
+        <p class="careers-consent" data-i18n="careers.consent">Prin trimiterea documentelor, ești de acord cu prelucrarea datelor cu caracter personal în scopuri de recrutare, conform Politicii noastre de Confidențialitate.</p>
+        <button type="submit" class="form-submit">
+          <span data-i18n="careers.submit">Trimite candidatura</span>
+        </button>
+      </form>
+    </div>
   </div>
 </section>
 
@@ -2554,7 +2877,7 @@
         <em>cazul dvs.</em>
       </h2>
       <p class="contact-desc reveal delay-1" data-i18n="contact.desc">
-        Disponibilă pentru consultații în București și online. Primul contact poate fi realizat telefonic, prin email sau prin formularul de mai jos.
+        Disponibili pentru consultații în București și online. Comunicarea inițială poate fi realizată telefonic, prin email sau prin formularul de contact.
       </p>
       <ul class="contact-info-list">
         <li class="contact-info-item reveal delay-2" style="position:relative;">
@@ -2563,6 +2886,13 @@
           <div>
             <div class="contact-info-label" data-i18n="contact.addr">Adresă</div>
             <div class="contact-info-value">Str. Gheorghe Buciumat nr. 26, Bl. A, Et. 4,<br>Ap. 401, Sector 1, București</div>
+          </div>
+        </li>
+        <li class="contact-info-item reveal delay-2">
+          <div class="contact-info-icon">🕐</div>
+          <div>
+            <div class="contact-info-label" data-i18n="contact.hours.label">Program</div>
+            <div class="contact-info-value" data-i18n="contact.hours.value">L-Vi: 09.00 – 18.00</div>
           </div>
         </li>
         <li class="contact-info-item reveal delay-3" style="position:relative;">
@@ -2579,6 +2909,26 @@
           <div>
             <div class="contact-info-label" data-i18n="contact.email">Email</div>
             <div class="contact-info-value">office@diaconescu-partners.ro</div>
+          </div>
+        </li>
+        <li class="contact-info-item reveal delay-4" style="position:relative;">
+          <a href="https://www.linkedin.com/in/roxana-diaconescu-27993420b" target="_blank" rel="noopener" style="position:absolute;inset:0;z-index:2;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:rgba(184,151,90,0.15);" aria-label="LinkedIn Roxana-Elena Diaconescu"></a>
+          <div class="contact-info-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-info-label" data-i18n="contact.linkedin.label">LinkedIn</div>
+            <div class="contact-info-value">Roxana-Elena Diaconescu</div>
+          </div>
+        </li>
+        <li class="contact-info-item reveal delay-4" style="position:relative;">
+          <a href="https://profesionisti.juridice.ro/roxana-diaconescu" target="_blank" rel="noopener" style="position:absolute;inset:0;z-index:2;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:rgba(184,151,90,0.15);" aria-label="Profil Juridice.ro"></a>
+          <div class="contact-info-icon">⚖</div>
+          <div>
+            <div class="contact-info-label" data-i18n="contact.juridice.label">Juridice.ro</div>
+            <div class="contact-info-value">profesionisti.juridice.ro</div>
           </div>
         </li>
       </ul>
@@ -2632,47 +2982,56 @@
       <div class="footer-logo-text">Diaconescu Partners</div>
       <div class="footer-logo-sub">diaconescu-partners.ro</div>
       <p class="footer-tagline" data-i18n-html="footer.tagline">
-        Cabinet de Avocat & Cabinet Individual de Insolvență.<br>
+        Cabinet de Avocat & Cabinet Individual de Insolvență<br>
         Drept. Integritate. Echilibru.
       </p>
       <div style="margin-top:24px;display:flex;gap:12px;">
-        <div class="membership-badge">UNBR 2011</div>
-        <div class="membership-badge">UNPIR 2016</div>
+        <a href="https://www.baroul-bucuresti.ro/avocat/13281/diaconescu-roxana-elena" target="_blank" rel="noopener" class="membership-badge">UNBR 2011</a>
+        <a href="https://www.unpir.ro/documents/tablou/I_B_2026-05-20_1779273690.pdf" target="_blank" rel="noopener" class="membership-badge">UNPIR 2016</a>
       </div>
     </div>
     <div>
       <div class="footer-col-title" data-i18n="footer.nav">Navigare</div>
       <ul class="footer-links">
         <li><a href="#" data-i18n="footer.fn1">Acasă</a></li>
-        <li><a href="#" data-i18n="footer.fn2">Despre</a></li>
-        <li><a href="#" data-i18n="footer.fn3">Cabinet de Avocat</a></li>
-        <li><a href="#" data-i18n="footer.fn4">Cabinet de Insolvență</a></li>
-        <li><a href="#" data-i18n="footer.fn5">Portofoliu</a></li>
-        <li><a href="#" data-i18n="footer.fn6">Articole</a></li>
-        <li><a href="#" data-i18n="footer.fn7">Resurse utile</a></li>
-        <li><a href="#" data-i18n="footer.fn8">Contact</a></li>
+        <li><a href="#about" data-i18n="footer.fn2">Despre noi</a></li>
+        <li><a href="#cabinets" data-i18n="footer.fn3">Cabinet de Avocat</a></li>
+        <li><a href="#cabinets" data-i18n="footer.fn4">Cabinet de Insolvență</a></li>
+        <li><a href="#portfolio" data-i18n="footer.fn5">Portofoliu</a></li>
+        <li><a href="#publications" data-i18n="footer.fn6">Articole</a></li>
+        <li><a href="#news" data-i18n="footer.fn7">Noutăți juridice</a></li>
+        <li><a href="#resources" data-i18n="footer.fn8">Resurse utile</a></li>
+        <li><a href="#faq" data-i18n="footer.fn9">Întrebări frecvente</a></li>
+        <li><a href="#cariere" data-i18n="footer.fn10">Cariere</a></li>
+        <li><a href="#contact" data-i18n="footer.fn11">Contact</a></li>
       </ul>
     </div>
     <div>
       <div class="footer-col-title" data-i18n="footer.practice">Arii de Practică</div>
       <ul class="footer-links">
-        <li><a href="#" data-i18n="footer.fp1">Drept Civil</a></li>
-        <li><a href="#" data-i18n="footer.fp2">Drept Comercial</a></li>
-        <li><a href="#" data-i18n="footer.fp3">Insolvență & Faliment</a></li>
-        <li><a href="#" data-i18n="footer.fp4">Restructurare</a></li>
-        <li><a href="#" data-i18n="footer.fp5">Litigii & Arbitraj</a></li>
-        <li><a href="#" data-i18n="footer.fp6">Dreptul Muncii</a></li>
-        <li><a href="#" data-i18n="footer.fp7">Imobiliare</a></li>
-        <li><a href="#" data-i18n="footer.fp8">Contencios Fiscal</a></li>
+        <li><a href="#" data-i18n="footer.fp1">Civil & Comercial</a></li>
+        <li><a href="#" data-i18n="footer.fp2">Societar</a></li>
+        <li><a href="#" data-i18n="footer.fp3">Proceduri de prevenire a insolvenței</a></li>
+        <li><a href="#" data-i18n="footer.fp4">Insolvență & Faliment</a></li>
+        <li><a href="#" data-i18n="footer.fp5">Lichidări voluntare</a></li>
+        <li><a href="#" data-i18n="footer.fp6">Recuperări creanțe & Executări silite</a></li>
+        <li><a href="#" data-i18n="footer.fp7">Litigii & Arbitraj</a></li>
+        <li><a href="#" data-i18n="footer.fp8">Contravențional & Penal</a></li>
+        <li><a href="#" data-i18n="footer.fp9">Muncă & Relații de muncă</a></li>
+        <li><a href="#" data-i18n="footer.fp10">Construcții, Infrastructură & Imobiliare</a></li>
+        <li><a href="#" data-i18n="footer.fp11">Tehnologie & Protecția datelor</a></li>
+        <li><a href="#" data-i18n="footer.fp12">Contencios Administrativ & Fiscal</a></li>
+        <li><a href="#" data-i18n="footer.fp13">Asigurări</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom">
     <span class="footer-copy" data-i18n="footer.copy">© 2026 Diaconescu Roxana-Elena — Cabinet de Avocat & Cabinet Individual de Insolvență. Toate drepturile rezervate.</span>
     <div class="footer-legal">
-      <a href="#" data-i18n="footer.privacy">Politică de Confidențialitate</a>
-      <a href="#">GDPR</a>
-      <a href="#" data-i18n="footer.terms">Termeni & Condiții</a>
+      <a href="politica-cookies.html" data-i18n="footer.cookies">Politică de Cookies</a>
+      <a href="politica-confidentialitate.html" data-i18n="footer.privacy">Politică de Confidențialitate</a>
+      <a href="gdpr.html">GDPR</a>
+      <a href="termeni-conditii.html" data-i18n="footer.terms">Termeni & Condiții</a>
     </div>
   </div>
 </footer>
@@ -2787,84 +3146,168 @@
   // I18N
   const i18n = {
     ro: {
-      'nav.about':'Despre','nav.services':'Servicii','nav.publications':'Articole','nav.news':'Știri','nav.contact':'Contact',
+      'nav.about':'Despre noi','nav.services':'Servicii','nav.publications':'Articole','nav.news':'Noutăți Juridice','nav.faq':'FAQ','nav.careers':'Cariere','nav.contact':'Contact',
+      'nav.svc.law':'Cabinet de Avocat','nav.svc.ins':'Cabinet de Insolvență','nav.svc.portfolio':'Portofoliu',
+      'nav.pub.group':'Publicații','nav.pub.articles':'Articole','nav.pub.news':'Noutăți juridice','nav.pub.useful':'Resurse utile',
+      'portfolio.title':'Mandate de <em>referință</em>','portfolio.desc':'Această secțiune va prezenta mandate reprezentative şi proiecte de referință. Reveniți în curând.',
+      'resources.title':'Resurse <em>juridice</em>','resources.desc':'Această secțiune va cuprinde materiale juridice, ghiduri practice şi link-uri utile. Reveniți în curând.',
       'hero.eyebrow':'Avocat · Practician în Insolvență · București',
       'hero.subtitle':'Avocat & Practician în Insolvență cu 15+ ani de expertiză<br>în mandate complexe. Drept. Restructurare. Recuperare.',
       'hero.cta.primary':'Contactați-ne','hero.cta.secondary':'Explorați serviciile',
       'hero.stat1':'Ani de<br>practică','hero.stat2':'Calificări<br>profesionale','hero.stat3':'Industrii<br>deservite',
+      'hero.quote.text':'„Nimeni nu este mai presus de lege și nimeni nu este sub ea. Dreptatea este conștiința, nu o conștiință personală, ci conștiința întregii umanități."',
       'split.law.tag':'Cabinet de Avocat','split.law.slogan':'Apărare. Consultanță. Reprezentare.',
-      'split.law.desc':'Asistență juridică completă în litigii civile și comerciale, dreptul muncii, contencios administrativ, drept penal și proceduri speciale. Fiecare mandat este abordat cu rigurozitate analitică și strategie adaptată.',
-      'split.law.s1':'Drept Civil','split.law.s2':'Drept Comercial','split.law.s3':'Dreptul Muncii','split.law.s4':'Contencios Fiscal','split.law.s5':'Drept Penal','split.law.s6':'Litigii & Arbitraj','split.law.s7':'Imobiliare','split.law.s8':'Asigurări',
+      'split.law.desc':'Oferim consultanță juridică, asistență și reprezentare în fața instanțelor, autorităților și instituțiilor publice, persoanelor fizice și juridice, precum și redactarea de acte juridice, participarea la negocieri și alte activități specifice profesiei de avocat. Fiecare mandat este abordat cu rigurozitate analitică, oferind o strategie personalizată care ține seama de circumstanțele specifice ale fiecărui caz.',
+      'split.law.s1':'Civil & Comercial','split.law.s2':'Societar','split.law.s3':'Recuperări creanțe & Executări silite','split.law.s4':'Litigii & Arbitraj','split.law.s5':'Contravențional & Penal','split.law.s6':'Muncă & Relații de muncă','split.law.s7':'Construcții, Infrastructură & Imobiliare','split.law.s8':'Tehnologie & Protecția datelor','split.law.s9':'Contencios Administrativ & Fiscal','split.law.s10':'Asigurări',
       'split.link':'Detalii servicii',
       'split.ins.tag':'Cabinet Individual de Insolvență','split.ins.slogan':'Restructurare. Recuperare. Redresare.',
-      'split.ins.desc':'Proceduri complexe de insolvență, reorganizare și faliment, lichidări voluntare și recuperare creanțe. Expertiză validată în mandate cu impact național, din industrii diverse și contexte multidisciplinare.',
-      'split.ins.s1':'Insolvență & Faliment','split.ins.s2':'Restructurare','split.ins.s3':'Prevenirea Insolvenței','split.ins.s4':'Lichidări Voluntare','split.ins.s5':'Recuperare Creanțe','split.ins.s6':'Executări Silite',
+      'split.ins.desc':'Ca experți în domeniul insolvenței, oferim clienților consultanță cu privire la toate aspectele legate de insolvență și restructurare, inclusiv redresarea întreprinderilor, tranzacții cu entități aflate în dificultate, executarea creanțelor, proceduri de insolvență și restructurări transfrontaliere. De asemenea, acționăm în calitate de administratori judiciari și lichidatori numiți de instanță în cadrul unor proceduri complexe.',
+      'split.ins.s1':'Acordul de restructurare','split.ins.s2':'Concordatul preventiv','split.ins.s3':'Insolvență','split.ins.s4':'Reorganizare','split.ins.s5':'Faliment','split.ins.s6':'Restructurare extrajudiciară','split.ins.s7':'Lichidări voluntare persoane juridice','split.ins.s8':'Lichidarea organizațiilor non-profit','split.ins.s9':'Recuperări creanțe','split.ins.s10':'Executări silite',
       'about.tag':'Cunoaște fondatorul','about.img.role':'Fondator',
       'about.title':'Expertiză solidă.<br><em>Soluții adaptate.</em>',
-      'about.text1':'Cu o experiență juridică de peste 15 ani, Roxana Diaconescu a fost implicată în numeroase mandate civile și comerciale, proiecte complexe de insolvență, reorganizare, faliment și proceduri de prevenire a insolvenței, ce i-au permis să ofere clienților o perspectivă cuprinzătoare asupra problemelor de drept existente.',
-      'about.text2':'Dubla calificare de avocat și practician în insolvență, combinată cu experiența în mandate cu impact național, îi conferă o poziție unică pe piața avocaturii de business din România.',
-      'cred1.title':'Licență & Master în Drept','cred2.title':'Membru UNBR','cred3.title':'Practician în Insolvență','cred4.title':'Limbi de lucru','cred4.org':'Mandate internaționale',
+      'about.text1':'Avocat și practician în insolvență cu peste 15 ani de experiență în gestionarea mandatelor juridice complexe, inclusiv proiecte cu impact național, Roxana Diaconescu acordă asistență și reprezentare juridică strategică pentru clienți români și străini. Activitatea sa profesională include, printre altele, reprezentarea clienților și susținerea cauzelor în fața tuturor gradelor de jurisdicție, precum și furnizarea de servicii de avocatură de business pentru mari companii din diverse industrii.',
+      'about.text2':'Specializarea în lichidări voluntare, restructurare, insolvență și faliment este susținută de o practică solidă, recunoscută internațional prin includerea sa în clasamentele Legal500 pentru aria de Insolvență & Restructurare.',
+      'cred1.title':'Licență & Master în Drept','cred2.title':'Membru UNBR','cred3.title':'Membru UNPIR','cred4.title':'Limbi de lucru','cred4.org':'Mandate internaționale',
       'stat1':'Ani de<br>experiență','stat2':'Calificări<br>profesionale','stat3':'Industrii<br>deservite','stat4':'Limbi de<br>lucru',
       'ind.tag':'Industrii deservite','ind.title':'Expertiză <em>multisectorială</em>',
-      'pub.tag':'Publicații & Vizibilitate','pub.title':'Voce <em>autoritară</em><br><em>în domeniu</em>',
+      'pub.tag':'Publicații & Vizibilitate','pub.title':'Voce de <em>referință</em><br><em>în domeniu</em>',
       'pub2.title':'Avertizarea timpurie conform normelor speciale actuale ale insolvenței',
       'pub4.title':'Comentarii privind influențele aduse pieței insolvenței prin modificarea Legii nr. 85/2014',
       'pub5.title':'Comentarii privind impactul adus mediului de afaceri prin modificarea Codului Insolvenței',
       'pub6.title':'Procedura insolvenței în România și salariații',
       'newsletter.title':'Newsletter juridic','newsletter.sub':'Noutăți legislative și articole de specialitate, direct în inbox.','newsletter.ph':'Adresa de email','newsletter.btn':'Abonați-vă',
       'contact.title':'Să<br>discutăm<br><em>cazul dvs.</em>',
-      'contact.desc':'Disponibilă pentru consultații în București și online. Primul contact poate fi realizat telefonic, prin email sau prin formularul de mai jos.',
+      'contact.desc':'Disponibili pentru consultații în București și online. Comunicarea inițială poate fi realizată telefonic, prin email sau prin formularul de contact.',
       'contact.addr':'Adresă','contact.phone':'Telefon','contact.email':'Email',
+      'contact.hours.label':'Program','contact.hours.value':'L-Vi: 09.00 – 18.00',
+      'contact.linkedin.label':'LinkedIn','contact.juridice.label':'Juridice.ro',
       'form.name':'Nume complet','form.phone':'Telefon','form.subject':'Domeniu de interes',
-      'form.opt1':'Drept Civil','form.opt2':'Drept Comercial','form.opt3':'Dreptul Muncii','form.opt4':'Contencios Administrativ','form.opt5':'Drept Penal','form.opt6':'Insolvență & Faliment','form.opt7':'Restructurare','form.opt8':'Recuperare Creanțe','form.opt9':'Litigii & Arbitraj','form.opt10':'Imobiliare','form.opt11':'Altele',
+      'form.opt1':'Civil & Comercial','form.opt2':'Societar','form.opt3':'Muncă & Relații de muncă','form.opt4':'Contencios Administrativ & Fiscal','form.opt5':'Contravențional & Penal','form.opt6':'Insolvență & Faliment','form.opt7':'Restructurare','form.opt8':'Recuperări creanțe','form.opt9':'Litigii & Arbitraj','form.opt10':'Construcții & Imobiliare','form.opt11':'Altele',
       'form.msg':'Descrieți pe scurt situația...','form.submit':'Trimiteți mesajul',
-      'footer.tagline':'Cabinet de Avocat & Cabinet Individual de Insolvență.<br>Drept. Integritate. Echilibru.',
+      'footer.tagline':'Cabinet de Avocat & Cabinet Individual de Insolvență<br>Drept. Integritate. Echilibru.',
       'footer.nav':'Navigare','footer.practice':'Arii de Practică',
-      'footer.fn1':'Acasă','footer.fn2':'Despre','footer.fn3':'Cabinet de Avocat','footer.fn4':'Cabinet de Insolvență','footer.fn5':'Portofoliu','footer.fn6':'Articole','footer.fn7':'Resurse utile','footer.fn8':'Contact',
-      'footer.fp1':'Drept Civil','footer.fp2':'Drept Comercial','footer.fp3':'Insolvență & Faliment','footer.fp4':'Restructurare','footer.fp5':'Litigii & Arbitraj','footer.fp6':'Dreptul Muncii','footer.fp7':'Imobiliare','footer.fp8':'Contencios Fiscal',
+      'footer.fn1':'Acasă','footer.fn2':'Despre noi','footer.fn3':'Cabinet de Avocat','footer.fn4':'Cabinet de Insolvență','footer.fn5':'Portofoliu','footer.fn6':'Articole','footer.fn7':'Noutăți juridice','footer.fn8':'Resurse utile','footer.fn9':'Întrebări frecvente','footer.fn10':'Cariere','footer.fn11':'Contact',
+      'footer.fp1':'Civil & Comercial','footer.fp2':'Societar','footer.fp3':'Proceduri de prevenire a insolvenței','footer.fp4':'Insolvență & Faliment','footer.fp5':'Lichidări voluntare','footer.fp6':'Recuperări creanțe & Executări silite','footer.fp7':'Litigii & Arbitraj','footer.fp8':'Contravențional & Penal','footer.fp9':'Muncă & Relații de muncă','footer.fp10':'Construcții, Infrastructură & Imobiliare','footer.fp11':'Tehnologie & Protecția datelor','footer.fp12':'Contencios Administrativ & Fiscal','footer.fp13':'Asigurări',
       'footer.copy':'© 2026 Diaconescu Roxana-Elena — Cabinet de Avocat & Cabinet Individual de Insolvență. Toate drepturile rezervate.',
-      'footer.privacy':'Politică de Confidențialitate','footer.terms':'Termeni & Condiții',
+      'footer.privacy':'Politică de Confidențialitate','footer.cookies':'Politică de Cookies','footer.terms':'Termeni & Condiții',
       'news.tag':'Noutăți Juridice','news.title':'Actualitate <em>legislativă</em>','news.live':'Actualizat continuu',
+      'careers.tag':'Cariere','careers.title':'Alătură-te<br><em>echipei noastre</em>',
+      'careers.desc':'Dacă activezi la intersecția dintre drept și afaceri și îți place să transformi provocările complexe în soluții clare, ne-ar face plăcere să te cunoaștem. Așteptăm cu interes să ne trimiți candidatura ta prin intermediul formularului de mai jos:',
+      'careers.fname':'Prenume','careers.lname':'Nume','careers.area':'Aria de practică de interes','careers.linkedin':'Profil LinkedIn (opțional)',
+      'careers.cv':'Încarcă CV *','careers.letter':'Scrisoare de intenție (opțional)',
+      'careers.consent':'Prin trimiterea documentelor, ești de acord cu prelucrarea datelor cu caracter personal în scopuri de recrutare, conform Politicii noastre de Confidențialitate.',
+      'careers.submit':'Trimite candidatura',
+      'faq.tag':'Întrebări Frecvente',
+      'faq.title':'Răspunsuri la <em>întrebările dvs.</em>',
+      'faq.tab.avocat':'Cabinet de Avocat',
+      'faq.tab.insolventa':'Cabinet de Insolvență',
+      'faq.a.q1':'Ce servicii oferă Cabinetul de Avocat?',
+      'faq.a.a1':'Cabinetul de Avocat oferă servicii juridice în conformitate cu prevederile Legii nr. 51/1995 privind organizarea și exercitarea profesiei de avocat și ale Statutului profesiei de avocat, spre exemplu, dar fără a se limita la:<ul><li>consultații şi cereri cu caracter juridic;</li><li>asistenţă şi reprezentare juridică în faţa instanţelor judecătoreşti, a organelor de urmărire penală, a autorităţilor cu atribuţii jurisdicţionale, a notarilor publici şi a executorilor judecătoreşti, a organelor administraţiei publice şi a instituţiilor, precum şi a altor persoane juridice;</li><li>redactarea de acte juridice, atestarea identităţii părţilor, a conţinutului şi a datei actelor prezentate spre autentificare;</li><li>apărarea şi reprezentarea cu mijloace juridice specifice a drepturilor şi intereselor legitime ale persoanelor fizice şi juridice în raporturile acestora cu autorităţile publice, cu instituţiile şi cu orice persoană română sau străină;</li><li>activităţi de mediere etc.</li></ul>Fiecare mandat este abordat cu o analiză riguroasă și o strategie personalizată în funcție de specificul situației dumneavoastră.',
+      'faq.a.q2':'Ce onorarii percepe Cabinetul de Avocat?',
+      'faq.a.a2':'Onorariile sunt stabilite în funcție de natura, complexitatea și durata activității juridice, prin raportare la dispozițiile art. 127 din Statutul profesiei de avocat. Toate condițiile financiare sunt transparente şi se prevăd în mod expres în Contractul de asistență juridică la data încheierii acestuia, înainte de începerea mandatului.<br><br>Onorariile pot fi orare, fixe (forfetare), de succes sau o combinație a acestora.',
+      'faq.a.q3':'Puteți reprezenta clienți din afara Bucureștiului sau din străinătate?',
+      'faq.a.a3':'Da. Cabinetul poate asista și reprezenta atât clienți din orice localitate din România, cât și clienți UE și/sau non-UE, asigurând deplasări interne și/sau internaționale. Corespondența cu oricare dintre aceștia se poate realiza prin platformele de comunicare online, cu respectarea programului de lucru al clientului străin.',
+      'faq.a.q4':'Ce documente sunt necesare pentru prima evaluare a unui caz?',
+      'faq.a.a4':'Documentele necesare variază în funcție de tipul situației dumneavoastră. Ca regulă generală, sunt utile: actele de identitate, contractele relevante, corespondența purtată pe subiect, hotărâri judecătorești anterioare, rezoluții, ordonanțe etc. și orice alte înscrisuri cu valoare probatorie. La finalul primei discuții, vă vom indica exact ce alte documente sunt relevante pentru caz.',
+      'faq.a.q5':'Cum sunt stocate și prelucrate informațiile și documentele furnizate Cabinetului de Avocat?',
+      'faq.a.a5':'Toate informațiile furnizate de client sunt protejate prin secretul profesional, conform legislației specifice. Cabinetul nu va dezvălui datele sau documentele primite fără consimțământul clientului, cu excepția cazurilor prevăzute de lege. Cabinetul prelucrează datele personale ale clienților săi în conformitate cu prevederile Regulamentului (UE) 2016/679 (GDPR), strict în scopul prestării serviciilor juridice.',
+      'faq.i.q1':'Ce servicii oferă Cabinetul de Insolvență?',
+      'faq.i.a1':'Cabinetul de Insolvență oferă servicii potrivit reglementărilor specifice profesiei regăsite în Ordonanţa de urgenţă nr. 86/2006 privind organizarea activităţii practicienilor în insolvenţă, Statutul privind organizarea și exercitarea profesiei de practician în insolvență și Codul de etică.<br><br>Cabinetul de Insolvență poate deține, pe întreg teritoriul României, calitatea de administrator concordatar, administrator al restructurării, administrator judiciar, lichidator, conciliator, precum şi orice altă calitate prevăzută de lege. Îndeplinirea acestor calităţi se face prin preluarea funcţiei şi exercitarea atribuţiilor specifice în condiţiile legii şi ale actului de numire ori a hotărârii de desemnare.',
+      'faq.i.q2':'Ce onorarii percepe Cabinetul de Insolvență?',
+      'faq.i.a2':'Pentru activitatea desfăşurată, în funcție de complexitatea acesteia, dar și a procedurii în sine, Cabinetul de Insolvență poate stabili un onorariu fix global sau lunar, un onorariu de succes sau o combinație a acestora, cu respectarea prevederilor art. 38 și următ. din Ordonanţa de urgenţă nr. 86/2006 privind organizarea activităţii practicienilor în insolvenţă.<br><br>Onorariul provizoriu pentru perioada de observație este stabilit de judecătorul-sindic la deschiderea procedurii de insolvență, în temeiul criteriilor legale, însă acesta va putea fi modificat de Adunarea creditorilor.',
+      'faq.i.q3':'Ce înseamnă insolvența și când se consideră că o firmă este în insolvență?',
+      'faq.i.a3':'Insolvența este starea patrimoniului debitorului caracterizată prin insuficiența fondurilor bănești disponibile pentru plata datoriilor certe, lichide și exigibile. Conform Legii nr. 85/2014 privind procedurile de prevenire a insolvenței și de insolvență, insolvența se prezumă atunci când debitorul nu a plătit datoria sa față de creditor în termen de 60 de zile de la scadență. Această prezumție este relativă și poate fi combătută.',
+      'faq.i.q4':'Care este diferența dintre reorganizare și faliment?',
+      'faq.i.a4':'Reorganizarea presupune continuarea activității debitorului pe baza unui plan aprobat de creditori, cu o durată de implementare de maximum 48 de luni. Falimentul implică încetarea activității, lichidarea bunurilor din avere și distribuirea sumelor către creditori, conform ordinii de prioritate legale.',
+      'faq.i.q5':'Cum mă pot înscrie la masa credală și care sunt termenele?',
+      'faq.i.a5':'Înscrierea la masa credală se realizează prin depunerea unei cereri de admitere a creanței în termenul stabilit prin hotărârea de deschidere a procedurii de insolvență. Cererea trebuie să cuprindă mențiunile prevăzute la art. 104 din Legea nr. 85/2014 privind procedurile de prevenire a insolvenței și de insolvență și să fie însoțită de documentele justificative. Nedepunerea în termen duce la pierderea dreptului de a participa la procedură. Este esențial să acționați prompt din momentul publicării hotărârii în Buletinul Procedurilor de Insolvență.',
+      'faq.i.q6':'Pot fi tras la răspundere personal ca administrator dacă firma intră în insolvență?',
+      'faq.i.a6':'Răspunderea personală a administratorului nu este automată. Aceasta intervine doar pe baza unei hotărâri judecătorești definitive, în cazul în care se dovedesc fapte culpabile conform prevederilor speciale ale art. 169 din Legea nr. 85/2014 privind procedurile de prevenire a insolvenței și de insolvență. Consultarea unui specialist din timp poate preveni consecințe grave.',
+      'faq.cta.q':'Nu ați găsit răspunsul căutat?',
+      'faq.cta.desc':'Contactați-ne pentru o consultație personalizată.',
+      'faq.cta.btn':'Contactați-ne',
     },
     en: {
-      'nav.about':'About','nav.services':'Services','nav.publications':'Articles','nav.news':'News','nav.contact':'Contact',
+      'nav.about':'About us','nav.services':'Services','nav.publications':'Articles','nav.news':'Legal News','nav.faq':'FAQ','nav.careers':'Careers','nav.contact':'Contact',
+      'nav.svc.law':'Law Firm','nav.svc.ins':'Insolvency Practice','nav.svc.portfolio':'Portfolio',
+      'nav.pub.group':'Publications','nav.pub.articles':'Articles','nav.pub.news':'Legal news','nav.pub.useful':'Useful Resources',
+      'portfolio.title':'Reference <em>mandates</em>','portfolio.desc':'This section will showcase representative mandates and reference projects. Check back soon.',
+      'resources.title':'Legal <em>resources</em>','resources.desc':'This section will include legal materials, practical guides and useful links. Check back soon.',
       'hero.eyebrow':'Attorney at Law · Insolvency Practitioner · Bucharest',
       'hero.subtitle':'Attorney & Insolvency Practitioner with 15+ years of expertise<br>in complex mandates. Law. Restructuring. Recovery.',
       'hero.cta.primary':'Contact Us','hero.cta.secondary':'Explore Services',
       'hero.stat1':'Years of<br>practice','hero.stat2':'Professional<br>qualifications','hero.stat3':'Industries<br>served',
+      'hero.quote.text':'"No man is above the law and no man below it. Justice is conscience, not a personal conscience but the conscience of the whole humanity."',
       'split.law.tag':'Law Firm','split.law.slogan':'Defense. Consulting. Representation.',
-      'split.law.desc':'Complete legal assistance in civil and commercial litigation, labor law, administrative disputes, criminal law and special procedures. Each mandate is approached with analytical rigor and tailored strategy.',
-      'split.law.s1':'Civil Law','split.law.s2':'Commercial Law','split.law.s3':'Labor Law','split.law.s4':'Tax Disputes','split.law.s5':'Criminal Law','split.law.s6':'Litigation & Arbitration','split.law.s7':'Real Estate','split.law.s8':'Insurance',
+      'split.law.desc':'We provide legal advice, assistance and representation before courts, authorities and public institutions, for individuals and legal entities, as well as drafting legal documents, participation in negotiations and other activities specific to the legal profession. Each mandate is approached with analytical rigor, providing a personalised strategy that takes into account the specific circumstances of each case.',
+      'split.law.s1':'Civil & Commercial','split.law.s2':'Corporate','split.law.s3':'Debt Recovery & Enforcement','split.law.s4':'Litigation & Arbitration','split.law.s5':'Administrative Offences & Criminal','split.law.s6':'Employment & Labour Relations','split.law.s7':'Construction, Infrastructure & Real Estate','split.law.s8':'Technology & Data Protection','split.law.s9':'Administrative & Tax Disputes','split.law.s10':'Insurance',
       'split.link':'Service Details',
       'split.ins.tag':'Individual Insolvency Practice','split.ins.slogan':'Restructuring. Recovery. Rehabilitation.',
-      'split.ins.desc':'Complex insolvency, reorganization and bankruptcy procedures, voluntary liquidations and debt recovery. Validated expertise in nationally impactful mandates, across diverse industries and multidisciplinary contexts.',
-      'split.ins.s1':'Insolvency & Bankruptcy','split.ins.s2':'Restructuring','split.ins.s3':'Insolvency Prevention','split.ins.s4':'Voluntary Liquidations','split.ins.s5':'Debt Recovery','split.ins.s6':'Enforcement Proceedings',
+      'split.ins.desc':'As insolvency experts, we advise clients on all aspects of insolvency and restructuring, including business recovery, distressed transactions, creditor enforcement, insolvency proceedings and cross-border restructurings. We also act as court-appointed judicial administrators and liquidators in complex restructuring and insolvency proceedings.',
+      'split.ins.s1':'Restructuring Agreement','split.ins.s2':'Preventive Concordat','split.ins.s3':'Insolvency','split.ins.s4':'Reorganisation','split.ins.s5':'Bankruptcy','split.ins.s6':'Out-of-court Restructuring','split.ins.s7':'Voluntary Liquidations of Legal Entities','split.ins.s8':'Liquidation of Non-profit Organisations','split.ins.s9':'Debt Recovery','split.ins.s10':'Enforcement Proceedings',
       'about.tag':'Meet the Founder','about.img.role':'Founder',
       'about.title':'Solid expertise.<br><em>Tailored solutions.</em>',
-      'about.text1':'With over 15 years of legal experience, Roxana Diaconescu has been involved in numerous civil and commercial mandates, complex insolvency, reorganization, bankruptcy and insolvency prevention procedures, which allowed her to offer clients a comprehensive perspective on existing legal issues.',
-      'about.text2':'The dual qualification as attorney and insolvency practitioner, combined with experience in nationally impactful mandates, gives her a unique position in Romania\'s business law market.',
+      'about.text1':'An attorney and insolvency practitioner with over 15 years of experience managing complex legal mandates, including nationally impactful projects, Roxana Diaconescu provides strategic legal assistance and representation for Romanian and international clients. Her professional activity includes, among others, representing clients and pleading cases before all levels of jurisdiction, as well as providing business law services for major companies across various industries.',
+      'about.text2':'Her specialisation in voluntary liquidations, restructuring, insolvency and bankruptcy is backed by a strong practice, internationally recognised through her inclusion in the Legal500 rankings for the Insolvency & Restructuring area.',
       'cred1.title':'Bachelor & Master in Law','cred2.title':'UNBR Member','cred3.title':'UNPIR Member','cred4.title':'Working languages','cred4.org':'International mandates',
       'stat1':'Years of<br>experience','stat2':'Professional<br>qualifications','stat3':'Industries<br>served','stat4':'Working<br>languages',
       'ind.tag':'Industries served','ind.title':'<em>Multisectoral</em> expertise',
-      'pub.tag':'Publications & Visibility','pub.title':'An authoritative<br><em>voice in the field</em>',
+      'pub.tag':'Publications & Visibility','pub.title':'A leading<br><em>voice in the field</em>',
       'pub2.title':'Early warning tools according to current special insolvency regulations',
       'pub4.title':'Comments on the influences brought to the insolvency market by amending Law no. 85/2014',
       'pub5.title':'Comments on the impact brought to the business environment by amending the Insolvency Code',
       'pub6.title':'Insolvency proceedings in Romania and employees',
       'newsletter.title':'Legal Newsletter','newsletter.sub':'Legislative updates and specialty articles, directly in your inbox.','newsletter.ph':'Email address','newsletter.btn':'Subscribe',
       'contact.title':'Let\'s discuss<br>your<br><em>case.</em>',
-      'contact.desc':'Available for consultations in Bucharest and online. First contact can be made by phone, email or through the form below.',
+      'contact.desc':'Available for consultations in Bucharest and online. Initial contact can be made by phone, email or through the contact form.',
       'contact.addr':'Address','contact.phone':'Phone','contact.email':'Email',
+      'contact.hours.label':'Working Hours','contact.hours.value':'Mon–Fri: 09:00 – 18:00',
+      'contact.linkedin.label':'LinkedIn','contact.juridice.label':'Juridice.ro',
       'form.name':'Full name','form.phone':'Phone','form.subject':'Area of interest',
-      'form.opt1':'Civil Law','form.opt2':'Commercial Law','form.opt3':'Labor Law','form.opt4':'Administrative Law','form.opt5':'Criminal Law','form.opt6':'Insolvency & Bankruptcy','form.opt7':'Restructuring','form.opt8':'Debt Recovery','form.opt9':'Litigation & Arbitration','form.opt10':'Real Estate','form.opt11':'Other',
+      'form.opt1':'Civil & Commercial','form.opt2':'Corporate','form.opt3':'Employment & Labour','form.opt4':'Administrative & Tax Disputes','form.opt5':'Administrative Offences & Criminal','form.opt6':'Insolvency & Bankruptcy','form.opt7':'Restructuring','form.opt8':'Debt Recovery','form.opt9':'Litigation & Arbitration','form.opt10':'Construction & Real Estate','form.opt11':'Other',
       'form.msg':'Briefly describe your situation...','form.submit':'Send message',
-      'footer.tagline':'Law Firm & Individual Insolvency Practice.<br>Law. Integrity. Balance.',
+      'footer.tagline':'Law Firm & Individual Insolvency Practice<br>Law. Integrity. Balance.',
       'footer.nav':'Navigation','footer.practice':'Practice Areas',
-      'footer.fn1':'Home','footer.fn2':'About','footer.fn3':'Law Firm','footer.fn4':'Insolvency Practice','footer.fn5':'Portfolio','footer.fn6':'Articles','footer.fn7':'Useful Resources','footer.fn8':'Contact',
-      'footer.fp1':'Civil Law','footer.fp2':'Commercial Law','footer.fp3':'Insolvency & Bankruptcy','footer.fp4':'Restructuring','footer.fp5':'Litigation & Arbitration','footer.fp6':'Labor Law','footer.fp7':'Real Estate','footer.fp8':'Tax Disputes',
+      'footer.fn1':'Home','footer.fn2':'About us','footer.fn3':'Law Firm','footer.fn4':'Insolvency Practice','footer.fn5':'Portfolio','footer.fn6':'Articles','footer.fn7':'Legal Updates','footer.fn8':'Useful Resources','footer.fn9':'Frequent Questions','footer.fn10':'Join Us','footer.fn11':'Contact',
+      'footer.fp1':'Civil & Commercial','footer.fp2':'Corporate','footer.fp3':'Insolvency prevention procedures','footer.fp4':'Insolvency & Bankruptcy','footer.fp5':'Voluntary liquidation procedures','footer.fp6':'Debt collection & Enforcement','footer.fp7':'Litigation & Arbitration','footer.fp8':'Misdemeanors & Criminal defense','footer.fp9':'Labor & Employment','footer.fp10':'Construction, Infrastructure & Real Estate','footer.fp11':'Technology & Data Protection','footer.fp12':'Administrative & Tax Litigation','footer.fp13':'Insurance',
       'footer.copy':'© 2026 Diaconescu Roxana-Elena — Law Firm & Individual Insolvency Practice. All rights reserved.',
-      'footer.privacy':'Privacy Policy','footer.terms':'Terms & Conditions',
+      'footer.privacy':'Privacy Policy','footer.cookies':'Cookie Policy','footer.terms':'Terms & Conditions',
       'news.tag':'Legal Updates','news.title':'Legislative <em>news</em>','news.live':'Continuously updated',
+      'careers.tag':'Careers','careers.title':'Join our<br><em>team</em>',
+      'careers.desc':'If you work at the intersection of law and business and enjoy turning complex challenges into clear outcomes, we\'d be glad to connect with you. We look forward to receiving your application via the form below:',
+      'careers.fname':'First name','careers.lname':'Last name','careers.area':'Practice area of interest','careers.linkedin':'LinkedIn profile (optional)',
+      'careers.cv':'Upload CV *','careers.letter':'Letter of Intent (optional)',
+      'careers.consent':'By submitting your documents, you agree to the processing of personal data for recruitment purposes, in accordance with our Privacy Policy.',
+      'careers.submit':'Submit application',
+      'faq.tag':'Frequently Asked Questions',
+      'faq.title':'Answers to <em>your questions</em>',
+      'faq.tab.avocat':'Law Firm',
+      'faq.tab.insolventa':'Individual Insolvency Practice',
+      'faq.a.q1':'What services does the Law Firm offer?',
+      'faq.a.a1':'The Law Firm provides legal services in accordance with the provisions of Law no. 51/1995 on the organization and practice of the attorney profession and the Statute of the Attorney Profession, including, but not limited to:<ul><li>legal consultations and requests;</li><li>legal assistance and representation before courts, criminal investigation authorities, authorities with jurisdictional powers, public notaries and bailiffs, public administration authorities and institutions, as well as other legal entities;</li><li>drafting legal documents, certifying the identity of the parties, the content and the date of documents submitted for authentication;</li><li>defending and representing, through specific legal means, the legitimate rights and interests of natural and legal persons in their dealings with public authorities, institutions and any Romanian or foreign individual;</li><li>mediation activities etc.</li></ul>Each case is approached with a rigorous analysis and a personalized strategy tailored to the specifics of your situation.',
+      'faq.a.q2':'What fees does the Law Firm charge?',
+      'faq.a.a2':'Our fees are determined based on the nature, complexity and duration of the legal work, in accordance with the provisions of art. 127 of the Statute of the Attorney Profession. All financial terms are transparent and are expressly set forth in the Legal Services Agreement at the time of its execution, prior to the commencement of the engagement.<br><br>Fees may be hourly, fixed (lump-sum), success-based or a combination thereof.',
+      'faq.a.q3':'Can you represent clients outside of Bucharest or from abroad?',
+      'faq.a.a3':'Yes. The Law Firm can assist and represent clients from any location in Romania, as well as EU and/or non-EU clients, arranging domestic and/or international travel. Communication with any of these clients can be conducted via online communication platforms, respecting the foreign client\'s business hours.',
+      'faq.a.q4':'What documents are required for the initial assessment of a case?',
+      'faq.a.a4':'The required documents vary depending on the nature of your situation. As a general rule, the following are helpful: identification documents, relevant contracts, correspondence related to the matter, previous court rulings, resolutions, orders etc. and any other documents with evidentiary value. At the end of our initial discussion, we will let you know exactly what other documents are relevant to your case.',
+      'faq.a.q5':'How is the information and documentation provided to the Law Firm stored and processed?',
+      'faq.a.a5':'All information provided by the client is protected by attorney-client privilege, in accordance with applicable law. The Law Firm will not disclose the data or documents received without the client\'s prior consent, except in cases provided for by law. The Law Firm processes its clients\' personal data in accordance with the provisions of Regulation (EU) 2016/679 (GDPR), strictly for the purpose of providing legal services.',
+      'faq.i.q1':'What services does the Individual Insolvency Practice offer?',
+      'faq.i.a1':'The Individual Insolvency Practice offers services in accordance with the specific regulations governing the profession, as set forth in Emergency Ordinance no. 86/2006 on the organization of the activities of insolvency practitioners, the Statute on the organization and practice of the profession of insolvency practitioner and the Code of Ethics.<br><br>The Individual Insolvency Practice may act, throughout Romania, as a composition administrator, restructuring administrator, judicial administrator, liquidator, conciliator, as well as in any other capacity provided for by law. These roles are fulfilled by assuming the position and performing the specific duties in accordance with the law and the terms of the appointment or designation decision.',
+      'faq.i.q2':'What fees does the Individual Insolvency Practice charge?',
+      'faq.i.a2':'For the services provided, depending on their complexity as well as that of the proceedings themselves, the Individual Insolvency Practice may set a fixed lump-sum or monthly fee, a success fee or a combination thereof, in accordance with the provisions of art. 38 et seq. of Emergency Ordinance no. 86/2006 on the organization of the activities of insolvency practitioners.<br><br>The provisional fee for the observation period is set by the syndic-judge upon the opening of the insolvency proceedings, based on legal criteria, but it may be modified by the Creditors\' Assembly.',
+      'faq.i.q3':'What does insolvency mean and when is a company considered insolvent?',
+      'faq.i.a3':'Insolvency is a state of the debtor\'s assets characterized by an insufficiency of available funds to pay certain, liquid and due debts. According to Law no. 85/2014 on insolvency prevention and insolvency proceedings, insolvency is presumed when the debtor has not paid its debt to the creditor within 60 days of the due date. This presumption is relative and may be rebutted.',
+      'faq.i.q4':'What is the difference between reorganization and bankruptcy?',
+      'faq.i.a4':'Reorganization involves the debtor continuing its business operations based on a plan approved by creditors, with an implementation period of up to 48 months. Bankruptcy involves the cessation of business operations, the liquidation of the debtor\'s assets and the distribution of proceeds to creditors in accordance with the statutory order of priority.',
+      'faq.i.q5':'How can I register my receivable claim and what are the deadlines?',
+      'faq.i.a5':'Claims are registered by filing a receivable claim form within the deadline set by the syndic-judge through the ruling of opening the insolvency proceedings. The request must include the information specified in art. 104 of Law no. 85/2014 on insolvency prevention and insolvency proceedings and must be accompanied by supporting documents. Failure to submit the request within the deadline results in the loss of the right to participate in the proceedings. It is essential to act promptly as soon as the decision is published in the Insolvency Proceedings Bulletin.',
+      'faq.i.q6':'Can I be held personally liable as a director if the company goes into insolvency?',
+      'faq.i.a6':'The director\'s personal liability is not automatic. It arises only on the basis of a final court ruling, if culpable acts are proven in accordance with the special provisions of art. 169 of Law no. 85/2014 on insolvency prevention and insolvency proceedings. Consulting a specialist early on can prevent serious consequences.',
+      'faq.cta.q':'Didn\'t find the answer you were looking for?',
+      'faq.cta.desc':'Contact us for a personalized consultation.',
+      'faq.cta.btn':'Contact us',
     }
   };
 
@@ -2897,28 +3340,11 @@
   });
   applyLang(savedLang);
 
-  // COLOUR SCHEME TOGGLE (gold ↔ silver)
-  const themeToggle = document.getElementById('themeToggle');
-  if (sessionStorage.getItem('silver-theme') === '1') {
-    document.documentElement.classList.add('silver-theme');
-  }
-  themeToggle.addEventListener('click', () => {
-    const isNowSilver = document.documentElement.classList.toggle('silver-theme');
-    sessionStorage.setItem('silver-theme', isNowSilver ? '1' : '0');
-  });
-
-  // ALIGN VIDEO CENTER TO NAV LINKS CENTER (desktop only)
+  // ALIGN VIDEO CENTER TO NAV LINKS CENTER (both fixed at 50% of viewport)
   function alignHeroVideo() {
-    const navLinks = document.querySelector('.nav-links');
     const video = document.querySelector('.hero-video-wrap video');
     if (!video) return;
-    if (!navLinks || navLinks.getBoundingClientRect().width === 0) {
-      video.style.left = '50%';
-      return;
-    }
-    const rect = navLinks.getBoundingClientRect();
-    const centerPct = ((rect.left + rect.width / 2) / window.innerWidth) * 100;
-    video.style.left = centerPct + '%';
+    video.style.left = '50%';
   }
   alignHeroVideo();
   window.addEventListener('resize', alignHeroVideo);

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politică de Cookies — Diaconescu Partners</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy:      #0d1b2a;
+      --navy-mid:  #152238;
+      --gold:      #b8975a;
+      --gold-light:#d4b483;
+      --white:     #f5f2ec;
+      --gray:      #8a9bb0;
+      --font-display: 'EB Garamond', serif;
+      --font-body:    'Montserrat', sans-serif;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { background: var(--navy); color: var(--white); font-family: var(--font-body); -webkit-font-smoothing: antialiased; }
+
+    nav {
+      position: sticky; top: 0; z-index: 10;
+      padding: 18px 60px;
+      background: rgba(13,27,42,0.97);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(184,151,90,0.15);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo { font-family: var(--font-display); font-size: 20px; font-weight: 400; color: var(--white); text-decoration: none; }
+    .nav-logo span { color: var(--gold); }
+    .nav-back { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gray); text-decoration: none; transition: color 0.3s; display: flex; align-items: center; gap: 8px; }
+    .nav-back::before { content: '←'; font-size: 12px; }
+    .nav-back:hover { color: var(--gold); }
+
+    main { max-width: 820px; margin: 0 auto; padding: 80px 40px 120px; }
+    .doc-tag { font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; }
+    h1 { font-family: var(--font-display); font-size: 44px; font-weight: 400; color: var(--white); line-height: 1.15; margin-bottom: 12px; }
+    .doc-meta { font-size: 11px; color: var(--gray); letter-spacing: 0.05em; margin-bottom: 56px; padding-bottom: 40px; border-bottom: 1px solid rgba(184,151,90,0.12); }
+    h2 { font-size: 10px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--gold); margin: 52px 0 20px; }
+    h3 { font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(245,242,236,0.55); margin: 28px 0 12px; }
+    .section-number { display: inline-block; font-size: 9px; letter-spacing: 0.15em; color: rgba(184,151,90,0.45); margin-right: 8px; }
+    p { font-size: 14px; line-height: 1.9; color: rgba(245,242,236,0.72); margin-bottom: 14px; }
+    ul.doc-list { list-style: none; margin: 8px 0 16px 0; }
+    ul.doc-list li { font-size: 14px; line-height: 1.85; color: rgba(245,242,236,0.72); padding-left: 22px; position: relative; margin-bottom: 10px; }
+    ul.doc-list li::before { content: '—'; position: absolute; left: 0; color: var(--gold); opacity: 0.5; font-size: 12px; }
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { color: var(--gold-light); text-decoration: underline; }
+    .divider { height: 1px; background: linear-gradient(90deg, rgba(184,151,90,0.2), transparent); margin: 20px 0 0; }
+
+    /* COOKIE CATEGORY CARDS */
+    .cookie-card {
+      border: 1px solid rgba(184,151,90,0.12);
+      border-radius: 2px;
+      padding: 24px 28px;
+      margin-bottom: 16px;
+      background: rgba(21,34,56,0.4);
+    }
+    .cookie-card-header {
+      display: flex; align-items: center; gap: 12px; margin-bottom: 12px;
+    }
+    .cookie-badge {
+      font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase;
+      padding: 3px 10px; border: 1px solid rgba(184,151,90,0.3);
+      color: var(--gold); white-space: nowrap;
+    }
+    .cookie-badge.always { border-color: rgba(138,155,176,0.3); color: var(--gray); }
+    .cookie-card h3 { margin: 0; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--white); }
+    .cookie-card p { margin: 0; font-size: 13px; }
+    .cookie-meta { font-size: 11px; color: rgba(138,155,176,0.6); margin-top: 10px; letter-spacing: 0.03em; }
+
+    footer { text-align: center; padding: 36px 40px; border-top: 1px solid rgba(184,151,90,0.08); font-size: 11px; color: rgba(138,155,176,0.4); letter-spacing: 0.05em; }
+    footer a { color: rgba(138,155,176,0.4); text-decoration: none; margin: 0 12px; transition: color 0.3s; }
+    footer a:hover { color: var(--gray); text-decoration: none; }
+
+    @media (max-width: 700px) {
+      nav { padding: 16px 24px; }
+      main { padding: 48px 24px 80px; }
+      h1 { font-size: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">Diaconescu <span>Partners</span></a>
+  <a class="nav-back" href="index.html">Înapoi la site</a>
+</nav>
+
+<main>
+  <p class="doc-tag">Document juridic</p>
+  <h1>Politică de Cookies</h1>
+  <p class="doc-meta">Ultima actualizare: mai 2026</p>
+
+  <h2><span class="section-number">01.</span> Introducere</h2>
+  <p>1.1. Această Politică de Cookies explică modul în care <strong>Cabinet de Avocat Diaconescu Roxana-Elena</strong> („Cabinetul", „Diaconescu Partners", „noi") utilizează cookies și tehnologii de urmărire similare pe website-ul său.</p>
+  <p>1.2. Prin continuarea utilizării Website-ului, recunoașteți că utilizăm cookies pentru a îmbunătăți experiența de navigare și a analiza traficul pe site, conform prevederilor prezentei politici.</p>
+  <div class="divider"></div>
+
+  <h2><span class="section-number">02.</span> Ce sunt cookies-urile?</h2>
+  <p>2.1. <strong>Cookies:</strong> Fișiere text mici stocate pe computerul sau dispozitivul mobil de browserul dumneavoastră web. Permit Website-ului să recunoască dispozitivul dumneavoastră și să memoreze informații despre preferințele sau acțiunile anterioare.</p>
+  <p>2.2. <strong>Alte tehnologii similare:</strong> Putem utiliza tecnologii similare, cum ar fi pixeli sau balize web (web beacons), care ne ajută să înțelegem interacțiunea utilizatorilor cu conținutul nostru. Aceste tehnologii sunt utilizate exclusiv în baza consimțământului dumneavoastră prealabil.</p>
+  <div class="divider"></div>
+
+  <h2><span class="section-number">03.</span> Categoriile de cookies utilizate</h2>
+
+  <div class="cookie-card">
+    <div class="cookie-card-header">
+      <span class="cookie-badge always">Întotdeauna active</span>
+      <h3>Cookies strict necesare</h3>
+    </div>
+    <p>Aceste cookies sunt esențiale pentru funcționarea Website-ului și nu pot fi dezactivate în sistemele noastre. De obicei, sunt setate exclusiv ca răspuns la acțiunile dumneavoastră — setarea preferințelor de confidențialitate, navigarea pe site sau completarea formularelor.</p>
+    <p class="cookie-meta">Temei juridic: Art. 6(1)(f) GDPR — Interes legitim</p>
+  </div>
+
+  <div class="cookie-card">
+    <div class="cookie-card-header">
+      <span class="cookie-badge">Opționale</span>
+      <h3>Cookies de performanță și analiză</h3>
+    </div>
+    <p>Aceste cookies ne permit să numărăm vizitele și sursele de trafic, pentru a măsura și îmbunătăți performanța site-ului. Ne ajută să identificăm paginile cele mai vizitate și să înțelegem comportamentul de navigare al utilizatorilor.</p>
+    <p class="cookie-meta">Instrumente: Google Analytics (date anonimizate) &nbsp;·&nbsp; Temei juridic: Art. 6(1)(a) GDPR — Consimțământ</p>
+  </div>
+
+  <div class="cookie-card">
+    <div class="cookie-card-header">
+      <span class="cookie-badge">Opționale</span>
+      <h3>Cookies funcționale</h3>
+    </div>
+    <p>Aceste cookies permit Website-ului să ofere funcționalitate îmbunătățită și personalizare — de exemplu, reținerea preferinței de limbă (RO/EN) selectate în cursul sesiunii de navigare.</p>
+    <p class="cookie-meta">Temei juridic: Art. 6(1)(a) GDPR — Consimțământ</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <h2><span class="section-number">04.</span> Durata de stocare</h2>
+  <ul class="doc-list">
+    <li><strong>Cookies de sesiune:</strong> Temporare — expiră automat la închiderea browserului.</li>
+    <li><strong>Cookies persistente:</strong> Rămân stocate pe dispozitivul dumneavoastră pentru o perioadă determinată (cuprinsă între 30 de zile și 2 ani) sau până când le ștergeți manual.</li>
+  </ul>
+  <div class="divider"></div>
+
+  <h2><span class="section-number">05.</span> Controlul cookies-urilor prin browser</h2>
+  <p>Puteți gestiona cookies și prin setările browserului dumneavoastră. Majoritatea browserelor vă permit să:</p>
+  <ul class="doc-list">
+    <li>Vizualizați ce cookies sunt stocate și să le ștergeți individual.</li>
+    <li>Blocați cookies-urile provenite de la terți.</li>
+    <li>Blocați cookies-urile provenite de la site-uri specifice.</li>
+    <li>Blocați toate cookies-urile.</li>
+    <li>Ștergeți toate cookies-urile la închiderea browserului.</li>
+  </ul>
+  <p><strong>Notă:</strong> Dacă alegeți să blocați toate cookies-urile, unele funcționalități ale Website-ului (cum ar fi reținerea preferinței de limbă) s-ar putea să nu funcționeze corect.</p>
+  <div class="divider"></div>
+
+  <h2><span class="section-number">06.</span> Relația cu Politica de Confidențialitate</h2>
+  <p>Utilizarea cookies-urilor și a datelor colectate prin intermediul acestora este guvernată și de <a href="politica-confidentialitate.html">Politica noastră de Confidențialitate</a>, care descrie în detaliu drepturile dumneavoastră GDPR și modul în care prelucrăm datele personale.</p>
+  <div class="divider"></div>
+
+  <h2><span class="section-number">07.</span> Actualizări ale acestei politici</h2>
+  <p>Putem actualiza această Politică de Cookies periodic, pentru a reflecta modificările practicilor noastre sau din motive operaționale, legale sau de reglementare. Vă încurajăm să o revedeți periodic.</p>
+  <div class="divider"></div>
+
+  <h2><span class="section-number">08.</span> Date de contact</h2>
+  <p>Pentru mai multe informații despre utilizarea cookies-urilor sau a altor tehnologii de urmărire, vă rugăm să ne contactați:</p>
+  <ul class="doc-list">
+    <li><strong>Cabinet de Avocat Diaconescu Roxana-Elena</strong></li>
+    <li>E-mail: <a href="mailto:office@diaconescu-partners.ro">office@diaconescu-partners.ro</a></li>
+    <li>Telefon: <a href="tel:+40745755301">+40 745 755 301</a></li>
+    <li>Adresă: Str. Gheorghe Buciumat nr. 26, Bl. A, Et. 4, Ap. 401, Sector 1, București, România</li>
+  </ul>
+</main>
+
+<footer>
+  <p>© 2026 Diaconescu Roxana-Elena — Cabinet de Avocat &amp; Cabinet Individual de Insolvență</p>
+  <p style="margin-top:12px;">
+    <a href="politica-cookies.html">Politică de Cookies</a>
+    <a href="politica-confidentialitate.html">Politică de Confidențialitate</a>
+    <a href="gdpr.html">GDPR</a>
+    <a href="termeni-conditii.html">Termeni &amp; Condiții</a>
+  </p>
+</footer>
+
+</body>
+</html>
