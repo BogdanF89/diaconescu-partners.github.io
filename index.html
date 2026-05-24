@@ -511,6 +511,7 @@
     inset: 0;
     opacity: 0;
     transition: opacity 0.5s ease;
+    pointer-events: none;
   }
   .split-panel-left::before {
     background: radial-gradient(ellipse at 30% 50%, rgba(184,151,90,0.06), transparent 70%);
@@ -581,6 +582,7 @@
     margin-bottom: 40px;
     max-width: 400px;
   }
+  .split-desc p + p { margin-top: 16px; }
   .split-services {
     list-style: none;
     display: flex;
@@ -597,6 +599,16 @@
     color: rgba(245,242,236,0.6);
     transition: all 0.3s;
   }
+  .split-services li a {
+    color: inherit;
+    text-decoration: none;
+    cursor: none;
+  }
+  .split-services li:has(a):hover {
+    border-color: rgba(184,151,90,0.6);
+    color: var(--gold-light);
+    background: rgba(184,151,90,0.08);
+  }
   .split-panel:hover .split-services li {
     border-color: rgba(184,151,90,0.35);
     color: rgba(245,242,236,0.8);
@@ -604,29 +616,28 @@
   .split-link {
     display: inline-flex;
     align-items: center;
-    gap: 12px;
+    align-self: flex-start;
+    gap: 8px;
     font-size: 11px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--gold);
     text-decoration: none;
-    transition: gap 0.3s;
+    border: 1px solid rgba(184,151,90,0.45);
+    padding: 11px 20px;
+    cursor: none;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
   }
-  .split-link:hover { gap: 20px; }
-  .split-link-arrow {
-    width: 32px; height: 1px;
+  .split-link::before {
+    content: '›';
+    font-size: 15px;
+    line-height: 1;
+    font-family: var(--font-body);
+  }
+  .split-link:hover {
     background: var(--gold);
-    position: relative;
-    transition: width 0.3s;
-  }
-  .split-link:hover .split-link-arrow { width: 48px; }
-  .split-link-arrow::after {
-    content: '';
-    position: absolute;
-    right: 0; top: -3px;
-    border: 4px solid transparent;
-    border-left: 6px solid var(--gold);
-    border-right: none;
+    color: var(--navy);
+    border-color: var(--gold);
   }
 
   /* ABOUT SECTION */
@@ -1026,6 +1037,15 @@
     border: 1px solid rgba(184,151,90,0.2);
     color: rgba(184,151,90,0.55);
   }
+  a.pub-lang-badge {
+    text-decoration: none;
+    cursor: none;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  a.pub-lang-badge:hover {
+    border-color: rgba(184,151,90,0.7);
+    color: var(--gold);
+  }
   .pub-archive {
     grid-column: 1 / -1;
     display: flex;
@@ -1149,6 +1169,7 @@
     font-family: var(--font-body);
     font-size: 13px;
     font-weight: 300;
+    line-height: 1;
     outline: none;
     transition: all 0.3s;
     appearance: none;
@@ -1172,10 +1193,10 @@
   }
   .form-field select {
     color: rgba(138,155,176,0.5);
-    font-size: 11px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     cursor: none;
+    height: 55px;
   }
   .form-submit {
     padding: 20px 48px;
@@ -1625,7 +1646,7 @@
   /* NEWS SECTION */
   .news-section {
     padding: 120px 0;
-    background: var(--navy-mid);
+    background: var(--navy);
     position: relative;
     overflow: hidden;
   }
@@ -1684,7 +1705,7 @@
     width: 320px;
     flex-shrink: 0;
     padding: 28px;
-    background: rgba(13,27,42,0.6);
+    background: var(--navy-mid);
     border: 1px solid rgba(184,151,90,0.08);
     position: relative;
     transition: all 0.35s ease;
@@ -2027,6 +2048,7 @@
     .form-field textarea,
     .form-field select,
     .newsletter-form input { font-size: 16px; }
+    .form-field select { height: 58px; }
   }
 
   /* SMALL PHONE — 430px */
@@ -2049,7 +2071,7 @@
   .hero-quote {
     position: absolute;
     left: 80px;
-    top: 50%;
+    top: 38%;
     transform: translateY(-50%);
     z-index: 2;
     max-width: 280px;
@@ -2059,7 +2081,7 @@
   .hero-quote-text {
     display: block;
     font-family: var(--font-display);
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     line-height: 1.8;
     color: rgba(245,242,236,0.65);
@@ -2075,7 +2097,7 @@
   }
   .hero-quote-author {
     display: block;
-    font-size: 9px;
+    font-size: 10px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: var(--gold);
@@ -2225,7 +2247,6 @@
       <ul class="nav-dropdown-menu">
         <li><a href="#cabinets" data-i18n="nav.svc.law">Cabinet de Avocat</a></li>
         <li><a href="#cabinets" data-i18n="nav.svc.ins">Cabinet de Insolvență</a></li>
-        <li><a href="#portfolio" data-i18n="nav.svc.portfolio">Portofoliu</a></li>
       </ul>
     </li>
     <li class="nav-dropdown">
@@ -2233,7 +2254,6 @@
       <ul class="nav-dropdown-menu">
         <li><a href="#publications" data-i18n="nav.pub.articles">Articole</a></li>
         <li><a href="#news" data-i18n="nav.pub.news">Noutăți juridice</a></li>
-        <li><a href="#resources" data-i18n="nav.pub.useful">Resurse utile</a></li>
         <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
       </ul>
     </li>
@@ -2260,11 +2280,9 @@
     <li class="mobile-nav-group-label" data-i18n="nav.services">Servicii</li>
     <li><a href="#cabinets" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.svc.law">Cabinet de Avocat</a></li>
     <li><a href="#cabinets" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.svc.ins">Cabinet de Insolvență</a></li>
-    <li><a href="#portfolio" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.svc.portfolio">Portofoliu</a></li>
     <li class="mobile-nav-group-label" data-i18n="nav.pub.group">Publicații</li>
     <li><a href="#publications" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.pub.articles">Articole</a></li>
     <li><a href="#news" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.pub.news">Noutăți juridice</a></li>
-    <li><a href="#resources" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.pub.useful">Resurse utile</a></li>
     <li><a href="#faq" class="mobile-nav-link mobile-nav-sub" data-i18n="nav.faq">FAQ</a></li>
     <li><a href="#cariere" class="mobile-nav-link" data-i18n="nav.careers">Cariere</a></li>
     <li><a href="#contact" class="mobile-nav-link" data-i18n="nav.contact">Contact</a></li>
@@ -2316,24 +2334,24 @@
       <em>in judgement</em>
     </h2>
     <p class="split-slogan" data-i18n="split.law.slogan">Apărare. Consultanță. Reprezentare.</p>
-    <p class="split-desc" data-i18n="split.law.desc">
-      Oferim consultanță juridică, asistență și reprezentare în fața instanțelor, autorităților și instituțiilor publice, persoanelor fizice și juridice, precum și redactarea de acte juridice, participarea la negocieri și alte activități specifice profesiei de avocat. Fiecare mandat este abordat cu rigurozitate analitică, oferind o strategie personalizată care ține seama de circumstanțele specifice ale fiecărui caz. Scopul nostru este să oferim soluții eficiente, orientate către aspectele comerciale și rentabile.
-    </p>
+    <div class="split-desc">
+      <p data-i18n="split.law.desc1">Oferim consultanță juridică, asistență și reprezentare în fața instanțelor, autorităților și instituțiilor publice, persoanelor fizice și juridice, precum și redactarea de acte juridice, participarea la negocieri și alte activități specifice profesiei de avocat.</p>
+      <p data-i18n="split.law.desc2">Fiecare mandat este abordat cu rigurozitate analitică, oferind o strategie personalizată care ține seama de circumstanțele specifice ale fiecărui caz.</p>
+      <p data-i18n="split.law.desc3">Scopul nostru este să oferim soluții eficiente, orientate către aspectele comerciale și rentabile.</p>
+    </div>
     <ul class="split-services">
-      <li data-i18n="split.law.s1">Civil & Comercial</li>
-      <li data-i18n="split.law.s2">Societar</li>
-      <li data-i18n="split.law.s3">Recuperări creanțe & Executări silite</li>
-      <li data-i18n="split.law.s4">Litigii & Arbitraj</li>
-      <li data-i18n="split.law.s5">Contravențional & Penal</li>
-      <li data-i18n="split.law.s6">Muncă & Relații de muncă</li>
-      <li data-i18n="split.law.s7">Construcții, Infrastructură & Imobiliare</li>
-      <li data-i18n="split.law.s8">Tehnologie & Protecția datelor</li>
-      <li data-i18n="split.law.s9">Contencios Administrativ & Fiscal</li>
-      <li data-i18n="split.law.s10">Asigurări</li>
+      <li><a href="services/cabinet-avocat.html#civil-comercial" data-i18n="split.law.s1">Civil, Comercial & Societar</a></li>
+      <li><a href="services/cabinet-avocat.html#recuperari-creante" data-i18n="split.law.s3">Recuperări creanțe & Executări silite</a></li>
+      <li><a href="services/cabinet-avocat.html#litigii-arbitraj" data-i18n="split.law.s4">Litigii & Arbitraj</a></li>
+      <li><a href="services/cabinet-avocat.html#contraventional-penal" data-i18n="split.law.s5">Contravențional & Penal</a></li>
+      <li><a href="services/cabinet-avocat.html#munca-relatii" data-i18n="split.law.s6">Muncă & Relații de muncă</a></li>
+      <li><a href="services/cabinet-avocat.html#constructii-imobiliare" data-i18n="split.law.s7">Construcții, Infrastructură & Imobiliare</a></li>
+      <li><a href="services/cabinet-avocat.html#tehnologie-date" data-i18n="split.law.s8">Tehnologie & Protecția datelor</a></li>
+      <li><a href="services/cabinet-avocat.html#contencios-administrativ" data-i18n="split.law.s9">Contencios Administrativ & Fiscal</a></li>
+      <li><a href="services/cabinet-avocat.html#asigurari" data-i18n="split.law.s10">Asigurări</a></li>
     </ul>
     <a href="services/cabinet-avocat.html" class="split-link">
       <span data-i18n="split.link">Detalii servicii</span>
-      <div class="split-link-arrow"></div>
     </a>
   </div>
 
@@ -2350,26 +2368,25 @@
       Ca experți în domeniul insolvenței, oferim clienților consultanță cu privire la toate aspectele legate de insolvență și restructurare, inclusiv redresarea întreprinderilor, tranzacții cu entități aflate în dificultate, executarea creanțelor, proceduri de insolvență și restructurări transfrontaliere. De asemenea, acționăm în calitate de administratori judiciari și lichidatori numiți de instanță în cadrul unor proceduri complexe.
     </p>
     <ul class="split-services">
-      <li data-i18n="split.ins.s1">Acordul de restructurare</li>
-      <li data-i18n="split.ins.s2">Concordatul preventiv</li>
-      <li data-i18n="split.ins.s3">Insolvență</li>
-      <li data-i18n="split.ins.s4">Reorganizare</li>
-      <li data-i18n="split.ins.s5">Faliment</li>
-      <li data-i18n="split.ins.s6">Restructurare extrajudiciară</li>
-      <li data-i18n="split.ins.s7">Lichidări voluntare persoane juridice</li>
-      <li data-i18n="split.ins.s8">Lichidarea organizațiilor non-profit</li>
-      <li data-i18n="split.ins.s9">Recuperări creanțe</li>
-      <li data-i18n="split.ins.s10">Executări silite</li>
+      <li><a href="services/cabinet-insolventa.html" data-i18n="split.ins.s1">Acordul de restructurare</a></li>
+      <li><a href="services/cabinet-insolventa.html" data-i18n="split.ins.s2">Concordatul preventiv</a></li>
+      <li><a href="services/cabinet-insolventa.html" data-i18n="split.ins.s3">Insolvență</a></li>
+      <li><a href="services/cabinet-insolventa.html" data-i18n="split.ins.s4">Reorganizare</a></li>
+      <li><a href="services/cabinet-insolventa.html" data-i18n="split.ins.s5">Faliment</a></li>
+      <li><a href="services/cabinet-insolventa.html" data-i18n="split.ins.s6">Restructurare extrajudiciară</a></li>
+      <li><a href="services/cabinet-insolventa.html" data-i18n="split.ins.s7">Lichidări voluntare persoane juridice</a></li>
+      <li><a href="services/cabinet-insolventa.html" data-i18n="split.ins.s8">Lichidarea organizațiilor non-profit</a></li>
+      <li><a href="services/cabinet-insolventa.html" data-i18n="split.ins.s9">Recuperări creanțe</a></li>
+      <li><a href="services/cabinet-insolventa.html" data-i18n="split.ins.s10">Executări silite</a></li>
     </ul>
     <a href="services/cabinet-insolventa.html" class="split-link">
       <span data-i18n="split.link">Detalii servicii</span>
-      <div class="split-link-arrow"></div>
     </a>
   </div>
 </section>
 
 <!-- PORTFOLIO -->
-<section class="placeholder-section" id="portfolio">
+<section class="placeholder-section" id="portfolio" style="display:none">
   <div class="placeholder-inner reveal">
     <span class="section-tag" data-i18n="nav.svc.portfolio">Portofoliu</span>
     <h2 class="section-title" data-i18n-html="portfolio.title">Mandate de <em>referință</em></h2>
@@ -2537,11 +2554,8 @@
         <div class="pub-year">2023</div>
         <div class="pub-title" data-i18n="pub2.title">Avertizarea timpurie conform normelor speciale actuale ale insolvenței</div>
         <div class="pub-excerpt" data-i18n="pub.ex2">Analizează instrumentele de avertizare timpurie disponibile sub legislația română actuală a insolvenței, cu accent pe aplicabilitatea practică pentru companiile în dificultate.</div>
-        <div class="pub-lang-badges">
-          <span class="pub-lang-badge">RO</span>
-          <span class="pub-lang-badge">EN</span>
-        </div>
         <div class="pub-source" style="margin-top:14px;">Juridice.ro &middot; LIR — Law in Review</div>
+        <a href="https://www.juridice.ro/689113/avertizarea-timpurie-prevazuta-de-actualele-norme-speciale-ale-insolventei.html" target="_blank" rel="noopener" class="pub-read-link" data-i18n="pub.read">Citește articolul</a>
       </div>
 
       <!-- BizLawyer 2019 -->
@@ -2594,7 +2608,7 @@
 
 
 <!-- RESOURCES -->
-<section class="placeholder-section" id="resources">
+<section class="placeholder-section" id="resources" style="display:none">
   <div class="placeholder-inner reveal">
     <span class="section-tag" data-i18n="nav.pub.useful">Resurse utile</span>
     <h2 class="section-title" data-i18n-html="resources.title">Resurse <em>juridice</em></h2>
@@ -2941,10 +2955,10 @@
       <form class="contact-form reveal-right" onsubmit="return false;">
         <div class="form-row">
           <div class="form-field">
-            <input type="text" data-i18n-ph="form.name" placeholder="Nume complet">
+            <input type="text" data-i18n-ph="form.name" placeholder="Nume">
           </div>
           <div class="form-field">
-            <input type="email" placeholder="Email">
+            <input type="text" data-i18n-ph="form.surname" placeholder="Prenume">
           </div>
         </div>
         <div class="form-row">
@@ -2952,20 +2966,7 @@
             <input type="tel" data-i18n-ph="form.phone" placeholder="Telefon">
           </div>
           <div class="form-field">
-            <select>
-              <option value="" disabled selected data-i18n="form.subject">Domeniu de interes</option>
-              <option data-i18n="form.opt1">Drept Civil</option>
-              <option data-i18n="form.opt2">Drept Comercial</option>
-              <option data-i18n="form.opt3">Dreptul Muncii</option>
-              <option data-i18n="form.opt4">Contencios Administrativ</option>
-              <option data-i18n="form.opt5">Drept Penal</option>
-              <option data-i18n="form.opt6">Insolvență & Faliment</option>
-              <option data-i18n="form.opt7">Restructurare</option>
-              <option data-i18n="form.opt8">Recuperare Creanțe</option>
-              <option data-i18n="form.opt9">Litigii & Arbitraj</option>
-              <option data-i18n="form.opt10">Imobiliare</option>
-              <option data-i18n="form.opt11">Altele</option>
-            </select>
+            <input type="email" data-i18n-ph="form.email" placeholder="E-mail">
           </div>
         </div>
         <div class="form-field">
@@ -3013,19 +3014,19 @@
     <div>
       <div class="footer-col-title" data-i18n="footer.practice">Arii de Practică</div>
       <ul class="footer-links">
-        <li><a href="#" data-i18n="footer.fp1">Civil & Comercial</a></li>
-        <li><a href="#" data-i18n="footer.fp2">Societar</a></li>
-        <li><a href="#" data-i18n="footer.fp3">Proceduri de prevenire a insolvenței</a></li>
-        <li><a href="#" data-i18n="footer.fp4">Insolvență & Faliment</a></li>
-        <li><a href="#" data-i18n="footer.fp5">Lichidări voluntare</a></li>
-        <li><a href="#" data-i18n="footer.fp6">Recuperări creanțe & Executări silite</a></li>
-        <li><a href="#" data-i18n="footer.fp7">Litigii & Arbitraj</a></li>
-        <li><a href="#" data-i18n="footer.fp8">Contravențional & Penal</a></li>
-        <li><a href="#" data-i18n="footer.fp9">Muncă & Relații de muncă</a></li>
-        <li><a href="#" data-i18n="footer.fp10">Construcții, Infrastructură & Imobiliare</a></li>
-        <li><a href="#" data-i18n="footer.fp11">Tehnologie & Protecția datelor</a></li>
-        <li><a href="#" data-i18n="footer.fp12">Contencios Administrativ & Fiscal</a></li>
-        <li><a href="#" data-i18n="footer.fp13">Asigurări</a></li>
+        <li><a href="services/cabinet-avocat.html#civil-comercial" data-i18n="footer.fp1">Civil & Comercial</a></li>
+        <li><a href="services/cabinet-avocat.html#civil-comercial" data-i18n="footer.fp2">Societar</a></li>
+        <li><a href="services/cabinet-insolventa.html" data-i18n="footer.fp3">Proceduri de prevenire a insolvenței</a></li>
+        <li><a href="services/cabinet-insolventa.html" data-i18n="footer.fp4">Insolvență & Faliment</a></li>
+        <li><a href="services/cabinet-insolventa.html" data-i18n="footer.fp5">Lichidări voluntare</a></li>
+        <li><a href="services/cabinet-avocat.html#recuperari-creante" data-i18n="footer.fp6">Recuperări creanțe & Executări silite</a></li>
+        <li><a href="services/cabinet-avocat.html#litigii-arbitraj" data-i18n="footer.fp7">Litigii & Arbitraj</a></li>
+        <li><a href="services/cabinet-avocat.html#contraventional-penal" data-i18n="footer.fp8">Contravențional & Penal</a></li>
+        <li><a href="services/cabinet-avocat.html#munca-relatii" data-i18n="footer.fp9">Muncă & Relații de muncă</a></li>
+        <li><a href="services/cabinet-avocat.html#constructii-imobiliare" data-i18n="footer.fp10">Construcții, Infrastructură & Imobiliare</a></li>
+        <li><a href="services/cabinet-avocat.html#tehnologie-date" data-i18n="footer.fp11">Tehnologie & Protecția datelor</a></li>
+        <li><a href="services/cabinet-avocat.html#contencios-administrativ" data-i18n="footer.fp12">Contencios Administrativ & Fiscal</a></li>
+        <li><a href="services/cabinet-avocat.html#asigurari" data-i18n="footer.fp13">Asigurări</a></li>
       </ul>
     </div>
   </div>
@@ -3161,8 +3162,10 @@
       'hero.stat1':'Ani de<br>practică','hero.stat2':'Calificări<br>profesionale','hero.stat3':'Industrii<br>deservite',
       'hero.quote.text':'„Nimeni nu este mai presus de lege și nimeni nu este sub ea. Dreptatea este conștiința, nu o conștiință personală, ci conștiința întregii umanități."',
       'split.law.tag':'Cabinet de Avocat','split.law.slogan':'Apărare. Consultanță. Reprezentare.',
-      'split.law.desc':'Oferim consultanță juridică, asistență și reprezentare în fața instanțelor, autorităților și instituțiilor publice, persoanelor fizice și juridice, precum și redactarea de acte juridice, participarea la negocieri și alte activități specifice profesiei de avocat. Fiecare mandat este abordat cu rigurozitate analitică, oferind o strategie personalizată care ține seama de circumstanțele specifice ale fiecărui caz. Scopul nostru este să oferim soluții eficiente, orientate către aspectele comerciale și rentabile.',
-      'split.law.s1':'Civil & Comercial','split.law.s2':'Societar','split.law.s3':'Recuperări creanțe & Executări silite','split.law.s4':'Litigii & Arbitraj','split.law.s5':'Contravențional & Penal','split.law.s6':'Muncă & Relații de muncă','split.law.s7':'Construcții, Infrastructură & Imobiliare','split.law.s8':'Tehnologie & Protecția datelor','split.law.s9':'Contencios Administrativ & Fiscal','split.law.s10':'Asigurări',
+      'split.law.desc1':'Oferim consultanță juridică, asistență și reprezentare în fața instanțelor, autorităților și instituțiilor publice, persoanelor fizice și juridice, precum și redactarea de acte juridice, participarea la negocieri și alte activități specifice profesiei de avocat.',
+      'split.law.desc2':'Fiecare mandat este abordat cu rigurozitate analitică, oferind o strategie personalizată care ține seama de circumstanțele specifice ale fiecărui caz.',
+      'split.law.desc3':'Scopul nostru este să oferim soluții eficiente, orientate către aspectele comerciale și rentabile.',
+      'split.law.s1':'Civil, Comercial & Societar','split.law.s3':'Recuperări creanțe & Executări silite','split.law.s4':'Litigii & Arbitraj','split.law.s5':'Contravențional & Penal','split.law.s6':'Muncă & Relații de muncă','split.law.s7':'Construcții, Infrastructură & Imobiliare','split.law.s8':'Tehnologie & Protecția datelor','split.law.s9':'Contencios Administrativ & Fiscal','split.law.s10':'Asigurări',
       'split.link':'Detalii servicii',
       'split.ins.tag':'Cabinet Individual de Insolvență','split.ins.slogan':'Restructurare. Recuperare. Redresare.',
       'split.ins.desc':'Ca experți în domeniul insolvenței, oferim clienților consultanță cu privire la toate aspectele legate de insolvență și restructurare, inclusiv redresarea întreprinderilor, tranzacții cu entități aflate în dificultate, executarea creanțelor, proceduri de insolvență și restructurări transfrontaliere. Practica noastră oferă soluții strategice, orientate către aspectele comerciale, menite să protejeze valoarea, să gestioneze riscurile și să susțină continuitatea activității în situații financiare complexe. De asemenea, acționăm în calitate de administratori judiciari și lichidatori numiți de instanță în cadrul unor proceduri complexe de restructurare și insolvență, coordonând recuperarea activelor, relațiile cu creditorii, reorganizarea afacerilor și procesele de lichidare.',
@@ -3191,8 +3194,7 @@
       'contact.addr':'Adresă','contact.phone':'Telefon','contact.email':'Email',
       'contact.hours.label':'Program','contact.hours.value':'L-Vi: 09.00 – 18.00',
       'contact.linkedin.label':'LinkedIn','contact.juridice.label':'Juridice.ro',
-      'form.name':'Nume complet','form.phone':'Telefon','form.subject':'Domeniu de interes',
-      'form.opt1':'Civil & Comercial','form.opt2':'Societar','form.opt3':'Muncă & Relații de muncă','form.opt4':'Contencios Administrativ & Fiscal','form.opt5':'Contravențional & Penal','form.opt6':'Insolvență & Faliment','form.opt7':'Restructurare','form.opt8':'Recuperări creanțe','form.opt9':'Litigii & Arbitraj','form.opt10':'Construcții & Imobiliare','form.opt11':'Altele',
+      'form.name':'Nume','form.surname':'Prenume','form.phone':'Telefon','form.email':'E-mail',
       'form.msg':'Descrieți pe scurt situația...','form.submit':'Trimiteți mesajul',
       'footer.tagline':'Cabinet de Avocat & Cabinet Individual de Insolvență<br>Drept. Integritate. Echilibru.',
       'footer.nav':'Navigare','footer.practice':'Arii de Practică',
@@ -3250,8 +3252,10 @@
       'hero.stat1':'Years of<br>practice','hero.stat2':'Professional<br>qualifications','hero.stat3':'Industries<br>served',
       'hero.quote.text':'"No man is above the law and no man below it. Justice is conscience, not a personal conscience but the conscience of the whole humanity."',
       'split.law.tag':'Law Firm','split.law.slogan':'Defense. Consulting. Representation.',
-      'split.law.desc':'We provide legal advice, assistance and representation before courts, authorities and public institutions, for individuals and legal entities, as well as drafting legal documents, participation in negotiations and other activities specific to the legal profession. Each mandate is approached with analytical rigor, providing a personalised strategy that takes into account the specific circumstances of each case. Our goal is to deliver efficient, commercially driven and cost-effective solutions.',
-      'split.law.s1':'Civil & Commercial','split.law.s2':'Corporate','split.law.s3':'Debt Collection & Enforcement','split.law.s4':'Litigation & Arbitration','split.law.s5':'Misdemeanors & Criminal defense','split.law.s6':'Labor & Employment','split.law.s7':'Construction, Infrastructure & Real Estate','split.law.s8':'Technology & Data Protection','split.law.s9':'Administrative & Tax Litigation','split.law.s10':'Insurance',
+      'split.law.desc1':'We provide legal advice, assistance and representation before courts, authorities and public institutions, for individuals and legal entities, as well as drafting legal documents, participation in negotiations and other activities specific to the legal profession.',
+      'split.law.desc2':'Each mandate is approached with analytical rigor, providing a personalised strategy that takes into account the specific circumstances of each case.',
+      'split.law.desc3':'Our goal is to deliver efficient, commercially driven and cost-effective solutions.',
+      'split.law.s1':'Civil, Commercial & Corporate','split.law.s3':'Debt Collection & Enforcement','split.law.s4':'Litigation & Arbitration','split.law.s5':'Misdemeanors & Criminal defense','split.law.s6':'Labor & Employment','split.law.s7':'Construction, Infrastructure & Real Estate','split.law.s8':'Technology & Data Protection','split.law.s9':'Administrative & Tax Litigation','split.law.s10':'Insurance',
       'split.link':'Service Details',
       'split.ins.tag':'Individual Insolvency Practice','split.ins.slogan':'Restructuring. Recovery. Rehabilitation.',
       'split.ins.desc':'As insolvency experts, we advise clients on all aspects of insolvency and restructuring, including corporate recovery, distressed transactions, debt enforcement, insolvency proceedings and cross-border restructurings. Our practice delivers strategic, commercially focused solutions designed to protect value, manage risk and support business continuity in complex financial situations. We also act as court-appointed insolvency administrators and liquidators in complex restructuring and insolvency proceedings, overseeing asset recovery, creditor relations, business reorganization and liquidation processes.',
@@ -3280,8 +3284,7 @@
       'contact.addr':'Address','contact.phone':'Phone','contact.email':'Email',
       'contact.hours.label':'Working Hours','contact.hours.value':'Mon–Fri: 09:00 – 18:00',
       'contact.linkedin.label':'LinkedIn','contact.juridice.label':'Juridice.ro',
-      'form.name':'Full name','form.phone':'Phone','form.subject':'Area of interest',
-      'form.opt1':'Civil & Commercial','form.opt2':'Corporate','form.opt3':'Employment & Labour','form.opt4':'Administrative & Tax Disputes','form.opt5':'Administrative Offences & Criminal','form.opt6':'Insolvency & Bankruptcy','form.opt7':'Restructuring','form.opt8':'Debt Recovery','form.opt9':'Litigation & Arbitration','form.opt10':'Construction & Real Estate','form.opt11':'Other',
+      'form.name':'Last name','form.surname':'First name','form.phone':'Phone','form.email':'E-mail',
       'form.msg':'Briefly describe your situation...','form.submit':'Send message',
       'footer.tagline':'Law Firm & Individual Insolvency Practice<br>Law. Integrity. Balance.',
       'footer.nav':'Navigation','footer.practice':'Practice Areas',
@@ -3468,17 +3471,26 @@
       track.innerHTML = cards + cards;
       setupScrollInteraction();
     }
-    fetch('news.json', { cache: 'no-cache' })
-      .then((r) => r.ok ? r.json() : Promise.reject(new Error('news.json ' + r.status)))
-      .then((data) => {
-        cached = Array.isArray(data.items) ? data.items.slice(0, 12) : [];
+    (function() {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', 'news.json');
+      xhr.onload = function() {
+        try {
+          var data = JSON.parse(xhr.responseText);
+          cached = Array.isArray(data.items) ? data.items.slice(0, 12) : [];
+        } catch(e) {
+          console.warn('[news] JSON parse failed:', e.message);
+          cached = [];
+        }
         render(localStorage.getItem('lang') || 'ro');
-      })
-      .catch((err) => {
-        console.warn('[news] feed load failed:', err.message);
+      };
+      xhr.onerror = function() {
+        console.warn('[news] feed load failed');
         cached = [];
         render(localStorage.getItem('lang') || 'ro');
-      });
+      };
+      xhr.send();
+    })();
     // re-render dates when language changes
     document.querySelectorAll('.lang-btn').forEach((btn) => {
       btn.addEventListener('click', () => render(btn.textContent.toLowerCase()));
