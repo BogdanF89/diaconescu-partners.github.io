@@ -3,7 +3,7 @@
 // Runs automatically every 6h via .github/workflows/news.yml
 
 import Parser from 'rss-parser';
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 
 // Edit this list to change sources. `label` is shown on the card as the source tag.
 // Each entry must point to a working RSS/Atom feed URL.
@@ -50,14 +50,25 @@ const matchesKeywords = (item) => {
   return KEYWORDS.some((kw) => haystack.includes(norm(kw)));
 };
 
+const FETCH_TIMEOUT_MS = 20000;
+
 const parser = new Parser({
   timeout: 15000,
   headers: { 'User-Agent': 'diaconescu-partners-news-bot/1.0 (+https://diaconescu-partners.github.io)' },
 });
 
+function withTimeout(promise, ms, label) {
+  return Promise.race([
+    promise,
+    new Promise((_, reject) =>
+      setTimeout(() => reject(new Error(`${label} timed out after ${ms}ms`)), ms)
+    ),
+  ]);
+}
+
 async function fetchSource(src) {
   try {
-    const feed = await parser.parseURL(src.url);
+    const feed = await withTimeout(parser.parseURL(src.url), FETCH_TIMEOUT_MS, src.label);
     const items = (feed.items || [])
       .filter(matchesKeywords)
       .slice(0, MAX_PER_SOURCE)
@@ -80,19 +91,29 @@ async function fetchSource(src) {
   }
 }
 
-const all = (await Promise.all(SOURCES.map(fetchSource))).flat();
+const freshItems = (await Promise.all(SOURCES.map(fetchSource))).flat();
 
-// dedupe by link
+// Load existing news.json to preserve previously-fetched items
+let existingItems = [];
+try {
+  const raw = await readFile('news.json', 'utf8');
+  const parsed = JSON.parse(raw);
+  if (Array.isArray(parsed.items)) existingItems = parsed.items;
+} catch { /* file missing or malformed — start fresh */ }
+
+// Merge: fresh items take priority; backfill with existing items not already present
 const seen = new Set();
-const unique = all.filter((it) => {
-  if (seen.has(it.link)) return false;
-  seen.add(it.link);
-  return true;
-});
+const merged = [];
+for (const it of [...freshItems, ...existingItems]) {
+  if (!seen.has(it.link)) {
+    seen.add(it.link);
+    merged.push(it);
+  }
+}
 
 // sort newest first, take top N
-unique.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
-const items = unique.slice(0, MAX_ITEMS);
+merged.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+const items = merged.slice(0, MAX_ITEMS);
 
 const out = {
   generatedAt: new Date().toISOString(),
@@ -101,4 +122,6 @@ const out = {
 };
 
 await writeFile('news.json', JSON.stringify(out, null, 2) + '\n', 'utf8');
-console.log(`\nWrote news.json with ${items.length} item(s).`);
+console.log(`\nWrote news.json with ${items.length} item(s) (${freshItems.length} fresh, ${existingItems.length} previously stored).`);
+// Force exit — hung feed connections can keep the Node.js event loop open indefinitely
+process.exit(0);
