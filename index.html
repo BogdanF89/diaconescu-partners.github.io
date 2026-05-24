@@ -1664,18 +1664,21 @@
     text-transform: uppercase;
     color: var(--gold);
   }
-  .news-marquee { overflow: hidden; }
+  .news-marquee {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    cursor: grab;
+  }
+  .news-marquee::-webkit-scrollbar { display: none; }
+  .news-marquee:active { cursor: grabbing; }
   .news-track {
     display: flex;
     gap: 20px;
     width: max-content;
-    animation: newsScroll 70s linear infinite;
     padding: 0 20px;
-  }
-  .news-track:hover { animation-play-state: paused; }
-  @keyframes newsScroll {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    user-select: none;
   }
   .news-card {
     width: 320px;
@@ -3391,19 +3394,79 @@
         '</a>'
       );
     }
+    const marquee = track.parentElement;
+    const SCROLL_SPEED = 0.6; // px per frame
+    let isPaused = false;
+    let resumeTimer = null;
+    let scrollSetup = false;
+
+    function pauseAutoScroll(resumeAfterMs) {
+      isPaused = true;
+      clearTimeout(resumeTimer);
+      if (resumeAfterMs) resumeTimer = setTimeout(() => { isPaused = false; }, resumeAfterMs);
+    }
+
+    function setupScrollInteraction() {
+      if (scrollSetup) return;
+      scrollSetup = true;
+
+      // Auto-scroll loop
+      (function tick() {
+        if (!isPaused) {
+          marquee.scrollLeft += SCROLL_SPEED;
+          const half = marquee.scrollWidth / 2;
+          if (half > 0 && marquee.scrollLeft >= half) marquee.scrollLeft -= half;
+        }
+        requestAnimationFrame(tick);
+      })();
+
+      // Mouse wheel → horizontal scroll
+      marquee.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        const delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : e.deltaY;
+        marquee.scrollLeft += delta * 1.5;
+        const half = marquee.scrollWidth / 2;
+        if (marquee.scrollLeft >= half) marquee.scrollLeft -= half;
+        if (marquee.scrollLeft < 0) marquee.scrollLeft = 0;
+        pauseAutoScroll(2500);
+      }, { passive: false });
+
+      // Mouse drag
+      let drag = null;
+      marquee.addEventListener('mousedown', (e) => {
+        drag = { x: e.clientX, scroll: marquee.scrollLeft };
+        pauseAutoScroll();
+        marquee.style.cursor = 'grabbing';
+      });
+      window.addEventListener('mouseup', () => {
+        if (!drag) return;
+        drag = null;
+        marquee.style.cursor = '';
+        pauseAutoScroll(2500);
+      });
+      window.addEventListener('mousemove', (e) => {
+        if (!drag) return;
+        marquee.scrollLeft = drag.scroll - (e.clientX - drag.x);
+        if (marquee.scrollLeft < 0) marquee.scrollLeft = 0;
+      });
+
+      // Touch: native swipe handles scrollLeft; just pause/resume auto-scroll
+      marquee.addEventListener('touchstart', () => pauseAutoScroll(), { passive: true });
+      marquee.addEventListener('touchend',   () => pauseAutoScroll(2500), { passive: true });
+    }
+
     let cached = null;
     function render(lang) {
       if (!cached) return;
       if (!cached.length) {
         const msg = (typeof i18n !== 'undefined' && i18n[lang] && i18n[lang]['news.empty']) || 'No articles available.';
         track.innerHTML = '<div class="news-empty">' + escapeHtml(msg) + '</div>';
-        track.style.animation = 'none';
         return;
       }
       const cards = cached.map((it) => buildCard(it, lang)).join('');
-      // duplicate for seamless marquee loop
+      // duplicate for seamless auto-scroll loop
       track.innerHTML = cards + cards;
-      track.style.animation = '';
+      setupScrollInteraction();
     }
     fetch('news.json', { cache: 'no-cache' })
       .then((r) => r.ok ? r.json() : Promise.reject(new Error('news.json ' + r.status)))
