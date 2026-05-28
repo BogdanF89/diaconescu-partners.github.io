@@ -1,7 +1,21 @@
 {
-  "generatedAt": "2026-05-28T16:07:32.474Z",
+  "generatedAt": "2026-05-28T20:28:40.463Z",
   "count": 12,
   "items": [
+    {
+      "source": "Ziarul Financiar",
+      "title": "UiPath raportează primul profit trimestrial din istorie şi venituri de 418 milioane de dolari. Acţiunile cresc cu 4%. Daniel Dines, CEO: Am livrat un start puternic al anului fiscal",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/uipath-raporteaza-primul-profit-trimestrial-din-istorie-si-venituri-23162595",
+      "date": "2026-05-28T20:18:00.000Z",
+      "excerpt": ""
+    },
+    {
+      "source": "Economica.net",
+      "title": "Ministerul Finanțelor a verificat peste 14.000 de firme în 2025, pentru combaterea publicității înșelătoare",
+      "link": "https://www.economica.net/ministerul-finantelor-a-verificat-peste-14-000-de-firme-in-2025-pentru-combaterea-publicitatii-inselatoare_945722.html",
+      "date": "2026-05-28T19:03:36.000Z",
+      "excerpt": "Ministerul Finanţelor a verificat anul trecut peste 14.000 de de societăţi comerciale pentru identificarea şi sancţionarea practicilor de publicitate înşelătoare şi a…"
+    },
     {
       "source": "Juridice.ro",
       "title": "Român condamnat în SUA pentru vânzarea accesului la rețeaua unei instituții publice din Oregon",
@@ -71,20 +85,6 @@
       "link": "https://www.zf.ro/eveniment/presiuni-interne-asupra-economiei-rusiei-rubla-ajuns-cel-puternic-23162039",
       "date": "2026-05-28T07:04:30.000Z",
       "excerpt": ""
-    },
-    {
-      "source": "Juridice.ro",
-      "title": "Fișe de Drept penal. Partea generală. Ediția 7 | Mihail Udroiu",
-      "link": "https://carti.juridice.ro/14481/fise-de-drept-penal-partea-generala-editia-7-mihail-udroiu.html",
-      "date": "2026-05-28T03:30:47.000Z",
-      "excerpt": ""
-    },
-    {
-      "source": "Juridice.ro",
-      "title": "Fiat iustitia… dar când? – Decizia nr. 430/2025 a ÎCCJ și remediile procesuale după încheierea procedurii de cameră preliminară",
-      "link": "https://www.juridice.ro/831686/fiat-iustitia-dar-cand-decizia-nr-430-2025-a-iccj-si-remediile-procesuale-dupa-incheierea-procedurii-de-camera-preliminara.html",
-      "date": "2026-05-27T21:09:23.000Z",
-      "excerpt": "Rezumat: Prezentul material analizează efectele Deciziei nr. 430/2025 a ÎCCJ, care a stabilit că neefectuarea expertizei de specialitate în cauzele de evaziune fiscală atrage…"
     }
   ]
 }
