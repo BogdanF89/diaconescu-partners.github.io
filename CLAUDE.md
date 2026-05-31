@@ -44,6 +44,8 @@ package.json                            — Node manifest for the news script (r
 assets/
   css/
     tokens.css                          — shared design tokens + global reset (linked everywhere)
+  js/
+    site.js                             — shared RO/EN i18n engine for the legal pages
   icons/
     icon-avocat.svg                     — scales of justice icon
     icon-insolventa.svg                 — geometric phoenix icon
@@ -106,6 +108,14 @@ See [`docs/services.md`](docs/services.md) for full structure, per-page notes, a
 - Language preference stored in `localStorage` key `'lang'`
 - `applyLang(lang)` handles all switching; default language `'ro'`
 - Note: service pages read the same `localStorage` key but have a separate, partial i18n implementation.
+
+## Shared i18n engine for inner pages (`assets/js/site.js`)
+- The 4 legal pages (`legal/*.html`) use a shared bilingual RO/EN engine instead of duplicating switching logic.
+- Contract: each page defines `window.i18n = { ro: {...}, en: {...} }` and optionally `window.i18nTitle = { ro, en }` **before** loading `site.js`. The script reads/writes `localStorage` key `'lang'` (shared with the homepage), default `'ro'`.
+- Same attribute contract as the homepage: `data-i18n`→`textContent`, `data-i18n-html`→`innerHTML`, `data-i18n-ph`→`placeholder`. Dense legal sections wrap whole bodies in a `data-i18n-html` `<div>` (fewer keys); CSS selectors are element/class-based so wrapping does not break styling.
+- Wires `[data-lang]` nav buttons (adds `.active`), sets `document.title` and `document.documentElement.lang`. Exposes `window.applyLang` / `window.setLang`.
+- The RO copy is the canonical legal text; the EN copy is a faithful translation **flagged in each page's dictionary comment as requiring review by counsel** before being relied upon as governing text.
+- Service pages (`services/*.html`) are NOT migrated — they keep their own working inline i18n (note: they persist under a different `localStorage` key).
 
 ## Hero video
 - File: `assets/video/HERO_VIDEO.mp4`

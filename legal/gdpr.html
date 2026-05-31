@@ -22,6 +22,11 @@
     }
     .nav-logo { font-family: var(--font-display); font-size: 20px; font-weight: 400; color: var(--white); text-decoration: none; }
     .nav-logo span { color: var(--gold); }
+    .nav-right { display: flex; align-items: center; gap: 18px; }
+    .lang-btn { background: none; border: none; color: var(--gray); font-family: var(--font-body); font-size: 11px; letter-spacing: 0.1em; cursor: pointer; padding: 0; transition: color 0.3s; }
+    .lang-btn.active { color: var(--white); }
+    .lang-btn:hover { color: var(--gold); }
+    .lang-divider { color: rgba(184,151,90,0.3); font-size: 11px; }
     .nav-back { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gray); text-decoration: none; transition: color 0.3s; display: flex; align-items: center; gap: 8px; }
     .nav-back::before { content: '←'; font-size: 12px; }
     .nav-back:hover { color: var(--gold); }
@@ -95,90 +100,95 @@
 
 <nav>
   <a class="nav-logo" href="../index.html">Diaconescu <span>Partners</span></a>
-  <a class="nav-back" href="../index.html">Înapoi la site</a>
+  <div class="nav-right">
+    <button class="lang-btn active" data-lang="ro">RO</button>
+    <span class="lang-divider">|</span>
+    <button class="lang-btn" data-lang="en">EN</button>
+    <a class="nav-back" href="../index.html" data-i18n="nav.back">Înapoi la site</a>
+  </div>
 </nav>
 
 <main>
-  <p class="doc-tag">Regulamentul UE nr. 679/2016</p>
+  <p class="doc-tag" data-i18n="doc.tag">Regulamentul UE nr. 679/2016</p>
   <h1>GDPR</h1>
-  <p class="doc-sub">Protecția datelor dumneavoastră personale</p>
-  <p class="doc-meta">Ultima actualizare: mai 2026</p>
+  <p class="doc-sub" data-i18n="doc.sub">Protecția datelor dumneavoastră personale</p>
+  <p class="doc-meta" data-i18n="doc.meta">Ultima actualizare: mai 2026</p>
 
-  <p>Cabinet de Avocat Diaconescu Roxana-Elena este angajat față de respectarea și protejarea drepturilor dumneavoastră în conformitate cu <strong>Regulamentul General privind Protecția Datelor (GDPR — Regulamentul UE nr. 679/2016)</strong>, în vigoare pe teritoriul Uniunii Europene începând cu 25 mai 2018.</p>
-  <p>În calitate de cabinet de avocat și practician în insolvență, suntem, de asemenea, supuși unor obligații suplimentare de confidențialitate prin Legea nr. 51/1995 și Legea nr. 85/2014, ceea ce conferă datelor furnizate în contextul unui mandat juridic cel mai înalt nivel de protecție legală.</p>
+  <p data-i18n-html="intro.p1">Cabinet de Avocat Diaconescu Roxana-Elena este angajat față de respectarea și protejarea drepturilor dumneavoastră în conformitate cu <strong>Regulamentul General privind Protecția Datelor (GDPR — Regulamentul UE nr. 679/2016)</strong>, în vigoare pe teritoriul Uniunii Europene începând cu 25 mai 2018.</p>
+  <p data-i18n="intro.p2">În calitate de cabinet de avocat și practician în insolvență, suntem, de asemenea, supuși unor obligații suplimentare de confidențialitate prin Legea nr. 51/1995 și Legea nr. 85/2014, ceea ce conferă datelor furnizate în contextul unui mandat juridic cel mai înalt nivel de protecție legală.</p>
   <div class="divider"></div>
 
-  <h2><span class="section-number">01.</span> Drepturile dumneavoastră</h2>
-  <p>În temeiul GDPR, beneficiați de următoarele drepturi în legătură cu datele dumneavoastră cu caracter personal:</p>
+  <h2><span class="section-number">01.</span> <span data-i18n="s1.h">Drepturile dumneavoastră</span></h2>
+  <p data-i18n="s1.p">În temeiul GDPR, beneficiați de următoarele drepturi în legătură cu datele dumneavoastră cu caracter personal:</p>
 
   <div class="rights-grid">
     <div class="right-card">
       <p class="right-article">Art. 15 GDPR</p>
-      <h3>Dreptul de acces</h3>
-      <p>Solicitați o copie a datelor personale pe care le deținem despre dumneavoastră, alături de informații privind scopul, durata prelucrării și categoriile de destinatari.</p>
+      <h3 data-i18n="r1.h">Dreptul de acces</h3>
+      <p data-i18n="r1.p">Solicitați o copie a datelor personale pe care le deținem despre dumneavoastră, alături de informații privind scopul, durata prelucrării și categoriile de destinatari.</p>
     </div>
     <div class="right-card">
       <p class="right-article">Art. 16 GDPR</p>
-      <h3>Dreptul la rectificare</h3>
-      <p>Solicitați corectarea sau completarea datelor personale inexacte sau incomplete care vă privesc.</p>
+      <h3 data-i18n="r2.h">Dreptul la rectificare</h3>
+      <p data-i18n="r2.p">Solicitați corectarea sau completarea datelor personale inexacte sau incomplete care vă privesc.</p>
     </div>
     <div class="right-card">
       <p class="right-article">Art. 17 GDPR</p>
-      <h3>Dreptul la ștergere</h3>
-      <p>Solicitați ștergerea datelor dumneavoastră atunci când acestea nu mai sunt necesare scopului pentru care au fost colectate sau când vă retrageți consimțământul.</p>
+      <h3 data-i18n="r3.h">Dreptul la ștergere</h3>
+      <p data-i18n="r3.p">Solicitați ștergerea datelor dumneavoastră atunci când acestea nu mai sunt necesare scopului pentru care au fost colectate sau când vă retrageți consimțământul.</p>
     </div>
     <div class="right-card">
       <p class="right-article">Art. 18 GDPR</p>
-      <h3>Dreptul la restricționare</h3>
-      <p>Solicitați suspendarea prelucrării datelor dumneavoastră în anumite circumstanțe, de exemplu atunci când contestați exactitatea datelor.</p>
+      <h3 data-i18n="r4.h">Dreptul la restricționare</h3>
+      <p data-i18n="r4.p">Solicitați suspendarea prelucrării datelor dumneavoastră în anumite circumstanțe, de exemplu atunci când contestați exactitatea datelor.</p>
     </div>
     <div class="right-card">
       <p class="right-article">Art. 20 GDPR</p>
-      <h3>Dreptul la portabilitate</h3>
-      <p>Primiți datele pe care ni le-ați furnizat într-un format structurat, lizibil automat, și să le transmiteți unui alt operator de date.</p>
+      <h3 data-i18n="r5.h">Dreptul la portabilitate</h3>
+      <p data-i18n="r5.p">Primiți datele pe care ni le-ați furnizat într-un format structurat, lizibil automat, și să le transmiteți unui alt operator de date.</p>
     </div>
     <div class="right-card">
       <p class="right-article">Art. 21 GDPR</p>
-      <h3>Dreptul de opoziție</h3>
-      <p>Opuneți-vă prelucrării datelor dumneavoastră bazate pe interesul nostru legitim sau în scopuri de marketing direct, fără a fi necesară o justificare din partea dumneavoastră.</p>
+      <h3 data-i18n="r6.h">Dreptul de opoziție</h3>
+      <p data-i18n="r6.p">Opuneți-vă prelucrării datelor dumneavoastră bazate pe interesul nostru legitim sau în scopuri de marketing direct, fără a fi necesară o justificare din partea dumneavoastră.</p>
     </div>
     <div class="right-card">
       <p class="right-article">Art. 22 GDPR</p>
-      <h3>Dreptul față de decizia automată</h3>
-      <p>Nu utilizăm procese automate de luare a deciziilor sau profilare cu efecte juridice semnificative. Toate deciziile referitoare la mandatele juridice implică analiză umană.</p>
+      <h3 data-i18n="r7.h">Dreptul față de decizia automată</h3>
+      <p data-i18n="r7.p">Nu utilizăm procese automate de luare a deciziilor sau profilare cu efecte juridice semnificative. Toate deciziile referitoare la mandatele juridice implică analiză umană.</p>
     </div>
     <div class="right-card">
       <p class="right-article">Art. 7 GDPR</p>
-      <h3>Retragerea consimțământului</h3>
-      <p>Atunci când prelucrarea se bazează pe consimțământul dumneavoastră, îl puteți retrage în orice moment, fără a afecta legalitatea prelucrării anterioare retragerii.</p>
+      <h3 data-i18n="r8.h">Retragerea consimțământului</h3>
+      <p data-i18n="r8.p">Atunci când prelucrarea se bazează pe consimțământul dumneavoastră, îl puteți retrage în orice moment, fără a afecta legalitatea prelucrării anterioare retragerii.</p>
     </div>
   </div>
   <div class="divider"></div>
 
-  <h2><span class="section-number">02.</span> Cum vă exercitați drepturile</h2>
-  <p>Transmiteți solicitarea dumneavoastră scrisă prin oricare dintre mijloacele de mai jos. Vom răspunde în termen de <strong>maximum 30 de zile calendaristice</strong> de la primirea solicitării.</p>
+  <h2><span class="section-number">02.</span> <span data-i18n="s2.h">Cum vă exercitați drepturile</span></h2>
+  <p data-i18n-html="s2.p">Transmiteți solicitarea dumneavoastră scrisă prin oricare dintre mijloacele de mai jos. Vom răspunde în termen de <strong>maximum 30 de zile calendaristice</strong> de la primirea solicitării.</p>
   <div class="contact-block">
     <p><strong>Cabinet de Avocat Diaconescu Roxana-Elena</strong></p>
-    <p>E-mail: <a href="mailto:office@diaconescu-partners.ro">office@diaconescu-partners.ro</a></p>
-    <p>Telefon: <a href="tel:+40745755301">+40 745 755 301</a></p>
-    <p>Adresă: Str. Gheorghe Buciumat nr. 26, Bl. A, Et. 4, Ap. 401, Sector 1, București, România</p>
+    <p><span data-i18n="label.email">E-mail</span>: <a href="mailto:office@diaconescu-partners.ro">office@diaconescu-partners.ro</a></p>
+    <p><span data-i18n="label.phone">Telefon</span>: <a href="tel:+40745755301">+40 745 755 301</a></p>
+    <p><span data-i18n="label.address">Adresă</span>: Str. Gheorghe Buciumat nr. 26, Bl. A, Et. 4, Ap. 401, Sector 1, București, România</p>
   </div>
   <div class="divider"></div>
 
-  <h2><span class="section-number">03.</span> Autoritatea de supraveghere</h2>
-  <p>Dacă considerați că drepturile dumneavoastră au fost încălcate sau că datele dumneavoastră personale sunt prelucrate în mod nelegal, aveți dreptul de a formula o plângere la autoritatea națională de supraveghere:</p>
+  <h2><span class="section-number">03.</span> <span data-i18n="s3.h">Autoritatea de supraveghere</span></h2>
+  <p data-i18n="s3.p">Dacă considerați că drepturile dumneavoastră au fost încălcate sau că datele dumneavoastră personale sunt prelucrate în mod nelegal, aveți dreptul de a formula o plângere la autoritatea națională de supraveghere:</p>
   <div class="authority-block">
     <p><strong>Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (ANSPDCP)</strong></p>
     <p>Website: <a href="https://www.dataprotection.ro" target="_blank" rel="noopener">www.dataprotection.ro</a></p>
     <p>E-mail: <a href="mailto:anspdcp@dataprotection.ro">anspdcp@dataprotection.ro</a></p>
-    <p>Adresă: B-dul G-ral. Gheorghe Magheru 28–30, Sector 1, București, România</p>
+    <p><span data-i18n="label.address">Adresă</span>: B-dul G-ral. Gheorghe Magheru 28–30, Sector 1, București, România</p>
   </div>
-  <p>Ne-ar face plăcere să soluționăm preocupările dumneavoastră direct, înainte de a vă adresa autorității — vă rugăm să ne contactați în primă instanță.</p>
+  <p data-i18n="s3.outro">Ne-ar face plăcere să soluționăm preocupările dumneavoastră direct, înainte de a vă adresa autorității — vă rugăm să ne contactați în primă instanță.</p>
   <div class="divider"></div>
 
-  <h2><span class="section-number">04.</span> Documentele complete</h2>
-  <p>Pentru informații detaliate despre modul în care colectăm, stocăm și prelucrăm datele dumneavoastră, consultați documentele noastre complete:</p>
-  <p>
+  <h2><span class="section-number">04.</span> <span data-i18n="s4.h">Documentele complete</span></h2>
+  <p data-i18n="s4.p">Pentru informații detaliate despre modul în care colectăm, stocăm și prelucrăm datele dumneavoastră, consultați documentele noastre complete:</p>
+  <p data-i18n-html="s4.links">
     → <a href="politica-confidentialitate.html">Politică de Confidențialitate</a> — prelucrarea datelor personale, scopuri, temeiuri juridice, perioadă de retenție.<br>
     → <a href="politica-cookies.html">Politică de Cookies</a> — tipuri de cookies utilizate și modul de gestionare.<br>
     → <a href="termeni-conditii.html">Termeni &amp; Condiții</a> — condițiile de utilizare ale website-ului.
@@ -195,5 +205,91 @@
   </p>
 </footer>
 
+<script>
+  /* ── i18n dictionary (consumed by ../assets/js/site.js) ──
+     NOTE: EN legal copy is a faithful translation for accessibility;
+     have it reviewed by counsel before relying on it as the governing text. */
+  window.i18nTitle = {
+    ro: 'GDPR — Protecția Datelor — Diaconescu Partners',
+    en: 'GDPR — Data Protection — Diaconescu Partners'
+  };
+  window.i18n = {
+    ro: {
+      'nav.back': 'Înapoi la site',
+      'doc.tag': 'Regulamentul UE nr. 679/2016',
+      'doc.sub': 'Protecția datelor dumneavoastră personale',
+      'doc.meta': 'Ultima actualizare: mai 2026',
+      'intro.p1': 'Cabinet de Avocat Diaconescu Roxana-Elena este angajat față de respectarea și protejarea drepturilor dumneavoastră în conformitate cu <strong>Regulamentul General privind Protecția Datelor (GDPR — Regulamentul UE nr. 679/2016)</strong>, în vigoare pe teritoriul Uniunii Europene începând cu 25 mai 2018.',
+      'intro.p2': 'În calitate de cabinet de avocat și practician în insolvență, suntem, de asemenea, supuși unor obligații suplimentare de confidențialitate prin Legea nr. 51/1995 și Legea nr. 85/2014, ceea ce conferă datelor furnizate în contextul unui mandat juridic cel mai înalt nivel de protecție legală.',
+      's1.h': 'Drepturile dumneavoastră',
+      's1.p': 'În temeiul GDPR, beneficiați de următoarele drepturi în legătură cu datele dumneavoastră cu caracter personal:',
+      'r1.h': 'Dreptul de acces',
+      'r1.p': 'Solicitați o copie a datelor personale pe care le deținem despre dumneavoastră, alături de informații privind scopul, durata prelucrării și categoriile de destinatari.',
+      'r2.h': 'Dreptul la rectificare',
+      'r2.p': 'Solicitați corectarea sau completarea datelor personale inexacte sau incomplete care vă privesc.',
+      'r3.h': 'Dreptul la ștergere',
+      'r3.p': 'Solicitați ștergerea datelor dumneavoastră atunci când acestea nu mai sunt necesare scopului pentru care au fost colectate sau când vă retrageți consimțământul.',
+      'r4.h': 'Dreptul la restricționare',
+      'r4.p': 'Solicitați suspendarea prelucrării datelor dumneavoastră în anumite circumstanțe, de exemplu atunci când contestați exactitatea datelor.',
+      'r5.h': 'Dreptul la portabilitate',
+      'r5.p': 'Primiți datele pe care ni le-ați furnizat într-un format structurat, lizibil automat, și să le transmiteți unui alt operator de date.',
+      'r6.h': 'Dreptul de opoziție',
+      'r6.p': 'Opuneți-vă prelucrării datelor dumneavoastră bazate pe interesul nostru legitim sau în scopuri de marketing direct, fără a fi necesară o justificare din partea dumneavoastră.',
+      'r7.h': 'Dreptul față de decizia automată',
+      'r7.p': 'Nu utilizăm procese automate de luare a deciziilor sau profilare cu efecte juridice semnificative. Toate deciziile referitoare la mandatele juridice implică analiză umană.',
+      'r8.h': 'Retragerea consimțământului',
+      'r8.p': 'Atunci când prelucrarea se bazează pe consimțământul dumneavoastră, îl puteți retrage în orice moment, fără a afecta legalitatea prelucrării anterioare retragerii.',
+      's2.h': 'Cum vă exercitați drepturile',
+      's2.p': 'Transmiteți solicitarea dumneavoastră scrisă prin oricare dintre mijloacele de mai jos. Vom răspunde în termen de <strong>maximum 30 de zile calendaristice</strong> de la primirea solicitării.',
+      'label.email': 'E-mail',
+      'label.phone': 'Telefon',
+      'label.address': 'Adresă',
+      's3.h': 'Autoritatea de supraveghere',
+      's3.p': 'Dacă considerați că drepturile dumneavoastră au fost încălcate sau că datele dumneavoastră personale sunt prelucrate în mod nelegal, aveți dreptul de a formula o plângere la autoritatea națională de supraveghere:',
+      's3.outro': 'Ne-ar face plăcere să soluționăm preocupările dumneavoastră direct, înainte de a vă adresa autorității — vă rugăm să ne contactați în primă instanță.',
+      's4.h': 'Documentele complete',
+      's4.p': 'Pentru informații detaliate despre modul în care colectăm, stocăm și prelucrăm datele dumneavoastră, consultați documentele noastre complete:',
+      's4.links': '→ <a href="politica-confidentialitate.html">Politică de Confidențialitate</a> — prelucrarea datelor personale, scopuri, temeiuri juridice, perioadă de retenție.<br>→ <a href="politica-cookies.html">Politică de Cookies</a> — tipuri de cookies utilizate și modul de gestionare.<br>→ <a href="termeni-conditii.html">Termeni &amp; Condiții</a> — condițiile de utilizare ale website-ului.'
+    },
+    en: {
+      'nav.back': 'Back to site',
+      'doc.tag': 'EU Regulation No. 679/2016',
+      'doc.sub': 'Protection of your personal data',
+      'doc.meta': 'Last updated: May 2026',
+      'intro.p1': 'Cabinet de Avocat Diaconescu Roxana-Elena is committed to respecting and protecting your rights in accordance with the <strong>General Data Protection Regulation (GDPR — EU Regulation No. 679/2016)</strong>, in force across the European Union since 25 May 2018.',
+      'intro.p2': 'As a law firm and insolvency practitioner, we are also subject to additional confidentiality obligations under Law No. 51/1995 and Law No. 85/2014, which grant the data provided in the context of a legal mandate the highest level of legal protection.',
+      's1.h': 'Your rights',
+      's1.p': 'Under the GDPR, you have the following rights in relation to your personal data:',
+      'r1.h': 'Right of access',
+      'r1.p': 'Request a copy of the personal data we hold about you, together with information on the purpose, duration of processing and categories of recipients.',
+      'r2.h': 'Right to rectification',
+      'r2.p': 'Request the correction or completion of inaccurate or incomplete personal data concerning you.',
+      'r3.h': 'Right to erasure',
+      'r3.p': 'Request the deletion of your data when it is no longer necessary for the purpose for which it was collected or when you withdraw your consent.',
+      'r4.h': 'Right to restriction',
+      'r4.p': 'Request the suspension of the processing of your data in certain circumstances, for example when you contest the accuracy of the data.',
+      'r5.h': 'Right to portability',
+      'r5.p': 'Receive the data you have provided to us in a structured, machine-readable format, and transmit it to another data controller.',
+      'r6.h': 'Right to object',
+      'r6.p': 'Object to the processing of your data based on our legitimate interest or for direct marketing purposes, without needing to provide a justification.',
+      'r7.h': 'Rights regarding automated decisions',
+      'r7.p': 'We do not use automated decision-making or profiling with significant legal effects. All decisions concerning legal mandates involve human review.',
+      'r8.h': 'Withdrawal of consent',
+      'r8.p': 'Where processing is based on your consent, you may withdraw it at any time, without affecting the lawfulness of processing carried out before the withdrawal.',
+      's2.h': 'How to exercise your rights',
+      's2.p': 'Submit your written request through any of the means below. We will respond within <strong>a maximum of 30 calendar days</strong> of receiving the request.',
+      'label.email': 'E-mail',
+      'label.phone': 'Phone',
+      'label.address': 'Address',
+      's3.h': 'Supervisory authority',
+      's3.p': 'If you consider that your rights have been infringed or that your personal data is being processed unlawfully, you have the right to lodge a complaint with the national supervisory authority:',
+      's3.outro': 'We would be glad to resolve your concerns directly, before you turn to the authority — please contact us in the first instance.',
+      's4.h': 'The complete documents',
+      's4.p': 'For detailed information on how we collect, store and process your data, please consult our complete documents:',
+      's4.links': '→ <a href="politica-confidentialitate.html">Privacy Policy</a> — processing of personal data, purposes, legal bases, retention period.<br>→ <a href="politica-cookies.html">Cookie Policy</a> — types of cookies used and how to manage them.<br>→ <a href="termeni-conditii.html">Terms &amp; Conditions</a> — the website\'s terms of use.'
+    }
+  };
+</script>
+<script src="../assets/js/site.js"></script>
 </body>
 </html>
