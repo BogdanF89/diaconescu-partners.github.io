@@ -86,22 +86,31 @@
       align-items: center;
       gap: 6px;
     }
+    .nav-lang {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      border: 1px solid rgba(245, 242, 236, 0.15);
+      border-radius: 20px;
+      padding: 2px 4px;
+    }
     .lang-btn {
       background: none;
       border: none;
       font-family: var(--font-body);
-      font-size: 10px;
-      letter-spacing: 0.15em;
+      font-size: 9px;
+      font-weight: 500;
+      letter-spacing: 0.18em;
       text-transform: uppercase;
-      color: rgba(245, 242, 236, 0.45);
+      color: rgba(245, 242, 236, 0.75);
       cursor: pointer;
-      padding: 4px 2px;
+      padding: 3px 7px;
       transition: color 0.3s;
     }
-    .lang-btn.active { color: var(--white); }
-    .lang-btn:hover { color: rgba(245, 242, 236, 0.8); }
+    .lang-btn.active { color: var(--gold); }
+    .lang-btn:hover { color: var(--white); }
     .lang-divider {
-      color: rgba(184, 151, 90, 0.3);
+      color: rgba(245, 242, 236, 0.2);
       font-size: 10px;
       pointer-events: none;
     }
@@ -305,9 +314,11 @@
   </a>
   <a href="../index.html#cabinets" class="nav-center" data-i18n="nav.back">Înapoi la servicii</a>
   <div class="nav-right">
-    <button class="lang-btn active" id="btnRo" onclick="setLang('ro')">RO</button>
-    <span class="lang-divider">|</span>
-    <button class="lang-btn" id="btnEn" onclick="setLang('en')">EN</button>
+    <div class="nav-lang">
+      <button class="lang-btn active" id="btnRo" onclick="setLang('ro')">RO</button>
+      <span class="lang-divider">|</span>
+      <button class="lang-btn" id="btnEn" onclick="setLang('en')">EN</button>
+    </div>
   </div>
 </nav>
 
