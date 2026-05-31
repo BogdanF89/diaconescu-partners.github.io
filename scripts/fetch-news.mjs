@@ -25,6 +25,17 @@ const KEYWORDS = [
   'civil', 'civilă', 'civila',
   'penal', 'penală', 'penala',
   'legislație', 'legislatie', 'legislativ',
+  'recurs în interesul legii', 'recurs in interesul legii', 'recursul în interesul legii', 'recursul in interesul legii',
+  'noutăți legislative', 'noutati legislative', 'noutate legislativă', 'noutate legislativa',
+  'modificare', 'modificări', 'modificari', 'modificărilor',
+  'iccj', 'înalta curte de casație', 'inalta curte de casatie', 'înalta curte',
+  'ccr', 'curtea constituțională', 'curtea constitutionala',
+  'cjue', 'curtea de justiție', 'curtea de justitie', 'curtea europeană de justiție',
+  'concordat preventiv', 'concordatul preventiv', 'concordat', 'concordate',
+  'tranzacție', 'tranzactie', 'tranzacții', 'tranzactii',
+  'lichidare', 'lichidări', 'lichidari', 'lichidator',
+  'datorie', 'datorii', 'datoriei', 'datoriilor',
+  'recuperare', 'recuperări', 'recuperari', 'recuperarea',
 ];
 
 const MAX_ITEMS = 12;
