@@ -21,8 +21,8 @@ const SOURCES = [
 const KEYWORDS = [
   'insolvență', 'insolventa', 'insolvenței', 'insolventei',
   'fiscal', 'fiscală', 'fiscala', 'fiscalitate',
-  'comercial', 'comerciala', 'comercială',
-  'civil', 'civilă', 'civila',
+  'drept comercial', 'litigiu comercial', 'litigii comerciale',
+  'drept civil', 'litigiu civil', 'litigii civile',
   'penal', 'penală', 'penala',
   'legislație', 'legislatie', 'legislativ',
   'recurs în interesul legii', 'recurs in interesul legii', 'recursul în interesul legii', 'recursul in interesul legii',
