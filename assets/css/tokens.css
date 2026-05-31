@@ -1,0 +1,19 @@
+/* Diaconescu Partners — shared design tokens & base reset.
+   Single source of truth for brand colours, fonts and the global reset.
+   Linked from every production page; do not redefine these :root vars inline. */
+:root {
+  --navy: #0d1b2a;
+  --navy-mid: #152238;
+  --navy-light: #1e3a5f;
+  --gold: #b8975a;
+  --gold-light: #d4b483;
+  --gold-pale: #e8d5a8;
+  --white: #f5f2ec;
+  --cream: #ede8df;
+  --gray: #8a9bb0;
+  --font-display: 'EB Garamond', Georgia, serif;
+  --font-title: 'EB Garamond', Georgia, serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
