@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav Logo Preview — Diaconescu Partners</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,300&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy:       #0d1b2a;
+      --navy-mid:   #152238;
+      --navy-light: #1e3a5f;
+      --gold:       #b8975a;
+      --gold-light: #d4b483;
+      --white:      #f5f2ec;
+      --gray:       #8a9bb0;
+      --font-body:  'Montserrat', sans-serif;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      background: var(--navy);
+      color: var(--white);
+      font-family: var(--font-body);
+    }
+
+    /* ── OPTION WRAPPER ── */
+    .option {
+      border-bottom: 1px solid rgba(184,151,90,0.12);
+    }
+    .option-label {
+      padding: 10px 60px;
+      background: rgba(184,151,90,0.06);
+      font-size: 9px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border-bottom: 1px solid rgba(184,151,90,0.08);
+    }
+
+    /* ── NAV (replicated from index.html) ── */
+    nav {
+      position: relative;
+      padding: 28px 60px;
+      display: flex;
+      align-items: center;
+    }
+    nav.scrolled {
+      background: rgba(13,27,42,0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(184,151,90,0.15);
+    }
+    a.nav-logo {
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      pointer-events: none;
+    }
+    .nav-logo-img {
+      height: 80px;
+      width: auto;
+      flex-shrink: 0;
+      display: block;
+    }
+    .nav-logo-wordmark {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .nav-logo-main {
+      font-size: 22px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      color: var(--white);
+      line-height: 1.1;
+    }
+    .nav-logo-sub {
+      font-size: 9px;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      color: rgba(184,151,90,0.65);
+      font-family: var(--font-body);
+      font-weight: 400;
+    }
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      align-items: center;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .nav-links a {
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: rgba(245,242,236,0.7);
+      text-decoration: none;
+    }
+    .nav-lang {
+      display: flex;
+      gap: 0;
+      align-items: center;
+      margin-left: auto;
+      border: 1px solid rgba(245,242,236,0.15);
+      border-radius: 20px;
+      padding: 2px 4px;
+    }
+    .lang-btn {
+      font-size: 9px;
+      letter-spacing: 0.18em;
+      color: rgba(245,242,236,0.75);
+      background: none;
+      border: none;
+      padding: 3px 7px;
+      font-family: var(--font-body);
+      font-weight: 500;
+    }
+    .lang-btn.active { color: var(--gold); }
+    .lang-divider { color: rgba(245,242,236,0.2); font-size: 10px; }
+
+    /* ── FONT-SPECIFIC OVERRIDES ── */
+    .use-playfair-500 .nav-logo-main {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    .use-playfair-400i .nav-logo-main {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+    .use-fraunces-300 .nav-logo-main {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 300;
+      font-style: normal;
+      font-variation-settings: 'opsz' 144;
+    }
+    .use-fraunces-300i .nav-logo-main {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 300;
+      font-style: italic;
+      font-variation-settings: 'opsz' 144;
+    }
+
+    /* ── SCROLLED STATE STRIP ── */
+    .state-label {
+      font-size: 8px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: rgba(184,151,90,0.4);
+      padding: 4px 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       OPTION 1 — Playfair Display 500
+  ══════════════════════════════════════════ -->
+  <div class="option">
+    <div class="option-label">1 — Playfair Display · 500</div>
+
+    <div class="state-label">Transparent nav (top of page)</div>
+    <nav class="use-playfair-500">
+      <a class="nav-logo" href="#">
+        <img class="nav-logo-img" src="../assets/images/DP_logo_white.png" alt="Diaconescu Partners">
+        <div class="nav-logo-wordmark">
+          <span class="nav-logo-main">Diaconescu Partners</span>
+          <span class="nav-logo-sub">Avocat &amp; Practician în Insolvență</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#">Despre noi</a></li>
+        <li><a href="#">Servicii</a></li>
+        <li><a href="#">Publicații</a></li>
+        <li><a href="#">Cariere</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-lang">
+        <button class="lang-btn active">RO</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn">EN</button>
+      </div>
+    </nav>
+
+    <div class="state-label">Scrolled nav (frosted glass)</div>
+    <nav class="use-playfair-500 scrolled">
+      <a class="nav-logo" href="#">
+        <img class="nav-logo-img" src="../assets/images/DP_logo_white.png" alt="Diaconescu Partners">
+        <div class="nav-logo-wordmark">
+          <span class="nav-logo-main">Diaconescu Partners</span>
+          <span class="nav-logo-sub">Avocat &amp; Practician în Insolvență</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#">Despre noi</a></li>
+        <li><a href="#">Servicii</a></li>
+        <li><a href="#">Publicații</a></li>
+        <li><a href="#">Cariere</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-lang">
+        <button class="lang-btn active">RO</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn">EN</button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       OPTION 2 — Playfair Display 400 Italic
+  ══════════════════════════════════════════ -->
+  <div class="option">
+    <div class="option-label">2 — Playfair Display · 400 Italic</div>
+
+    <div class="state-label">Transparent nav (top of page)</div>
+    <nav class="use-playfair-400i">
+      <a class="nav-logo" href="#">
+        <img class="nav-logo-img" src="../assets/images/DP_logo_white.png" alt="Diaconescu Partners">
+        <div class="nav-logo-wordmark">
+          <span class="nav-logo-main">Diaconescu Partners</span>
+          <span class="nav-logo-sub">Avocat &amp; Practician în Insolvență</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#">Despre noi</a></li>
+        <li><a href="#">Servicii</a></li>
+        <li><a href="#">Publicații</a></li>
+        <li><a href="#">Cariere</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-lang">
+        <button class="lang-btn active">RO</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn">EN</button>
+      </div>
+    </nav>
+
+    <div class="state-label">Scrolled nav (frosted glass)</div>
+    <nav class="use-playfair-400i scrolled">
+      <a class="nav-logo" href="#">
+        <img class="nav-logo-img" src="../assets/images/DP_logo_white.png" alt="Diaconescu Partners">
+        <div class="nav-logo-wordmark">
+          <span class="nav-logo-main">Diaconescu Partners</span>
+          <span class="nav-logo-sub">Avocat &amp; Practician în Insolvență</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#">Despre noi</a></li>
+        <li><a href="#">Servicii</a></li>
+        <li><a href="#">Publicații</a></li>
+        <li><a href="#">Cariere</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-lang">
+        <button class="lang-btn active">RO</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn">EN</button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       OPTION 3 — Fraunces Light 300
+  ══════════════════════════════════════════ -->
+  <div class="option">
+    <div class="option-label">3 — Fraunces · Light 300</div>
+
+    <div class="state-label">Transparent nav (top of page)</div>
+    <nav class="use-fraunces-300">
+      <a class="nav-logo" href="#">
+        <img class="nav-logo-img" src="../assets/images/DP_logo_white.png" alt="Diaconescu Partners">
+        <div class="nav-logo-wordmark">
+          <span class="nav-logo-main">Diaconescu Partners</span>
+          <span class="nav-logo-sub">Avocat &amp; Practician în Insolvență</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#">Despre noi</a></li>
+        <li><a href="#">Servicii</a></li>
+        <li><a href="#">Publicații</a></li>
+        <li><a href="#">Cariere</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-lang">
+        <button class="lang-btn active">RO</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn">EN</button>
+      </div>
+    </nav>
+
+    <div class="state-label">Scrolled nav (frosted glass)</div>
+    <nav class="use-fraunces-300 scrolled">
+      <a class="nav-logo" href="#">
+        <img class="nav-logo-img" src="../assets/images/DP_logo_white.png" alt="Diaconescu Partners">
+        <div class="nav-logo-wordmark">
+          <span class="nav-logo-main">Diaconescu Partners</span>
+          <span class="nav-logo-sub">Avocat &amp; Practician în Insolvență</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#">Despre noi</a></li>
+        <li><a href="#">Servicii</a></li>
+        <li><a href="#">Publicații</a></li>
+        <li><a href="#">Cariere</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-lang">
+        <button class="lang-btn active">RO</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn">EN</button>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       OPTION 4 — Fraunces Light 300 Italic
+  ══════════════════════════════════════════ -->
+  <div class="option">
+    <div class="option-label">4 — Fraunces · Light 300 Italic</div>
+
+    <div class="state-label">Transparent nav (top of page)</div>
+    <nav class="use-fraunces-300i">
+      <a class="nav-logo" href="#">
+        <img class="nav-logo-img" src="../assets/images/DP_logo_white.png" alt="Diaconescu Partners">
+        <div class="nav-logo-wordmark">
+          <span class="nav-logo-main">Diaconescu Partners</span>
+          <span class="nav-logo-sub">Avocat &amp; Practician în Insolvență</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#">Despre noi</a></li>
+        <li><a href="#">Servicii</a></li>
+        <li><a href="#">Publicații</a></li>
+        <li><a href="#">Cariere</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-lang">
+        <button class="lang-btn active">RO</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn">EN</button>
+      </div>
+    </nav>
+
+    <div class="state-label">Scrolled nav (frosted glass)</div>
+    <nav class="use-fraunces-300i scrolled">
+      <a class="nav-logo" href="#">
+        <img class="nav-logo-img" src="../assets/images/DP_logo_white.png" alt="Diaconescu Partners">
+        <div class="nav-logo-wordmark">
+          <span class="nav-logo-main">Diaconescu Partners</span>
+          <span class="nav-logo-sub">Avocat &amp; Practician în Insolvență</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#">Despre noi</a></li>
+        <li><a href="#">Servicii</a></li>
+        <li><a href="#">Publicații</a></li>
+        <li><a href="#">Cariere</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-lang">
+        <button class="lang-btn active">RO</button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn">EN</button>
+      </div>
+    </nav>
+  </div>
+
+</body>
+</html>

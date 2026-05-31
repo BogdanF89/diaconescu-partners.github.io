@@ -6,7 +6,7 @@
 <meta name="format-detection" content="telephone=no">
 <title>Diaconescu Partners — Attorney at Law & Insolvency Practitioner</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@400;600;700&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 <style>
   :root {
     --navy: #0d1b2a;
@@ -71,6 +71,28 @@
     width: auto;
     flex-shrink: 0;
     display: block;
+  }
+  .nav-logo-wordmark {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .nav-logo-main {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    line-height: 1.1;
+  }
+  .nav-logo-sub {
+    font-size: 9px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: rgba(184,151,90,0.65);
+    font-family: var(--font-body);
+    font-weight: 400;
   }
   .nav-links {
     display: flex;
@@ -2215,6 +2237,10 @@
 <nav id="mainNav">
   <a class="nav-logo" href="#hero" aria-label="Acasă">
     <img class="nav-logo-img" src="assets/images/DP_logo_white.png" alt="Diaconescu Partners" />
+    <div class="nav-logo-wordmark">
+      <span class="nav-logo-main">Diaconescu Partners</span>
+      <span class="nav-logo-sub">Avocat &amp; Practician în Insolvență</span>
+    </div>
   </a>
   <ul class="nav-links">
     <li><a href="#about" data-i18n="nav.about">Despre noi</a></li>
