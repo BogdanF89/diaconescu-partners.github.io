@@ -2014,7 +2014,16 @@
     nav { padding: 10px 24px; }
     nav.scrolled { padding: 8px 24px; }
     .nav-logo-svg { height: 36px; }
-    .nav-logo-img { height: 36px; }
+    nav#mainNav a.nav-logo {
+      height: 48px;
+      max-height: 48px;
+    }
+    nav#mainNav .nav-logo-img {
+      height: 48px !important;
+      max-height: 48px;
+      width: auto;
+      object-fit: contain;
+    }
     .nav-logo-main { font-size: 18px; }
     .nav-links { display: none; }
     .hamburger { display: flex; }
@@ -2064,6 +2073,14 @@
 
   /* SMALL PHONE — 430px */
   @media (max-width: 430px) {
+    nav#mainNav a.nav-logo {
+      height: 42px;
+      max-height: 42px;
+    }
+    nav#mainNav .nav-logo-img {
+      height: 42px !important;
+      max-height: 42px;
+    }
     .hero-title { font-size: clamp(36px, 10vw, 52px); }
     .hero-title-bold { font-size: clamp(36px, 10vw, 52px); }
     .hero-subtitle { font-size: 12px; }
