@@ -63,7 +63,7 @@
     font-family: 'Fraunces', Georgia, serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.05;
     letter-spacing: 0.005em;
     color: var(--white);
@@ -75,9 +75,9 @@
     gap: 24px;
     list-style: none;
     align-items: center;
-    flex: 1;
-    justify-content: center;
-    min-width: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .nav-links a {
     font-size: 11px;
@@ -1999,7 +1999,7 @@
       width: auto;
       object-fit: contain;
     }
-    nav#mainNav .nav-wordmark { font-size: 22px; }
+    nav#mainNav .nav-wordmark { font-size: 18px; }
     .nav-links { display: none; }
     .hamburger { display: flex; }
     .hero-content { padding: 0 24px; }
