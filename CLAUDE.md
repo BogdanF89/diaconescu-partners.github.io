@@ -141,7 +141,7 @@ See [`docs/services.md`](docs/services.md) for full structure, per-page notes, a
 - `overflow-x: clip` on html + body prevents horizontal scroll (Android Chrome fix)
 - `touch-action: manipulation` + `cursor: pointer` on tel/mailto links for Android tap reliability
 - `<meta name="format-detection" content="telephone=no">` prevents iOS auto-linking phone numbers blue
-- Nav logo: 96px desktop → 60px (≤900px) → 56px (≤430px); mobile sizing enforced via `nav#mainNav .nav-logo-img` higher-specificity selector + `!important`
+- Nav logo: 96px desktop → 72px (≤900px) → 66px (≤430px); mobile sizing enforced via `nav#mainNav .nav-logo-img` higher-specificity selector + `!important`
 - Video switches to `width: 100%; height: auto` on mobile (≤900px)
 
 ## Image/asset specs (for future assets)
