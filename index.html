@@ -7,7 +7,7 @@
 <title>Diaconescu Partners — Attorney at Law & Insolvency Practitioner</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/tokens.css">
 <style>
   a[href^="tel"], a[href^="mailto"] { cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: rgba(184,151,90,0.15); }
@@ -59,6 +59,17 @@
     flex-shrink: 0;
     display: block;
   }
+  .nav-wordmark {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1.05;
+    letter-spacing: 0.005em;
+    color: var(--white);
+    white-space: nowrap;
+  }
+  .nav-wordmark .second { color: var(--gold); }
   .nav-links {
     display: flex;
     gap: 24px;
@@ -1988,6 +1999,7 @@
       width: auto;
       object-fit: contain;
     }
+    nav#mainNav .nav-wordmark { font-size: 22px; }
     .nav-links { display: none; }
     .hamburger { display: flex; }
     .hero-content { padding: 0 24px; }
@@ -2018,6 +2030,7 @@
 
   /* PHONE — 600px */
   @media (max-width: 600px) {
+    nav#mainNav .nav-wordmark { display: none; }
     .hero-eyebrow span { font-size: 8px; letter-spacing: 0.18em; }
     .hero-cta-group { flex-direction: column; align-items: flex-start; gap: 16px; }
     .btn-primary, .btn-ghost { width: 100%; justify-content: center; }
@@ -2220,6 +2233,7 @@
 <nav id="mainNav">
   <a class="nav-logo" href="#hero" aria-label="Acasă">
     <img class="nav-logo-img" src="assets/images/DP_logo_transparent.png" alt="Diaconescu Partners" />
+    <span class="nav-wordmark"><span class="first">Diaconescu</span> <span class="second">Partners</span></span>
   </a>
   <ul class="nav-links">
     <li><a href="#about" data-i18n="nav.about">Despre noi</a></li>

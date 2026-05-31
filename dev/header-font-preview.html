@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Font Preview — Diaconescu Partners</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy:       #0d1b2a;
+      --navy-mid:   #152238;
+      --navy-light: #1e3a5f;
+      --gold:       #b8975a;
+      --gold-light: #d4b483;
+      --white:      #f5f2ec;
+      --gray:       #8a9bb0;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { background: var(--navy); color: var(--white); -webkit-font-smoothing: antialiased; }
+    body { font-family: 'Fraunces', Georgia, serif; padding: 0 0 80px; }
+
+    .page-head {
+      text-align: center;
+      padding: 48px 24px 12px;
+      font-family: 'Fraunces', serif;
+    }
+    .page-head h1 { font-size: 24px; font-weight: 300; letter-spacing: 0.04em; color: var(--white); }
+    .page-head p { margin-top: 8px; font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gray); }
+
+    .variant-label {
+      max-width: 1100px; margin: 40px auto 0;
+      padding: 0 40px;
+      font-family: 'Fraunces', serif;
+      font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--gold);
+    }
+    .variant-label span { color: var(--gray); text-transform: none; letter-spacing: 0.04em; margin-left: 10px; }
+
+    /* NAV MOCKUP — mirrors the site's real nav */
+    nav.mock {
+      max-width: 1100px;
+      margin: 12px auto 0;
+      padding: 18px 40px;
+      background: rgba(13,27,42,0.97);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(184,151,90,0.15);
+      border-radius: 4px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-brand { display: flex; align-items: center; gap: 16px; text-decoration: none; }
+    .nav-logo-img { height: 56px; width: auto; display: block; }
+    .nav-wordmark { color: var(--white); line-height: 1.05; white-space: nowrap; }
+    .nav-wordmark .first { color: var(--white); }
+    .nav-wordmark .second { color: var(--gold); }
+
+    .nav-links { display: flex; gap: 30px; }
+    .nav-links a {
+      font-family: 'Fraunces', serif;
+      font-size: 13px; color: var(--gray); text-decoration: none;
+      letter-spacing: 0.03em; transition: color 0.3s;
+    }
+    .nav-links a:hover { color: var(--gold); }
+
+    /* ── FONT VARIANTS ── */
+    /* 1. Playfair Display 500 */
+    .v1 .nav-wordmark { font-family: 'Playfair Display', serif; font-weight: 500; font-style: normal; font-size: 28px; letter-spacing: 0.01em; }
+    /* 2. Playfair Display 400 Italic */
+    .v2 .nav-wordmark { font-family: 'Playfair Display', serif; font-weight: 400; font-style: italic; font-size: 28px; letter-spacing: 0.01em; }
+    /* 3. Fraunces Light 300 */
+    .v3 .nav-wordmark { font-family: 'Fraunces', serif; font-weight: 300; font-style: normal; font-size: 28px; letter-spacing: 0.005em; }
+    /* 4. Fraunces 300 Italic */
+    .v4 .nav-wordmark { font-family: 'Fraunces', serif; font-weight: 300; font-style: italic; font-size: 28px; letter-spacing: 0.005em; }
+
+    @media (max-width: 720px) {
+      nav.mock { padding: 14px 20px; }
+      .nav-links { display: none; }
+      .nav-logo-img { height: 48px; }
+      .v1 .nav-wordmark, .v2 .nav-wordmark, .v3 .nav-wordmark, .v4 .nav-wordmark { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page-head">
+    <h1>Header Wordmark — Font Preview</h1>
+    <p>Logo + “Diaconescu Partners” · 4 variants</p>
+  </div>
+
+  <!-- Variant 1: Playfair Display 500 -->
+  <p class="variant-label">01 — Playfair Display <span>Weight 500 · Roman</span></p>
+  <nav class="mock v1">
+    <a class="nav-brand" href="#">
+      <img class="nav-logo-img" src="../assets/images/DP_logo_transparent.png" alt="Diaconescu Partners" />
+      <span class="nav-wordmark"><span class="first">Diaconescu</span> <span class="second">Partners</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="#">Servicii</a>
+      <a href="#">Despre</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Variant 2: Playfair Display 400 Italic -->
+  <p class="variant-label">02 — Playfair Display <span>Weight 400 · Italic</span></p>
+  <nav class="mock v2">
+    <a class="nav-brand" href="#">
+      <img class="nav-logo-img" src="../assets/images/DP_logo_transparent.png" alt="Diaconescu Partners" />
+      <span class="nav-wordmark"><span class="first">Diaconescu</span> <span class="second">Partners</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="#">Servicii</a>
+      <a href="#">Despre</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Variant 3: Fraunces Light 300 -->
+  <p class="variant-label">03 — Fraunces <span>Light 300 · Roman</span></p>
+  <nav class="mock v3">
+    <a class="nav-brand" href="#">
+      <img class="nav-logo-img" src="../assets/images/DP_logo_transparent.png" alt="Diaconescu Partners" />
+      <span class="nav-wordmark"><span class="first">Diaconescu</span> <span class="second">Partners</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="#">Servicii</a>
+      <a href="#">Despre</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Variant 4: Fraunces 300 Italic -->
+  <p class="variant-label">04 — Fraunces <span>Light 300 · Italic</span></p>
+  <nav class="mock v4">
+    <a class="nav-brand" href="#">
+      <img class="nav-logo-img" src="../assets/images/DP_logo_transparent.png" alt="Diaconescu Partners" />
+      <span class="nav-wordmark"><span class="first">Diaconescu</span> <span class="second">Partners</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="#">Servicii</a>
+      <a href="#">Despre</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+</body>
+</html>
