@@ -33,6 +33,90 @@ This is the simplest path: keep using GitHub Pages, just point your domain at it
 
 ---
 
+## Chosen setup — `diaconescu-partners.ro` (website on GitHub Pages + email on Google Workspace)
+
+This is the actual decided configuration for the project. The website and email live on two
+different services but share one domain; they never conflict because the website uses **A/CNAME**
+records and email uses **MX/TXT** records.
+
+### Status / what's already done in the repo
+- ✅ `CNAME` file created in repo root containing `diaconescu-partners.ro` (commit `1f6cd17`).
+- ✅ `CLAUDE.md` "Deployment" section points to the custom domain.
+- ⏳ Pending (done outside the repo): buy the domain, add DNS records, enable HTTPS, set up Workspace.
+
+### Step 1 — Buy the domain (domain-only, decline upsells)
+Buy **`diaconescu-partners.ro`** from any `.ro`-capable registrar (Hostico, RoDomeniu, Namecheap,
+Cloudflare if it offers `.ro`). Cost ~€7–10/year.
+
+**Buy only the bare domain registration with full DNS management.** Decline every upsell:
+- ❌ Web hosting / cPanel / website builder — the site is on GitHub Pages.
+- ❌ Email hosting / mailboxes from the registrar — email is on Google Workspace.
+- ❌ SSL certificate — GitHub Pages provides free auto-renewing HTTPS.
+- ❌ Premium DNS — standard DNS is fine.
+- ❌ Dedicated IP — **not needed.** GitHub Pages (website) and Google (email) both run on shared
+  infrastructure with excellent reputation. Deliverability comes from SPF/DKIM/DMARC, not a dedicated IP.
+- ⚠️ WHOIS/domain privacy — optional, usually free/cheap.
+
+### Step 2 — Point the domain at GitHub Pages
+1. GitHub repo **Settings → Pages → Custom domain** → `diaconescu-partners.ro` (the `CNAME` file
+   already populates this).
+2. Add DNS records at the registrar (website half):
+
+   | Type | Name | Value | Purpose |
+   |------|------|-------|---------|
+   | A | @ | 185.199.108.153 | GitHub Pages |
+   | A | @ | 185.199.109.153 | GitHub Pages |
+   | A | @ | 185.199.110.153 | GitHub Pages |
+   | A | @ | 185.199.111.153 | GitHub Pages |
+   | CNAME | www | `bogdanf89.github.io.` | GitHub Pages (www → apex) |
+
+3. After DNS propagates and GitHub's DNS check passes, tick **Enforce HTTPS** in Settings → Pages.
+
+### Step 3 — Set up email: `office@diaconescu-partners.ro` on Google Workspace
+**Plan:** one paid Workspace mailbox (~€5–6/user/month), unified into the client's existing
+personal Gmail so she manages both inboxes in one place.
+
+Why a real mailbox (not just forwarding): it's independent of her personal account, can be handed
+to staff later, and has proper SPF/DKIM/DMARC so client/court correspondence doesn't land in spam.
+
+**Setup order:**
+1. Sign up for **Google Workspace** using `diaconescu-partners.ro` as the domain.
+2. Google's wizard gives you a **TXT verification record** + **MX records** + a **DKIM key** —
+   add them at the registrar (email half):
+
+   | Type | Name | Value | Purpose |
+   |------|------|-------|---------|
+   | MX | @ | `smtp.google.com` (priority 1) | Google mail routing |
+   | TXT | @ | `v=spf1 include:_spf.google.com ~all` | SPF (anti-spoofing) |
+   | TXT | @ | `google-site-verification=…` (from wizard) | Domain ownership |
+   | TXT | `google._domainkey` | DKIM key (from Admin → Apps → Gmail → Authenticate email) | DKIM signing |
+   | TXT | `_dmarc` | `v=DMARC1; p=none; rua=mailto:office@diaconescu-partners.ro` | DMARC reporting |
+
+   > Note: modern Google Workspace uses a single MX (`smtp.google.com`). Older setups list five
+   > `ASPMX.L.GOOGLE.COM` / `ALT1…ALT4` records — either works; follow whatever the wizard shows.
+
+3. Create the user `office@diaconescu-partners.ro` in the Admin console.
+4. **Unify into her personal Gmail:** in her Gmail → **Settings → Accounts and Import**:
+   - **"Send mail as"** → add `office@diaconescu-partners.ro` (lets her send from that address).
+   - **"Check mail from other accounts"** → add `office@…` (pulls its mail into her inbox).
+   - She then reads and replies to both addresses from one familiar Gmail inbox, choosing the
+     "from" address per message.
+
+### Why website + email don't conflict
+- **A records** answer "where is the website?" → GitHub Pages.
+- **MX records** answer "where does mail for this domain go?" → Google.
+- They're different record types serving different protocols; both live in the same DNS zone.
+
+### Verification checklist
+- [ ] `https://diaconescu-partners.ro` loads the homepage.
+- [ ] `https://diaconescu-partners.ro/news.json` returns JSON.
+- [ ] **Enforce HTTPS** is on; cert covers apex + `www`.
+- [ ] Send a test email to `office@diaconescu-partners.ro` — it arrives in her Gmail.
+- [ ] Send a test email **from** `office@…` (via Gmail's from-dropdown) — it's not flagged as spam.
+- [ ] SPF/DKIM/DMARC pass (check with a tool like mail-tester.com).
+
+---
+
 ## Scenario B — Move to a host connected to GitHub (Netlify, Vercel, Cloudflare Pages)
 
 These platforms auto-deploy when the repo changes.
