@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diaconescu Partners — Font Options</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?
+    family=EB+Garamond:wght@400;500;600&
+    family=Cormorant+Garamond:wght@300;400;500;600&
+    family=Cormorant:wght@300;400;500;600&
+    family=Playfair+Display:wght@400;500;600;700&
+    family=Libre+Baskerville:wght@400;700&
+    family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&
+    family=Lora:wght@400;500;600&
+    family=Spectral:wght@300;400;500;600&
+    family=Marcellus&
+    family=Crimson+Pro:wght@300;400;500;600&
+    family=GFS+Didot&
+    family=Cinzel:wght@400;500;600&
+    family=Raleway:wght@300;400;500&
+    family=Montserrat:wght@300;400;500&
+    display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy:       #0d1b2a;
+      --navy-mid:   #152238;
+      --gold:       #b8975a;
+      --gold-light: #d4b483;
+      --white:      #f5f2ec;
+      --gray:       #8a9bb0;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { background: #070e18; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--white);
+      padding-bottom: 80px;
+    }
+
+    /* ── PAGE HEADER ── */
+    .page-header {
+      text-align: center;
+      padding: 60px 40px 48px;
+      border-bottom: 1px solid rgba(184,151,90,0.12);
+      margin-bottom: 0;
+    }
+    .page-header p {
+      font-size: 9px;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+    }
+    .page-header h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.22em;
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+    .page-header small {
+      font-size: 11px;
+      color: rgba(138,155,176,0.6);
+      letter-spacing: 0.05em;
+    }
+
+    /* ── OPTION WRAPPER ── */
+    .option {
+      border-bottom: 1px solid rgba(184,151,90,0.08);
+    }
+
+    .option-meta {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      padding: 32px 60px 16px;
+    }
+    .option-number {
+      font-size: 9px;
+      letter-spacing: 0.3em;
+      color: rgba(184,151,90,0.35);
+      text-transform: uppercase;
+      font-family: 'Cinzel', serif;
+    }
+    .option-name {
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-family: 'Cinzel', serif;
+    }
+    .option-tag {
+      font-size: 10px;
+      color: rgba(138,155,176,0.5);
+      letter-spacing: 0.05em;
+      font-style: italic;
+    }
+
+    /* ── VARIANTS ROW (multiple weights shown) ── */
+    .variants {
+      display: flex;
+      gap: 0;
+      border-top: 1px solid rgba(184,151,90,0.06);
+    }
+    .variant {
+      flex: 1;
+      padding: 28px 60px 32px;
+      border-right: 1px solid rgba(184,151,90,0.06);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .variant:last-child { border-right: none; }
+    .variant-label {
+      font-size: 9px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: rgba(138,155,176,0.4);
+    }
+    .variant-text {
+      color: var(--white);
+      letter-spacing: 0.06em;
+      line-height: 1;
+    }
+
+    /* ── FULL NAV PREVIEW ── */
+    .nav-preview {
+      padding: 22px 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(13,27,42,0.97);
+      border-top: 1px solid rgba(184,151,90,0.06);
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+    }
+    .logo-text {
+      color: var(--white);
+      letter-spacing: 0.06em;
+      font-size: 24px;
+      line-height: 1;
+    }
+    .nav-links-mock {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+    }
+    .nav-links-mock li {
+      font-size: 10px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: rgba(245,242,236,0.55);
+      font-family: 'Montserrat', sans-serif;
+    }
+    .nav-lang {
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      color: rgba(138,155,176,0.5);
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    /* current badge */
+    .badge-current {
+      display: inline-block;
+      font-size: 8px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border: 1px solid rgba(184,151,90,0.4);
+      color: var(--gold);
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+<div class="page-header">
+  <p>Internal preview — not for client distribution</p>
+  <h1>Diaconescu Partners — Logotype Font Options</h1>
+  <small>Each option shown at the same 24px nav size · hover is disabled · all weights from Google Fonts</small>
+</div>
+
+<!-- SVG CREST (reused across all options) -->
+<svg id="crest-def" style="display:none">
+  <symbol id="crest" viewBox="0 0 160 130">
+    <path d="M80 10 L104 18 L118 38 L118 62 L104 82 L80 90 L56 82 L42 62 L42 38 L56 18 Z" stroke="#b8975a" stroke-width="1" fill="none" opacity="0.5"/>
+    <path d="M80 16 L101 23 L113 41 L113 59 L101 77 L80 84 L59 77 L47 59 L47 41 L59 23 Z" stroke="#b8975a" stroke-width="0.4" fill="none" opacity="0.25"/>
+    <text x="80" y="64" text-anchor="middle" font-family="Cinzel, serif" font-size="40" font-weight="700" fill="#b8975a" letter-spacing="-2">D</text>
+    <text x="80" y="106" text-anchor="middle" font-family="Cinzel, serif" font-size="11" font-weight="600" fill="#f5f2ec" letter-spacing="4.5">DIACONESCU</text>
+    <circle cx="63" cy="113" r="1" fill="#b8975a" opacity="0.6"/>
+    <circle cx="80" cy="113" r="1" fill="#b8975a" opacity="0.6"/>
+    <circle cx="97" cy="113" r="1" fill="#b8975a" opacity="0.6"/>
+    <text x="80" y="125" text-anchor="middle" font-family="Cinzel, serif" font-size="7" font-weight="400" fill="rgba(184,151,90,0.7)" letter-spacing="7.5">PARTNERS</text>
+  </symbol>
+</svg>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 01. EB GARAMOND — CURRENT                       -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="option">
+  <div class="option-meta">
+    <span class="option-number">01</span>
+    <span class="option-name">EB Garamond <span class="badge-current">Current</span></span>
+    <span class="option-tag">Old-style serif · warm · literary</span>
+  </div>
+  <div class="variants">
+    <div class="variant">
+      <span class="variant-label">Weight 400</span>
+      <span class="variant-text" style="font-family:'EB Garamond',serif; font-weight:400; font-size:28px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 500</span>
+      <span class="variant-text" style="font-family:'EB Garamond',serif; font-weight:500; font-size:28px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 600</span>
+      <span class="variant-text" style="font-family:'EB Garamond',serif; font-weight:600; font-size:28px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">600 Italic</span>
+      <span class="variant-text" style="font-family:'EB Garamond',serif; font-weight:600; font-size:28px; font-style:italic;">Diaconescu Partners</span>
+    </div>
+  </div>
+  <div class="nav-preview">
+    <a class="nav-logo" href="#">
+      <svg style="height:56px; width:auto; flex-shrink:0;"><use href="#crest"/></svg>
+      <span class="logo-text" style="font-family:'EB Garamond',serif; font-weight:600;">Diaconescu Partners</span>
+    </a>
+    <ul class="nav-links-mock"><li>About Us</li><li>Services</li><li>Publications</li><li>Contact</li></ul>
+    <span class="nav-lang">RO | EN</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 02. CORMORANT GARAMOND                          -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="option">
+  <div class="option-meta">
+    <span class="option-number">02</span>
+    <span class="option-name">Cormorant Garamond</span>
+    <span class="option-tag">High-contrast display serif · luxury · refined</span>
+  </div>
+  <div class="variants">
+    <div class="variant">
+      <span class="variant-label">Weight 300</span>
+      <span class="variant-text" style="font-family:'Cormorant Garamond',serif; font-weight:300; font-size:28px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 400</span>
+      <span class="variant-text" style="font-family:'Cormorant Garamond',serif; font-weight:400; font-size:28px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 500</span>
+      <span class="variant-text" style="font-family:'Cormorant Garamond',serif; font-weight:500; font-size:28px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">600 Italic</span>
+      <span class="variant-text" style="font-family:'Cormorant Garamond',serif; font-weight:600; font-size:28px; font-style:italic;">Diaconescu Partners</span>
+    </div>
+  </div>
+  <div class="nav-preview">
+    <a class="nav-logo" href="#">
+      <svg style="height:56px; width:auto; flex-shrink:0;"><use href="#crest"/></svg>
+      <span class="logo-text" style="font-family:'Cormorant Garamond',serif; font-weight:500; font-size:26px;">Diaconescu Partners</span>
+    </a>
+    <ul class="nav-links-mock"><li>About Us</li><li>Services</li><li>Publications</li><li>Contact</li></ul>
+    <span class="nav-lang">RO | EN</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 03. PLAYFAIR DISPLAY                            -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="option">
+  <div class="option-meta">
+    <span class="option-number">03</span>
+    <span class="option-name">Playfair Display</span>
+    <span class="option-tag">Editorial serif · authoritative · strong contrast</span>
+  </div>
+  <div class="variants">
+    <div class="variant">
+      <span class="variant-label">Weight 400</span>
+      <span class="variant-text" style="font-family:'Playfair Display',serif; font-weight:400; font-size:26px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 500</span>
+      <span class="variant-text" style="font-family:'Playfair Display',serif; font-weight:500; font-size:26px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 600</span>
+      <span class="variant-text" style="font-family:'Playfair Display',serif; font-weight:600; font-size:26px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">400 Italic</span>
+      <span class="variant-text" style="font-family:'Playfair Display',serif; font-weight:400; font-size:26px; font-style:italic;">Diaconescu Partners</span>
+    </div>
+  </div>
+  <div class="nav-preview">
+    <a class="nav-logo" href="#">
+      <svg style="height:56px; width:auto; flex-shrink:0;"><use href="#crest"/></svg>
+      <span class="logo-text" style="font-family:'Playfair Display',serif; font-weight:500; font-size:24px;">Diaconescu Partners</span>
+    </a>
+    <ul class="nav-links-mock"><li>About Us</li><li>Services</li><li>Publications</li><li>Contact</li></ul>
+    <span class="nav-lang">RO | EN</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 04. BODONI MODA                                 -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="option">
+  <div class="option-meta">
+    <span class="option-number">04</span>
+    <span class="option-name">Bodoni Moda</span>
+    <span class="option-tag">Ultra high-contrast · fashion / prestige · dramatic</span>
+  </div>
+  <div class="variants">
+    <div class="variant">
+      <span class="variant-label">Weight 400</span>
+      <span class="variant-text" style="font-family:'Bodoni Moda',serif; font-weight:400; font-size:26px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 500</span>
+      <span class="variant-text" style="font-family:'Bodoni Moda',serif; font-weight:500; font-size:26px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 600</span>
+      <span class="variant-text" style="font-family:'Bodoni Moda',serif; font-weight:600; font-size:26px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">400 Italic</span>
+      <span class="variant-text" style="font-family:'Bodoni Moda',serif; font-weight:400; font-size:26px; font-style:italic;">Diaconescu Partners</span>
+    </div>
+  </div>
+  <div class="nav-preview">
+    <a class="nav-logo" href="#">
+      <svg style="height:56px; width:auto; flex-shrink:0;"><use href="#crest"/></svg>
+      <span class="logo-text" style="font-family:'Bodoni Moda',serif; font-weight:500; font-size:24px;">Diaconescu Partners</span>
+    </a>
+    <ul class="nav-links-mock"><li>About Us</li><li>Services</li><li>Publications</li><li>Contact</li></ul>
+    <span class="nav-lang">RO | EN</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 05. SPECTRAL                                    -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="option">
+  <div class="option-meta">
+    <span class="option-number">05</span>
+    <span class="option-name">Spectral</span>
+    <span class="option-tag">Screen-optimised literary serif · clean · modern feel</span>
+  </div>
+  <div class="variants">
+    <div class="variant">
+      <span class="variant-label">Weight 300</span>
+      <span class="variant-text" style="font-family:'Spectral',serif; font-weight:300; font-size:28px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 400</span>
+      <span class="variant-text" style="font-family:'Spectral',serif; font-weight:400; font-size:28px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 500</span>
+      <span class="variant-text" style="font-family:'Spectral',serif; font-weight:500; font-size:28px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">300 Italic</span>
+      <span class="variant-text" style="font-family:'Spectral',serif; font-weight:300; font-size:28px; font-style:italic;">Diaconescu Partners</span>
+    </div>
+  </div>
+  <div class="nav-preview">
+    <a class="nav-logo" href="#">
+      <svg style="height:56px; width:auto; flex-shrink:0;"><use href="#crest"/></svg>
+      <span class="logo-text" style="font-family:'Spectral',serif; font-weight:400; font-size:25px;">Diaconescu Partners</span>
+    </a>
+    <ul class="nav-links-mock"><li>About Us</li><li>Services</li><li>Publications</li><li>Contact</li></ul>
+    <span class="nav-lang">RO | EN</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 06. LORA                                        -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="option">
+  <div class="option-meta">
+    <span class="option-number">06</span>
+    <span class="option-name">Lora</span>
+    <span class="option-tag">Calligraphic serif · warm · balanced · approachable</span>
+  </div>
+  <div class="variants">
+    <div class="variant">
+      <span class="variant-label">Weight 400</span>
+      <span class="variant-text" style="font-family:'Lora',serif; font-weight:400; font-size:26px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 500</span>
+      <span class="variant-text" style="font-family:'Lora',serif; font-weight:500; font-size:26px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 600</span>
+      <span class="variant-text" style="font-family:'Lora',serif; font-weight:600; font-size:26px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">400 Italic</span>
+      <span class="variant-text" style="font-family:'Lora',serif; font-weight:400; font-size:26px; font-style:italic;">Diaconescu Partners</span>
+    </div>
+  </div>
+  <div class="nav-preview">
+    <a class="nav-logo" href="#">
+      <svg style="height:56px; width:auto; flex-shrink:0;"><use href="#crest"/></svg>
+      <span class="logo-text" style="font-family:'Lora',serif; font-weight:500; font-size:24px;">Diaconescu Partners</span>
+    </a>
+    <ul class="nav-links-mock"><li>About Us</li><li>Services</li><li>Publications</li><li>Contact</li></ul>
+    <span class="nav-lang">RO | EN</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 07. CINZEL                                      -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="option">
+  <div class="option-meta">
+    <span class="option-number">07</span>
+    <span class="option-name">Cinzel</span>
+    <span class="option-tag">Roman inscriptional capitals · classical · strong identity</span>
+  </div>
+  <div class="variants">
+    <div class="variant">
+      <span class="variant-label">Weight 400</span>
+      <span class="variant-text" style="font-family:'Cinzel',serif; font-weight:400; font-size:22px; letter-spacing:0.1em;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 500</span>
+      <span class="variant-text" style="font-family:'Cinzel',serif; font-weight:500; font-size:22px; letter-spacing:0.1em;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 600</span>
+      <span class="variant-text" style="font-family:'Cinzel',serif; font-weight:600; font-size:22px; letter-spacing:0.1em;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">400 · tighter spacing</span>
+      <span class="variant-text" style="font-family:'Cinzel',serif; font-weight:400; font-size:22px; letter-spacing:0.05em;">Diaconescu Partners</span>
+    </div>
+  </div>
+  <div class="nav-preview">
+    <a class="nav-logo" href="#">
+      <svg style="height:56px; width:auto; flex-shrink:0;"><use href="#crest"/></svg>
+      <span class="logo-text" style="font-family:'Cinzel',serif; font-weight:500; font-size:20px; letter-spacing:0.1em;">Diaconescu Partners</span>
+    </a>
+    <ul class="nav-links-mock"><li>About Us</li><li>Services</li><li>Publications</li><li>Contact</li></ul>
+    <span class="nav-lang">RO | EN</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 08. MARCELLUS                                   -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="option">
+  <div class="option-meta">
+    <span class="option-number">08</span>
+    <span class="option-name">Marcellus</span>
+    <span class="option-tag">Roman-inspired · softer than Cinzel · dignified</span>
+  </div>
+  <div class="variants">
+    <div class="variant">
+      <span class="variant-label">Regular (only weight)</span>
+      <span class="variant-text" style="font-family:'Marcellus',serif; font-size:26px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Larger — 32px</span>
+      <span class="variant-text" style="font-family:'Marcellus',serif; font-size:32px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Tighter tracking</span>
+      <span class="variant-text" style="font-family:'Marcellus',serif; font-size:26px; letter-spacing:0.02em;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Gold colour</span>
+      <span class="variant-text" style="font-family:'Marcellus',serif; font-size:26px; color:#b8975a;">Diaconescu Partners</span>
+    </div>
+  </div>
+  <div class="nav-preview">
+    <a class="nav-logo" href="#">
+      <svg style="height:56px; width:auto; flex-shrink:0;"><use href="#crest"/></svg>
+      <span class="logo-text" style="font-family:'Marcellus',serif; font-size:24px;">Diaconescu Partners</span>
+    </a>
+    <ul class="nav-links-mock"><li>About Us</li><li>Services</li><li>Publications</li><li>Contact</li></ul>
+    <span class="nav-lang">RO | EN</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 09. GFS DIDOT                                   -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="option">
+  <div class="option-meta">
+    <span class="option-number">09</span>
+    <span class="option-name">GFS Didot</span>
+    <span class="option-tag">Classical Greek-influenced Didot · crisp · intellectual</span>
+  </div>
+  <div class="variants">
+    <div class="variant">
+      <span class="variant-label">Regular</span>
+      <span class="variant-text" style="font-family:'GFS Didot',serif; font-size:26px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Larger — 30px</span>
+      <span class="variant-text" style="font-family:'GFS Didot',serif; font-size:30px;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Wider tracking</span>
+      <span class="variant-text" style="font-family:'GFS Didot',serif; font-size:24px; letter-spacing:0.08em;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Gold colour</span>
+      <span class="variant-text" style="font-family:'GFS Didot',serif; font-size:26px; color:#b8975a;">Diaconescu Partners</span>
+    </div>
+  </div>
+  <div class="nav-preview">
+    <a class="nav-logo" href="#">
+      <svg style="height:56px; width:auto; flex-shrink:0;"><use href="#crest"/></svg>
+      <span class="logo-text" style="font-family:'GFS Didot',serif; font-size:24px;">Diaconescu Partners</span>
+    </a>
+    <ul class="nav-links-mock"><li>About Us</li><li>Services</li><li>Publications</li><li>Contact</li></ul>
+    <span class="nav-lang">RO | EN</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════ -->
+<!-- 10. RALEWAY — SANS OPTION                       -->
+<!-- ═══════════════════════════════════════════════ -->
+<div class="option">
+  <div class="option-meta">
+    <span class="option-number">10</span>
+    <span class="option-name">Raleway</span>
+    <span class="option-tag">Geometric sans · modern · sleek — if client wants a departure from serifs</span>
+  </div>
+  <div class="variants">
+    <div class="variant">
+      <span class="variant-label">Weight 300</span>
+      <span class="variant-text" style="font-family:'Raleway',sans-serif; font-weight:300; font-size:24px; letter-spacing:0.12em;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 400</span>
+      <span class="variant-text" style="font-family:'Raleway',sans-serif; font-weight:400; font-size:24px; letter-spacing:0.12em;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">Weight 500</span>
+      <span class="variant-text" style="font-family:'Raleway',sans-serif; font-weight:500; font-size:24px; letter-spacing:0.12em;">Diaconescu Partners</span>
+    </div>
+    <div class="variant">
+      <span class="variant-label">300 · very wide tracking</span>
+      <span class="variant-text" style="font-family:'Raleway',sans-serif; font-weight:300; font-size:20px; letter-spacing:0.25em;">Diaconescu Partners</span>
+    </div>
+  </div>
+  <div class="nav-preview">
+    <a class="nav-logo" href="#">
+      <svg style="height:56px; width:auto; flex-shrink:0;"><use href="#crest"/></svg>
+      <span class="logo-text" style="font-family:'Raleway',sans-serif; font-weight:400; font-size:22px; letter-spacing:0.14em;">Diaconescu Partners</span>
+    </a>
+    <ul class="nav-links-mock"><li>About Us</li><li>Services</li><li>Publications</li><li>Contact</li></ul>
+    <span class="nav-lang">RO | EN</span>
+  </div>
+</div>
+
+</body>
+</html>
