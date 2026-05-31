@@ -6,7 +6,7 @@ Single-page website for **Diaconescu Partners**, a Romanian law firm run by **Ro
 ## Deployment
 - **Host:** GitHub Pages (automatic deploy on push to `main`)
 - **Repo:** `https://github.com/BogdanF89/diaconescu-partners.github.io.git`
-- **Live URL:** `https://diaconescu-partners.github.io` (or custom domain when configured — see [`docs/domain-migration.md`](docs/domain-migration.md))
+- **Live URL:** `https://diaconescu-partners.ro` (custom domain via `CNAME` file in repo root; pointed at GitHub Pages — see [`docs/domain-migration.md`](docs/domain-migration.md), Scenario A)
 - **Workflows:**
   - `.github/workflows/deploy.yml` — pushes to `main` trigger automatic deploy
   - `.github/workflows/news.yml` — refreshes the legal-news feed every 6 hours (see [`docs/news.md`](docs/news.md))
