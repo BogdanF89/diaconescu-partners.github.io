@@ -7,7 +7,7 @@
   <title>Cabinet de Avocat — Arii de Practică | Diaconescu Partners</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@300;400;500&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -21,11 +21,6 @@
       --gray:        #8a9bb0;
       --font-display: 'EB Garamond', Georgia, serif;
       --font-body:    'Montserrat', sans-serif;
-    }
-
-    :root.silver-theme {
-      --gold:       #96afc0;
-      --gold-light: #b0c8d8;
     }
 
     html, body {
@@ -491,11 +486,6 @@
   document.querySelectorAll('.practice-item').forEach(function(el) {
     observer.observe(el);
   });
-
-  /* ── Silver theme (inherit from session) ── */
-  if (sessionStorage.getItem('dp_theme') === 'silver') {
-    document.documentElement.classList.add('silver-theme');
-  }
 </script>
 </body>
 </html>
