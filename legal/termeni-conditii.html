@@ -6,7 +6,7 @@
   <title>Termeni &amp; Condiții — Diaconescu Partners</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/tokens.css">
   <style>
     html { background: var(--navy); color: var(--white); font-family: var(--font-body); -webkit-font-smoothing: antialiased; }
@@ -98,6 +98,9 @@
 
     @media (max-width: 700px) {
       nav { padding: 16px 24px; }
+      .nav-logo { gap: 8px; }
+      .nav-logo-img { height: 38px; }
+      .nav-wordmark { font-size: 14px; }
       main { padding: 48px 24px 80px; }
       h1 { font-size: 32px; }
     }
@@ -106,7 +109,10 @@
 <body>
 
 <nav>
-  <a class="nav-logo" href="../index.html">Diaconescu <span>Partners</span></a>
+  <a class="nav-logo" href="../index.html" aria-label="Acasă">
+    <img class="nav-logo-img" src="../assets/images/DP_logo_transparent.png" alt="Diaconescu Partners" />
+    <span class="nav-wordmark"><span class="first">Diaconescu</span> <span class="second">Partners</span></span>
+  </a>
   <div class="nav-right">
     <button class="lang-btn active" data-lang="ro">RO</button>
     <span class="lang-divider">|</span>

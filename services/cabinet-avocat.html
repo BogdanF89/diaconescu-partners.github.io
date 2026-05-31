@@ -7,7 +7,7 @@
   <title>Cabinet de Avocat — Arii de Practică | Diaconescu Partners</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Montserrat:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/tokens.css">
   <style>
 
@@ -38,17 +38,25 @@
     }
 
     .nav-logo {
-      font-family: 'Cinzel', serif;
-      font-size: 13px;
-      font-weight: 600;
-      letter-spacing: 0.15em;
-      color: var(--white);
+      display: flex;
+      align-items: center;
+      gap: 11px;
       text-decoration: none;
-      opacity: 0.85;
+      opacity: 0.9;
       transition: opacity 0.3s;
-      white-space: nowrap;
     }
     .nav-logo:hover { opacity: 1; }
+    .nav-logo-img { height: 46px; width: auto; display: block; flex-shrink: 0; }
+    .nav-wordmark {
+      font-family: 'Fraunces', Georgia, serif;
+      font-weight: 300;
+      font-size: 18px;
+      letter-spacing: 0.005em;
+      color: var(--white);
+      white-space: nowrap;
+      line-height: 1;
+    }
+    .nav-wordmark .second { color: var(--gold); }
 
     .nav-center {
       display: flex;
@@ -261,7 +269,10 @@
 
 <!-- NAV -->
 <nav>
-  <a href="../index.html" class="nav-logo">DIACONESCU PARTNERS</a>
+  <a href="../index.html" class="nav-logo" aria-label="Acasă">
+    <img class="nav-logo-img" src="../assets/images/DP_logo_transparent.png" alt="Diaconescu Partners" />
+    <span class="nav-wordmark"><span class="first">Diaconescu</span> <span class="second">Partners</span></span>
+  </a>
   <a href="../index.html#cabinets" class="nav-center" data-i18n="nav.back">Înapoi la servicii</a>
   <div class="nav-right">
     <button class="lang-btn active" id="btnRo" onclick="setLang('ro')">RO</button>
