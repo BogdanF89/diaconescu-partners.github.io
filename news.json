@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-06-01T11:43:20.478Z",
+  "generatedAt": "2026-06-01T17:48:49.685Z",
   "count": 12,
   "items": [
+    {
+      "source": "Ziarul Financiar",
+      "title": "Lovitură de teatru: Holcim vrea să cumpere gigantul german Xella într-o tranzacţie de 1,85 miliarde de euro, iar pentru asta al doilea cel mai mare producător de ciment din lume este gata să renunţe l",
+      "link": "https://www.zf.ro/zf-24/lovitura-teatru-holcim-vrea-cumpere-gigantul-german-xella-intr-23164972",
+      "date": "2026-06-01T17:38:00.000Z",
+      "excerpt": ""
+    },
+    {
+      "source": "Economica.net",
+      "title": "Gigantul Holcim vinde fabrica din Adjud ca să poată cumpăra grupul german Xella pentru 1,85 miliarde de euro",
+      "link": "https://www.economica.net/holcim-romania-xella_946617.html",
+      "date": "2026-06-01T16:17:39.000Z",
+      "excerpt": "Holcim ar urma să primească undă verde de la UE pentru achiziția Xella, o tranzacție în valoare de 1,85 miliarde de euro, după oferta de vânzare a unui activ din România, spun…"
+    },
+    {
+      "source": "Ziarul Financiar",
+      "title": "Un jucător american intră în lupta cu Big Four: Grupul de consultanţă fiscală Ryan cumpără firma europeană Svalner Atlas pentru 400 de milioane de dolari şi vrea să provoace giganţii industriei",
+      "link": "https://www.zf.ro/business-international/un-jucator-american-intra-in-lupta-cu-big-four-grupul-de-consultanta-23164795",
+      "date": "2026-06-01T14:09:00.000Z",
+      "excerpt": ""
+    },
+    {
+      "source": "Ziarul Financiar",
+      "title": "ZF Live. Irina Macovei, DLA Piper: „Vom avea foarte mulţi directori generali, foarte mulţi directori financiari care vor deveni specialişti în securitate cibernetică. E ceva ce nu se mai negociază“. N",
+      "link": "https://www.zf.ro/zf-live/zf-live-irina-macovei-dla-piper-vom-avea-foarte-multi-directori-23164188",
+      "date": "2026-06-01T12:00:00.000Z",
+      "excerpt": "Cea mai importantă schimbare adusă de noua legislaţie de securitate cibernetică nu este una tehnică, ci ţine de responsabilitate: în companiile mari şi mijlocii din sectoarele…"
+    },
     {
       "source": "Ziarul Financiar",
       "title": "Nici luxul extrem nu scapă de criză: Compania de croaziere ulta-premium Ritz-Carlton Yacht Collection îşi renegociază datoriile după pierderi de aproape 700 de milioane de dolari",
@@ -57,34 +85,6 @@
       "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-christian-tour-atras-149-mil-lei-investitori-pret-1-895-lei-23164275",
       "date": "2026-05-31T21:06:00.000Z",
       "excerpt": "Christian '76 Tour (TRIP) a încheiat săptămâna trecută oferta publică iniţială derulată în perioada 21-28 mai, atrăgând de la investitori 149 de milioane de lei."
-    },
-    {
-      "source": "Economica.net",
-      "title": "Bursa de la Bucureşti a pierdut în această săptămână aproape 383 de milioane de lei din capitalizare",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-pierdut-in-aceasta-saptamana-aproape-383-de-milioane-de-lei-din-capitalizare_946408.html",
-      "date": "2026-05-31T16:13:13.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut în această săptămână aproape 383 de milioane de lei la capitalizare, în timp ce valoarea tranzacţiilor cu acţiuni a înregistrat un declin…"
-    },
-    {
-      "source": "Economica.net",
-      "title": "Incendiu în Capitală! Un restaurant și trei magazine au ars pe șoseaua Colentina. Locatari evacuați",
-      "link": "https://www.economica.net/incendiu-in-capitala-un-restaurant-si-trei-magazine-au-ars-pe-soseaua-colentina-locatari-evacuati_946353.html",
-      "date": "2026-05-31T07:28:43.000Z",
-      "excerpt": "Un incendiu puternic a izbucnit duminică dimineață pe șoseaua Colentina din București. Un restaurant și trei spații comerciale au fost distruse de flăcări."
-    },
-    {
-      "source": "Economica.net",
-      "title": "Beijingul amenință UE că va răspunde dacă vor fi impuse restricții comerciale noi. China cere Bruxelles-ului să susțină liberul schimb și concurența loială",
-      "link": "https://www.economica.net/beijingul-ameninta-ue-ca-va-raspunde-daca-vor-fi-impuse-restrictii-comerciale-noi-china-cere-bruxelles-ului-sa-sustina-liberul-schimb-si-concurenta-loiala_946283.html",
-      "date": "2026-05-30T13:55:14.000Z",
-      "excerpt": "China a avertizat Uniunea Europeană împotriva impunerii de noi restricţii comerciale în urma unei discuţii interne a UE privind relaţiile cu Beijingul, declarând că va răspunde…"
-    },
-    {
-      "source": "Economica.net",
-      "title": "USR propune o lege prin care tinerii cu cerințe educaționale speciale să beneficieze de locuri dedicate în facultăți",
-      "link": "https://www.economica.net/usr-propune-o-lege-prin-care-tinerii-cu-cerinte-educationale-speciale-sa-beneficieze-de-locuri-dedicate-in-facultati_946253.html",
-      "date": "2026-05-30T11:33:16.000Z",
-      "excerpt": "Uniunea Salvaţi România (USR) anunţă că tinerii cu cerinţe educaţionale speciale şi care nu sunt încadraţi în grad de handicap vor beneficia de locuri dedicate pentru ei în…"
     }
   ]
 }
