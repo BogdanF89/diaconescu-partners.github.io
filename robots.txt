@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bogdanf89.github.io/diaconescu-partners.github.io/sitemap.xml
