@@ -2187,6 +2187,7 @@
     font-size: 14px;
     line-height: 2;
     color: var(--gray);
+    margin-top: 18px;
   }
   .careers-form {
     display: flex;
@@ -2888,32 +2889,25 @@
       <p class="careers-desc" data-i18n="careers.desc">Dacă activezi la intersecția dintre drept și afaceri și îți place să transformi provocările complexe în soluții clare, ne-ar face plăcere să te cunoaștem. Așteptăm cu interes să ne trimiți candidatura ta prin intermediul formularului de mai jos:</p>
     </div>
     <div class="careers-right">
-      <form class="careers-form" onsubmit="return false;">
+      <form class="careers-form">
         <div class="form-row">
           <div class="form-field">
-            <input type="text" data-i18n-ph="careers.fname" placeholder="Prenume">
+            <input type="text" name="firstName" data-i18n-ph="careers.fname" placeholder="Prenume">
           </div>
           <div class="form-field">
-            <input type="text" data-i18n-ph="careers.lname" placeholder="Nume">
+            <input type="text" name="lastName" data-i18n-ph="careers.lname" placeholder="Nume">
           </div>
         </div>
         <div class="form-field">
-          <input type="text" data-i18n-ph="careers.area" placeholder="Aria de practică de interes">
+          <input type="text" name="practiceArea" data-i18n-ph="careers.area" placeholder="Aria de practică de interes">
         </div>
         <div class="form-field">
-          <input type="url" data-i18n-ph="careers.linkedin" placeholder="Profil LinkedIn (opțional)">
+          <input type="url" name="linkedin" data-i18n-ph="careers.linkedin" placeholder="Profil LinkedIn (opțional)">
         </div>
-        <div class="form-field">
-          <label class="careers-file-label" data-i18n="careers.cv">Încarcă CV *</label>
-          <input type="file" accept=".pdf,.doc,.docx">
-        </div>
-        <div class="form-field">
-          <label class="careers-file-label" data-i18n="careers.letter">Scrisoare de intenție (opțional)</label>
-          <input type="file" accept=".pdf,.doc,.docx">
-        </div>
-        <p class="careers-consent" data-i18n="careers.consent">Prin trimiterea documentelor, ești de acord cu prelucrarea datelor cu caracter personal în scopuri de recrutare, conform Politicii noastre de Confidențialitate.</p>
+        <p class="careers-consent" data-i18n="careers.attachNote">Formularul va deschide un e-mail precompletat. Vă rugăm să atașați CV-ul și, opțional, scrisoarea de intenție înainte de trimitere.</p>
+        <p class="careers-consent" data-i18n="careers.consent">Prin transmiterea candidaturii, ești de acord cu prelucrarea datelor cu caracter personal în scopuri de recrutare, conform Politicii noastre de Confidențialitate.</p>
         <button type="submit" class="form-submit">
-          <span data-i18n="careers.submit">Trimite candidatura</span>
+          <span data-i18n="careers.submit">Deschide e-mailul de candidatură</span>
         </button>
       </form>
     </div>
@@ -2986,28 +2980,28 @@
       </ul>
     </div>
     <div class="contact-right">
-      <form class="contact-form reveal-right" onsubmit="return false;">
+      <form class="contact-form reveal-right">
         <div class="form-row">
           <div class="form-field">
-            <input type="text" data-i18n-ph="form.name" placeholder="Nume">
+            <input type="text" name="lastName" data-i18n-ph="form.name" placeholder="Nume">
           </div>
           <div class="form-field">
-            <input type="text" data-i18n-ph="form.surname" placeholder="Prenume">
+            <input type="text" name="firstName" data-i18n-ph="form.surname" placeholder="Prenume">
           </div>
         </div>
         <div class="form-row">
           <div class="form-field">
-            <input type="tel" data-i18n-ph="form.phone" placeholder="Telefon">
+            <input type="tel" name="phone" data-i18n-ph="form.phone" placeholder="Telefon">
           </div>
           <div class="form-field">
-            <input type="email" data-i18n-ph="form.email" placeholder="E-mail">
+            <input type="email" name="email" data-i18n-ph="form.email" placeholder="E-mail">
           </div>
         </div>
         <div class="form-field">
-          <textarea data-i18n-ph="form.msg" placeholder="Descrieți pe scurt situația..."></textarea>
+          <textarea name="message" data-i18n-ph="form.msg" placeholder="Descrieți pe scurt situația..."></textarea>
         </div>
         <button type="submit" class="form-submit">
-          <span data-i18n="form.submit">Trimiteți mesajul</span>
+          <span data-i18n="form.submit">Deschideți e-mailul</span>
         </button>
       </form>
     </div>
@@ -3182,6 +3176,111 @@
     });
   });
 
+  // MAILTO FORMS
+  const OFFICE_EMAIL = 'office@diaconescu-partners.ro';
+
+  function currentLang() {
+    return document.documentElement.lang === 'en' ? 'en' : 'ro';
+  }
+
+  function formValue(form, name) {
+    const field = form.elements[name];
+    return field && 'value' in field ? field.value.trim() : '';
+  }
+
+  function openMailDraft(subject, body) {
+    const mailtoUrl = `mailto:${OFFICE_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.__lastMailtoUrl = mailtoUrl;
+    window.location.href = mailtoUrl;
+  }
+
+  function wireMailtoForms() {
+    const contactForm = document.querySelector('.contact-form');
+    const careersForm = document.querySelector('.careers-form');
+
+    if (contactForm) {
+      contactForm.addEventListener('submit', event => {
+        event.preventDefault();
+        const lang = currentLang();
+        const fullName = [formValue(contactForm, 'firstName'), formValue(contactForm, 'lastName')].filter(Boolean).join(' ');
+        const subject = lang === 'en'
+          ? 'Website contact request - Diaconescu Partners'
+          : 'Solicitare de pe website - Diaconescu Partners';
+        const body = lang === 'en'
+          ? [
+              'Hello,',
+              '',
+              'I would like to contact Diaconescu Partners.',
+              '',
+              `Name: ${fullName || '-'}`,
+              `Email: ${formValue(contactForm, 'email') || '-'}`,
+              `Phone: ${formValue(contactForm, 'phone') || '-'}`,
+              '',
+              'Message:',
+              formValue(contactForm, 'message') || '-',
+              '',
+              'Sent from the Diaconescu Partners website.'
+            ].join('\n')
+          : [
+              'Bună ziua,',
+              '',
+              'Doresc să contactez Diaconescu Partners.',
+              '',
+              `Nume: ${fullName || '-'}`,
+              `E-mail: ${formValue(contactForm, 'email') || '-'}`,
+              `Telefon: ${formValue(contactForm, 'phone') || '-'}`,
+              '',
+              'Mesaj:',
+              formValue(contactForm, 'message') || '-',
+              '',
+              'Trimis de pe website-ul Diaconescu Partners.'
+            ].join('\n');
+        openMailDraft(subject, body);
+      });
+    }
+
+    if (careersForm) {
+      careersForm.addEventListener('submit', event => {
+        event.preventDefault();
+        const lang = currentLang();
+        const fullName = [formValue(careersForm, 'firstName'), formValue(careersForm, 'lastName')].filter(Boolean).join(' ');
+        const subject = lang === 'en'
+          ? 'Application - Diaconescu Partners'
+          : 'Candidatură - Diaconescu Partners';
+        const body = lang === 'en'
+          ? [
+              'Hello,',
+              '',
+              'I would like to submit my application to Diaconescu Partners.',
+              '',
+              `Name: ${fullName || '-'}`,
+              `Practice area of interest: ${formValue(careersForm, 'practiceArea') || '-'}`,
+              `LinkedIn: ${formValue(careersForm, 'linkedin') || '-'}`,
+              '',
+              'Please attach the CV and any letter of intent to this email before sending.',
+              '',
+              'Sent from the Diaconescu Partners website.'
+            ].join('\n')
+          : [
+              'Bună ziua,',
+              '',
+              'Doresc să transmit candidatura mea către Diaconescu Partners.',
+              '',
+              `Nume: ${fullName || '-'}`,
+              `Aria de practică de interes: ${formValue(careersForm, 'practiceArea') || '-'}`,
+              `LinkedIn: ${formValue(careersForm, 'linkedin') || '-'}`,
+              '',
+              'Vă rugăm să atașați CV-ul și orice scrisoare de intenție la acest e-mail înainte de trimitere.',
+              '',
+              'Trimis de pe website-ul Diaconescu Partners.'
+            ].join('\n');
+        openMailDraft(subject, body);
+      });
+    }
+  }
+
+  wireMailtoForms();
+
   // I18N
   const i18n = {
     ro: {
@@ -3229,7 +3328,7 @@
       'contact.hours.label':'Program','contact.hours.value':'L-Vi: 09.00 – 18.00',
       'contact.linkedin.label':'LinkedIn','contact.juridice.label':'Juridice.ro',
       'form.name':'Nume','form.surname':'Prenume','form.phone':'Telefon','form.email':'E-mail',
-      'form.msg':'Descrieți pe scurt situația...','form.submit':'Trimiteți mesajul',
+      'form.msg':'Descrieți pe scurt situația...','form.submit':'Deschideți e-mailul',
       'footer.tagline':'Cabinet de Avocat & Cabinet Individual de Insolvență<br>Drept. Integritate. Echilibru.',
       'footer.nav':'Navigare','footer.practice':'Arii de Practică',
       'footer.fn1':'Acasă','footer.fn2':'Despre noi','footer.fn3':'Cabinet de Avocat','footer.fn4':'Cabinet de Insolvență','footer.fn5':'Portofoliu','footer.fn6':'Articole','footer.fn7':'Noutăți juridice','footer.fn8':'Resurse utile','footer.fn9':'Întrebări frecvente','footer.fn10':'Cariere','footer.fn11':'Contact',
@@ -3242,8 +3341,9 @@
       'careers.desc':'Dacă activezi la intersecția dintre drept și afaceri și îți place să transformi provocările complexe în soluții clare, ne-ar face plăcere să te cunoaștem. Așteptăm cu interes să ne trimiți candidatura ta prin intermediul formularului de mai jos:',
       'careers.fname':'Prenume','careers.lname':'Nume','careers.area':'Aria de practică de interes','careers.linkedin':'Profil LinkedIn (opțional)',
       'careers.cv':'Încarcă CV *','careers.letter':'Scrisoare de intenție (opțional)',
-      'careers.consent':'Prin trimiterea documentelor, ești de acord cu prelucrarea datelor cu caracter personal în scopuri de recrutare, conform Politicii noastre de Confidențialitate.',
-      'careers.submit':'Trimite candidatura',
+      'careers.attachNote':'Formularul va deschide un e-mail precompletat. Vă rugăm să atașați CV-ul și, opțional, scrisoarea de intenție înainte de trimitere.',
+      'careers.consent':'Prin transmiterea candidaturii, ești de acord cu prelucrarea datelor cu caracter personal în scopuri de recrutare, conform Politicii noastre de Confidențialitate.',
+      'careers.submit':'Deschide e-mailul de candidatură',
       'faq.tag':'Întrebări Frecvente',
       'faq.title':'Răspunsuri la <em>întrebările dvs.</em>',
       'faq.tab.avocat':'Cabinet de Avocat',
@@ -3319,7 +3419,7 @@
       'contact.hours.label':'Working Hours','contact.hours.value':'Mon–Fri: 09:00 – 18:00',
       'contact.linkedin.label':'LinkedIn','contact.juridice.label':'Juridice.ro',
       'form.name':'Last name','form.surname':'First name','form.phone':'Phone','form.email':'E-mail',
-      'form.msg':'Briefly describe your situation...','form.submit':'Send message',
+      'form.msg':'Briefly describe your situation...','form.submit':'Open email draft',
       'footer.tagline':'Law Firm & Individual Insolvency Practice<br>Law. Integrity. Balance.',
       'footer.nav':'Navigation','footer.practice':'Practice Areas',
       'footer.fn1':'Home','footer.fn2':'About us','footer.fn3':'Law Firm','footer.fn4':'Insolvency Practice','footer.fn5':'Portfolio','footer.fn6':'Articles','footer.fn7':'Legal Updates','footer.fn8':'Useful Resources','footer.fn9':'Frequent Questions','footer.fn10':'Join Us','footer.fn11':'Contact',
@@ -3332,8 +3432,9 @@
       'careers.desc':'If you work at the intersection of law and business and enjoy turning complex challenges into clear outcomes, we\'d be glad to connect with you. We look forward to receiving your application via the form below:',
       'careers.fname':'First name','careers.lname':'Last name','careers.area':'Practice area of interest','careers.linkedin':'LinkedIn profile (optional)',
       'careers.cv':'Upload CV *','careers.letter':'Letter of Intent (optional)',
-      'careers.consent':'By submitting your documents, you agree to the processing of personal data for recruitment purposes, in accordance with our Privacy Policy.',
-      'careers.submit':'Submit application',
+      'careers.attachNote':'The form will open a prefilled email draft. Please attach your CV and, optionally, your letter of intent before sending.',
+      'careers.consent':'By submitting your application, you agree to the processing of personal data for recruitment purposes, in accordance with our Privacy Policy.',
+      'careers.submit':'Open application email',
       'faq.tag':'Frequently Asked Questions',
       'faq.title':'Answers to <em>your questions</em>',
       'faq.tab.avocat':'Law Firm',
