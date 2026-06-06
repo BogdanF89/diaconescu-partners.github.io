@@ -22,9 +22,9 @@
       border-bottom: 1px solid rgba(184,151,90,0.15);
       display: flex; align-items: center; justify-content: space-between;
     }
-    .nav-logo { display: flex; align-items: center; gap: 11px; text-decoration: none; }
+    .nav-logo { display: flex; align-items: center; gap: 11px; text-decoration: none; min-width: 0; flex-shrink: 1; }
     .nav-logo-img { height: 46px; width: auto; display: block; flex-shrink: 0; }
-    .nav-wordmark { font-family: 'Fraunces', Georgia, serif; font-weight: 300; font-size: 18px; letter-spacing: 0.005em; color: var(--white); white-space: nowrap; line-height: 1; }
+    .nav-wordmark { font-family: 'Fraunces', Georgia, serif; font-weight: 300; font-size: 18px; letter-spacing: 0.005em; color: var(--white); white-space: nowrap; line-height: 1; flex-shrink: 0; }
     .nav-wordmark .second { color: var(--gold); }
     .nav-back { font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gray); text-decoration: none; transition: color 0.3s; display: flex; align-items: center; gap: 8px; }
     .nav-back::before { content: '←'; font-size: 12px; }
