@@ -1,7 +1,14 @@
 {
-  "generatedAt": "2026-06-07T14:01:32.727Z",
+  "generatedAt": "2026-06-07T19:37:46.956Z",
   "count": 12,
   "items": [
+    {
+      "source": "Ziarul Financiar",
+      "title": "Barometru AmCham. Companiile pun investiţiile pe pauză. Doar o treime dintre firme au planuri de extindere. Nivelul scăzut al investiţiilor este un semnal puternic al gradului de incertitudine din Rom",
+      "link": "https://www.zf.ro/eveniment/barometru-amcham-companiile-pun-investitiile-pauza-treime-dintre-23166791",
+      "date": "2026-06-07T14:25:00.000Z",
+      "excerpt": "Incertitudinea politică şi cea fiscală din ultimul an din România au tăiat elanul de investiţii al companiilor, care sunt mai degrabă într-o stare de aşteptare şi nu accelerează…"
+    },
     {
       "source": "Ziarul Financiar",
       "title": "Pagina verde. Cum poate România să crească colectarea în domeniul electronicelor şi electrocasnicelor scoase din uz: ne bazăm pe retail şi operatori autorizaţi. În alte ţări, colectarea deşeurilor se ",
@@ -78,13 +85,6 @@
       "link": "https://www.juridice.ro/833211/se-reduce-numarul-membrilor-consiliului-de-administratie-al-rasirom.html",
       "date": "2026-06-05T14:45:27.000Z",
       "excerpt": "Vineri, 5 iunie 2026, Guvernul României a adoptat Hotărârea de Guvern privind modificarea Hotărârii Guvernului nr. 60/1995 privind organizarea şi funcţionarea Regiei Autonome…"
-    },
-    {
-      "source": "Juridice.ro",
-      "title": "UE prelungește cu 12 luni asistența pentru armata Republicii Moldova",
-      "link": "https://www.juridice.ro/833276/ue-prelungeste-cu-12-luni-asistenta-pentru-armata-republicii-moldova.html",
-      "date": "2026-06-05T14:23:08.000Z",
-      "excerpt": "În Jurnalul Oficial al Uniunii Europene, seria L, din 5 iunie 2026 a fost publicată Decizia (PESC) 2026/1201 a Consiliului din 4 iunie 2026 de modificare a Deciziei (PESC)…"
     }
   ]
 }
