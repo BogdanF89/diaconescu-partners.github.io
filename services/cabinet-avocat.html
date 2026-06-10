@@ -474,11 +474,11 @@
   };
 
   /* ── Language ── */
-  let currentLang = localStorage.getItem('dp_lang') || 'ro';
+  let currentLang = localStorage.getItem('lang') || 'ro';
 
   function applyLang(lang) {
     currentLang = lang;
-    localStorage.setItem('dp_lang', lang);
+    localStorage.setItem('lang', lang);
     document.documentElement.lang = lang;
     document.getElementById('btnRo').classList.toggle('active', lang === 'ro');
     document.getElementById('btnEn').classList.toggle('active', lang === 'en');
