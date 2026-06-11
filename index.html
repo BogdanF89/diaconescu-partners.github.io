@@ -3699,161 +3699,224 @@
   });
 </script>
 
-<!-- COOKIE CONSENT CARD -->
-<div id="cookieCard" role="dialog" aria-live="polite" aria-label="Cookie consent" style="display:none">
-  <div class="cc-header">
-    <span class="cc-icon">&#127850;</span>
-    <span class="cc-title" id="ccTitle"></span>
-  </div>
-  <p class="cc-text" id="ccText"></p>
-  <a id="ccLink" href="legal/politica-cookies.html" class="cc-link"></a>
-  <div class="cc-actions">
+<!-- COOKIE CONSENT -->
+<!-- Floating trigger button -->
+<button id="ccTrigger" aria-label="Preferințe cookies" style="display:none">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M12 2.5 L20.5 6 V12.5 C20.5 17.2 16.8 21.3 12 22.8 C7.2 21.3 3.5 17.2 3.5 12.5 V6 Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+    <line x1="7.5" y1="10.5" x2="16.5" y2="10.5" stroke="currentColor" stroke-width="0.9" stroke-linecap="round"/>
+    <line x1="12" y1="8" x2="12" y2="16.5" stroke="currentColor" stroke-width="0.9" stroke-linecap="round"/>
+    <circle cx="12" cy="8" r="0.9" fill="currentColor"/>
+    <line x1="10" y1="17" x2="14" y2="17" stroke="currentColor" stroke-width="0.9" stroke-linecap="round"/>
+    <line x1="8.5" y1="11" x2="7.5" y2="14.2" stroke="currentColor" stroke-width="0.7"/>
+    <line x1="8.5" y1="11" x2="10.5" y2="14.2" stroke="currentColor" stroke-width="0.7"/>
+    <path d="M6.8 14.2 Q9 16.5 11.2 14.2" stroke="currentColor" stroke-width="0.85" stroke-linecap="round" fill="none"/>
+    <line x1="15.5" y1="11" x2="13.5" y2="14.2" stroke="currentColor" stroke-width="0.7"/>
+    <line x1="15.5" y1="11" x2="16.5" y2="14.2" stroke="currentColor" stroke-width="0.7"/>
+    <path d="M12.8 14.2 Q15 16.5 17.2 14.2" stroke="currentColor" stroke-width="0.85" stroke-linecap="round" fill="none"/>
+  </svg>
+  <span class="cc-tooltip" id="ccTooltip"></span>
+</button>
+
+<!-- Popup (above the button) -->
+<div id="ccPopup" role="dialog" aria-modal="true" aria-labelledby="ccPopupTitle" style="display:none">
+  <p id="ccPopupTitle" class="cc-popup-title"></p>
+  <p class="cc-popup-text" id="ccPopupText"></p>
+  <a id="ccPopupLink" href="legal/politica-cookies.html" class="cc-popup-link"></a>
+  <div class="cc-popup-actions">
     <button id="ccDecline" class="cc-btn cc-btn-decline"></button>
     <button id="ccAccept" class="cc-btn cc-btn-accept"></button>
   </div>
 </div>
 
 <style>
-  #cookieCard {
+  /* Floating trigger button */
+  #ccTrigger {
     position: fixed;
     bottom: 1.75rem;
     right: 1.75rem;
-    z-index: 9999;
-    width: 320px;
+    z-index: 9998;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     background: var(--navy-mid);
-    border: 1px solid rgba(184,151,90,0.35);
-    border-top: 3px solid var(--gold);
-    border-radius: 10px;
-    padding: 1.4rem 1.5rem 1.25rem;
-    box-shadow: 0 8px 40px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.3);
-    animation: ccSlideIn 0.4s cubic-bezier(0.16,1,0.3,1);
-  }
-  @keyframes ccSlideIn {
-    from { transform: translateY(20px); opacity: 0; }
-    to   { transform: translateY(0);    opacity: 1; }
-  }
-  .cc-header {
+    border: 1px solid rgba(184,151,90,0.45);
+    color: var(--gold);
+    cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.75rem;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.45);
+    transition: border-color 0.2s, box-shadow 0.2s;
+    animation: ccFadeIn 0.5s ease both;
   }
-  .cc-icon {
-    font-size: 1.1rem;
-    line-height: 1;
+  #ccTrigger:hover {
+    border-color: var(--gold);
+    box-shadow: 0 4px 24px rgba(184,151,90,0.25);
   }
-  .cc-title {
+  /* Pulse ring on first visit (removed once consent is given) */
+  #ccTrigger.cc-pulse::after {
+    content: '';
+    position: absolute;
+    inset: -5px;
+    border-radius: 50%;
+    border: 2px solid var(--gold);
+    opacity: 0;
+    animation: ccPulse 2s ease-out infinite;
+  }
+  @keyframes ccPulse {
+    0%   { transform: scale(1);   opacity: 0.6; }
+    100% { transform: scale(1.5); opacity: 0; }
+  }
+  @keyframes ccFadeIn {
+    from { opacity: 0; transform: scale(0.8); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+  /* Tooltip */
+  .cc-tooltip {
+    position: absolute;
+    right: calc(100% + 10px);
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--navy-mid);
+    border: 1px solid rgba(184,151,90,0.35);
+    color: var(--cream);
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+    padding: 0.35rem 0.7rem;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  #ccTrigger:hover .cc-tooltip { opacity: 1; }
+
+  /* Popup */
+  #ccPopup {
+    position: fixed;
+    bottom: 4.5rem;
+    right: 1.75rem;
+    z-index: 9999;
+    width: 180px;
+    background: var(--navy-mid);
+    border: 1px solid rgba(184,151,90,0.35);
+    border-top: 2px solid var(--gold);
+    border-radius: 7px;
+    padding: 0.7rem 0.8rem 0.65rem;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+    animation: ccPopupIn 0.3s cubic-bezier(0.16,1,0.3,1);
+  }
+  @keyframes ccPopupIn {
+    from { transform: translateY(6px); opacity: 0; }
+    to   { transform: translateY(0);   opacity: 1; }
+  }
+  .cc-popup-title {
     font-family: var(--font-display);
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--gold);
-    font-weight: 600;
+    margin: 0 0 0.3rem;
     letter-spacing: 0.02em;
   }
-  .cc-text {
+  .cc-popup-text {
     font-family: var(--font-body);
-    font-size: 0.8rem;
+    font-size: 0.67rem;
     color: var(--gray);
-    line-height: 1.55;
-    margin: 0 0 0.6rem;
+    line-height: 1.45;
+    margin: 0 0 0.3rem;
   }
-  .cc-link {
+  .cc-popup-link {
     display: inline-block;
     font-family: var(--font-body);
-    font-size: 0.78rem;
+    font-size: 0.65rem;
     color: var(--gold);
     text-decoration: underline;
-    margin-bottom: 1.1rem;
+    margin-bottom: 0.6rem;
     opacity: 0.85;
     transition: opacity 0.2s;
   }
-  .cc-link:hover { opacity: 1; }
-  .cc-actions {
-    display: flex;
-    gap: 0.6rem;
-  }
+  .cc-popup-link:hover { opacity: 1; }
+  .cc-popup-actions { display: flex; gap: 0.4rem; }
   .cc-btn {
     flex: 1;
-    padding: 0.5rem 0;
-    border-radius: 5px;
+    padding: 0.32rem 0;
+    border-radius: 4px;
     font-family: var(--font-body);
-    font-size: 0.8rem;
+    font-size: 0.67rem;
     font-weight: 600;
     letter-spacing: 0.04em;
     cursor: pointer;
     border: 1px solid var(--gold);
-    transition: background 0.2s, color 0.2s, border-color 0.2s;
+    transition: background 0.2s, color 0.2s;
   }
-  .cc-btn-decline {
-    background: transparent;
-    color: var(--gold);
-  }
-  .cc-btn-decline:hover {
-    background: rgba(184,151,90,0.1);
-  }
-  .cc-btn-accept {
-    background: var(--gold);
-    color: var(--navy);
-  }
-  .cc-btn-accept:hover {
-    background: var(--gold-light);
-    border-color: var(--gold-light);
-  }
+  .cc-btn-decline { background: transparent; color: var(--gold); }
+  .cc-btn-decline:hover { background: rgba(184,151,90,0.1); }
+  .cc-btn-accept { background: var(--gold); color: var(--navy); }
+  .cc-btn-accept:hover { background: var(--gold-light); border-color: var(--gold-light); }
+
   @media (max-width: 480px) {
-    #cookieCard {
-      width: auto;
-      left: 1rem;
-      right: 1rem;
-      bottom: 1rem;
-    }
+    #ccTrigger { bottom: 1rem; right: 1rem; }
+    #ccPopup { right: 1rem; bottom: 5rem; width: auto; left: 1rem; }
   }
 </style>
 
 <script>
   (function() {
     var TEXTS = {
-      ro: {
-        title: 'Cookie-uri',
-        text: 'Folosim cookie-uri pentru funcționarea corectă a site-ului. Cookie-urile strict necesare sunt întotdeauna active.',
-        more: 'Află mai multe',
-        accept: 'Accept',
-        decline: 'Refuz'
-      },
-      en: {
-        title: 'Cookies',
-        text: 'We use cookies to ensure the website works correctly. Strictly necessary cookies are always active.',
-        more: 'Learn more',
-        accept: 'Accept',
-        decline: 'Decline'
-      }
+      ro: { tooltip: 'Preferințe cookies', title: 'Cookie-uri', text: 'Acest site folosește cookie-uri strict necesare pentru funcționarea sa.', more: 'Politică cookies', accept: 'Accept', decline: 'Refuz' },
+      en: { tooltip: 'Cookie preferences', title: 'Cookies', text: 'This site uses strictly necessary cookies for its operation.', more: 'Cookie policy', accept: 'Accept', decline: 'Decline' }
     };
 
-    function renderCard(lang) {
+    var trigger = document.getElementById('ccTrigger');
+    var popup   = document.getElementById('ccPopup');
+
+    function applyTexts(lang) {
       var t = TEXTS[lang] || TEXTS.ro;
-      document.getElementById('ccTitle').textContent = t.title;
-      document.getElementById('ccText').textContent = t.text;
-      document.getElementById('ccLink').textContent = t.more;
-      document.getElementById('ccAccept').textContent = t.accept;
-      document.getElementById('ccDecline').textContent = t.decline;
+      document.getElementById('ccTooltip').textContent    = t.tooltip;
+      document.getElementById('ccPopupTitle').textContent = t.title;
+      document.getElementById('ccPopupText').textContent  = t.text;
+      document.getElementById('ccPopupLink').textContent  = t.more;
+      document.getElementById('ccAccept').textContent     = t.accept;
+      document.getElementById('ccDecline').textContent    = t.decline;
+    }
+
+    function dismiss() {
+      trigger.style.display = 'none';
+      popup.style.display   = 'none';
     }
 
     if (!localStorage.getItem('cookieConsent')) {
-      var card = document.getElementById('cookieCard');
-      renderCard(localStorage.getItem('lang') || 'ro');
-      card.style.display = 'block';
+      var lang = localStorage.getItem('lang') || 'ro';
+      applyTexts(lang);
+      trigger.style.display = 'flex';
+      trigger.classList.add('cc-pulse');
+
+      // Open/close popup on trigger click
+      trigger.addEventListener('click', function() {
+        var isOpen = popup.style.display === 'block';
+        popup.style.display = isOpen ? 'none' : 'block';
+      });
 
       document.getElementById('ccAccept').addEventListener('click', function() {
         localStorage.setItem('cookieConsent', 'accepted');
-        card.style.display = 'none';
+        dismiss();
       });
       document.getElementById('ccDecline').addEventListener('click', function() {
         localStorage.setItem('cookieConsent', 'declined');
-        card.style.display = 'none';
+        dismiss();
       });
 
+      // Close popup when clicking outside
+      document.addEventListener('click', function(e) {
+        if (popup.style.display === 'block' && !trigger.contains(e.target) && !popup.contains(e.target)) {
+          popup.style.display = 'none';
+        }
+      });
+
+      // Sync with language toggle
       document.querySelectorAll('.lang-btn').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          renderCard(btn.textContent.toLowerCase());
-        });
+        btn.addEventListener('click', function() { applyTexts(btn.textContent.toLowerCase()); });
       });
     }
   })();
