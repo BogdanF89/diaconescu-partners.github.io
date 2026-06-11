@@ -33,137 +33,115 @@ This is the chosen hosting path: keep using GitHub Pages, and point the custom d
 
 ---
 
-## Chosen setup — RedHost registrar + Cloudflare DNS + GitHub Pages + Google Workspace
+## Chosen setup — RedHost hosting + cPanel DNS + GitHub Pages
 
 This is the actual decided configuration for `diaconescu-partners.ro`:
 
-- **Registrar:** RedHost registers and renews the domain in the titular's name.
-- **DNS:** Cloudflare Free manages the DNS zone.
-- **Website hosting:** GitHub Pages serves the static site.
-- **Email:** Google Workspace hosts `office@diaconescu-partners.ro`.
+- **Registrar + DNS:** RedHost (basic hosting package). Nameservers: `ns37.roserve.net` / `ns38.roserve.net`. DNS zone managed via cPanel Zone Editor (included in the package — no Cloudflare needed).
+- **Website hosting:** GitHub Pages serves the static site (the RedHost hosting account is unused for the website).
+- **Email:** RedHost hosting package includes mailboxes; Google Workspace remains an option if a full Workspace suite is preferred later.
 
-These services do not conflict because DNS record types route different traffic: website traffic
-uses **A/CNAME** records, while email uses **MX/TXT** records.
+RedHost account details:
+- IP: `185.181.240.114`
+- Username: `diacones`
+- cPanel: `https://gts4.roserve.net:2083/`
 
-RedHost confirmed that a domain-only registration does **not** include editable DNS zone management
-on their side. RedHost DNS requires a hosting package. To avoid buying unused hosting only for DNS,
-the preferred path is to register the domain at RedHost and ask RedHost support to point the domain
-to Cloudflare's nameservers.
+### Status
+- ✅ Domain `diaconescu-partners.ro` registered and active at RedHost.
+- ✅ Nameservers already pointing to RedHost (`ns37` / `ns38`) — no registrar change needed.
+- ✅ cPanel DNS Zone Editor available for all DNS changes.
+- ⏳ **Pending:** redirect A/CNAME records from RedHost server to GitHub Pages IPs, create `CNAME` file in repo, set custom domain in GitHub Pages settings, enable HTTPS.
 
-### Status / what's already done in the repo
-- ✅ `CLAUDE.md` "Deployment" section points to the custom domain.
-- ✅ Temporary GitHub Pages URL works while the domain is not yet registered/configured.
-- ⏳ Pending (outside the repo): buy the domain at RedHost, create Cloudflare DNS zone, ask RedHost to set Cloudflare nameservers, add DNS records in Cloudflare, restore `CNAME`, enable HTTPS, set up Workspace.
+---
 
-### Step 1 — Buy the domain at RedHost
-Buy **`diaconescu-partners.ro`** from RedHost as a domain registration.
+### Step 1 — Point the domain at GitHub Pages (cPanel Zone Editor)
 
-RedHost confirmed:
-- Domains are registered directly in the titular's name.
-- Nameservers can be changed later through a support request.
-- Domain-only does not include RedHost DNS-zone editing; RedHost DNS requires a hosting package.
+Log in to cPanel at `https://gts4.roserve.net:2083/` → **Zone Editor** → select `diaconescu-partners.ro`.
 
-Decline upsells that are not needed for this architecture:
-- ❌ Web hosting / cPanel / website builder — the site is on GitHub Pages.
-- ❌ Email hosting / mailboxes from the registrar — email is on Google Workspace.
-- ❌ SSL certificate — GitHub Pages provides free auto-renewing HTTPS.
-- ❌ Premium DNS / RedHost DNS via hosting — Cloudflare Free will manage DNS.
-- ❌ Dedicated IP — **not needed.** GitHub Pages (website) and Google (email) both run on shared
-  infrastructure with excellent reputation. Deliverability comes from SPF/DKIM/DMARC, not a dedicated IP.
-- ⚠️ WHOIS/domain privacy — optional, usually free/cheap.
+**Delete or overwrite** the default `A` record for `@` (currently pointing to `185.181.240.114`) and replace with the four GitHub Pages addresses. Then add the `www` alias.
 
-### Step 2 — Create the Cloudflare DNS zone
-1. Create a Cloudflare account, or use the existing one.
-2. Add `diaconescu-partners.ro` as a site in Cloudflare.
-3. Choose the **Free** plan.
-4. Cloudflare will provide two nameservers, for example `name.ns.cloudflare.com` and
-   `name.ns.cloudflare.com`.
-5. Send a RedHost support request asking them to replace the domain's nameservers with the two
-   Cloudflare nameservers.
+| Type  | Name | Value | Purpose |
+|-------|------|-------|---------|
+| A     | @    | 185.199.108.153 | GitHub Pages |
+| A     | @    | 185.199.109.153 | GitHub Pages |
+| A     | @    | 185.199.110.153 | GitHub Pages |
+| A     | @    | 185.199.111.153 | GitHub Pages |
+| CNAME | www  | `bogdanf89.github.io.` | GitHub Pages (www → apex) |
 
-Cloudflare DNS is free for this use case. It only manages DNS records; it does not replace GitHub
-Pages or Google Workspace.
+> cPanel's Zone Editor may only allow one A record per name through the quick-add UI. Use **Manage** (the full record editor) to add all four A records for `@`.
 
-### Step 3 — Point the domain at GitHub Pages
-1. In Cloudflare DNS, add the website records:
+### Step 2 — Create the `CNAME` file in the repo
 
-   | Type | Name | Value | Purpose |
-   |------|------|-------|---------|
-   | A | @ | 185.199.108.153 | GitHub Pages |
-   | A | @ | 185.199.109.153 | GitHub Pages |
-   | A | @ | 185.199.110.153 | GitHub Pages |
-   | A | @ | 185.199.111.153 | GitHub Pages |
-   | CNAME | www | `bogdanf89.github.io.` | GitHub Pages (www → apex) |
+Create a file named `CNAME` at the repo root containing exactly:
 
-2. In Cloudflare, keep the GitHub Pages website records **DNS only** (grey cloud), at least during
-   setup. Do not proxy them while GitHub is verifying the domain and issuing HTTPS.
-3. Restore/create the repo-root `CNAME` file containing exactly:
+```text
+diaconescu-partners.ro
+```
 
-   ```text
-   diaconescu-partners.ro
-   ```
+Then: `git add CNAME && git commit -m "Add custom domain CNAME" && git push origin main`
 
-4. GitHub repo **Settings → Pages → Custom domain** → `diaconescu-partners.ro`.
-5. After DNS propagates and GitHub's DNS check passes, tick **Enforce HTTPS** in Settings → Pages.
+### Step 3 — Set the custom domain in GitHub Pages settings
 
-Do not buy a separate SSL certificate. GitHub Pages provides HTTPS for the custom domain for free.
+GitHub repo → **Settings → Pages → Custom domain** → enter `diaconescu-partners.ro` and save.
 
-### Step 4 — Set up email: `office@diaconescu-partners.ro` on Google Workspace
-**Plan:** one paid Workspace mailbox (~€5–6/user/month), unified into the client's existing
-personal Gmail so she manages both inboxes in one place.
+Wait for GitHub's DNS check to pass (can take a few minutes to a few hours), then tick **Enforce HTTPS**.
 
-Why a real mailbox (not just forwarding): it's independent of her personal account, can be handed
-to staff later, and has proper SPF/DKIM/DMARC so client/court correspondence doesn't land in spam.
+Do **not** buy an SSL certificate from RedHost. GitHub Pages provides free, auto-renewing HTTPS for custom domains.
 
-**Setup order:**
-1. Sign up for **Google Workspace** using `diaconescu-partners.ro` as the domain.
-2. Google's wizard gives you a **TXT verification record** + **MX records** + a **DKIM key** —
-   add them in Cloudflare DNS (email half):
+---
+
+### Email options
+
+**Option A — Use the RedHost mailbox (already included)**
+
+The basic hosting package includes email hosting. Create `office@diaconescu-partners.ro` directly in cPanel → **Email Accounts**. The default MX records (pointing to RedHost's mail server) are already in the zone; no DNS change needed for email.
+
+To read mail via Gmail (consolidate inboxes), use Gmail → **Settings → Accounts and Import → Check mail from other accounts** (POP3 or IMAP). RedHost's mail server details are typically:
+- IMAP: `gts4.roserve.net` port 993 (SSL)
+- SMTP: `gts4.roserve.net` port 465 (SSL)
+
+**Option B — Google Workspace (paid, ~€5–6/month)**
+
+Better suited if dedicated SPF/DKIM/DMARC compliance, Google admin tools, or multiple staff mailboxes are needed later. Setup order:
+
+1. Sign up for Google Workspace using `diaconescu-partners.ro` as the domain.
+2. Add the records Google's wizard provides into the cPanel Zone Editor:
 
    | Type | Name | Value | Purpose |
    |------|------|-------|---------|
    | MX | @ | `smtp.google.com` (priority 1) | Google mail routing |
-   | TXT | @ | `v=spf1 include:_spf.google.com ~all` | SPF (anti-spoofing) |
-   | TXT | @ | `google-site-verification=…` (from wizard) | Domain ownership |
-   | TXT | `google._domainkey` | DKIM key (from Admin → Apps → Gmail → Authenticate email) | DKIM signing |
+   | TXT | @ | `v=spf1 include:_spf.google.com ~all` | SPF |
+   | TXT | @ | `google-site-verification=…` | Domain ownership |
+   | TXT | `google._domainkey` | DKIM key (from Admin console) | DKIM signing |
    | TXT | `_dmarc` | `v=DMARC1; p=none; rua=mailto:office@diaconescu-partners.ro` | DMARC reporting |
 
-   > Note: modern Google Workspace uses a single MX (`smtp.google.com`). Older setups list five
-   > `ASPMX.L.GOOGLE.COM` / `ALT1…ALT4` records — either works; follow whatever the wizard shows.
+3. Delete the existing RedHost MX records from the zone (they conflict with Google's MX).
+4. Create `office@diaconescu-partners.ro` in the Google Admin console.
+5. Unify into personal Gmail via **Settings → Accounts and Import → Send mail as** + **Check mail from other accounts**.
 
-3. Create the user `office@diaconescu-partners.ro` in the Admin console.
-4. **Unify into her personal Gmail:** in her Gmail → **Settings → Accounts and Import**:
-   - **"Send mail as"** → add `office@diaconescu-partners.ro` (lets her send from that address).
-   - **"Check mail from other accounts"** → add `office@…` (pulls its mail into her inbox).
-   - She then reads and replies to both addresses from one familiar Gmail inbox, choosing the
-     "from" address per message.
+---
 
 ### Why website + email don't conflict
-- **A records** answer "where is the website?" → GitHub Pages.
-- **MX records** answer "where does mail for this domain go?" → Google.
-- **TXT records** prove ownership and authenticate email → Google verification, SPF, DKIM, DMARC.
-- They're different record types serving different protocols; all live in the Cloudflare DNS zone.
+- **A/CNAME records** → where is the website → GitHub Pages.
+- **MX records** → where does mail go → RedHost mail server (Option A) or Google (Option B).
+- They are different record types; both live in the same cPanel DNS zone.
 
 ### Why the RSS/news workflow still works
-Cloudflare only manages DNS. It does not run the website and does not run the RSS script.
-
-The news workflow remains unchanged:
-1. `.github/workflows/news.yml` runs on GitHub's servers every 6 hours.
-2. `scripts/fetch-news.mjs` fetches RSS sources and updates `news.json`.
-3. GitHub Pages serves the updated `news.json` with the rest of the static site.
-4. The browser loads `fetch('news.json')` from the current site origin.
-
-If Cloudflare remains **DNS only**, it does not cache `news.json`. If Cloudflare proxy is enabled
-later, check caching rules so legal news updates are not delayed.
+The DNS change only affects where `diaconescu-partners.ro` resolves. The GitHub Actions workflows run on GitHub's servers regardless of DNS:
+1. `.github/workflows/news.yml` fetches RSS feeds and commits `news.json` to `main` every 6 hours.
+2. GitHub Pages serves the updated site (including `news.json`) at the custom domain.
+3. The browser loads `fetch('news.json')` from the current origin — no path change needed.
 
 ### Verification checklist
+- [ ] All four GitHub Pages A records added in cPanel Zone Editor.
+- [ ] CNAME file created in repo root containing `diaconescu-partners.ro`.
+- [ ] GitHub Pages custom domain set to `diaconescu-partners.ro`.
+- [ ] GitHub's DNS check passes (green tick in Settings → Pages).
+- [ ] **Enforce HTTPS** enabled; cert covers apex + `www`.
 - [ ] `https://diaconescu-partners.ro` loads the homepage.
 - [ ] `https://diaconescu-partners.ro/news.json` returns JSON.
-- [ ] **Enforce HTTPS** is on; cert covers apex + `www`.
-- [ ] Cloudflare website records are set to **DNS only** unless there is a deliberate reason to proxy.
-- [ ] Send a test email to `office@diaconescu-partners.ro` — it arrives in her Gmail.
-- [ ] Send a test email **from** `office@…` (via Gmail's from-dropdown) — it's not flagged as spam.
-- [ ] SPF/DKIM/DMARC pass (check with a tool like mail-tester.com).
+- [ ] Email: send a test message to `office@diaconescu-partners.ro` — it arrives.
+- [ ] Email: send a test message **from** `office@…` — it is not flagged as spam.
 
 ---
 
