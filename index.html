@@ -3698,5 +3698,144 @@
     });
   });
 </script>
+
+<!-- COOKIE CONSENT BANNER -->
+<div id="cookieBanner" role="dialog" aria-live="polite" aria-label="Cookie consent" style="display:none">
+  <div class="cookie-banner-inner">
+    <p class="cookie-banner-text" id="cookieBannerText"></p>
+    <div class="cookie-banner-actions">
+      <a id="cookieBannerLink" href="legal/politica-cookies.html" class="cookie-banner-more"></a>
+      <button id="cookieBannerDecline" class="cookie-btn cookie-btn-decline"></button>
+      <button id="cookieBannerAccept" class="cookie-btn cookie-btn-accept"></button>
+    </div>
+  </div>
+</div>
+
+<style>
+  #cookieBanner {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 9999;
+    background: var(--navy-mid);
+    border-top: 1px solid var(--gold);
+    padding: 1rem 1.5rem;
+    box-shadow: 0 -4px 24px rgba(0,0,0,0.35);
+    animation: slideUpBanner 0.35s ease;
+  }
+  @keyframes slideUpBanner {
+    from { transform: translateY(100%); opacity: 0; }
+    to   { transform: translateY(0);    opacity: 1; }
+  }
+  .cookie-banner-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .cookie-banner-text {
+    flex: 1 1 280px;
+    color: var(--cream);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+  .cookie-banner-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .cookie-banner-more {
+    color: var(--gold);
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  .cookie-banner-more:hover { color: var(--gold-light); }
+  .cookie-btn {
+    padding: 0.45rem 1.1rem;
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid var(--gold);
+    transition: background 0.2s, color 0.2s;
+    white-space: nowrap;
+  }
+  .cookie-btn-decline {
+    background: transparent;
+    color: var(--gold);
+  }
+  .cookie-btn-decline:hover {
+    background: rgba(184,151,90,0.1);
+  }
+  .cookie-btn-accept {
+    background: var(--gold);
+    color: var(--navy);
+  }
+  .cookie-btn-accept:hover {
+    background: var(--gold-light);
+  }
+  @media (max-width: 600px) {
+    .cookie-banner-inner { gap: 0.75rem; }
+    .cookie-banner-actions { width: 100%; justify-content: flex-end; }
+  }
+</style>
+
+<script>
+  (function() {
+    var TEXTS = {
+      ro: {
+        text: 'Folosim cookie-uri pentru a asigura funcționarea corectă a site-ului și pentru a analiza traficul. Cookie-urile strict necesare sunt active întotdeauna.',
+        more: 'Politică cookies',
+        accept: 'Accept',
+        decline: 'Refuz'
+      },
+      en: {
+        text: 'We use cookies to ensure the proper functioning of the website and to analyse traffic. Strictly necessary cookies are always active.',
+        more: 'Cookie policy',
+        accept: 'Accept',
+        decline: 'Decline'
+      }
+    };
+
+    function renderBannerText(lang) {
+      var t = TEXTS[lang] || TEXTS.ro;
+      document.getElementById('cookieBannerText').textContent = t.text;
+      document.getElementById('cookieBannerLink').textContent = t.more;
+      document.getElementById('cookieBannerAccept').textContent = t.accept;
+      document.getElementById('cookieBannerDecline').textContent = t.decline;
+    }
+
+    var consent = localStorage.getItem('cookieConsent');
+    if (!consent) {
+      var banner = document.getElementById('cookieBanner');
+      var lang = localStorage.getItem('lang') || 'ro';
+      renderBannerText(lang);
+      banner.style.display = 'block';
+
+      document.getElementById('cookieBannerAccept').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', 'accepted');
+        banner.style.display = 'none';
+      });
+      document.getElementById('cookieBannerDecline').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', 'declined');
+        banner.style.display = 'none';
+      });
+
+      // Keep banner text in sync with language toggle
+      document.querySelectorAll('.lang-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          renderBannerText(btn.textContent.toLowerCase());
+        });
+      });
+    }
+  })();
+</script>
 </body>
 </html>
