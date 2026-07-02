@@ -3609,12 +3609,14 @@
     let cached = null;
     function render(lang) {
       if (!cached) return;
-      if (!cached.length) {
+      // Items without a `lang` field (legacy) are treated as 'ro'.
+      const langItems = cached.filter((it) => !it.lang || it.lang === lang);
+      if (!langItems.length) {
         const msg = (typeof i18n !== 'undefined' && i18n[lang] && i18n[lang]['news.empty']) || 'No articles available.';
         track.innerHTML = '<div class="news-empty">' + escapeHtml(msg) + '</div>';
         return;
       }
-      const cards = cached.map((it) => buildCard(it, lang)).join('');
+      const cards = langItems.map((it) => buildCard(it, lang)).join('');
       // duplicate for seamless auto-scroll loop
       track.innerHTML = cards + cards;
       setupScrollInteraction();
