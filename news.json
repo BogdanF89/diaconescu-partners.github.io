@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-07-04T08:42:10.916Z",
+  "generatedAt": "2026-07-04T13:40:31.213Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "ANPC a mers în control la peste 1.500 de operatori economici în perioada 29 iunie – 3 iulie și a dat amenzi de 4,1 milioane de lei",
+      "link": "https://www.economica.net/anpc-a-mers-in-control-la-peste-1-500-de-operatori-economici-in-perioada-29-iunie-3-iulie-si-a-dat-amenzi-de-41-milioane-de-lei_956457.html",
+      "date": "2026-07-04T10:33:23.000Z",
+      "excerpt": "Autoritatea Națională pentru Protecția Consumatorilor anunță că. în perioada 29 iunie – 3 iulie 2026, comisarii săi au desfășurat acțiuni de control la peste 1.500 de operatori..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Vasile Godîncă-Herlea, CEO, Azitis: Primele zece active în distress la vânzare valoarează 1 mld. euro",
+      "link": "https://www.zf.ro/companii/vasile-godinca-herlea-ceo-azitis-primele-zece-active-in-distress-la-23183638",
+      "date": "2026-07-04T08:54:00.000Z",
+      "excerpt": "Mai bine de 1,7 miliarde de euro a fost valoarea activelor aflate în distress scoase la vânzare în primele cinci luni ale anului, peste 8.000 de anunţuri de la companii aflate în..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -9,6 +25,14 @@
       "link": "https://www.zf.ro/companii/schimba-radical-regulile-preturilor-transfer-incepand-anul-2026-noul-23186977",
       "date": "2026-07-04T08:04:00.000Z",
       "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "De Ziua Justiției 2026, invitație la reflecție asupra unor aspecte privind sistemul judiciar care ar putea fi reformate",
+      "link": "https://www.juridice.ro/837480/de-ziua-justitiei-2026-invitatie-la-reflectie-asupra-unor-aspecte-privind-sistemul-judiciar-care-ar-putea-fi-reformate.html",
+      "date": "2026-07-03T21:01:58.000Z",
+      "excerpt": "Motto: „Fiecare om este vinovat de tot binele pe care nu l-a făcut.” – Voltaire În așteptarea Zilei Justiției, pe care o sărbătorim în prima duminică a lunii iulie, într-un an în..."
     },
     {
       "lang": "ro",
@@ -73,30 +97,6 @@
       "link": "https://www.zf.ro/opinii/kpmg-comisia-europeana-propune-masuri-de-simplificare-fiscala-cu-23187758",
       "date": "2026-07-03T15:09:00.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Rețeaua Natura 2000 are 19 situri noi",
-      "link": "https://www.juridice.ro/836294/reteaua-natura-2000-are-19-situri-noi.html",
-      "date": "2026-07-03T15:01:08.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 544 din 2 iulie 2026 a fost publicată Hotărârea nr. 509/2026 pentru modificarea și completarea Hotărârii Guvernului nr. 685/2022 privind..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Senatul formulează preocupări și rezerve privind Regulamentul EU Inc.",
-      "link": "https://www.juridice.ro/837453/senatul-formuleaza-preocupari-si-rezerve-privind-regulamentul-eu-inc.html",
-      "date": "2026-07-03T14:11:17.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 548 din 3 iulie 2026 a fost publicată Hotărârea nr. 106/2026 referitoare la propunerea de Regulament al Parlamentului European și al Consiliului..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Curtea de Apel Pitești a găzduit o dezbatere privind reintegrarea socială",
-      "link": "https://www.juridice.ro/836058/curtea-de-apel-pitesti-a-gazduit-o-dezbatere-privind-reintegrarea-sociala.html",
-      "date": "2026-07-03T14:00:38.000Z",
-      "excerpt": "Vineri, 3 iulie 2026, Curtea de Apel Piteşti şi Penitenciarul Mioveni au organizat o dezbatere cu tema „Reintegrarea socială a persoanelor care au fost lipsite de libertate, ca..."
     }
   ]
 }
