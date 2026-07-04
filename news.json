@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-07-04T13:40:31.213Z",
+  "generatedAt": "2026-07-04T19:19:13.286Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Peter Magyar propune modificarea Constituţiei Ungariei.Mandatele parlamentarilor, limitate la 12 ani",
+      "link": "https://www.zf.ro/business-international/peter-magyar-propune-modificarea-constitutiei-ungariei-mandatele-23188276",
+      "date": "2026-07-04T14:29:45.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.juridice.ro/837452/ue-extinde-lista-alimentelor-exceptate-de-la-controalele-la-frontiera.html",
       "date": "2026-07-03T15:58:18.000Z",
       "excerpt": "În Jurnalul Oficial al Uniunii Europene, seria L, din 3 iulie 2026 a fost publicat Regulamentul delegat (UE) 2026/908 al Comisiei din 27 aprilie 2026 de modificare a..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "KPMG: Comisia Europeană propune măsuri de simplificare fiscală cu impact asupra României",
-      "link": "https://www.zf.ro/opinii/kpmg-comisia-europeana-propune-masuri-de-simplificare-fiscala-cu-23187758",
-      "date": "2026-07-03T15:09:00.000Z",
-      "excerpt": ""
     }
   ]
 }
