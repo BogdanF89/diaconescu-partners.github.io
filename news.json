@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-05T08:56:57.321Z",
+  "generatedAt": "2026-07-05T13:47:41.066Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ZF Live. Adrian Codirlaşu, preşedinte, CFA România: Modelul de creştere pe datorie şi pe deficite mari pe care l-am avut în ultimii ani a ajuns la final. Anul acesta cred că va aduce o recesiune econo",
+      "link": "https://www.zf.ro/zf-live/zf-live-adrian-codirlasu-presedinte-cfa-romania-modelul-crestere-23185897",
+      "date": "2026-07-05T13:31:00.000Z",
+      "excerpt": "Scenariul cel mai probabil pentru economia României în acest an este intrarea în recesiune, chiar dacă ar putea fi vorba de o scădere mică de 0,5 sau până în 1%, iar Guvernul..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "BT, cea mai mare bancă din România, a dat cea mai mare finanţare din istoria sa fraţilor Pavăl de la Dedeman pentru achiziţia Carrefour România",
+      "link": "https://www.zf.ro/banci-si-asigurari/bt-cea-mai-mare-banca-din-romania-a-dat-cea-mai-mare-finantare-din-23186314",
+      "date": "2026-07-05T10:20:00.000Z",
+      "excerpt": "Banca Transilvania a acordat Pavăl Holding cea mai mare finanţare din istoria băncii şi cea mai mare finanţare bilaterală acordată până acum pe piaţa din România, pentru..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Sorin Pâslaru, ZF: Cei mai buni economişti ai ţării se întreabă în aceste zile cum putem trece de la modelul unei economii de import bazate pe creşterea de datorie la modelul unei economii de producţi",
+      "link": "https://www.zf.ro/opinii/sorin-paslaru-zf-cei-buni-economisti-tarii-intreaba-aceste-zile-23186226",
+      "date": "2026-07-05T10:15:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -73,30 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-crestere-sedinta-de-tranzactionare-de-vineri-rulajul-a-ajuns-la-365-de-milioane-de-lei_956382.html",
       "date": "2026-07-03T18:38:26.000Z",
       "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în creştere şedinţa de tranzacţionare de vineri, iar rulajul total a depăşit 365 de milioane de lei (69,7 milioane de euro), 174 de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Consiliul Concurenței autorizează preluarea Vorwerk Romania Management de către Vorwerk Home & Co. KmG",
-      "link": "https://www.juridice.ro/837416/consiliul-concurentei-autorizeaza-preluarea-vorwerk-romania-management-de-catre-vorwerk-home-co-kmg.html",
-      "date": "2026-07-03T18:04:09.000Z",
-      "excerpt": "Vineri, 3 iulie 2026, Consiliul Concurenţei a informat că a autorizat tranzacția prin care Vorwerk Home & Co. KmG intenționează să preia Vorwerk Romania Management S.R.L.,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "ROJUST solicită CSM sesizarea CCR privind un posibil conflict între autoritatea judecătorească și puterile executivă și legislativă",
-      "link": "https://www.juridice.ro/837483/rojust-solicita-csm-sesizarea-ccr-privind-un-posibil-conflict-intre-autoritatea-judecatoreasca-si-puterile-executiva-si-legislativa.html",
-      "date": "2026-07-03T17:57:04.000Z",
-      "excerpt": "Vineri, 3 iulie 2026, ROJUST – Asociația personalului din justiție a transmis o scrisoare deschisă președintelui Consiliului Superior al Magistraturii și prim-ministrului, cerând..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "BNR. Rezervele internaționale – iunie 2026",
-      "link": "https://www.juridice.ro/837414/bnr-rezervele-internationale-iunie-2026.html",
-      "date": "2026-07-03T17:03:19.000Z",
-      "excerpt": "Marți, 30 iunie 2026, rezervele valutare la Banca Naţională a României se situau la nivelul de 63.493 milioane euro, față de 64.051 milioane euro la 31 mai 2026, potrivit unui..."
     }
   ]
 }
