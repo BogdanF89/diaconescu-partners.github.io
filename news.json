@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-07-07T20:00:23.707Z",
+  "generatedAt": "2026-07-08T02:58:03.311Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Normativitatea nefuncțională a soluțiilor pe care le poate pronunța Înalta Curte de Casație și Justiție în recursul civil",
+      "link": "https://www.juridice.ro/essentials/12000/normativitatea-nefunctionala-a-solutiilor-pe-care-le-poate-pronunta-inalta-curte-de-casatie-si-justitie-in-recursul-civil",
+      "date": "2026-07-07T21:09:21.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Răspunderea disciplinară vs. răspunderea penală. Aplicarea principiului ne bis in idem pornind de la o decizie de casare a ÎCCJ",
+      "link": "https://www.juridice.ro/837995/raspunderea-disciplinara-vs-raspunderea-penala-aplicarea-principiului-ne-bis-in-idem-pornind-de-la-o-decizie-de-casare-a-iccj.html",
+      "date": "2026-07-07T21:08:01.000Z",
+      "excerpt": "Rezumat: Încercăm o analiză critică a unei decizii a instanței supreme, în care s-a constatat încălcarea principiului ne bis in idem în contextul cumulului dintre sancțiunea..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "ÎCCJ. Darea de seamă anuală a tutorelui. Competența",
+      "link": "https://www.juridice.ro/838014/iccj-darea-de-seama-anuala-a-tutorelui-competenta.html",
+      "date": "2026-07-07T21:07:52.000Z",
+      "excerpt": "Înalta Curte de Casație și Justiție a hotărât că cererea de dare de seamă anuală a tutorelui special se soluţionează de instanţa de tutelă deja învestită prin hotărârea prin care..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Curtea de Apel București. Indisponibilizarea bunurilor fără scop legitim",
+      "link": "https://www.juridice.ro/837997/curtea-de-apel-bucuresti-indisponibilizarea-bunurilor-fara-scop-legitim.html",
+      "date": "2026-07-07T21:06:07.000Z",
+      "excerpt": "În cazul inculpatului trimis în judecată exclusiv pentru infracțiunea de spălare a banilor, măsurile asigurătorii nu pot fi instituite sau menținute în scopul garantării reparării..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -65,38 +97,6 @@
       "link": "https://www.juridice.ro/837938/noi-reguli-ue-ref-supravegherea-creditelor-garantate-cu-imobile.html",
       "date": "2026-07-07T13:03:09.000Z",
       "excerpt": "În Jurnalul Oficial al Uniunii Europene, seria L, din 7 iulie 2026 a fost publicat Regulamentul delegat (UE) 2026/807 al Comisiei din 10 martie 2026 de modificare a standardelor..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Registrul de evidență fiscală se ține în formă scrisă sau electronică",
-      "link": "https://www.juridice.ro/837144/registrul-de-evidenta-fiscala-se-tine-in-forma-scrisa-sau-electronica.html",
-      "date": "2026-07-07T12:48:00.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 556 din 7 iulie 2026 a fost publicat Ordinul nr. 808/2026 privind Registrul de evidență fiscală. Contribuabilii plătitori de impozit pe profit..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Consiliul director al INR are noi atribuții",
-      "link": "https://www.juridice.ro/837955/consiliul-director-al-inr-are-noi-atributii.html",
-      "date": "2026-07-07T12:39:49.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 557 din 7 iulie 2026 a fost publicată Hotărârea nr. 104/2026 privind modificarea și completarea Statutului Institutului Notarial Român, aprobat..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Notarii din comisiile de concurs vor participa la formare profesională specializată",
-      "link": "https://www.juridice.ro/837952/notarii-din-comisiile-de-concurs-vor-participa-la-formare-profesionala-specializata.html",
-      "date": "2026-07-07T12:32:44.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 557 din 7 iulie 2026 a fost publicată Hotărârea nr. 104/2026 privind modificarea și completarea Statutului Institutului Notarial Român, aprobat..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Tranzacție de 3,9 miliarde de euro. Thales va achiziționa producătorul francez de drone subacvatice Exail",
-      "link": "https://www.economica.net/tranzactie-de-39-miliarde-de-euro-thales-va-achizitiona-producatorul-francez-de-drone-subacvatice-exail_957074.html",
-      "date": "2026-07-07T08:49:14.000Z",
-      "excerpt": "Gigantul francez Thales, cea mai mare companie de tehnologie din Europa, prezentă și în România, a convenit să achiziționeze 35,5 % din acțiunile producătorului francez de drone..."
     }
   ]
 }
