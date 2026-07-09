@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-07-08T19:37:42.443Z",
+  "generatedAt": "2026-07-09T03:36:58.420Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Cum stă generaţia Z cu datoriile: aproape jumătate dintre tineri spun că nu au nicio datorie",
+      "link": "https://www.zf.ro/zf-gen-z/sondaje/cum-sta-generatia-z-cu-datoriile-aproape-jumatate-dintre-tineri-spun-23191499",
+      "date": "2026-07-08T21:05:00.000Z",
+      "excerpt": "Un credit nu este neapărat un lucru rău, dar spune multe despre etapa în care te afli şi despre alegerile tale financiare. Iar alţii reuşesc să se descurce şi fără datorii. Am..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/cei-mai-mari-jucatori-din-economie-2026/anuarul-cei-mai-mari-jucatori-din-economie-2026-bauturi-spirtoase-o-23189642",
       "date": "2026-07-08T11:00:00.000Z",
       "excerpt": "Piaţa băuturilor spirtoase este şi ea afectată de schimbările legislative, dar şi de creşterea costurilor şi lipsa de predictibilitate. Cu toate acestea, producătorii şi..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Normativitatea nefuncțională a soluțiilor pe care le poate pronunța Înalta Curte de Casație și Justiție în recursul civil",
-      "link": "https://www.juridice.ro/essentials/12000/normativitatea-nefunctionala-a-solutiilor-pe-care-le-poate-pronunta-inalta-curte-de-casatie-si-justitie-in-recursul-civil",
-      "date": "2026-07-07T21:09:21.000Z",
-      "excerpt": ""
     }
   ]
 }
