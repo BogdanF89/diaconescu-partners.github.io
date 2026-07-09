@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-09T15:17:13.706Z",
+  "generatedAt": "2026-07-09T19:50:54.475Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Cum încearcă ANAF să transforme una dintre cele mai controversate activități ale statului: ”Un exemplu este vânzarea bunurilor lui Marian Vanghelie”",
+      "link": "https://www.economica.net/cum-incearca-anaf-sa-transforme-una-dintre-cele-mai-controversate-activitati-ale-statului-un-exemplu-este-vanzarea-bunurilor-lui-marian-vanghelie_951695.html",
+      "date": "2026-07-09T19:07:23.000Z",
+      "excerpt": "Platforma eLicitații ANAF, prin care Agenția Națională de Administrare Fiscală vinde online bunurile confiscate și sechestrate, crește prețurile de adjudecare cu 17%, în medie,..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a închis în creștere ședința de tranzacționare de joi. Rulajul a depășit 91 de milioane de lei",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-crestere-sedinta-de-tranzactionare-de-joi-rulajul-a-depasit-91-de-milioane-de-lei_958039.html",
+      "date": "2026-07-09T18:20:41.000Z",
+      "excerpt": "Bursa de Valori Bucureşti a închis în creştere şedinţa de joi, iar valoarea totală a tranzacţiilor s-a cifrat la 91,8 milioane de lei (17,5 milioane de euro), relatează Agerpres."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "CE solicită Belgiei să respecte hotărârea CJUE privind plățile întârziate",
+      "link": "https://www.juridice.ro/838425/ce-solicita-belgiei-sa-respecte-hotararea-cjue-privind-platile-intarziate.html",
+      "date": "2026-07-09T18:04:53.000Z",
+      "excerpt": "Miercuri, 8 iulie 2026, a decis să trimită Belgiei [INFR(2019)2299] o scrisoare de punere în întârziere în temeiul articolului 260 din Tratatul privind funcționarea Uniunii..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -9,6 +33,22 @@
       "link": "https://www.economica.net/iccj-amana-pronuntarea-in-procesul-pe-care-l-a-intentat-impotriva-guvenului-pentru-plata-unor-restante-salariale-catre-magistrati-miza-e-de-1-miliard-de-euro_957973.html",
       "date": "2026-07-09T14:33:17.000Z",
       "excerpt": "Înalta Curte de Casaţie şi Justiţie a amânat joi, pentru data de 23 iulie, pronunţarea în dosarul pe care l-a câştigat în primă instanţă cu Guvernul şi Ministerul Finanţelor..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Suplimentare despăgubiri pentru exproprierile aferente carierei de lignit Tismana I",
+      "link": "https://www.juridice.ro/838377/suplimentare-despagubiri-pentru-exproprierile-aferente-carierei-de-lignit-tismana-i.html",
+      "date": "2026-07-09T14:30:04.000Z",
+      "excerpt": "Joi, 9 iulie 2026, Guvernul României a adoptat Hotărârea de Guvern pentru suplimentarea sumei prevăzute ca justă despăgubire aprobate prin Hotărârea Guvernului nr. 1120/2020..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Avize emise de Consiliul Legislativ – 9 iulie 2026",
+      "link": "https://www.juridice.ro/838428/avize-emise-de-consiliul-legislativ-9-iulie-2026.html",
+      "date": "2026-07-09T14:07:30.000Z",
+      "excerpt": "Joim 9 iulie 2026, Consiliul Legislativ a emis următoarele avize: Avizul nr. 650 negativ, referitor la propunerea legislativă privind cerințele de informare prin etichetare pentru..."
     },
     {
       "lang": "ro",
@@ -57,46 +97,6 @@
       "link": "https://www.economica.net/vulnerabilitatea-structurala-a-economiei-romaniei-munca-la-negru-si-la-gri-profilul-romaniei-structural-diferit-fata-de-vestul-europei-studiu-bns_957575.html",
       "date": "2026-07-08T19:19:18.000Z",
       "excerpt": "Organizația pentru Cooperare și Dezvoltare Economică (OECD) identifică explicit munca nedeclarată ca fiind una dintre vulnerabilitățile structurale ale economiei românești și..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de miercuri. Rulajul a depășit 489 de milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-miercuri-rulajul-a-depasit-489-de-milioane-de-lei_957769.html",
-      "date": "2026-07-08T19:02:26.000Z",
-      "excerpt": "Bursa de Valori Bucureşti a închis în scădere pe toţi indicii şedinţa de miercuri, iar valoarea totală a tranzacţiilor s-a cifrat la 489,30 de milioane de lei (93,47 de milioane..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "MEDAT simplifică accesul la Programul SME Eco-Tech pentru microîntreprinderi",
-      "link": "https://www.juridice.ro/838194/medat-simplifica-accesul-la-programul-sme-eco-tech-pentru-microintreprinderi.html",
-      "date": "2026-07-08T17:56:20.000Z",
-      "excerpt": "Miercuri, 8 iulie 2026, Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului (MEDAT) a anunțat modificarea condițiilor de participare în Programul pentru..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "CJUE. C-544/24 | Nekilnojamojo turto valdymas. Dobânzile de întârziere la TVA",
-      "link": "https://www.juridice.ro/838173/cjue-c-544-24-nekilnojamojo-turto-valdymas-dobanzile-de-intarziere-la-tva.html",
-      "date": "2026-07-08T16:27:42.000Z",
-      "excerpt": "În Jurnalul Oficial al Uniunii Europene, seria C, din 6 iulie 2026 a fost publicată Hotărârea Curții (Camera întâi) din 30 aprilie 2026 (cerere de decizie preliminară formulată de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "BREAKING. Tranzacţie-mamut cu acţiuni Banca Transilvania de 414 mil. lei, prima astfel de operaţiune specială după mulţi ani: Preţ cu 5% mai mic decât cel din piaţă. Brokerii arată spre fonduri de pen",
-      "link": "https://www.zf.ro/burse-fonduri-mutuale/breaking-tranzactie-mamut-actiuni-banca-transilvania-414-mil-lei-23191306",
-      "date": "2026-07-08T15:19:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Wolf Theiss a asistat fondurile Revetas Capital și Cerberus Capital Management în legătură cu refinanțarea hotelului Radisson Blu din București",
-      "link": "https://www.juridice.ro/838167/wolf-theiss-a-asistat-fondurile-revetas-capital-si-cerberus-capital-management-in-legatura-cu-refinantarea-hotelului-radisson-blu-din-bucuresti.html",
-      "date": "2026-07-08T14:21:48.000Z",
-      "excerpt": "Wolf Theiss a asistat Revetas Capital precum și fondurile și bunurile administrate de Cerberus Capital Management, L.P. („Cerberus”), în vederea obținerii unei facilităţi de..."
     }
   ]
 }
