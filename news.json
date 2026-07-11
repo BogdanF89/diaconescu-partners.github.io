@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T13:26:41.613Z",
+  "generatedAt": "2026-07-11T19:09:16.129Z",
   "count": 12,
   "items": [
     {
@@ -9,6 +9,14 @@
       "link": "https://www.zf.ro/eveniment/bilantul-dupa-a-treia-zi-de-beach-please-359-de-persoane-care-au-23193382",
       "date": "2026-07-11T08:12:03.000Z",
       "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Apple dă în judecată OpenAI pentru sustragere de secrete hardware",
+      "link": "https://www.juridice.ro/838666/apple-da-in-judecata-openai-pentru-sustragere-de-secrete-hardware.html",
+      "date": "2026-07-11T07:59:11.000Z",
+      "excerpt": "Apple Inc. a introdus la 10 iulie 2026, în fața United States District Court for the Northern District of California, San Jose Division, o acțiune amplă împotriva OpenAI..."
     },
     {
       "lang": "ro",
@@ -89,14 +97,6 @@
       "link": "https://www.juridice.ro/838643/consiliul-concurentei-analizeaza-preluarea-bahag-beteiligungs-si-competo-beteiligungs-de-catre-phinia-inc.html",
       "date": "2026-07-10T13:51:06.000Z",
       "excerpt": "Vineri, 10 iulie 2026, Consiliul Concurenţei a informat că analizează tranzacția prin care Phinia Inc., Statele Unite ale Americii, intenționează să preia Bahag Beteiligungs GmbH,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Alexandru Rădăşanu preia integral Software Imagination & Vision - SIMAVI, compania desprinsă din fostul SIVECO, alături de membri ai echipei de conducere",
-      "link": "https://www.zf.ro/business-hi-tech/alexandru-radasanu-preia-integral-software-imagination-vision-simavi-23192948",
-      "date": "2026-07-10T13:36:41.000Z",
-      "excerpt": "Software Imagination & Vision (SIMAVI), o entitate desprinsă din grupul SIVECO în 2019 după scandalul declanşat de un dosar de evaziune fiscală prin care a trecut , trece integral..."
     }
   ]
 }
