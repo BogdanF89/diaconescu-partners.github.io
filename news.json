@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-07-11T08:01:05.766Z",
+  "generatedAt": "2026-07-11T13:26:41.613Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Bilanţul după a treia zi de Beach, Please!: 359 de persoane care au avut nevoie de asistenţă medicală, 48 de amenzi în valoare de 25.650 de lei şi 9 dosare penale",
+      "link": "https://www.zf.ro/eveniment/bilantul-dupa-a-treia-zi-de-beach-please-359-de-persoane-care-au-23193382",
+      "date": "2026-07-11T08:12:03.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/business-hi-tech/alexandru-radasanu-preia-integral-software-imagination-vision-simavi-23192948",
       "date": "2026-07-10T13:36:41.000Z",
       "excerpt": "Software Imagination & Vision (SIMAVI), o entitate desprinsă din grupul SIVECO în 2019 după scandalul declanşat de un dosar de evaziune fiscală prin care a trecut , trece integral..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Piaţa de M&A creşte în pofida crizei politice: cel mai bun S1 din ultimul deceniu pentru tranzacţiile mari. Zece tranzacţii au trecut de 100 mil. euro, din care trei chiar peste jumătate de miliard de",
-      "link": "https://www.zf.ro/companii/piata-m-creste-pofida-crizei-politice-cel-bun-s1-ultimul-deceniu-23192235",
-      "date": "2026-07-10T11:00:00.000Z",
-      "excerpt": "În primul semestru din acest an, în România au fost anunţate zece tranzacţii de peste 100 de milioane de euro, dintre care trei de peste jumătate de miliard de euro fiecare, cele..."
     }
   ]
 }
