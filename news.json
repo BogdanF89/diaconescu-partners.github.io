@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-07-10T19:37:53.589Z",
+  "generatedAt": "2026-07-11T02:53:41.333Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Atunci când instanța de apel devine autorul acțiunii",
+      "link": "https://www.juridice.ro/838592/atunci-cand-instanta-de-apel-devine-autorul-actiunii.html",
+      "date": "2026-07-10T21:01:54.000Z",
+      "excerpt": "Există hotărâri judecătorești care greșesc în interpretarea legii. Există hotărâri care apreciază discutabil probele. Și există hotărâri care fac ceva mult mai grav din punct de..."
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/companii/piata-m-creste-pofida-crizei-politice-cel-bun-s1-ultimul-deceniu-23192235",
       "date": "2026-07-10T11:00:00.000Z",
       "excerpt": "În primul semestru din acest an, în România au fost anunţate zece tranzacţii de peste 100 de milioane de euro, dintre care trei de peste jumătate de miliard de euro fiecare, cele..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Program de instruire privind analiza serviciilor intragrup",
-      "link": "https://www.juridice.ro/837942/program-de-instruire-privind-analiza-serviciilor-intragrup.html",
-      "date": "2026-07-10T09:38:33.000Z",
-      "excerpt": "Vineri, 10 iulie 2026, Agenția Națională de Administrare Fiscală a anunțat încheierea programului de instruire privind analiza serviciilor intragrup, desfășurat în perioada 7-9..."
     }
   ]
 }
