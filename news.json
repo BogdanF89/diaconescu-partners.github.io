@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-07-12T08:22:49.326Z",
+  "generatedAt": "2026-07-12T13:27:12.334Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la Bucureşti a câştigat în această săptămână 857,4 milioane de lei la capitalizare",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-castigat-in-aceasta-saptamana-8574-milioane-de-lei-la-capitalizare_958585.html",
+      "date": "2026-07-12T12:42:00.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a câştigat în această săptămână 857,4 milioane de lei la capitalizare, în creştere cu 0,12% faţă de săptămâna anterioară, în timp ce valoarea..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.juridice.ro/838646/ce-invita-polonia-sa-transpuna-integral-directiva-care-incrimineaza-incalcarea-masurilor-restrictive-ale-ue.html",
       "date": "2026-07-10T13:57:11.000Z",
       "excerpt": "Miercuri, 8 iulie 2026, Comisia Europeană a decis astăzi să trimită un aviz motivat Poloniei [INFR(2025)0239] pentru că nu a încorporat integral în legislația națională Directiva..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Consiliul Concurenței analizează preluarea Bahag Beteiligungs și Competo Beteiligungs de către Phinia Inc.",
-      "link": "https://www.juridice.ro/838643/consiliul-concurentei-analizeaza-preluarea-bahag-beteiligungs-si-competo-beteiligungs-de-catre-phinia-inc.html",
-      "date": "2026-07-10T13:51:06.000Z",
-      "excerpt": "Vineri, 10 iulie 2026, Consiliul Concurenţei a informat că analizează tranzacția prin care Phinia Inc., Statele Unite ale Americii, intenționează să preia Bahag Beteiligungs GmbH,..."
     }
   ]
 }
