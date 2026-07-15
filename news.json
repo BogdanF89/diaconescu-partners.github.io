@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2026-07-14T19:24:22.450Z",
+  "generatedAt": "2026-07-15T02:43:34.725Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Ce companii pun presiune mai mare pe bilanţurile băncilor. Cele mai mari rate NPL sunt la firmele din agricultură (9,8%), construcţii (9%) şi industrie şi comerţ, cu rate NPL de peste 6%",
+      "link": "https://www.zf.ro/banci-si-asigurari/ce-companii-pun-presiune-mai-mare-pe-bilanturile-bancilor-cele-mai-23195636",
+      "date": "2026-07-14T21:07:00.000Z",
+      "excerpt": "Odată cu deteriorarea condiţiilor macroeconomice, cu o economie care a frânat puternic, inflaţie persistentă şi creştere a numărului firmelor intrate în insolvenţă, majoritatea..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Cazul ROBOR – excesul de putere si paradoxul juridic care transferă asupra instituțiilor de credit costurile contradicției statului",
+      "link": "https://www.juridice.ro/essentials/12056/cazul-robor-excesul-de-putere-si-paradoxul-juridic-care-transfera-asupra-institutiilor-de-credit-costurile-contradictiei-statului",
+      "date": "2026-07-14T21:06:19.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ZF Deschiderea de astăzi la Bursă. Radu Dăscălescu, TradeVille: Contrapartea Centrală şi legea privind Conturile Individuale de Investiţii pentru Pensie ne aduc mai aproape de statutul de piaţă matură",
+      "link": "https://www.zf.ro/zf-deschiderea-de-astazi/zf-deschiderea-de-astazi-la-bursa-radu-dascalescu-tradeville-23194931",
+      "date": "2026-07-14T21:06:00.000Z",
+      "excerpt": "Autorizarea Contrapărţii Centrale de către ASF şi adopta­rea în Senat a proiectului pentru pensii private de tip 401(k) reprezintă doi dintre pilonii esenţiali pentru modernizarea..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "ÎCCJ. Ordinele nu pot adăuga la lege",
+      "link": "https://www.juridice.ro/837835/iccj-ordinele-nu-pot-adauga-la-lege.html",
+      "date": "2026-07-14T21:03:11.000Z",
+      "excerpt": "Înalta Curte de Casație și Justiție a hotărât că actele administrative normative date în executarea legii trebuie să se limiteze strict la cadrul stabilit de norma primară și nu..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Tribunalul Hunedoara. Statul român, obligat la plata valorii reale a terenurilor expropriate și a prejudiciului cauzat prin lipsirea de acces a terenurilor rămase",
+      "link": "https://www.juridice.ro/838807/tribunalul-hunedoara-statul-roman-obligat-la-plata-valorii-reale-a-terenurilor-expropriate-si-a-prejudiciului-cauzat-prin-lipsirea-de-acces-a-terenurilor-ramase.html",
+      "date": "2026-07-14T21:02:47.000Z",
+      "excerpt": "Prin Sentința civilă nr. 1257 din 11 octombrie 2022, pronunțată de Tribunalul Hunedoara, instanța a admis acțiunea formulată de proprietarii terenurilor expropriate pentru..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "De la conformare formală la reziliență cibernetică reală",
+      "link": "https://www.juridice.ro/839186/de-la-conformare-formala-la-rezilienta-cibernetica-reala.html",
+      "date": "2026-07-14T21:00:09.000Z",
+      "excerpt": "Rezumat: Directiva (UE) 2022/2555 (NIS2) reprezintă o transformare fundamentală a modului în care organizațiile din Uniunea Europeană abordează securitatea cibernetică. Articolul..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -49,54 +97,6 @@
       "link": "https://www.juridice.ro/839112/un-functionar-public-din-cadrul-itm-alba-a-fost-retinut.html",
       "date": "2026-07-14T12:57:54.000Z",
       "excerpt": "Marți, 14 iulie 2026, Parchetul de pe lângă Tribunalul Alba a informat că a reținut un suspect pentru comiterea a 53 de infracțiuni de divulgare a informațiilor secrete de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Bursă. Grad de subscriere de peste 90% la operaţiunea de răscumpărare de acţiuni derulată de One United Properties. Tranzacţii de 142 mil. lei",
-      "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-grad-de-subscriere-de-peste-90-la-operatiunea-de-rascumparare-23195388",
-      "date": "2026-07-14T12:56:25.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Structurile Ministerului Public au fost dotate cu echipamente IT",
-      "link": "https://www.juridice.ro/839110/structurile-ministerului-public-au-fost-dotate-cu-echipamente-it.html",
-      "date": "2026-07-14T12:44:51.000Z",
-      "excerpt": "Marți, 14 iulie 2026, Parchetul de pe lângă Înalta Curte de Casație și Justiție a anunțat finalizarea implementării unui proiect finanțat prin Planul Național de Redresare și..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "La fiecare cinci tranzacții cu acțiuni, una se face acum prin ETF-uri la BVB",
-      "link": "https://www.economica.net/la-fiecare-cinci-tranzactii-cu-actiuni-una-se-face-acum-prin-etf-uri-la-bvb_959109.html",
-      "date": "2026-07-14T12:42:36.000Z",
-      "excerpt": "La fiecare cinci tranzacții cu acțiuni de pe piața principală a Bursei de Valori București (BVB), investitorii mai fac acum una prin ETF-uri pe acțiuni, față de una la peste 100..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Se înființează CRES și se organizează concursuri pentru posturile didactice vacante",
-      "link": "https://www.juridice.ro/824770/se-infiinteaza-cres-si-se-organizeaza-concursuri-pentru-posturile-didactice-vacante.html",
-      "date": "2026-07-14T12:30:16.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 574 din 13 iulie 2026 a fost publicată Legea nr. 133/2026 privind aprobarea Ordonanței de urgență a Guvernului nr. 28/2026 pentru modificarea și..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Telemedicina cuprinde și servicii de telereabilitare",
-      "link": "https://www.juridice.ro/839088/telemedicina-cuprinde-si-servicii-de-telereabilitare.html",
-      "date": "2026-07-14T12:13:30.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 574 din 13 iulie 2026 a fost publicată Legea nr. 138/2026 pentru completarea Legii nr. 95/2006 privind reforma în domeniul sănătății. Legea nr...."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Ședință la CJUE privind interdicția de a oferi consultanță juridică Rusiei",
-      "link": "https://www.juridice.ro/839084/sedinta-la-cjue-privind-interdictia-de-a-oferi-consultanta-juridica-rusiei.html",
-      "date": "2026-07-14T12:07:16.000Z",
-      "excerpt": "Marți, 14 iulie 2026, la Curtea de Justiție a Uniunii Europene a avut loc ședința în cauzele C-865/24 P | Ordre néerlandais des avocats du barreau de Bruxelles și alții împotriva..."
     }
   ]
 }
