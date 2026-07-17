@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-07-17T13:45:24.293Z",
+  "generatedAt": "2026-07-17T19:15:21.199Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de vineri. Rulajul a depășit 97 de milioane de lei",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-vineri-rulajul-a-depasit-97-de-milioane-de-lei_960397.html",
+      "date": "2026-07-17T18:56:33.000Z",
+      "excerpt": "Bursa de Valori Bucureşti a închis în scădere ultima şedinţă din această săptămână, iar valoarea totală a tranzacţiilor a fost de 97,4 milioane de lei (18,6 milioane de euro),..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "ADS va achiziționa autoutilitare de teren",
+      "link": "https://www.juridice.ro/839467/ads-va-achizitiona-autoutilitare-de-teren.html",
+      "date": "2026-07-17T17:03:19.000Z",
+      "excerpt": "În Monitorul Oficial, Partea I nr. 586 din 17 iulie 2026 a fost publicată Hotărârea nr. 545/2026 pentru modificarea anexei nr. 3 la Hotărârea Guvernului nr. 30/2017 privind..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Consiliul Concurenței analizează preluarea MIG Marketing Investment Group de către BDS RO Sport",
+      "link": "https://www.juridice.ro/839679/consiliul-concurentei-analizeaza-preluarea-mig-marketing-investment-group-de-catre-bds-ro-sport.html",
+      "date": "2026-07-17T15:01:26.000Z",
+      "excerpt": "Vineri, 17 iulie 2026, Consiliul Concurenţei a informat că analizează tranzacția prin care BDS RO Sport SRL intenționează să preia MIG Marketing Investment Group RO SRL, potrivit..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Platformele informatice deținute de ANCPI sunt nefuncționale",
+      "link": "https://www.juridice.ro/839252/platformele-informatice-detinute-de-ancpi-sunt-nefunctionale.html",
+      "date": "2026-07-17T14:21:25.000Z",
+      "excerpt": "Vineri, 17 iulie 2026, Agenția Națională de Cadastru și Publicitate Imobiliară (ANCPI) continuă demersurile pentru restabilirea funcționării sistemelor informatice afectate de..."
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -65,38 +97,6 @@
       "link": "https://www.juridice.ro/839523/iccj-imprumuturi-acordate-unei-societati-afiliate.html",
       "date": "2026-07-16T21:05:52.000Z",
       "excerpt": "Înalta Curte de Casație și Justiție a hotărât că sumele înregistrate de contribuabil ca împrumuturi acordate unei societăţi afiliate nu pot fi recalificate, în litigiu, drept..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Încetarea mandatului alesului local în urma pierderii calității de membru al partidului politic. Natura juridică a ordinului prefectului și limitele competenței sale în aplicarea art. 204 din Codul ad",
-      "link": "https://www.juridice.ro/839507/incetarea-mandatului-alesului-local-in-urma-pierderii-calitatii-de-membru-al-partidului-politic-natura-juridica-a-ordinului-prefectului-si-limitele-competentei-sale-in-aplicarea-art-204-din-codul-ad.html",
-      "date": "2026-07-16T21:01:06.000Z",
-      "excerpt": "Rezumat: Articolul analizează natura juridică a ordinului prefectului emis în temeiul art. 204 din Codul administrativ pentru constatarea încetării mandatului unui ales local ca..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Tranzacție în brokerajul de asigurări: Cosmin Angheluță nu este implicat în planurile lui Antonio Babeti, fost Globasig, pentru înființarea unui nou broker",
-      "link": "https://www.economica.net/tranzactie-in-brokerajul-de-asigurari-cosmin-angheluta-nu-este-implicat-in-planurile-lui-antonio-babeti-fost-globasig-pentru-infiintarea-unui-nou-broker_959930.html",
-      "date": "2026-07-16T20:11:25.000Z",
-      "excerpt": "Cosmin Angheluță, profesionist cu o experiență de peste 25 de ani în asigurări și fost director adjunct al Gothaer, neagă orice intenție de a participa în acționariatul unui nou..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "CCR declară neconstituțională ordonanța de ugență prin care se introduce o practică unitară în soluționarea litigiilor de salarizare",
-      "link": "https://www.economica.net/ccr-declara-neconstitutionala-ordonanta-de-ugenta-prin-care-se-introduce-o-practica-unitara-in-solutionarea-litigiilor-de-salarizare_960020.html",
-      "date": "2026-07-16T18:16:48.000Z",
-      "excerpt": "Curtea Constituţională, cu majoritate de voturi, a decis joi că Ordonanţa de urgenţă a Guvernului nr. 62/2024 privind unele măsuri pentru soluţionarea proceselor privind..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în creștere ședința de tranzacționare de joi. Rulajul a ajuns la aproape 1,5 miliarde de lei, în contextul preluării Biofarm",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-crestere-sedinta-de-tranzactionare-de-joi-rulajul-a-ajuns-la-aproape-15-miliarde-de-lei-in-contextul-preluarii-biofarm_960015.html",
-      "date": "2026-07-16T17:59:53.000Z",
-      "excerpt": "Bursa de Valori Bucureşti a închis în creştere şedinţa de joi, iar valoarea totală a tranzacţiilor s-a apropiat de 1,5 miliarde de lei (278,5 milioane de euro), pe fondul..."
     }
   ]
 }
