@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-19T08:24:01.554Z",
+  "generatedAt": "2026-07-19T13:23:52.465Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Măsuri asigurătorii de peste 42 de milioane de lei, instituite de poliţiştii de la Economic, în ultimele două săptămâni",
+      "link": "https://www.economica.net/masuri-asiguratorii-de-peste-42-de-milioane-de-lei-instituite-de-politistii-de-la-economic-in-ultimele-doua-saptamani_960597.html",
+      "date": "2026-07-19T09:41:47.000Z",
+      "excerpt": "Poliţiştii specializaţi în investigarea criminalităţii economice din cadrul Poliţiei Române au efectuat, pe parcursul a două săptămâni, 15 acţiuni de amploare şi au instituit..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Miza reală din spatele blocajului de la ANCPI: dacă baza de date nu revine până la finalul lunii, tranzacţiile cu TVA de 9% nu mai pot fi semnate până la termenul-limită de 1 august, iar cumpărătorii ",
+      "link": "https://www.zf.ro/constructii-imobiliare/miza-reala-spatele-blocajului-ancpi-baza-date-revine-pana-finalul-lunii-tranzactiile-tva-9-pot-semnate-pana-termenul-limita-1-august-iar-cumparatorii-risca-plateasca-plus-pana-14-000-euro-guvern-23197754",
+      "date": "2026-07-19T09:15:00.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Arestarea fraţilor Tate la New York este pe prima pagină în Financial Times: Marea Britanie cere extrădarea lui Andrew şi Tristan Tate din SUA după noi acuzaţii penale",
+      "link": "https://www.zf.ro/business-international/arestarea-fratilor-tate-la-new-york-este-pe-prima-pagina-in-financial-times-marea-britanie-cere-extradarea-lui-andrew-si-tristan-tate-din-sua-dupa-noi-acuzatii-penale-23198160",
+      "date": "2026-07-19T09:13:41.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -45,14 +69,6 @@
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
-      "title": "Miza reală din spatele blocajului de la ANCPI: dacă baza de date nu revine până la finalul lunii, tranzacţiile cu TVA de 9% nu mai pot fi semnate până la termenul-limită de 1 august, iar cumpărătorii ",
-      "link": "https://www.zf.ro/constructii-imobiliare/miza-reala-spatele-blocajului-ancpi-baza-date-revine-pana-finalul-lunii-tranzactiile-tva-9-pot-semnate-pana-termenul-limita-1-august-iar-cumparatorii-risca-plateasca-plus-pana-14-000-euro-guvern-23197754",
-      "date": "2026-07-18T07:04:54.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
       "title": "ANAF a descoperit un circuit de facturare fictivă în construcţii. Prejudiciu de 4,6 milioane de lei",
       "link": "https://www.zf.ro/banci-si-asigurari/anaf-a-descoperit-un-circuit-de-facturare-fictiva-in-constructii-prejudiciu-de-4-6-milioane-de-lei-23197615",
       "date": "2026-07-18T05:31:00.000Z",
@@ -81,22 +97,6 @@
       "link": "https://www.juridice.ro/839757/traian-briciu-hotararea-cjue-privind-prescriptia-raspunderii-penale-confirma-autoritatea-de-lucru-judecat-si-nu-schimba-solutia-iccj-din-2022.html",
       "date": "2026-07-17T19:45:10.000Z",
       "excerpt": "Vineri, 17 iulie 2026, Traian Briciu, Președintele Uniunii Naționale a Barourilor din România a declarat că hotărârea pronunțată de Curtea de Justiție a Uniunii Europene în cauza..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de vineri. Rulajul a depășit 97 de milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-vineri-rulajul-a-depasit-97-de-milioane-de-lei_960397.html",
-      "date": "2026-07-17T18:56:33.000Z",
-      "excerpt": "Bursa de Valori Bucureşti a închis în scădere ultima şedinţă din această săptămână, iar valoarea totală a tranzacţiilor a fost de 97,4 milioane de lei (18,6 milioane de euro),..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "ADS va achiziționa autoutilitare de teren",
-      "link": "https://www.juridice.ro/839467/ads-va-achizitiona-autoutilitare-de-teren.html",
-      "date": "2026-07-17T17:03:19.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 586 din 17 iulie 2026 a fost publicată Hotărârea nr. 545/2026 pentru modificarea anexei nr. 3 la Hotărârea Guvernului nr. 30/2017 privind..."
     }
   ]
 }
