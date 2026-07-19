@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-07-18T19:09:50.155Z",
+  "generatedAt": "2026-07-19T03:14:55.955Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "SUA și Marea Britanie au luat decizia care va schimba din temelii lumea financiară: AI va face bani în locul oamenilor. Cum funcționează tokenizarea acțiunilor, pe sistem Bitcoin",
+      "link": "https://www.economica.net/sua-si-marea-britanie-au-luat-decizia-care-va-schimba-din-temelii-lumea-financiara-ai-va-face-bani-in-locul-oamenilor-cum-functioneaza-tokenizarea-actiunilor-pe-sistem-bitcoin_960480.html",
+      "date": "2026-07-18T20:27:50.000Z",
+      "excerpt": "AI va face bani în locul oamenilor. Statele Unite ale Americii au început o serie de teste privind tokenizarea acțiunilor, adică trecerea tranzacțiilor cu acțiuni listate la burse..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Cât câştigă un creator de conţinut fiscalizat: Emily Burghelea are afaceri record de 2,6 milioane de lei, dar şi cele mai mari datorii de la înfiinţare, peste 1 milion de lei, cu un salariat",
+      "link": "https://www.economica.net/cat-castiga-un-creator-de-continut-fiscalizat-emily-burghelea-are-afaceri-record-de-26-milioane-de-lei-dar-si-cele-mai-mari-datorii-de-la-infiintare-peste-1-milion-de-lei-cu-un-salariat_960181.html",
+      "date": "2026-07-18T20:21:04.000Z",
+      "excerpt": "Emiliana Lacrămioara Burghelea, cunoscută publicului sub numele de Emily Burghelea, e unul dintre cei mai urmăriţi creatori de conţinut digital din România. Ea e unic asociat la..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Informare UNNPR cu privire la activitatea birourilor notariale în contextul întreruperii serviciilor de cadastru și publicitate imobiliară",
+      "link": "https://www.juridice.ro/839775/informare-unnpr-cu-privire-la-activitatea-birourilor-notariale-in-contextul-intreruperii-serviciilor-de-cadastru-si-publicitate-imobiliara.html",
+      "date": "2026-07-18T20:15:13.000Z",
+      "excerpt": "UNNPR informează că, din cauza întreruperii temporare a activității serviciilor de cadastru și publicitate imobiliară, birourile notariale nu pot instrumenta, în această perioadă,..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -73,30 +97,6 @@
       "link": "https://www.juridice.ro/839679/consiliul-concurentei-analizeaza-preluarea-mig-marketing-investment-group-de-catre-bds-ro-sport.html",
       "date": "2026-07-17T15:01:26.000Z",
       "excerpt": "Vineri, 17 iulie 2026, Consiliul Concurenţei a informat că analizează tranzacția prin care BDS RO Sport SRL intenționează să preia MIG Marketing Investment Group RO SRL, potrivit..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Platformele informatice deținute de ANCPI sunt nefuncționale",
-      "link": "https://www.juridice.ro/839252/platformele-informatice-detinute-de-ancpi-sunt-nefunctionale.html",
-      "date": "2026-07-17T14:21:25.000Z",
-      "excerpt": "Vineri, 17 iulie 2026, Agenția Națională de Cadastru și Publicitate Imobiliară (ANCPI) continuă demersurile pentru restabilirea funcționării sistemelor informatice afectate de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Ministerul Justiției a transmis un mesaj cu prilejul Zilei Justiției Penale Internaționale",
-      "link": "https://www.juridice.ro/839646/ministerul-justitiei-a-transmis-un-mesaj-cu-prilejul-zilei-justitiei-penale-internationale.html",
-      "date": "2026-07-17T07:56:51.000Z",
-      "excerpt": "Vineri, 17 iulie 2026, Ministerul Justiției a publicat un mesaj cu prilejul Zilei Justiției Penale Internaționale, marcată anual în memoria adoptării Statutului de la Roma,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "ANAF a sesizat organele de urmărire penală într-un caz de facturare fictivă în construcții",
-      "link": "https://www.juridice.ro/839643/anaf-a-sesizat-organele-de-urmarire-penala-intr-un-caz-de-facturare-fictiva-in-constructii.html",
-      "date": "2026-07-17T07:53:07.000Z",
-      "excerpt": "Vineri, 17 iulie 2026, Agenția Națională de Administrare Fiscală a informat că a identificat un circuit de facturare fictivă utilizat de operatori economici care desfășoară..."
     }
   ]
 }
