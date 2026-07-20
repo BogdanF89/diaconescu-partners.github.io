@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-07-20T14:12:30.030Z",
+  "generatedAt": "2026-07-20T19:46:42.815Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a închis în creștere pe majoritatea indicilor ședința de joi. Rulajul a depășit 123 de milioane de lei",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-crestere-pe-majoritatea-indicilor-sedinta-de-joi-rulajul-a-depasit-123-de-milioane-de-lei_960939.html",
+      "date": "2026-07-20T17:37:23.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în creştere pe majoritatea indicilor şedinţa de luni, iar valoarea totală a tranzacţiilor a fost de 123,4 milioane de lei (23,5 milioane..."
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -89,14 +97,6 @@
       "link": "https://www.juridice.ro/839863/noua-lege-a-salarizarii-in-sectorul-public-intra-in-etapa-dezbaterii-parlamentare.html",
       "date": "2026-07-20T09:04:51.000Z",
       "excerpt": "Vineri, 17 iulie 2026, Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale (MMFTSS) a publicat forma actualizată a proiectului Legii salarizării pentru personalul..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Solicitanții nu vor fi afectați de indisponibilitatea aplicației Achiziții Beneficiari Privați",
-      "link": "https://www.juridice.ro/839861/solicitantii-nu-vor-fi-afectati-de-indisponibilitatea-aplicatiei-achizitii-beneficiari-privati.html",
-      "date": "2026-07-20T08:52:14.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 587 din 17 iulie 2026 a fost publicat Ordinul nr. 1143/2026 pentru modificarea Ordinului ministrului fondurilor europene nr. 1.284/2016 privind..."
     }
   ]
 }
