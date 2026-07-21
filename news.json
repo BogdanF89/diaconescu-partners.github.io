@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-07-21T02:55:24.338Z",
+  "generatedAt": "2026-07-21T08:34:16.151Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la Londra (LSE) va introduce tranzacţiile non-stop anul viitor",
+      "link": "https://www.economica.net/bursa-de-la-londra-lse-va-introduce-tranzactiile-non-stop-anul-viitor_961034.html",
+      "date": "2026-07-21T08:27:54.000Z",
+      "excerpt": "Bursa de Valori de la Londra (LSE) şi-a anunţat marţi intenţia de a lansa LSE 24, un site pe care vor putea fi făcute tranzacţii în timpul nopţii, începând din prima jumătate a..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Băuturile slab alcoolizate pot fi vândute pe stadioane",
+      "link": "https://www.juridice.ro/840066/bauturile-slab-alcoolizate-pot-fi-vandute-pe-stadioane.html",
+      "date": "2026-07-21T08:08:29.000Z",
+      "excerpt": "În Monitorul Oficial, Partea I nr. 592 din 20 iulie 2026 a fost publicată Legea nr. 154/2026 pentru modificarea și completarea Legii nr. 4/2008 privind prevenirea și combaterea..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Daniel Grigore, Deloitte: Primele semne de relaxare după un deceniu de înăsprire a fiscalităţii în UE. Eliminarea impozitării la sursă, pe listă",
+      "link": "https://www.zf.ro/opinii/daniel-grigore-deloitte-primele-semne-de-relaxare-dupa-un-deceniu-de-inasprire-a-fiscalitatii-in-ue-eliminarea-impozitarii-la-sursa-pe-lista-23199575",
+      "date": "2026-07-21T07:41:51.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Doi medici au fost trimiși în judecată pentru abuz în serviciu",
+      "link": "https://www.juridice.ro/840041/doi-medici-au-fost-trimisi-in-judecata-pentru-abuz-in-serviciu.html",
+      "date": "2026-07-21T06:38:12.000Z",
+      "excerpt": "Marți, 21 iulie 2026, Parchetul de pe lângă Înalta Curte de Casație și Justiție a anunțat trimiterea în judecată, în stare de libertate, a doi inculpați într-un dosar care vizează..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -65,38 +97,6 @@
       "link": "https://www.juridice.ro/839958/federatia-silva-solicita-modificarea-proiectului-legii-salarizarii.html",
       "date": "2026-07-20T14:02:59.000Z",
       "excerpt": "Luni, 20 iulie 2026, Federația SILVA a solicitat modificarea proiectului legii salarizării personalului plătit din fonduri publice, arătând că forma actuală a inițiativei ar putea..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Atac cibernetic asupra site-ului Direcției Fiscale din Braşov",
-      "link": "https://www.juridice.ro/839956/atac-cibernetic-asupra-site-ului-directiei-fiscale-din-brasov.html",
-      "date": "2026-07-20T13:58:13.000Z",
-      "excerpt": "Luni, 20 iulie 2026, Primăria Municipiului Braşov a informat că serverul care găzduiește site-ul Direcției Fiscale a fost ținta unui atac cibernetic malware de tip troian,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "CJUE. C-447/24 | Höldermann. Notificarea avocatului poate echivala cu informarea persoanei judecate în lipsă",
-      "link": "https://www.juridice.ro/839944/cjue-c-447-24-holdermann-notificarea-avocatului-poate-echivala-cu-informarea-persoanei-judecate-in-lipsa.html",
-      "date": "2026-07-20T13:39:59.000Z",
-      "excerpt": "În Jurnalul Oficial al Uniunii Europene, seria C, din 20 iulie 2026 a fost publicată Hotărârea Curții (Camera a cincea) din 21 mai 2026 (cerere de decizie preliminară formulată de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Susținere teză de abilitare: lect. univ. dr. Andrei-Viorel Iugan / 24 iulie 2026",
-      "link": "https://www.juridice.ro/839946/sustinere-teza-de-abilitare-lect-univ-dr-andrei-viorel-iugan-24-iulie-2026.html",
-      "date": "2026-07-20T13:35:04.000Z",
-      "excerpt": "Vineri, 24 iulie 2026, ora 11:00, în Sala de Consiliu Decan Corneliu Bîrsan a Facultății de Drept a Universității din București, va avea loc susținerea tezei de abilitare..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Aviz favorabil al Consiliului Legislativ privind interzicerea accesului minorilor sub 15 ani la rețelele sociale",
-      "link": "https://www.juridice.ro/836116/avizul-favorabil-al-consiliului-legislativ-privind-interzicerea-accesului-minorilor-sub-15-ani-la-retelele-sociale.html",
-      "date": "2026-07-20T13:12:30.000Z",
-      "excerpt": "Luni, 20 iulie 2026, Consiliul Legislativ a emis Avizul nr. 676 favorabil cu observații și propuneri, referitor la propunerea legislativă privind protecția minorilor în utilizarea..."
     }
   ]
 }
