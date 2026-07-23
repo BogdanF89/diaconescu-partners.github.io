@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-07-22T19:25:24.619Z",
+  "generatedAt": "2026-07-23T03:14:49.101Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Polonezii de la Polpharma, noii proprietari ai fabricii de medicamente Biofarm, vor să aducă noi medicamente pe piaţa locală după achiziţie",
+      "link": "https://www.zf.ro/companii/polonezii-de-la-polpharma-noii-proprietari-ai-fabricii-de-medicamente-biofarm-vor-sa-aduca-noi-medicamente-pe-piata-locala-dupa-achizitie-23200860",
+      "date": "2026-07-22T21:07:00.000Z",
+      "excerpt": "Grupul farmaceutic Polpharma, care a cumpărat producătorul local de medicamente Biofarm într-o tranzacţie de 257 mil. euro, are planuri de creştere în România, piaţă pe care nu..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.juridice.ro/840343/aproape-100-000-de-contribuabili-au-evaluat-serviciile-anaf.html",
       "date": "2026-07-22T12:10:05.000Z",
       "excerpt": "Miercuri, 22 iulie 2026, Ministerul Finanțelor a anunțat centralizarea rezultatelor unui exercițiu național de evaluare a serviciilor oferite de Agenția Națională de Administrare..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Ordinea de zi pentru sesiunea extraordinară a Senatului",
-      "link": "https://www.juridice.ro/840341/ordinea-de-zi-pentru-sesiunea-extraordinara-a-senatului.html",
-      "date": "2026-07-22T12:00:35.000Z",
-      "excerpt": "Miercuri, 22 iulie 2026, Senatul României a informat că se convoacă Senatul în sesiune extraordinară, începând cu data de 27 iulie 2026, ora 14,00, până la data de 31 iulie 2026,..."
     }
   ]
 }
