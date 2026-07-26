@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-07-26T08:30:52.516Z",
+  "generatedAt": "2026-07-26T13:36:06.543Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "BVB, plus de 18,05 miliarde de lei la capitalizare în această săptămână",
+      "link": "https://www.economica.net/bvb-plus-de-1805-miliarde-de-lei-la-capitalizare_962540.html",
+      "date": "2026-07-26T12:02:50.000Z",
+      "excerpt": "Datele publicate de BVB arată că Bursa de la Bucureşti a câştigat în această săptămână 18,05 miliarde de lei la capitalizare, în creştere cu 2,62% faţă de săptămâna anterioară, în..."
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-de-valori-scade-vineri-dar-incheie-saptamana-cu-un-plus-de-3-tranzactie-speciala-cu-actiunile-bancii-transilvania-in-valoare-de-74-mil-lei-23202258",
       "date": "2026-07-24T15:18:14.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Bărbat arestat preventiv după ce a sărutat trei minore",
-      "link": "https://www.juridice.ro/840621/barbat-arestat-preventiv-dupa-ce-a-sarutat-trei-minore.html",
-      "date": "2026-07-24T14:49:38.000Z",
-      "excerpt": "Joi, 23 iulie 2026, judecătorul de drepturi şi libertăţi din cadrul Judecătoriei Alba-Iulia a dispus arestarea preventivă a unui inculpat în vârstă de 43 de ani, pe o perioadă de..."
     }
   ]
 }
