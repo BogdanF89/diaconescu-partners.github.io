@@ -1,7 +1,63 @@
 {
-  "generatedAt": "2026-07-27T19:38:57.630Z",
+  "generatedAt": "2026-07-28T02:45:45.161Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Mircea Bob: Dreptul, în fond, este un fenomen complex și ceea ce se ignoră în momentul de față este faptul că orice reglementare…",
+      "link": "https://citate.juridice.ro/14669/mircea-bob-dreptul-in-fond-este-un-fenomen-complex-si-ceea-ce-se-ignora/",
+      "date": "2026-07-27T22:00:22.000Z",
+      "excerpt": "„Dreptul, în fond, este un fenomen complex și ceea ce se ignoră în momentul de față este faptul că orice reglementare juridică este expresia unei anumite ideologii, anumitor..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Violența invizibilă asupra copilului. Înstrăinarea părintească între protecția civilă și răspunderea penală. Repere pentru interpretarea art. 197 Cod penal în lumina Legii nr. 123/2024",
+      "link": "https://www.juridice.ro/840699/violenta-invizibila-asupra-copilului-instrainarea-parinteasca-intre-protectia-civila-si-raspunderea-penala-repere-pentru-interpretarea-art-197-cod-penal-in-lumina-legii-nr-123-2024.html",
+      "date": "2026-07-27T21:12:18.000Z",
+      "excerpt": "Rezumat: Prezentul studiu analizează implicațiile juridice ale consacrării legislative a noțiunii de “înstrăinare părintească” prin Legea nr. 123/2024 și raportul acesteia cu..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Cine poate solicita instituirea unei măsuri de ocrotire pentru persoanele cu dizabilități psiho-sociale și intelectuale relocate din județul Bihor",
+      "link": "https://www.juridice.ro/840786/cine-poate-solicita-instituirea-unei-masuri-de-ocrotire-pentru-persoanele-cu-dizabilitati-psiho-sociale-si-intelectuale-relocate-din-judetul-bihor.html",
+      "date": "2026-07-27T21:10:46.000Z",
+      "excerpt": "În contextul scandalului intens mediatizat privind relocarea celor 409 persoane aflate în situații de vulnerabilitate de pe raza județului Bihor[1], am considerat util să..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "CCR pendinte: echilibrul constituțional între libertatea de exprimare și dreptul la demnitate în mecanismul art. 255 alin. (3) din Codul civil",
+      "link": "https://www.juridice.ro/840857/ccr-pendinte-echilibrul-constitutional-intre-libertatea-de-exprimare-si-dreptul-la-demnitate-in-mecanismul-art-255-alin-3-din-codul-civil.html",
+      "date": "2026-07-27T21:09:52.000Z",
+      "excerpt": "În data de 24.07.2026 s-a constituit un nou dosar (5056D/2026) pe rolul Curţii Constituţionale, urmând a fi analizate dispoziţiile art. 255 alin. (3) din Codul civil (cauza Micula..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "ÎCCJ. Neregularitate întâmpinare",
+      "link": "https://www.juridice.ro/840700/iccj-neregularitate-intampinare.html",
+      "date": "2026-07-27T21:08:47.000Z",
+      "excerpt": "Înalta Curte de Casație și Justiție a hotărât că măsura privind reducerea termenului pentru depunerea întâmpinării prevăzută de art. 201 C. proc. civ., poate fi eventual cenzurată..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Tranzacţie blocată. Preluarea Napolact de către grupul ungar Bonafarm s-a înţepenit la CSAT",
+      "link": "https://www.zf.ro/companii/retail-agrobusiness/tranzactie-blocata-preluarea-napolact-de-catre-grupul-ungar-bonafarm-s-a-intepenit-la-csat-23204062",
+      "date": "2026-07-27T21:07:00.000Z",
+      "excerpt": "Tranzacţia prin care grupul Bonafarm din Ungaria intenţionează să preia activele din România ale producătorului de lactate FrislandCampina, implicit şi brandul Napolact, încă..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Guvernul anunţă că STS şi SRI lucrează la reconstrucţia sistemului informatic al Cadastrului în cloudul guvernamental, dar şi că blocajul continuă pe un termen nedefinit. „Nu putem anunţa o oră sau o ",
+      "link": "https://www.zf.ro/business-hi-tech/guvernul-anunta-sts-sri-lucreaza-reconstructia-sistemului-informatic-cadastrului-cloudul-guvernamental-blocajul-continua-termen-nedefinit-putem-anunta-ora-data-ferma-repunere-functiune-platformei-23204043",
+      "date": "2026-07-27T21:06:00.000Z",
+      "excerpt": "La aproape două săptămâni de la atacul care a paralizat tranzacţiile imobiliare din România, Guvernul a publicat luni prima radiografie oficială a incidentului de la Agenţia..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -41,62 +97,6 @@
       "link": "https://www.juridice.ro/840791/actiune-a-avocatului-poporului-definitiva-la-iccj-privind-refuzul-mapn-de-a-aviza-vanzarea-libera-a-unui-teren-agricol-extravilan.html",
       "date": "2026-07-27T14:45:40.000Z",
       "excerpt": "În urma modificărilor aduse Legii nr. 17/2014 prin Legea nr. 175/2020, s-a pus problema dacă Ministerul Apărării Naționale poate condiționa avizul specific necesar vânzării unui..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Tatiana Navka, soția purtătorului de cuvânt al Kremlinului Dmitri Pesskov, încearcă să anuleze la CJUE sancțiunile impuse de UE împotriva sa și cere despăgubiri",
-      "link": "https://www.economica.net/tatiana-navka-sotia-purtatorului-de-cuvant-al-kremlinului-dmitri-pesskov-incearca-sa-anuleze-la-cjue-sanctiunile-impuse-de-ue-impotriva-sa-si-cere-despagubiri_962817.html",
-      "date": "2026-07-27T14:36:39.000Z",
-      "excerpt": "Tatiana Navka, soţia purtătorului de cuvânt al preşedintelui rus Vladimir Putin, Dmitri Peskov, a iniţiat o acţiune în justiţie menită să anuleze sancţiunile Uniunii Europene..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Avize emise de Consiliul Legislativ – 27 iulie 2026",
-      "link": "https://www.juridice.ro/840777/avize-emise-de-consiliul-legislativ-27-iulie-2026.html",
-      "date": "2026-07-27T13:33:22.000Z",
-      "excerpt": "Luni, 27 iulie 2026, Consiliul Legislativ a emis următoarele avize: Avizul nr. 701 favorabil cu observații și propuneri, referitor la proiectul de Hotărâre pentru plata..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Câte companii salvează concordatul preventiv? 11 din 691 de cereri depuse în peste cinci ani",
-      "link": "https://www.economica.net/cate-companii-salveaza-concordatul-preventiv-11-din-691-de-cereri-depuse-in-peste-cinci-ani_962771.html",
-      "date": "2026-07-27T12:54:22.000Z",
-      "excerpt": "Dintre cele 691 de cereri de deschidere a concordatului preventiv înregistrate pe rolul tribunalelor din România între 2021 și iunie 2026, 459 au fost admise, 223 de proceduri..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Cheltuieli mascate prin chirii supraevaluate la o societate din Galați",
-      "link": "https://www.juridice.ro/840761/cheltuieli-mascate-prin-chirii-supraevaluate-la-o-societate-din-galati.html",
-      "date": "2026-07-27T12:53:13.000Z",
-      "excerpt": "Luni, 27 iulie 2026, Agenția Națională de Administrare Fiscală a informat că a efectuat investigații specifice și verificări antifraudă la o societate din municipiul Galați care..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Guvernul publică prima radiografie oficială a atacului de la Cadastru, la 13 zile de la blocaj: a fost ransomware, o parte din infrastructură a fost criptată şi ştearsă; reconstrucţia se face cu STS ş",
-      "link": "https://www.zf.ro/business-hi-tech/guvernul-publica-prima-radiografie-oficiala-atacului-cadastru-13-zile-blocaj-ransomware-parte-infrastructura-criptata-stearsa-reconstructia-face-sts-sri-cloudul-guvernamental-insa-guvernul-anunta-23203830",
-      "date": "2026-07-27T12:24:00.000Z",
-      "excerpt": "La 13 zile după atacul care a paralizat tranzacţiile imobiliare din România, Guvernul a publicat luni prima radiografie oficială a incidentului de la Agenţia Naţională de Cadastru..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "18 candidați la concursul de promovare în funcţia de judecător ÎCCJ 2026",
-      "link": "https://www.juridice.ro/837339/18-candidati-la-concursul-de-promovare-in-functia-de-judecator-iccj-2026.html",
-      "date": "2026-07-27T09:25:55.000Z",
-      "excerpt": "Luni, 27 iulie 2026, Consiliul Superior al Magistraturii a informat că judecător Raluca-Elena Cozan s-a retras. :: Rezultatul verificării îndeplinirii condițiilor de participare..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Deficitul la 30 iunie 2026",
-      "link": "https://www.juridice.ro/840687/deficitul-la-30-iunie-2026.html",
-      "date": "2026-07-27T07:14:03.000Z",
-      "excerpt": "Vineri, 24 iulie 2026, Ministerul Finanțelor a informat că execuția bugetului general consolidat la 30 iunie 2026 s-a încheiat cu un deficit de 41,03 miliarde lei, echivalentul a..."
     }
   ]
 }
