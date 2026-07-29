@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-07-29T14:17:30.334Z",
+  "generatedAt": "2026-07-29T19:21:04.019Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de miercuri. Rulajul s-a apropiat de 130 de milioane de lei",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-miercuri-rulajul-s-a-apropiat-de-130-de-milioane-de-lei_963643.html",
+      "date": "2026-07-29T17:36:21.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere şedinţa de miercuri, iar valoarea totală a tranzacţiilor s-a ridicat la 129 de milioane de lei (24,6 milioane de euro)."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-deschis-in-urcare-sedinta-de-tranzactionare-de-miercuri_963352.html",
       "date": "2026-07-29T08:07:22.000Z",
       "excerpt": "Bursa de Valori Bucureşti (BVB) a deschis în creştere pe majoritatea indicilor şedinţa de miercuri, cu un rulaj de 29,04 milioane de lei (5,55 milioane de euro), după 45 de minute..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "UE își reafirmă sprijinul pentru CPI",
-      "link": "https://www.juridice.ro/841018/ue-isi-reafirma-sprijinul-pentru-cpi.html",
-      "date": "2026-07-29T08:00:28.000Z",
-      "excerpt": "Marți, 28 iulie 2026, Comisia Europeană a reiterat că toate statele trebuie să coopereze pe deplin cu CPI – Curtea Penală Internațională, inclusiv prin executarea mandatelor de..."
     }
   ]
 }
