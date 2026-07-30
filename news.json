@@ -1,7 +1,55 @@
 {
-  "generatedAt": "2026-07-30T08:31:52.701Z",
+  "generatedAt": "2026-07-30T14:09:19.545Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Consiliul UE aprobă o finanțare suplimentară pentru Ucraina",
+      "link": "https://www.juridice.ro/841280/consiliul-ue-aproba-o-finantare-suplimentara-pentru-ucraina.html",
+      "date": "2026-07-30T13:52:32.000Z",
+      "excerpt": "Joi, 30 iulie 2026, Consiliul Uniunii Europene a adoptat o decizie de modificare a Mecanismului pentru Ucraina și a Planului pentru Ucraina asociat acestuia, potrivit unui..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Două persoane urmărite internațional au fost aduse în țară",
+      "link": "https://www.juridice.ro/841269/doua-persoane-urmarite-international-au-fost-aduse-in-tara.html",
+      "date": "2026-07-30T13:36:20.000Z",
+      "excerpt": "Joi, 29 iulie 2026, Poliția Română a adus în țară două persoane pe numele cărora erau emise mandate de executare a unor pedepse privative de libertate, potrivit unui comunicat. Un..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Stadiul repunerii în funcțiune a sistemului informatic e-Terra",
+      "link": "https://www.juridice.ro/839252/stadiul-repunerii-in-functiune-a-sistemului-informatic-e-terra.html",
+      "date": "2026-07-30T13:27:25.000Z",
+      "excerpt": "Joi, 30 iulie 2026, Agenția Națională de Cadastru și Publicitate Imobiliară (ANCPI) a dat publicității următorul comunicat: Ce s-a întâmplat În data de 14 iulie 2026, ANCPI a..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "ANP ref. atacul cibernetic",
+      "link": "https://www.juridice.ro/841040/anp-ref-atacul-cibernetic.html",
+      "date": "2026-07-30T13:22:18.000Z",
+      "excerpt": "Joi, 30 iulie 2026, Administraţia Naţională a Penitenciarelor (ANP) a transmis următorul mesaj: 1. Situația actuală Echipele tehnice implicate în investigare, alături de..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Ziua mondială împotriva traficului de persoane",
+      "link": "https://www.juridice.ro/841258/ziua-mondiala-impotriva-traficului-de-persoane-2.html",
+      "date": "2026-07-30T12:54:00.000Z",
+      "excerpt": "Joi, 30 iulie 2026, cu prilejul Zilei mondiale împotriva traficului de persoane, Cătălin Predoiu, ministrul Afacerilor Interne, a transmis următorul mesaj: „Traficul de persoane..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Guvernul ref. incidentul de securitate de la ANCPI",
+      "link": "https://www.juridice.ro/840756/guvernul-ref-incidentul-de-securitate-de-la-ancpi.html",
+      "date": "2026-07-30T12:52:44.000Z",
+      "excerpt": "Joi, 30 iulie 2026, Guvernul României a anunțat stadiul actual al repunerii în funcțiune a aplicației e-Terra, potrivit unui comunicat: Reconstrucția infrastructurii informatice..."
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -49,54 +97,6 @@
       "link": "https://www.juridice.ro/795346/curtea-de-casatie-a-frantei-confirma-predarea-lui-paul-de-romania.html",
       "date": "2026-07-30T06:25:40.000Z",
       "excerpt": "Miercuri, 29 iulie 2026, Curtea de Casație a Franței a respins definitiv recursul formulat de Paul de România împotriva deciziei de predare către autoritățile române. Prin această..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Bursă. Record de lichiditate la Bursa de Valori Bucureşti: iulie 2026 este pe cale să devină cea mai aglomerată lună din istoria BVB, cu tranzacţii de circa 3 mld. lei, depăşind şi iulie 2023, când s-",
-      "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-record-lichiditate-bursa-valori-bucuresti-iulie-2026-cale-devina-cea-aglomerata-luna-istoria-bvb-tranzactii-circa-3-mld-lei-depasind-iulie-2023-s-listat-hidroelectrica-23205506",
-      "date": "2026-07-30T06:15:00.000Z",
-      "excerpt": "Bursa de la Bucureşti traversează o etapă de efervescenţă fără pre­cedent, reflectată recent într-un nivel ridicat al lichidităţii care sfidează normele sezoniere cu care erau..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Camil Perian, proprietarul Skin Media - distribuitorul Nikon şi Dyson, a cumpărat magazinul de tehnică video profesională Camstore pentru 1 milion de lei",
-      "link": "https://www.zf.ro/business-hi-tech/camil-perian-proprietarul-skin-media-distribuitorul-nikon-si-dyson-a-cumparat-magazinul-de-tehnica-video-profesionala-camstore-pentru-1-milion-de-lei-23205733",
-      "date": "2026-07-30T04:00:00.000Z",
-      "excerpt": "Camil Perian, acţionarul unic al Skin Media - compania care distribuie în România aparatele foto Nikon, produsele Dyson şi Babyliss -, a preluat integral Camstore Tehnică Video..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Best Internet Security, una dintre primele firme româneşti de securitate cibernetică, va dezvolta împreună cu fondatorii grupului de IT Maguay un centru de operaţiuni cyber cu monitorizare non-stop. F",
-      "link": "https://www.zf.ro/business-hi-tech/best-internet-security-una-dintre-primele-firme-romanesti-securitate-cibernetica-dezvolta-impreuna-fondatorii-grupului-it-maguay-centru-operatiuni-cyber-monitorizare-non-stop-fondatorul-biss-bogdan-23205565",
-      "date": "2026-07-29T21:10:00.000Z",
-      "excerpt": "Una dintre primele compa­nii cu capital integral ro­mâ­nesc specializate în securitate cibernetică, Best Internet Security (BISS), şi grupul de tehnologie Maguay au pornit o..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Legea nr. 159/2026 – accelerarea proiectelor de energie regenerabilă pe terenuri ale statului",
-      "link": "https://www.juridice.ro/841118/legea-nr-159-2026-accelerarea-proiectelor-de-energie-regenerabila-pe-terenuri-ale-statului.html",
-      "date": "2026-07-29T21:08:03.000Z",
-      "excerpt": "Parlamentul României a adoptat recent Legea nr. 159/2026 (“Legea 159/2026” sau “Legea”) pentru modificarea și completarea Legii nr. 268/2001 (“Legea 268/2001”) privind..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "ÎCCJ. Divorț. Pârâtul locuiește în Germania",
-      "link": "https://www.juridice.ro/834318/iccj-divort-paratul-locuieste-in-germania.html",
-      "date": "2026-07-29T21:06:14.000Z",
-      "excerpt": "Înalta Curte de Casație și Justiție a hotărât că regula competenței judecătoriei de la ultima locuință comună (prevăzută de art. 915 alin. 1 C. proc. civ.) a soților în cazul..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de miercuri. Rulajul s-a apropiat de 130 de milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-miercuri-rulajul-s-a-apropiat-de-130-de-milioane-de-lei_963643.html",
-      "date": "2026-07-29T17:36:21.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere şedinţa de miercuri, iar valoarea totală a tranzacţiilor s-a ridicat la 129 de milioane de lei (24,6 milioane de euro)."
     }
   ]
 }
