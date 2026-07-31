@@ -1,7 +1,71 @@
 {
-  "generatedAt": "2026-07-31T03:19:21.848Z",
+  "generatedAt": "2026-07-31T08:53:52.967Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Miliardarul român din spatele uneia dintre cele mai mari tranzacții din AI: compania sa a fost vândută cu 1,6 miliarde de dolari",
+      "link": "https://www.economica.net/miliardarul-roman-din-spatele-uneia-dintre-cele-mai-mari-tranzactii-din-ai-compania-sa-a-fost-vanduta-cu-16-miliarde-de-dolari_964137.html",
+      "date": "2026-07-31T08:29:08.000Z",
+      "excerpt": "Anyscale, startup american de inteligență artificială co-fondat de Ion Stoica, profesor universitar de origine română considerat cel mai bogat român, urmează să fie vândută la..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Opinia INM ref. reluarea procedurii de cameră preliminară",
+      "link": "https://www.juridice.ro/841337/opinia-inm-ref-reluarea-procedurii-de-camera-preliminara.html",
+      "date": "2026-07-31T08:00:09.000Z",
+      "excerpt": "Problema de drept: Reluarea procedurii de cameră preliminară în situaţia în care în urma schimbării încadrării juridice dintr-o infracţiune de competenţa judecătoriei într-o..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Procedura privind utilizarea bodycam-urilor de către inspectorii antifraudă",
+      "link": "https://www.juridice.ro/841335/procedura-privind-utilizarea-bodycam-urilor-de-catre-inspectorii-antifrauda.html",
+      "date": "2026-07-31T07:41:19.000Z",
+      "excerpt": "În Monitorul Oficial, Partea I nr. 629 din 30 iulie 2026 a fost publicată Procedura privind înregistrarea și fixarea cu mijloace foto-audio-video din dotarea inspectorilor..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Sesiune extraordinară a Senatului / 4-6 august 2026",
+      "link": "https://www.juridice.ro/841333/sesiune-extraordinara-a-senatului-4-6-august-2026.html",
+      "date": "2026-07-31T07:33:41.000Z",
+      "excerpt": "În Monitorul Oficial, Partea I nr. 632 din 30 iulie 2026 a fost publicată Decizia nr. 10/2026 privind convocarea Senatului în sesiune extraordinară. Se convoacă Senatul în sesiune..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Tranzacție-gigant pe piața energiei: MOL cumpără de la Shell o participație masivă într-un zăcământ uriaș de gaze din Marea Mediterană pentru 720 milioane de dolari",
+      "link": "https://www.economica.net/tranzactie-gigant-pe-piata-energiei-mol-cumpara-de-la-shell-o-participatie-masiva-intr-un-zacamant-urias-de-gaze-din-marea-mediterana-pentru-720-milioane-de-dolari_964107.html",
+      "date": "2026-07-31T07:33:13.000Z",
+      "excerpt": "Grupul MOL a semnat un acord cu Shell pentru achiziția BG Cyprus Ltd., o filială deținută în proporție de 100% de aceștia, care deține o participație de 35% (fără rol de operator)..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Bugetul schemei de sprijin pentru motorina utilizată în agricultură a fost majorat",
+      "link": "https://www.juridice.ro/841219/bugetul-schemei-de-sprijin-pentru-motorina-utilizata-in-agricultura-a-fost-majorat.html",
+      "date": "2026-07-31T07:30:54.000Z",
+      "excerpt": "În Monitorul Oficial, Partea I nr. 632 din 30 iulie 2026 a fost publicată Hotărârea nr. 572/2026 pentru modificarea art. 10 alin. (1^6 ) și (13) din Hotărârea Guvernului nr...."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Palatul Victoria a fost iluminat în albastru",
+      "link": "https://www.juridice.ro/841328/palatul-victoria-a-fost-iluminat-in-albastru.html",
+      "date": "2026-07-31T07:16:56.000Z",
+      "excerpt": "Joi, 30 iulie 2026, Guvernul României a marcat Ziua Mondială împotriva Traficului de Persoane, exprimându-și solidaritatea cu victimele și reafirmând angajamentul pentru..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Directorul adjunct ONJN a fost reținut",
+      "link": "https://www.juridice.ro/841322/directorul-adjunct-onjn-a-fost-retinut.html",
+      "date": "2026-07-31T06:51:38.000Z",
+      "excerpt": "Joi, 30 iulie 2026, Direcția Națională Anticorupție a anunțat că procurorii din cadrul Secției de combatere a infracțiunilor asimilate infracțiunilor de corupție au dispus punerea..."
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -33,70 +97,6 @@
       "link": "https://www.juridice.ro/840729/inalta-curte-de-casatie-si-justitie-faleza-marii-negre-proprietate-publica-prin-efectul-legii-nu-prin-inventariere.html",
       "date": "2026-07-30T21:05:30.000Z",
       "excerpt": "În fapt, Administrația Națională „Apele Române” a solicitat restituirea unui teren în suprafață de 15.900 mp, situat în municipiul Constanța, reprezentând, potrivit reclamantei,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "ZF Deschiderea de astăzi la Bursă. Mihai Căruntu, AAFBR: Ascensiunea fondurilor mutuale, cea mai importantă modificare în arhitectura investitorului instituţional activ la Bursa de Valori. În lipsa un",
-      "link": "https://www.zf.ro/zf-deschiderea-de-astazi/zf-deschiderea-astazi-bursa-mihai-caruntu-aafbr-ascensiunea-fondurilor-mutuale-cea-importanta-modificare-arhitectura-investitorului-institutional-activ-bursa-valori-lipsa-unei-crize-incredere-23205438",
-      "date": "2026-07-30T21:05:00.000Z",
-      "excerpt": "Anul acesta, piaţa locală de capital a continuat să sfideze fundamentele macroeconomice printr-o creştere spectaculoasă a indicelui de referinţă BET, susţinută în premieră de o..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Strabag a cumpărat cu 1 milion euro părţile sociale deţinute de o altă firmă din grup la Mineral Rom şi pregăteşte o consolidare intragrup",
-      "link": "https://www.economica.net/strabag-a-cumparat-cu-1-milion-euro-partile-sociale-detinute-de-o-alta-firma-din-grup-la-mineral-rom-si-pregateste-o-consolidare-intragrup_963761.html",
-      "date": "2026-07-30T19:04:26.000Z",
-      "excerpt": "Mineral Rom e deţinută integral de Strabag SE după ce firma a cumpărat cu 1 milion de euro, la finalul anului 2025, părţile sociale deţinute de Bau Holding Beteiligungs GmbH, o..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Competiție sportivă de prevenire a traficului de persoane la Videle",
-      "link": "https://www.juridice.ro/841305/competitie-sportiva-de-prevenire-a-traficului-de-persoane-la-videle.html",
-      "date": "2026-07-30T15:07:54.000Z",
-      "excerpt": "În perioada 30-31 iulie 2026, Agenția Națională Împotriva Traficului de Persoane, în parteneriat cu Primăria Orașului Videle și cu sprijinul Clubului Sportiv Dinamo, organizează..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "PÎCCJ clarifică corespondența cu Ministerul Mediului",
-      "link": "https://www.juridice.ro/841295/piccj-clarifica-corespondenta-cu-ministerul-mediului.html",
-      "date": "2026-07-30T14:49:44.000Z",
-      "excerpt": "Joi, 30 iulie 2026, Parchetul de pe lângă Înalta Curte de Casație și Justiție a emis următorul punct de vedere privind afirmațiile Dianei-Anda Buzoianu, ministrul Mediului, Apelor..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Program de prevenire a infracționalității rutiere la Giurgiu",
-      "link": "https://www.juridice.ro/841290/program-de-prevenire-a-infractionalitatii-rutiere-la-giurgiu.html",
-      "date": "2026-07-30T14:22:10.000Z",
-      "excerpt": "Joi, 30 iulie 2026, Direcția Națională de Probațiune a informat că Serviciul de Probațiune Giurgiu, în parteneriat cu Inspectoratul de Poliție Județean Giurgiu, prin structurile..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Consiliul UE aprobă o finanțare suplimentară pentru Ucraina",
-      "link": "https://www.juridice.ro/841280/consiliul-ue-aproba-o-finantare-suplimentara-pentru-ucraina.html",
-      "date": "2026-07-30T13:52:32.000Z",
-      "excerpt": "Joi, 30 iulie 2026, Consiliul Uniunii Europene a adoptat o decizie de modificare a Mecanismului pentru Ucraina și a Planului pentru Ucraina asociat acestuia, potrivit unui..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Două persoane urmărite internațional au fost aduse în țară",
-      "link": "https://www.juridice.ro/841269/doua-persoane-urmarite-international-au-fost-aduse-in-tara.html",
-      "date": "2026-07-30T13:36:20.000Z",
-      "excerpt": "Joi, 29 iulie 2026, Poliția Română a adus în țară două persoane pe numele cărora erau emise mandate de executare a unor pedepse privative de libertate, potrivit unui comunicat. Un..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Stadiul repunerii în funcțiune a sistemului informatic e-Terra",
-      "link": "https://www.juridice.ro/839252/stadiul-repunerii-in-functiune-a-sistemului-informatic-e-terra.html",
-      "date": "2026-07-30T13:27:25.000Z",
-      "excerpt": "Joi, 30 iulie 2026, Agenția Națională de Cadastru și Publicitate Imobiliară (ANCPI) a dat publicității următorul comunicat: Ce s-a întâmplat În data de 14 iulie 2026, ANCPI a..."
     }
   ]
 }
