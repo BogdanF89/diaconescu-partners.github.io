@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-07-31T08:53:52.967Z",
+  "generatedAt": "2026-07-31T14:14:43.006Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Tranzacţie uriaşă în tech în care este implicat şi un român: Anyscale, o companie cofondată de profesorul Ion Stoica, miliardarul român din spatele Databricks, a fost vândută pentru 1,65 mld. dolari",
+      "link": "https://www.zf.ro/business-hi-tech/tranzactie-uriasa-in-tech-in-care-este-implicat-si-un-roman-anyscale-o-companie-cofondata-de-profesorul-ion-stoica-miliardarul-roman-din-spatele-databricks-a-fost-vanduta-pentru-1-65-mld-dolari-23206954",
+      "date": "2026-07-31T13:20:00.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "BCR – cea mai bună bancă din România",
+      "link": "https://www.juridice.ro/841391/bcr-cea-mai-buna-banca-din-romania.html",
+      "date": "2026-07-31T12:59:39.000Z",
+      "excerpt": "Vineri, 17 iulie 2026, Banca Comercială Română (BCR) a informat că a fost desemnată cea mai bună bancă din România în cadrul Euromoney Awards for Excellence 2026, potrivit unui..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "ANCOM propune modificarea calendarului de raportare al furnizorilor de reţele publice de comunicaţii electronice",
+      "link": "https://www.economica.net/ancom-propune-modificarea-calendarului-de-raportare-al-furnizorilor-de-retele-publice-de-comunicatii-electronice_964274.html",
+      "date": "2026-07-31T12:35:49.000Z",
+      "excerpt": "Autoritatea Naţională pentru Administrare şi Reglementare în Comunicaţii (ANCOM) propune modificarea calendarului de raportare al furnizorilor de reţele publice de comunicaţii..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Trei magistrați ies la pensie",
+      "link": "https://www.juridice.ro/841383/trei-magistrati-ies-la-pensie.html",
+      "date": "2026-07-31T12:29:48.000Z",
+      "excerpt": "Vineri, 31 iulie 2026, Nicușor Dan, Președintele României, a semnat decretele privind eliberarea din funcție, prin pensionare, a următorilor magistrați: – judecător Doina Vișan,..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Sesiune extraordinară a Camerei Deputaților / 27-31 iulie 2026",
+      "link": "https://www.juridice.ro/840664/sesiune-extraordinara-a-camerei-deputatilor-27-31-iulie-2026.html",
+      "date": "2026-07-31T11:46:16.000Z",
+      "excerpt": "În Monitorul Oficial, Partea I nr. 635 din 31 iulie 2026 a fost publicată Decizia nr. 7/2026 pentru modificarea și completarea anexei la Decizia președintelui Camerei Deputaților..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -57,46 +97,6 @@
       "link": "https://www.juridice.ro/841328/palatul-victoria-a-fost-iluminat-in-albastru.html",
       "date": "2026-07-31T07:16:56.000Z",
       "excerpt": "Joi, 30 iulie 2026, Guvernul României a marcat Ziua Mondială împotriva Traficului de Persoane, exprimându-și solidaritatea cu victimele și reafirmând angajamentul pentru..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Directorul adjunct ONJN a fost reținut",
-      "link": "https://www.juridice.ro/841322/directorul-adjunct-onjn-a-fost-retinut.html",
-      "date": "2026-07-31T06:51:38.000Z",
-      "excerpt": "Joi, 30 iulie 2026, Direcția Națională Anticorupție a anunțat că procurorii din cadrul Secției de combatere a infracțiunilor asimilate infracțiunilor de corupție au dispus punerea..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Lidia Barac: De la principiile consacrate în varii domenii ale Dreptului nu se poate deroga, instituţia derogării fiind specifică doar…",
-      "link": "https://citate.juridice.ro/14682/lidia-barac-de-la-principiile-consacrate-in-varii-domenii-ale-dreptului/",
-      "date": "2026-07-30T22:00:24.000Z",
-      "excerpt": "„De la principiile consacrate în varii domenii ale Dreptului nu se poate deroga, instituţia derogării fiind specifică doar regulilor obişnuite de drept, derogarea operând în..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Când agentul AI iese din sandbox: cine răspunde pentru atacul asupra unui terț? Reflecții pornind de la incidentul OpenAI și Hugging Face",
-      "link": "https://www.juridice.ro/841191/cand-agentul-ai-iese-din-sandbox-cine-raspunde-pentru-atacul-asupra-unui-tert-reflectii-pornind-de-la-incidentul-openai-si-hugging-face.html",
-      "date": "2026-07-30T21:08:24.000Z",
-      "excerpt": "Rezumat: Articolul pornește de la incidentul din iulie 2026, în care modele OpenAI au ieșit dintr-un mediu de testare izolat și au pătruns în infrastructura de producție a Hugging..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "CCR. Comunicarea parțială a clasării și confirmarea redeschiderii urmăririi penale",
-      "link": "https://www.juridice.ro/841185/ccr-comunicarea-partiala-a-clasarii-si-confirmarea-redeschiderii-urmaririi-penale.html",
-      "date": "2026-07-30T21:06:28.000Z",
-      "excerpt": "Prin Decizia nr. 118/2026, Curtea Constituțională a statuat că problema aplicării art. 335 alin. (6) C.proc.pen. nu reprezintă o veritabilă chestiune de constituționalitate, ci..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "ÎCCJ. Faleza Mării Negre: proprietate publică prin efectul legii, nu prin inventariere",
-      "link": "https://www.juridice.ro/840729/inalta-curte-de-casatie-si-justitie-faleza-marii-negre-proprietate-publica-prin-efectul-legii-nu-prin-inventariere.html",
-      "date": "2026-07-30T21:05:30.000Z",
-      "excerpt": "În fapt, Administrația Națională „Apele Române” a solicitat restituirea unui teren în suprafață de 15.900 mp, situat în municipiul Constanța, reprezentând, potrivit reclamantei,..."
     }
   ]
 }
