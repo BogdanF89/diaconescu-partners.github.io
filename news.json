@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-07-31T19:38:09.985Z",
+  "generatedAt": "2026-08-01T03:17:18.891Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Avertismentul Fitch pentru România: „Eşecul implementării unor măsuri suplimentare de consolidare fiscală” ar putea duce la scăderea ratingului de ţară",
+      "link": "https://www.zf.ro/eveniment/avertismentul-fitch-pentru-romania-esecul-implementarii-unor-masuri-suplimentare-de-consolidare-fiscala-ar-putea-duce-la-scaderea-ratingului-de-tara-23207253",
+      "date": "2026-07-31T22:04:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.juridice.ro/840664/sesiune-extraordinara-a-camerei-deputatilor-27-31-iulie-2026.html",
       "date": "2026-07-31T11:46:16.000Z",
       "excerpt": "În Monitorul Oficial, Partea I nr. 635 din 31 iulie 2026 a fost publicată Decizia nr. 7/2026 pentru modificarea și completarea anexei la Decizia președintelui Camerei Deputaților..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Miliardarul român din spatele uneia dintre cele mai mari tranzacții din AI: compania sa a fost vândută cu 1,6 miliarde de dolari",
-      "link": "https://www.economica.net/miliardarul-roman-din-spatele-uneia-dintre-cele-mai-mari-tranzactii-din-ai-compania-sa-a-fost-vanduta-cu-16-miliarde-de-dolari_964137.html",
-      "date": "2026-07-31T08:29:08.000Z",
-      "excerpt": "Anyscale, startup american de inteligență artificială co-fondat de Ion Stoica, profesor universitar de origine română considerat cel mai bogat român, urmează să fie vândută la..."
     }
   ]
 }
