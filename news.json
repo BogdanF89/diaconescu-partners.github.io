@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-08-01T03:17:18.891Z",
+  "generatedAt": "2026-08-01T08:25:11.912Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Atenţie, contribuabili: Programul webinariilor ANAF din această lună",
+      "link": "https://www.zf.ro/fiscalitate/atentie-contribuabili-programul-webinariilor-anaf-din-aceasta-luna-23207375",
+      "date": "2026-08-01T05:19:00.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Calendarul obligaţiilor fiscale pentru luna iulie 2026: Care sunt obligaţiile fiscale pe care le au contribuabilii în această lună",
+      "link": "https://www.zf.ro/banci-si-asigurari/calendarul-obligatiilor-fiscale-pentru-luna-iulie-2026-care-sunt-obligatiile-fiscale-pe-care-le-au-contribuabilii-in-aceasta-luna-23207373",
+      "date": "2026-08-01T04:29:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/ancom-propune-modificarea-calendarului-de-raportare-al-furnizorilor-de-retele-publice-de-comunicatii-electronice_964274.html",
       "date": "2026-07-31T12:35:49.000Z",
       "excerpt": "Autoritatea Naţională pentru Administrare şi Reglementare în Comunicaţii (ANCOM) propune modificarea calendarului de raportare al furnizorilor de reţele publice de comunicaţii..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Trei magistrați ies la pensie",
-      "link": "https://www.juridice.ro/841383/trei-magistrati-ies-la-pensie.html",
-      "date": "2026-07-31T12:29:48.000Z",
-      "excerpt": "Vineri, 31 iulie 2026, Nicușor Dan, Președintele României, a semnat decretele privind eliberarea din funcție, prin pensionare, a următorilor magistrați: – judecător Doina Vișan,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Sesiune extraordinară a Camerei Deputaților / 27-31 iulie 2026",
-      "link": "https://www.juridice.ro/840664/sesiune-extraordinara-a-camerei-deputatilor-27-31-iulie-2026.html",
-      "date": "2026-07-31T11:46:16.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 635 din 31 iulie 2026 a fost publicată Decizia nr. 7/2026 pentru modificarea și completarea anexei la Decizia președintelui Camerei Deputaților..."
     }
   ]
 }
