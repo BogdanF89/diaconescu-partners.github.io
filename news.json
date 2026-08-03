@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-03T14:46:12.620Z",
+  "generatedAt": "2026-08-03T19:41:37.788Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Teste asupra aplicației e-Terra",
+      "link": "https://www.juridice.ro/841645/teste-asupra-aplicatiei-e-terra.html",
+      "date": "2026-08-03T17:03:18.000Z",
+      "excerpt": "Luni, 3 august 2026, Guvernul României a informat că testele de securitate, funcționalitate și performanță derulate de Serviciul de Telecomunicații Speciale, Departamentul..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Punct de vedere PÎCCJ pentru RIL privind posibilitatea instanței de judecată de a cenzura mențiunile din cuprinsul adeverințelor eliberate de angajatori",
+      "link": "https://www.juridice.ro/841544/punct-de-vedere-piccj-pentru-ril-privind-posibilitatea-instantei-de-judecata-de-a-cenzura-mentiunile-din-cuprinsul-adeverintelor-eliberate-de-angajatori.html",
+      "date": "2026-08-03T15:01:15.000Z",
+      "excerpt": "Miercuri, 29 iulie 2026, Ministerul Public a publicat punctul de vedere formulat de Parchetul de pe lângă Înalta Curte de Casație și Justiție în problema de drept ce formează..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Cinci persoane urmărite internațional au fost aduse în România",
+      "link": "https://www.juridice.ro/841534/cinci-persoane-urmarite-international-au-fost-aduse-in-romania.html",
+      "date": "2026-08-03T14:46:44.000Z",
+      "excerpt": "Vineri, 31 iulie 2026, Poliția Română a adus în țară cinci persoane urmărite internațional, pe numele cărora erau emise mandate de executare a unor pedepse privative de libertate..."
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -73,30 +97,6 @@
       "link": "https://www.juridice.ro/841488/sesiune-extraordinara-a-camerei-deputatilor-3-6-august-2026.html",
       "date": "2026-08-03T08:35:52.000Z",
       "excerpt": "În Monitorul Oficial, Partea I nr. 637 din 31 iulie 2026 a fost publicată Decizia nr. 8/2026 privind convocarea Camerei Deputaților în sesiune extraordinară. Camera Deputaților se..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Tranzacţie. Fondul de investiţii BoldMind Capital Partners, fondat de Dragoş Roşca, şi echipa de management a Pall-Ex, au preluat compania într-o tranzacţie de tip Management Buy-Out de 25 mil.euro",
-      "link": "https://www.zf.ro/zf-24/tranzactie-fondul-de-investitii-boldmind-capital-partners-fondat-de-dragos-rosca-si-echipa-de-management-a-pall-ex-au-preluat-compania-intr-o-tranzactie-de-tip-management-buy-out-de-25-mil-euro-23208790",
-      "date": "2026-08-03T07:48:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Dreptul la uitare în era digitală: instanțele române trasează limite pentru motoarele de căutare",
-      "link": "https://www.juridice.ro/841444/dreptul-la-uitare-in-era-digitala-instantele-romane-traseaza-limite-pentru-motoarele-de-cautare.html",
-      "date": "2026-08-02T21:09:45.000Z",
-      "excerpt": "La 30 aprilie 2026, Tribunalul Buzău a pronunțat două hotărâri cu implicații directe pentru presa online și pentru modul în care marile platforme digitale tratează datele..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Consimțământul informat al pacientului în fața constrângerii instituționale: lecții din cauza Gawthrop v Bendigo Health",
-      "link": "https://www.juridice.ro/841341/consimtamantul-informat-al-pacientului-in-fata-constrangerii-institutionale-lectii-din-cauza-gawthrop-v-bendigo-health.html",
-      "date": "2026-08-02T21:08:34.000Z",
-      "excerpt": "Hotărârea din cauza Gawthrop v Bendigo Health [2026] VSC 157 constituie una dintre cele mai relevante contribuții recente la dezvoltarea conceptului de consimțământ informat în..."
     }
   ]
 }
