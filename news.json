@@ -1,7 +1,87 @@
 {
-  "generatedAt": "2026-08-06T02:48:39.949Z",
+  "generatedAt": "2026-08-06T08:41:29.647Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "PwC România a asistat grupul polonez Polpharma în preluarea producătorului de medicamente Biofarm, cu două fabrici în Bucureşti, într-o tranzacţie de 257 mil. euro",
+      "link": "https://www.zf.ro/companii/pwc-romania-a-asistat-grupul-polonez-polpharma-in-preluarea-producatorului-de-medicamente-biofarm-cu-doua-fabrici-in-bucuresti-intr-o-tranzactie-de-257-mil-euro-23211183",
+      "date": "2026-08-06T08:21:03.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Senatul a adoptat proiectul de lege privind integritatea",
+      "link": "https://www.juridice.ro/841680/senatul-a-adoptat-proiectul-de-lege-privind-integritatea.html",
+      "date": "2026-08-06T08:09:16.000Z",
+      "excerpt": "Miercuri, 5 august 2026, Agenția Națională de Integritate a informat că Senatul României a adoptat Legea pentru modificarea și completarea unor acte normative în domeniul..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Angajamente propuse de Hartmann pentru a putea prelua Dentas Romania",
+      "link": "https://www.juridice.ro/842092/angajamente-propuse-de-hartmann-pentru-a-putea-prelua-dentas-romania.html",
+      "date": "2026-08-06T08:04:40.000Z",
+      "excerpt": "Miercuri, 5 august 2026, Consiliul Concurenței a pus în dezbatere publică angajamentele propuse de Hartmann Packaging A/S pentru înlăturarea preocupărilor concurențiale..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Nu a fost selectat niciun expert pentru sesiunile de formare în domeniul pornografiei infantile",
+      "link": "https://www.juridice.ro/842090/nu-a-fost-selectat-niciun-expert-pentru-sesiunile-de-formare-in-domeniul-pornografiei-infantile.html",
+      "date": "2026-08-06T07:59:10.000Z",
+      "excerpt": "Joi, 6 august 2026, Institutul Național al Magistraturii (INM) a anunțat că nu a fost selectat niciun expert național pentru implementarea intervenției 2.1.5 din cadrul..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Un judecător a fost selectat pentru sesiunile de formare în domeniul tehnicilor de audiere a minorilor",
+      "link": "https://www.juridice.ro/842088/un-judecator-a-fost-selectat-pentru-sesiunile-de-formare-in-domeniul-tehnicilor-de-audiere-a-minorilor.html",
+      "date": "2026-08-06T07:54:51.000Z",
+      "excerpt": "Joi, 6 august 2026, Institutul Național al Magistraturii (INM) a informat că a selectat un candidat pentru postul de expert judecător cu competență relevantă în materie penală,..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Vine corecția? Roșu aprins pe Bursa de la București. Toți indicii au deschis pe minus, după luni de creșteri record",
+      "link": "https://www.economica.net/vine-corectia-rosu-aprins-pe-bursa-de-la-bucuresti-toti-indicii-au-deschis-pe-minus-dupa-luni-de-cresteri-record_965804.html",
+      "date": "2026-08-06T07:48:20.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a deschis în scădere pe majoritatea indicilor şedinţa de astăzi, cu un rulaj de 11,96 milioane de lei (2,3 milioane de euro), după 30 de minute de..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Ipotecare.ro: Blocajul informatic de la ANCPI amână credite ipotecare de peste 437 mil. euro şi tranzacţii rezidenţiale de peste 1 mld. euro",
+      "link": "https://www.zf.ro/constructii-imobiliare/ipotecare-ro-blocajul-informatic-de-la-ancpi-amana-credite-ipotecare-de-peste-437-mil-euro-si-tranzactii-rezidentiale-de-peste-1-mld-euro-23211145",
+      "date": "2026-08-06T07:20:13.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Prima de carieră didactică 2026",
+      "link": "https://www.juridice.ro/827839/prima-de-cariera-didactica-2026.html",
+      "date": "2026-08-06T07:15:35.000Z",
+      "excerpt": "În Monitorul Oficial, Partea I nr. 647 din 5 august 2026 a fost publicată Legea nr. 163/2026 privind aprobarea Ordonanței de urgență a Guvernului nr. 39/2026 pentru modificarea și..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Tranzacții rezidențiale de peste un mld euro au fost amânate de blocajul ANCPI. Peste 5.000 de tranzactii prin credit ipotecar, în valoare de 437,5 mil euro sunt blocate",
+      "link": "https://www.economica.net/tranzactii-rezidentiale-de-peste-un-mld-euro-au-fost-amanate-de-blocajul-ancpi-peste-5-000-de-tranzactii-prin-credit-ipotecar-in-valoare-de-4375-mil-euro-sunt-blocate_965783.html",
+      "date": "2026-08-06T06:27:20.000Z",
+      "excerpt": "Peste 5.000 de tranzacții cu locuințe care ar fi trebuit să fie încheiate prin credit ipotecar la nivel național sunt blocate ca urmare a imposibilității de a utiliza sistemele..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Tribunalul Bucureşti a confirmat pe 4 august Planul de reorganizare al ROMAERO, companie aflată în insolvenţă. ”Confirmarea permite trecerea la implementarea măsurilor prevăzute, in vederea restructur",
+      "link": "https://www.zf.ro/zf-24/tribunalul-bucuresti-confirmat-4-august-planul-reorganizare-romaero-companie-aflata-insolventa-confirmarea-permite-trecerea-implementarea-masurilor-prevazute-vederea-restructurarii-activitatii-23211093",
+      "date": "2026-08-06T06:02:46.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -17,86 +97,6 @@
       "link": "https://www.juridice.ro/841946/reabilitarea-sociala-o-lupta-cu-biologia.html",
       "date": "2026-08-05T21:05:17.000Z",
       "excerpt": "Rezumat: Articolul propune o reinterpretare a conceptului de reabilitare prin prisma neuroștiințelor contemporane. Ceea ce dreptul califică, adesea, drept „perseverență..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "ÎCCJ. Efectele juridice ale condiției de formă instituite prin voința părților. Valabilitatea clauzei și consecințele nerespectării acesteia în planul executării contractuale",
-      "link": "https://www.juridice.ro/842010/iccj-efectele-juridice-ale-conditiei-de-forma-instituite-prin-vointa-partilor-valabilitatea-clauzei-si-consecintele-nerespectarii-acesteia-in-planul-executarii-contractuale.html",
-      "date": "2026-08-05T21:04:05.000Z",
-      "excerpt": "În cauza soluționată prin Decizia nr. 9/2026, Înalta Curte de Casație și Justiție a fost sesizată cu un recurs formulat împotriva unei decizii a Curții de Apel București. Instanța..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Intrarea în legalitate a construcțiilor sub imperiul noului Cod al Urbanismului",
-      "link": "https://www.juridice.ro/842042/intrarea-in-legalitate-a-constructiilor-sub-imperiul-noului-cod-al-urbanismului.html",
-      "date": "2026-08-05T21:02:22.000Z",
-      "excerpt": "Rezumat: Articolul analizează regimul intrării în legalitate a construcțiilor sub noul Cod al Urbanismului (Legea nr. 169/2026), promulgat la 5 august 2026, care va intra în..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Garda de Mediu a realizat 58 de controale pe litoral în doar două zile și a dat amenzi de 1,76 de milioane de lei. Acțiunea va continua",
-      "link": "https://www.economica.net/garda-de-mediu-a-realizat-58-de-controale-pe-litoral-in-doar-doua-zile-si-a-dat-amenzi-de-176-de-milioane-de-lei-actiunea-va-continua_965760.html",
-      "date": "2026-08-05T18:40:14.000Z",
-      "excerpt": "Garda Naţională de Mediu derulează o acţiune tematică de control pe litoral pentru verificarea respectării legislaţiei de mediu şi, în numai 48 de ore, a aplicat amenzi de 1,76 de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Proprietarii ParkLake din București au dat lovitura: au cumpărat imperiul imobiliar al miliardarului de origine română care a adus primul mall în Europa",
-      "link": "https://www.economica.net/proprietarul-parklake-malluri-spania_965718.html",
-      "date": "2026-08-05T18:40:13.000Z",
-      "excerpt": "Fondul suveran al Norvegiei, gestionat de Norges Bank Investment Management, împreună cu portughezii de la Sonae cumpără mallurile de 1,5 miliarde de euro construite de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de miercuri. Rulajul a depășit 136 de milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-miercuri-rulajul-a-depasit-136-de-milioane-de-lei_965732.html",
-      "date": "2026-08-05T17:26:08.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere pe toţi indicii şedinţa de miercuri, iar valoarea totală a tranzacţiilor a fost de 136,17 milioane de lei (25,04 milioane de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Mary Schreiber Swenson, World Trade Center Delaware: Companiile româneşti pot veni la biroul nostru, le oferim expertiză în domeniul exporturilor, importurilor, legislaţiei tarifare, precum şi acces l",
-      "link": "https://www.zf.ro/moonshotx/mary-schreiber-swenson-world-trade-center-delaware-companiile-romanesti-pot-veni-biroul-nostru-le-oferim-expertiza-domeniul-exporturilor-importurilor-legislatiei-tarifare-precum-acces-pietele-23210878",
-      "date": "2026-08-05T16:46:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Avize emise de Consiliul Legislativ – 5 august 2026",
-      "link": "https://www.juridice.ro/841998/avize-emise-de-consiliul-legislativ-5-august-2026.html",
-      "date": "2026-08-05T15:01:19.000Z",
-      "excerpt": "Miercuri, 5 august 2026, Consiliul Legislativ a emis următoarele avize: Avizul nr. 719 negativ, referitor la propunerea legislativă pentru ratificarea Acordului de împrumut..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Jumătate din posturile de procuror sunt ocupate la Parchetul de pe lângă Judecătoria Arad",
-      "link": "https://www.juridice.ro/842034/jumatate-din-posturile-de-procuror-sunt-ocupate-la-parchetul-de-pe-langa-judecatoria-arad.html",
-      "date": "2026-08-05T14:52:21.000Z",
-      "excerpt": "Miercuri, 5 august 2026, Parchetul de pe lângă Tribunalul Arad a informat că luni, 3 august 2026, şi-au început activitatea trei procurori stagiari, absolvenţi ai Institutului..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Susținere publică teză de doctorat: Cosmin Soare-Filatov / 7 septembrie 2026",
-      "link": "https://www.juridice.ro/842006/sustinere-publica-teza-de-doctorat-cosmin-soare-filatov-7-septembrie-2026.html",
-      "date": "2026-08-05T13:42:13.000Z",
-      "excerpt": "Luni, 7 septembrie 2026, ora 14:00, în Sala de Consiliu Decan Corneliu Bîrsan a Facultății de Drept a Universității din București, doctorandul Cosmin Soare-Filatov va susţine teza..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Întâlnire Premier – reprezentanții Confederației Patronale Concordia",
-      "link": "https://www.juridice.ro/842004/premierul-ilie-bolojan-s-a-intalnit-cu-reprezentantii-confederatiei-patronale-concordia.html",
-      "date": "2026-08-05T13:31:39.000Z",
-      "excerpt": "Miercuri, 5 august 2026, la Palatul Victoria, Prim-ministrul Ilie Bolojan s-a întâlnit cu reprezentanții Confederației Patronale Concordia. Discuțiile au vizat competitivitatea..."
     }
   ]
 }
