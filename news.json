@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-08-07T13:10:37.230Z",
+  "generatedAt": "2026-08-07T19:01:09.472Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a închis în scădere ultima ședință de tranzacționare a săptămânii. Rulajul a trecut de 135 de milioane de lei",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-ultima-sedinta-de-tranzactionare-a-saptamanii-rulajul-a-trecut-de-135-de-milioane-de-lei_966355.html",
+      "date": "2026-08-07T17:27:53.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere pe aproape toţi indicii şedinţa de vineri, iar valoarea totală a tranzacţiilor a fost de 135,69 de milioane de lei (25,82 de..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Guvernul vine în sfârşit cu o estimare concretă privind momentul în care se va debloca piaţa imobiliară după atacul cibernetic din 14 iulie: platforma e-Terra ar urma să revină în funcţiune săptămâna ",
+      "link": "https://www.zf.ro/business-hi-tech/guvernul-vine-sfarsit-estimare-concreta-privind-momentul-debloca-piata-imobiliara-dupa-atacul-cibernetic-14-iulie-platforma-e-terra-ar-urma-revina-functiune-saptamana-viitoare-etape-94-000-cereri-23212093",
+      "date": "2026-08-07T17:04:00.000Z",
+      "excerpt": "Sistemul informatic e-Terra, prin care Agenţia Naţională de Cadastru şi Publicitate Imobiliară (ANCPI) gestionează înregistrările de cadastru şi carte funciară din România, ar..."
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/trump-sugereaza-ca-fauci-ar-trebui-urmarit-penal_966040.html",
       "date": "2026-08-07T05:38:32.000Z",
       "excerpt": "Preşedintele american Donald Trump a sugerat joi că Dr. Anthony Fauci ar trebui urmărit penal, la câteva ore după ce senatorul republican Rand Paulo a declarat că va solicita..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Camelia Toader: A profesa ca judecător, în general, este o binecuvântare pentru un jurist cu puternice baze etico-filosofice. Îndrăznesc să spun că…",
-      "link": "https://citate.juridice.ro/14716/camelia-toader-a-profesa-ca-judecator/",
-      "date": "2026-08-06T22:00:14.000Z",
-      "excerpt": "„A profesa ca judecător, în general, este o binecuvântare pentru un jurist cu puternice baze etico-filosofice. Îndrăznesc să spun că, și pentru societate, existența unor asemenea..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Contractual balance in public procurement contracts",
-      "link": "https://lawyersweek.net/27006/contractual-balance-in-public-procurement-contracts.html",
-      "date": "2026-08-06T21:08:32.000Z",
-      "excerpt": ""
     }
   ]
 }
