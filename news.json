@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-08-07T19:01:09.472Z",
+  "generatedAt": "2026-08-08T01:49:56.121Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Larisa-Cătălina Ionescu: Prescripția delimitează temporal riscul de răspundere, transformând incertitudinea trecutului într-o situație juridică stabilă…",
+      "link": "https://citate.juridice.ro/14720/larisa-catalina-ionescu-prescriptia-delimiteaza-temporal/",
+      "date": "2026-08-07T22:00:45.000Z",
+      "excerpt": "„Prescripția delimitează temporal riscul de răspundere, transformând incertitudinea trecutului într-o situație juridică stabilă, aptă să genereze încredere în continuitatea și..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Ministrul de finanţe, Alexandru Nazare: Mesajul Moody’s, similar mesajului recent Fitch - transmis atât prin raportul publicat azi cât şi în toate dialogurile directe cu echipa de la Finanţe - este un",
+      "link": "https://www.zf.ro/banci-si-asigurari/ministrul-finante-alexandru-nazare-mesajul-moody-s-similar-mesajului-recent-fitch-transmis-atat-raportul-publicat-azi-cat-toate-dialogurile-directe-echipa-finante-unul-clar-continuam-consolidarea-23212137",
+      "date": "2026-08-07T21:07:00.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Interviu. Szabolcs Nemes, Roland Berger: Principalele motive de îngrijorare pentru fondurile de investiţii din România sunt contextul local - atât economic, cât şi politic, instabilitatea de pe scena ",
+      "link": "https://www.zf.ro/companii/interviu-szabolcs-nemes-roland-berger-principalele-motive-ingrijorare-fondurile-investitii-romania-contextul-local-atat-economic-cat-politic-instabilitatea-scena-geopolitica-internationala-23211512",
+      "date": "2026-08-07T21:07:00.000Z",
+      "excerpt": "Fondurile de private equity au făcut anul trecut un total de 128 de tranzacţii în regiunea Europei Centrale şi de Est, iar dintre acestea 18 au fost în România, arată un raport al..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "România scapă de junk: Moody’s menţine ratingul, la fel ca Fitch: deficitul scade mai repede decât estimările agenţiei, însă blocajul politic ameninţă consolidarea fiscală",
+      "link": "https://www.zf.ro/eveniment/romania-scapa-de-junk-moody-s-mentine-ratingul-la-fel-ca-fitch-deficitul-scade-mai-repede-decat-estimarile-agentiei-insa-blocajul-politic-ameninta-consolidarea-fiscala-23212134",
+      "date": "2026-08-07T20:39:02.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -9,6 +41,22 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-ultima-sedinta-de-tranzactionare-a-saptamanii-rulajul-a-trecut-de-135-de-milioane-de-lei_966355.html",
       "date": "2026-08-07T17:27:53.000Z",
       "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere pe aproape toţi indicii şedinţa de vineri, iar valoarea totală a tranzacţiilor a fost de 135,69 de milioane de lei (25,82 de..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Precizări UNNPR privind reluarea funcționării platformei e-Terra",
+      "link": "https://www.juridice.ro/842435/precizari-unnpr-privind-reluarea-functionarii-platformei-e-terra.html",
+      "date": "2026-08-07T17:23:08.000Z",
+      "excerpt": "Vineri, 7 august 2026, Uniunea Națională a Notarilor Publici din România a informat că testele de securitate, funcționalitate și performanță ale sistemului e-Terra avansează, iar..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "e-Terra va deveni funcțională săptămâna viitoare",
+      "link": "https://www.juridice.ro/841645/e-terra-va-deveni-functionala-saptamana-viitoare.html",
+      "date": "2026-08-07T17:10:18.000Z",
+      "excerpt": "Vineri, 7 august 2026, Guvernul României a informat că testele de securitate, funcționalitate și performanță ale sistemului e-Terra sunt în desfășurare, iar potrivit estimărilor..."
     },
     {
       "lang": "ro",
@@ -21,82 +69,34 @@
     {
       "lang": "ro",
       "source": "Juridice.ro",
+      "title": "16 septembrie 2026: Cu prescripția e Lin sau nu e Lin?",
+      "link": "https://evenimente.juridice.ro/dezbateri/25646/cu-prescriptia-e-lin-sau-nu-e-lin-16-septembrie-2026",
+      "date": "2026-08-07T15:55:23.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Un creator de conținut din Timișoara a fost reținut",
+      "link": "https://www.juridice.ro/842406/un-creator-de-continut-din-timisoara-a-fost-retinut.html",
+      "date": "2026-08-07T14:30:28.000Z",
+      "excerpt": "Vineri, 7 august 2026, Parchetul de pe lângă Judecătoria Timișoara a anunțat că un creator de conținut a fost reținut pentru 24 de ore, fiind cercetat pentru ultraj contra bunelor..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Se menține eliberarea gratuită a primei cărți electronice de identitate",
+      "link": "https://www.juridice.ro/842381/se-mentine-eliberarea-gratuita-a-primei-carti-electronice-de-identitate.html",
+      "date": "2026-08-07T13:59:37.000Z",
+      "excerpt": "Vineri, 7 august 2026, Guvernul României a adoptat Hotărârea de Guvern pentru modificarea art. 2 lit. b) din Hotărârea Guvernului nr. 1335/2023 pentru stabilirea condițiilor,..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
       "title": "Avizul Consiliului Legislativ privind gratuitatea primei cărți electronice de identitate",
       "link": "https://www.juridice.ro/842381/avizul-consiliului-legislativ-privind-gratuitatea-primei-carti-electronice-de-identitate.html",
       "date": "2026-08-07T12:41:37.000Z",
       "excerpt": "Vineri, 7 august 2026, Consiliul Legislativ a emis Avizul nr. 724 favorabil, referitor la proiectul de Hotărâre pentru modificarea art. 2 lit. b) din Hotărârea Guvernului nr...."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Proiectele de acte normative de pe ordinea de zi a Guvernului din 7 august 2026",
-      "link": "https://www.juridice.ro/842378/proiectele-de-acte-normative-de-pe-ordinea-de-zi-a-guvernului-din-7-august-2026.html",
-      "date": "2026-08-07T12:35:20.000Z",
-      "excerpt": "Vineri, 7 august 2026, Guvernul României a publicat lista cu proiectele de acte normative incluse pe agenda ședinței, potrivit unui comunicat. I. PROIECTE DE HOTĂRÂRI DE GUVERN 1...."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Sesiune extraordinară a Camerei Deputaților / 11-12 august 2026",
-      "link": "https://www.juridice.ro/842375/sesiune-extraordinara-a-camerei-deputatilor-11-12-august-2026.html",
-      "date": "2026-08-07T12:28:10.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 653 din 6 august 2026 a fost publicată Decizia nr. 10/2026 privind convocarea Camerei Deputaților în sesiune extraordinară. Camera Deputaților..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Se reduce finanțarea proiectelor mediului asociativ",
-      "link": "https://www.juridice.ro/842204/se-reduce-finantarea-proiectelor-mediului-asociativ-din-bugetul-sgg.html",
-      "date": "2026-08-07T12:07:11.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 653 din 6 august 2026 a fost publicată Hotărârea nr. 583/2026 privind modificarea Hotărârii Guvernului nr. 396/2026 pentru aprobarea modului de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Control judiciar pentru un medic veterinar pentru eutanasierea a 662 de câini",
-      "link": "https://www.juridice.ro/842364/control-judiciar-pentru-un-medic-veterinar-pentru-eutanasierea-a-662-de-caini.html",
-      "date": "2026-08-07T11:59:11.000Z",
-      "excerpt": "Vineri, 7 august 2026, Parchetul de pe lângă Tribunalul Suceava a anunțat că a dispus măsura preventivă a controlului judiciar pentru 60 de zile față de un medic veterinar,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Trei ucraineni au fost arestați pentru fraudă cu documente BNR și DIICOT",
-      "link": "https://www.juridice.ro/842357/trei-ucraineni-au-fost-arestati-pentru-frauda-cu-documente-bnr-si-diicot.html",
-      "date": "2026-08-07T11:50:19.000Z",
-      "excerpt": "Vineri, 7 august 2026, Parchetul de pe lângă Judecătoria Sectorului 3 București a anunțat că judecătorul de drepturi și libertăți de la Judecătoria Sectorului 3 București a admis..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Accell Group anunță inițierea procedurilor de insolvență",
-      "link": "https://www.juridice.ro/842275/accell-group-anunta-initierea-procedurilor-de-insolventa.html",
-      "date": "2026-08-07T07:17:44.000Z",
-      "excerpt": "Miercuri, 5 august 2026, Accell Group Holding B.V. și filialele sale olandeze au anunțat că au obținut suspendarea provizorie a plăților, procedură prevăzută de dreptul olandez..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Comisia Senatului SUA sesizează procurorul federal în cazul dr. Anthony Fauci",
-      "link": "https://www.juridice.ro/842273/comisia-senatului-sua-sesizeaza-procurorul-federal-in-cazul-dr-anthony-fauci.html",
-      "date": "2026-08-07T07:00:42.000Z",
-      "excerpt": "Joi, 6 august 2026, membrii republicani ai Comisiei pentru Securitate Internă și Afaceri Guvernamentale din Senatul SUA, condusă de senatorul Rand Paul, au votat pentru adoptarea..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Avize emise de Consiliul Legislativ – 6 august 2026",
-      "link": "https://www.juridice.ro/842266/avize-emise-de-consiliul-legislativ-6-august-2026.html",
-      "date": "2026-08-07T06:29:15.000Z",
-      "excerpt": "Joi, 6 august 2026, Consiliul Legislativ a emis următoarele avize: Avizul nr. 723 negativ, referitor la propunerea legislativă pentru modificarea și completarea Legii educației..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Trump sugerează că Fauci ar trebui urmărit penal",
-      "link": "https://www.economica.net/trump-sugereaza-ca-fauci-ar-trebui-urmarit-penal_966040.html",
-      "date": "2026-08-07T05:38:32.000Z",
-      "excerpt": "Preşedintele american Donald Trump a sugerat joi că Dr. Anthony Fauci ar trebui urmărit penal, la câteva ore după ce senatorul republican Rand Paulo a declarat că va solicita..."
     }
   ]
 }
