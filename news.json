@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-08-09T07:00:43.077Z",
+  "generatedAt": "2026-08-09T12:56:42.040Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Miruţă îi cere lui Grindeanu să pună pe ordinea de zi legea împotriva dezinformării, după atacul asupra ambulanței atacată cu topoare în urma unui clip postat pe TikTok",
+      "link": "https://www.economica.net/miruta-ii-cere-lui-grindeanu-sa-puna-pe-ordinea-de-zi-legea-impotriva-dezinformarii-dupa-atacul-asupra-ambulantei-atacata-cu-topoare-in-urma-unui-clip-postat-pe-tiktok_966628.html",
+      "date": "2026-08-09T11:06:30.000Z",
+      "excerpt": "Ministrul interimar al Apărării, Radu Miruţă, îi solicită preşedintelui Camerei Deputaţilor, Sorin Grindeanu, să pună pe ordinea de zi, spre a fi dezbătut şi adoptat rapid,..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.juridice.ro/841645/e-terra-va-deveni-functionala-saptamana-viitoare.html",
       "date": "2026-08-07T17:10:18.000Z",
       "excerpt": "Vineri, 7 august 2026, Guvernul României a informat că testele de securitate, funcționalitate și performanță ale sistemului e-Terra sunt în desfășurare, iar potrivit estimărilor..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Guvernul vine în sfârşit cu o estimare concretă privind momentul în care se va debloca piaţa imobiliară după atacul cibernetic din 14 iulie: platforma e-Terra ar urma să revină în funcţiune săptămâna ",
-      "link": "https://www.zf.ro/business-hi-tech/guvernul-vine-sfarsit-estimare-concreta-privind-momentul-debloca-piata-imobiliara-dupa-atacul-cibernetic-14-iulie-platforma-e-terra-ar-urma-revina-functiune-saptamana-viitoare-etape-94-000-cereri-23212093",
-      "date": "2026-08-07T17:04:00.000Z",
-      "excerpt": "Sistemul informatic e-Terra, prin care Agenţia Naţională de Cadastru şi Publicitate Imobiliară (ANCPI) gestionează înregistrările de cadastru şi carte funciară din România, ar..."
     }
   ]
 }
