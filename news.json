@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-08-09T12:56:42.040Z",
+  "generatedAt": "2026-08-09T18:45:32.686Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Daimler Truck estimează penalități de 1 miliard de euro din cauza neîndeplinirii țintelor CO2",
+      "link": "https://www.economica.net/daimler-truck-amenzi-emisii-ue-profit_966644.html",
+      "date": "2026-08-09T13:18:34.000Z",
+      "excerpt": "Constructorul auto Daimler Truck Holding AG ar putea fi nevoit să își ajusteze bilanțurile financiare pe termen mediu cu provizioane masive din cauza potențialelor penalități..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.juridice.ro/842435/precizari-unnpr-privind-reluarea-functionarii-platformei-e-terra.html",
       "date": "2026-08-07T17:23:08.000Z",
       "excerpt": "Vineri, 7 august 2026, Uniunea Națională a Notarilor Publici din România a informat că testele de securitate, funcționalitate și performanță ale sistemului e-Terra avansează, iar..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "e-Terra va deveni funcțională săptămâna viitoare",
-      "link": "https://www.juridice.ro/841645/e-terra-va-deveni-functionala-saptamana-viitoare.html",
-      "date": "2026-08-07T17:10:18.000Z",
-      "excerpt": "Vineri, 7 august 2026, Guvernul României a informat că testele de securitate, funcționalitate și performanță ale sistemului e-Terra sunt în desfășurare, iar potrivit estimărilor..."
     }
   ]
 }
