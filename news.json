@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-08-12T02:10:13.791Z",
+  "generatedAt": "2026-08-12T07:36:53.186Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Curtea Constituţională a României dezbate sesizările privind Legea ANI",
+      "link": "https://www.economica.net/curtea-constitutionala-a-romaniei-dezbate-sesizarile-privind-legea-ani_967355.html",
+      "date": "2026-08-12T04:21:56.000Z",
+      "excerpt": "Curtea Constituţională a României dezbate, miercuri, sesizările formulate faţă de legea privind modificarea şi completarea unor acte normative în domeniul integrităţii, cu..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.juridice.ro/842838/ue-saluta-abolirea-pedepsei-cu-moartea-in-liban.html",
       "date": "2026-08-11T12:58:37.000Z",
       "excerpt": "Marți, 11 iulie 2026, Consiliul Uniunii Europene a salutat adoptarea în Liban a legii prin care este abolită pedeapsa cu moartea. Măsura se aplică tuturor infracțiunilor, inclusiv..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Aplicația e-Terra este repornită etapizat",
-      "link": "https://www.juridice.ro/842836/aplicatia-e-terra-este-repornita-etapizat.html",
-      "date": "2026-08-11T12:51:25.000Z",
-      "excerpt": "Marți, 11 august 2026, Guvernul României a informat că aplicația e-Terra a fost repornită etapizat, pentru personalul ANCPI, al oficiilor de cadastru și publicitate imobiliară..."
     }
   ]
 }
