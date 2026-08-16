@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-08-16T06:43:33.321Z",
+  "generatedAt": "2026-08-16T12:44:32.265Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Cine este Alexandru Pricop, managing partner SVN România Residentialist: Am observat că acum este mai greu să scoţi bani din buzunarul clienţilor când discuţi despre tranzacţii imobiliare",
+      "link": "https://www.zf.ro/constructii-imobiliare/cine-este-alexandru-pricop-managing-partner-svn-romania-residentialist-am-observat-ca-acum-este-mai-greu-sa-scoti-bani-din-buzunarul-clientilor-cand-discuti-despre-tranzactii-imobiliare-23217779",
+      "date": "2026-08-16T10:31:00.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Cât câştigă fiscalizat un creator digital urmărit de peste 900.000 de indivizi pe tiktok: Azaleea Necula are afaceri de peste 216.000 lei şi marjă de profit peste 61% cu 1 salariat",
+      "link": "https://www.economica.net/cat-castiga-fiscalizat-un-creator-digital-urmarit-de-peste-900-000-de-indivizi-pe-tiktok-azaleea-necula-are-afaceri-de-peste-216-000-lei-si-marja-de-profit-peste-61-cu-1-salariat_967471.html",
+      "date": "2026-08-16T09:11:20.000Z",
+      "excerpt": "Azaleea Necula e urmărită de 95.000 de persoane pe Instagram şi are peste 55.000 de abonaţi pe Youtube. Peste 900.000 de indivizi o urmăresc pe Azaleea Necula pe tiktok. Firma sa..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.juridice.ro/843631/comisia-de-la-venetia-pregateste-un-aviz-privind-azilul-in-grecia.html",
       "date": "2026-08-14T12:29:26.000Z",
       "excerpt": "Vineri, 14 august 2026, Comisia de la Veneția a informat că va emite un aviz urgent privind anumite modificări aduse legislației elene în domeniul azilului și imigrației, potrivit..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Curtea Constituțională a Africii de Sud blochează explorările Shell în Wild Coast",
-      "link": "https://www.juridice.ro/843641/curtea-constitutionala-a-africii-de-sud-blocheaza-explorarile-shell-in-wild-coast.html",
-      "date": "2026-08-14T12:16:07.000Z",
-      "excerpt": "Vineri, 14 august 2026, Curtea Constituțională a Africii de Sud a blocat planurile de explorare offshore ale companiei Shell în regiunea Wild Coast, de pe coasta de est a țării,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Peste 1,4 milioane de lire sterline au fost confiscate de la Cristian Boureanu",
-      "link": "https://www.juridice.ro/843645/peste-14-milioane-de-lire-sterline-au-fost-confiscate-de-la-cristian-boureanu.html",
-      "date": "2026-08-14T11:40:02.000Z",
-      "excerpt": "Vineri, 14 august 2026, Ministerul Justiției a informat că autoritățile britanice — Crown Prosecution Service — au confiscat 1.415.794,26 lire sterline de la Cristian Alexandru..."
     }
   ]
 }
