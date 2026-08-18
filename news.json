@@ -1,7 +1,79 @@
 {
-  "generatedAt": "2026-08-18T01:22:18.126Z",
+  "generatedAt": "2026-08-18T06:48:23.601Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Orientări privind flexibilitatea fiscală pentru securitatea energetică",
+      "link": "https://www.juridice.ro/844464/orientari-privind-flexibilitatea-fiscala-pentru-securitatea-energetica.html",
+      "date": "2026-08-18T06:46:24.000Z",
+      "excerpt": "Luni, 17 august 2026, Comisia Europeană a adoptat o comunicare care detaliază condițiile în care statele membre pot solicita extinderea clauzei derogatorii naționale pentru..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Rolul înregistrării sistematice în modernizarea evidenței proprietăților din România",
+      "link": "https://www.juridice.ro/844460/rolul-inregistrarii-sistematice-in-modernizarea-evidentei-proprietatilor-din-romania.html",
+      "date": "2026-08-18T06:14:40.000Z",
+      "excerpt": "Luni, 17 august 2026, Agenția Națională de Cadastru și Publicitate Imobiliară (ANCPI) a prezentat efectele procesului de înregistrare sistematică asupra evidenței proprietăților..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Proiectul ANAF privind rambursarea TVA trebuie modificat, cere Federaţia pentru Inovare şi Competitivitate Sustenabilă în IMM (FICSIMM)",
+      "link": "https://www.economica.net/proiectul-anaf-privind-rambursarea-tva-trebuie-modificat-cere-federatia-pentru-inovare-si-competitivitate-sustenabila-in-imm-ficsimm_968879.html",
+      "date": "2026-08-18T05:23:07.000Z",
+      "excerpt": "Federaţia pentru Inovare şi Competitivitate Sustenabilă în IMM-uri solicită modificarea proiectului ANAF privind schimbarea procedurii de rambursare a TVA, prin eliminarea..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Violarea vieții private – analiza comiterii faptei prin ascultarea victimei cu ajutorul mijloacelor tehnice și lipsa tipicității în cazul apelării",
+      "link": "https://www.juridice.ro/844361/violarea-vietii-private-analiza-comiterii-faptei-prin-ascultarea-victimei-cu-ajutorul-mijloacelor-tehnice-si-lipsa-tipicitatii-in-cazul-apelarii.html",
+      "date": "2026-08-18T05:08:42.000Z",
+      "excerpt": "Rezumat: Materialul analizează infracțiunea de violare a vieții private prevăzută de art. 226 alin. (1) C. pen., în modalitatea ascultării unei persoane cu ajutorul mijloacelor..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "CCR pendinte: competența curții de apel de a judeca în primă instanță infracțiunile săvârșite de magistrații de la judecătorii și tribunal",
+      "link": "https://www.juridice.ro/844379/ccr-pendinte-competenta-curtii-de-apel-de-a-judeca-in-prima-instanta-infractiunile-savarsite-de-magistratii-de-la-judecatorii-si-tribunal.html",
+      "date": "2026-08-18T05:06:39.000Z",
+      "excerpt": "În data de 14.08.2026 s-a constituit un nou dosar (5288D/2026) pe rolul Curţii Constituţionale, urmând a fi analizate dispoziţiile art. 38 alin. (1) lit. c) din Codul de procedură..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "ÎCCJ. Invocarea unei cauze cu aceeași situație de fapt",
+      "link": "https://www.juridice.ro/843735/iccj-invocarea-unei-cauze-cu-aceeasi-situatie-de-fapt.html",
+      "date": "2026-08-18T05:05:49.000Z",
+      "excerpt": "Înalta Curte de Casație și Justiție a hotărât că instanța de apel nu poate pronunța o soluție contrară unei hotărâri definitive adoptate într-o cauză întemeiată pe aceeași..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Judecătoria Galați. Valorificarea acordului dat în timpul urmăririi penale de a presta muncă neremunerată în folosul comunității",
+      "link": "https://www.juridice.ro/844322/judecatoria-galati-valorificarea-acordului-dat-in-timpul-urmaririi-penale-de-a-presta-munca-neremunerata-in-folosul-comunitatii.html",
+      "date": "2026-08-18T05:05:40.000Z",
+      "excerpt": "În cadrul unei sentințe pronunțate în anul 2026 de Judecătoria Galați, a fost valorificat acordul de a presta muncă neremunerată în folosul comunității, exprimat de un inculpat în..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Tribunalul Bucureşti discută cererea STB de a intra în insolvenţă",
+      "link": "https://www.economica.net/tribunalul-bucuresti-discuta-cererea-stb-de-a-intra-in-insolventa_968871.html",
+      "date": "2026-08-18T04:17:07.000Z",
+      "excerpt": "Tribunalul Bucureşti va discuta marţi cererea Societăţii de Transport Bucureşti (STB) de intrare în insolvenţă."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Tranzacţie. Un investitor din Baia Mare a preluat 20% din Soft Tehnica, dezvoltatorul soluţiilor AI Aidoo, pentru 2,5 milioane de lei",
+      "link": "https://www.zf.ro/business-hi-tech/tranzactie-un-investitor-din-baia-mare-a-preluat-20-din-soft-tehnica-dezvoltatorul-solutiilor-ai-aidoo-pentru-2-5-milioane-de-lei-23219073",
+      "date": "2026-08-18T03:35:00.000Z",
+      "excerpt": "Soft Tehnica, compania de software din Bucureşti care dezvoltă suita de soluţii cu inteligenţă artificială Aidoo, a atras un investitor nou: Zah Grigore, din Baia Mare, a preluat..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -25,78 +97,6 @@
       "link": "https://www.juridice.ro/844334/avize-emise-de-consiliul-legislativ-17-august-2026.html",
       "date": "2026-08-17T19:04:57.000Z",
       "excerpt": "Luni, 17 august 2026, Consiliul Legislativ a emis următoarele avize: Avizul nr. 752 favorabil cu observații și propuneri, referitor la propunerea legislativă privind modificarea..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Persoane căutate și localizate de Poliția Română",
-      "link": "https://www.juridice.ro/844220/persoane-cautate-si-localizate-de-politia-romana.html",
-      "date": "2026-08-17T18:02:50.000Z",
-      "excerpt": "Duminică, 16 august 2026, Poliția Română a anunțat că, în perioada 7-13 august 2026, polițiștii români și partenerii din statele membre Schengen au depistat 631 de persoane, 52 de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Obiecție de neconstituționalitate respinsă privind Legea de ratificare a împrumutului BIRD",
-      "link": "https://www.juridice.ro/844332/obiectie-de-neconstitutionalitate-respinsa-privind-legea-de-ratificare-a-imprumutului-bird.html",
-      "date": "2026-08-17T16:47:05.000Z",
-      "excerpt": "Luni, 17 august 2026, Curtea Constituțională, cu unanimitate de voturi, a respins, ca neîntemeiată, obiecția de neconstituționalitate formulată de deputați aparținând Grupului..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Propunere inedită din mediul de afaceri: Listă neagră cu primăriile și ministerele datoare privaților. CONAF explică modelul italian: Să plătească penalități",
-      "link": "https://www.economica.net/propunere-inedita-din-mediul-de-afaceri-lista-neagra-cu-primariile-si-ministerele-datoare-privatilor-conaf-explica-medelul-italian-sa-plateasca-penalitati_968836.html",
-      "date": "2026-08-17T16:20:35.000Z",
-      "excerpt": "Organizația patronală CONAF vine cu o propunere inedită pentru România, menită să eficientizeze activitatea instituțiilor statului și să deblocheze plățile restante către privați,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Obiecție de neconstituționalitate admisă privind sintagma „persoana care are relații asemănătoare acelora dintre soți” din noua lege a integrității",
-      "link": "https://www.juridice.ro/844311/obiectie-de-neconstitutionalitate-admisa-privind-sintagma-persoana-care-are-relatii-asemanatoare-acelora-dintre-soti-din-noua-lege-a-integritatii.html",
-      "date": "2026-08-17T14:57:06.000Z",
-      "excerpt": "Luni, 17 august 2026, Curtea Constituțională, cu unanimitate de voturi, a admis obiecția de neconstituționalitate și a constatat că sintagma „persoana care are relații..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Câți oameni mai trage după el Dominic Fritz, primar incompatibil al Timișoarei. Amendamentul la legea ANI declarat constituțional, aplicabil altor 120 de persoane",
-      "link": "https://www.economica.net/cati-oameni-mai-trage-dupa-el-dominic-fritz-primar-incompatibil-al-timisoarei-amendamentul-la-legea-ani-declarat-constitutional-aplicabil-altor-120-de-persoane_968814.html",
-      "date": "2026-08-17T14:47:41.000Z",
-      "excerpt": "Peste 120 de persoane sunt vizate de amendamentul la Legea integrității, care prevede pierderea mandatului sau a funcției în cazul în care există decizii definitive în instanță..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Un profesor de legislație rutieră a călcat un polițist",
-      "link": "https://www.juridice.ro/844300/un-profesor-de-legislatie-rutiera-a-calcat-un-politist.html",
-      "date": "2026-08-17T14:32:32.000Z",
-      "excerpt": "Luni, 17 august 2026, Parchetul de pe lângă Judecătoria Buzău a anunțat trimiterea în judecată a unui inculpat aflat sub măsura arestului la domiciliu, pentru infracțiunea de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Obiecție de neconstituționalitate respinsă privind Strategia naţională pentru conservarea biodiversităţii",
-      "link": "https://www.juridice.ro/844298/obiectie-de-neconstitutionalitate-respinsa-privind-strategia-nationala-pentru-conservarea-biodiversitatii.html",
-      "date": "2026-08-17T14:14:52.000Z",
-      "excerpt": "Luni, 17 august 2026, Curtea Constituțională, cu majoritate de voturi, a respins obiecția de neconstituționalitate și a constatat că Legea privind aprobarea Strategiei naționale..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "CITR, lichidator judiciar al Euroins România, a blocat în istanţă recunoaşterea pe teritoriul României a unei decizii de arbitraj din Bulgaria, care prevedea plata unei taxe de 12,7 mil.euro de către ",
-      "link": "https://www.zf.ro/zf-24/citr-lichidator-judiciar-euroins-romania-blocat-istanta-recunoasterea-teritoriul-romaniei-unei-decizii-arbitraj-bulgaria-prevedea-plata-unei-taxe-12-7-mil-euro-catre-compania-asigurari-23218727",
-      "date": "2026-08-17T13:35:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Consiliul Concurenței analizează preluarea Daroconstruct de către Bau Holding Beteiligungs",
-      "link": "https://www.juridice.ro/844261/consiliul-concurentei-analizeaza-preluarea-daroconstruct-de-catre-bau-holding-beteiligungs.html",
-      "date": "2026-08-17T12:14:16.000Z",
-      "excerpt": "Luni, 17 august 2026, Consiliul Concurenţei a informat că analizează tranzacţia prin care Bau Holding Beteiligungs GmbH, din Austria, intenționează să preia Daroconstruct SRL,..."
     }
   ]
 }
