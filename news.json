@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-08-20T01:22:59.699Z",
+  "generatedAt": "2026-08-20T06:50:45.953Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Contracte speciale | Camelia Spasici",
+      "link": "https://carti.juridice.ro/14765/contracte-speciale-camelia-spasici.html",
+      "date": "2026-08-20T05:50:15.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Scandalul restanţelor salariale ale magistraților – ÎCCJ s-ar putea pronunţa în procesul Guvernului",
+      "link": "https://www.economica.net/scandalul-restantelor-salariale-ale-magistratilor-iccj-s-ar-putea-pronunta-in-procesul-guvernului_969421.html",
+      "date": "2026-08-20T04:14:26.000Z",
+      "excerpt": "Înalta Curte de Casaţie şi Justiţie ar urma să pronunţe joi soluţia definitivă în procesul pe care l-a câştigat în primă instanţă cu Guvernul şi Ministerul Finanţelor privind..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/pret-incredibil-pentru-apa-peste-40-de-lei-pentru-o-sticla-de-05-litri_969286.html",
       "date": "2026-08-19T11:52:49.000Z",
       "excerpt": "Un turist italian aflat în vacanță la Nisa a constatat, pe bonul fiscal, că o sticlă de apă plată de jumătate de litru costa 8 euro, mai mult decât felul de mâncare comandat la..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Red Flag or Not? – campanie națională pentru recunoașterea relaților abuzive",
-      "link": "https://www.juridice.ro/844816/red-flag-or-not-campanie-nationala-pentru-recunoasterea-relatilor-abuzive.html",
-      "date": "2026-08-19T11:25:03.000Z",
-      "excerpt": "Miercuri, 19 august 2026, Agenția Națională pentru Egalitatea de Șanse între Femei și Bărabați (ANES) a lansat campania națională „Red Flag or Not?”, o inițiativă de informare și..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "O veste deloc bună pentru prima economie a lumii: Riscurile fiscale, datele economice slabe şi incertitudinea privind planurile Fed ameninţă să anuleze avansul dolarului american în 2026",
-      "link": "https://www.zf.ro/business-international/o-veste-deloc-buna-pentru-prima-economie-a-lumii-riscurile-fiscale-datele-economice-slabe-si-incertitudinea-privind-planurile-fed-ameninta-sa-anuleze-avansul-dolarului-american-in-2026-23220200",
-      "date": "2026-08-19T11:10:00.000Z",
-      "excerpt": ""
     }
   ]
 }
