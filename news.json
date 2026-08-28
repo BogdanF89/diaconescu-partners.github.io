@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-08-28T10:20:10.101Z",
+  "generatedAt": "2026-08-28T21:54:04.968Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Limbajul abstract și efectul său particular de bumerang. Câteva gânduri pe marginea recentei decizii a CCR nr. 883 din 17 august 2026",
+      "link": "https://www.juridice.ro/essentials/12254/limbajul-abstract-si-efectul-sau-particular-de-bumerang-cateva-ganduri-pe-marginea-recentei-decizii-a-ccr-nr-883-din-17-august-2026",
+      "date": "2026-08-28T20:34:47.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Președintele AEP s-a întâlnit cu reprezentanții partidelor",
+      "link": "https://www.juridice.ro/847410/presedintele-aep-s-a-intalnit-cu-reprezentantii-partidelor.html",
+      "date": "2026-08-28T19:03:43.000Z",
+      "excerpt": "Joi 27 august 2026, Adrian Țuțuianu, Președintele Autorității Electorale Permanente (AEP), s-a întâlnit cu reprezentanții partidelor politice parlamentare și ai grupurilor..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bolojan nu regretă că s-a întâlnit cu preşedinta CCR la Senat: A fost o întâlnire într-o instituţie publică",
+      "link": "https://www.economica.net/bolojan-nu-regreta-ca-s-a-intalnit-cu-presedinta-ccr-la-senat-a-fost-o-intalnire-intr-o-institutie-publica_972070.html",
+      "date": "2026-08-28T17:03:35.000Z",
+      "excerpt": "Premierul interimar Ilie Bolojan a declarat vineri că nu are de ce să regrete că s-a întâlnit cu preşedinta Curţii Constituţionale, Simina Tănăsescu, la Senat, o instituţie..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Ministerul Energiei cere convocarea unei adunări a acţionarilor Hidroelectrica pentru atragerea răspunderii lui Silviu Răzvan Avram şi recuperarea a circa 160.000 de lei",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/ministerul-energiei-cere-convocarea-unei-adunari-a-actionarilor-hidroelectrica-pentru-atragerea-raspunderii-lui-silviu-razvan-avram-si-recuperarea-a-circa-160-000-de-lei-23226533",
+      "date": "2026-08-28T15:07:16.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -65,38 +97,6 @@
       "link": "https://www.zf.ro/business-international/sfarsitul-unei-ere-ultima-fabrica-de-vase-emailate-din-ungaria-isi-inchide-portile-dupa-115-ani-de-existenta-23225914",
       "date": "2026-08-27T21:02:00.000Z",
       "excerpt": "Ultima fabrică tradiţională de articole emailate din Ungaria, EMA-LION Bonyhádi Zománcáru, fondată în 1909, este în lichidare şi îşi închide definitiv porţile, scrie Portfolio.hu."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Fenomenul shrinkflation în atenția ANPC",
-      "link": "https://www.juridice.ro/847184/fenomenul-shrinkflation-in-atentia-anpc.html",
-      "date": "2026-08-27T17:30:19.000Z",
-      "excerpt": "Joi, 27 august 2026, Autoritatea Națională pentru Protecția Consumatorilor a publicat o informare referitoare la fenomenul denumit „shrinkflation”, care constă în reducerea..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Spania va avea o nouă lege a azilului",
-      "link": "https://www.juridice.ro/847135/spania-va-avea-o-noua-lege-a-azilului.html",
-      "date": "2026-08-27T17:04:37.000Z",
-      "excerpt": "Marți, 25 august 2026, Consiliul de Miniștri al Spaniei a aprobat, în primă lectură, două proiecte legislative inițiate de Ministerul de Interne: o nouă lege privind azilul și..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Avizul Consiliului Legislativ nr. 769/2026 favorabil ref. siguranța în zonele de îmbăiere",
-      "link": "https://www.juridice.ro/847154/avizul-consiliului-legislativ-nr-769-2026-favorabil-ref-siguranta-in-zonele-de-imbaiere.html",
-      "date": "2026-08-27T15:29:37.000Z",
-      "excerpt": "Miercuri, 26 august 2026, Consiliul Legislativ a emis Avizul nr. 769. „Analizând propunerea legislativă privind siguranța persoanelor în zonele de îmbăiere (b467/18.08.2026),..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Interpretările fiscale ale chatbot-urilor îți pot pune ANAF pe cap – consultant fiscal. Ce-au pățit doi români",
-      "link": "https://www.economica.net/interpretarile-fiscale-ale-chatbot-urilor-iti-pot-pune-anaf-pe-cap-consultant-fiscal-ce-au-patit-doi-romani_971466.html",
-      "date": "2026-08-27T06:37:44.000Z",
-      "excerpt": "Tot mai mulți români apelează la chatbot-uri pentru întrebări fiscale. Răspunsurile AI, deși sună bine, chiar profesionist, se dovedesc a fi greșite și generează penalități,..."
     }
   ]
 }
