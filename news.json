@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-08-28T21:54:04.968Z",
+  "generatedAt": "2026-08-29T06:19:51.212Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "România a ajuns raiul falsurilor. Poate rezolva AI problema fraudelor din artă?",
+      "link": "https://www.economica.net/romania-a-ajuns-raiul-falsurilor-poate-rezolva-ai-problema-fraudelor-din-arta_969961.html",
+      "date": "2026-08-29T06:00:30.000Z",
+      "excerpt": "România este vulnerabilă, deoarece piața de artă are puțini experți, infrastructură este insuficientă pentru autentificare și investigații, iar cadrul legislativ deficitar, în..."
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/business-hi-tech/ce-trebuie-sa-demonstreze-un-start-up-de-tehnologie-ca-sa-primeasca-bani-23225979",
       "date": "2026-08-27T21:07:00.000Z",
       "excerpt": "Ce anume convinge un fond de investiţii să pună bani într-un start-up de tehnologie? Trei investitori care au finanţat, în total, peste 160 de com­panii din regiune au dat un..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Sfârşitul unei ere: ultima fabrică de vase emailate din Ungaria îşi închide porţile după 115 ani de existenţă",
-      "link": "https://www.zf.ro/business-international/sfarsitul-unei-ere-ultima-fabrica-de-vase-emailate-din-ungaria-isi-inchide-portile-dupa-115-ani-de-existenta-23225914",
-      "date": "2026-08-27T21:02:00.000Z",
-      "excerpt": "Ultima fabrică tradiţională de articole emailate din Ungaria, EMA-LION Bonyhádi Zománcáru, fondată în 1909, este în lichidare şi îşi închide definitiv porţile, scrie Portfolio.hu."
     }
   ]
 }
