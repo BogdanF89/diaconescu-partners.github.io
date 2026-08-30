@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-08-30T11:31:58.613Z",
+  "generatedAt": "2026-08-30T16:19:25.304Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "AUR propune modificarea Constituţiei pentru soluţionarea crizelor guvernamentale",
+      "link": "https://www.economica.net/aur-propune-modificarea-constitutiei-pentru-solutionarea-crizelor-guvernamentale_972224.html",
+      "date": "2026-08-30T12:57:17.000Z",
+      "excerpt": "Alianţa pentru Unirea Românilor a decis, în cadrul Consiliului Naţional de Conducere reunit în judeţul Mehedinţi, promovarea în perioada următoare a unui proiect de modificare a..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Cum a reuşit start-up-ul românesc DesignVerse să-şi crească valoarea contractelor companiei de la 6.500 EUR la 1,1 mil EUR în mai puţin de 1 an. Compania a reuşit să strângă 5,5 milioane de la investi",
+      "link": "https://www.zf.ro/business-hi-tech/reusit-start-up-ul-romanesc-designverse-creasca-valoarea-contractelor-companiei-6-500-eur-1-1-mil-eur-putin-1-an-compania-reusit-stranga-5-5-milioane-investitori-intr-runda-tip-seed-video-23227143",
+      "date": "2026-08-30T12:31:00.000Z",
+      "excerpt": "tart-up-ul românesc de inteligenţă artificială DesignVerse, cu sediul central în Bucureşti şi angajaţi în toată Europa, a obţinut o finanţare de 5,5 milioane de dolari într-o..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/scandalul-lukoil-romania-ce-spune-ministrul-economiei-despre-insolventa-rafinariei-petrotel_971863.html",
       "date": "2026-08-28T10:09:09.000Z",
       "excerpt": "Ministrul interimar al Economiei, Digitalizării, Antreprenoriatului şi Turismului, Irineu Darău, afirmă că insolvenţa Petrotel Lukoil este \"o răscruce\" care, în timp, poate să..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Videoconferinţa Deloitte - ZF. Ce trebuie să demonstreze un start-up de tehnologie ca să primească bani: trei investitori cu peste 160 de companii finanţate explică pe ce criterii aleg, cum arată proc",
-      "link": "https://www.zf.ro/business-hi-tech/videoconferinta-deloitte-zf-demonstreze-start-up-tehnologie-primeasca-bani-trei-investitori-peste-160-companii-finantate-explica-criterii-aleg-arata-procesul-decizie-vezi-50-idei-ajungi-cinci-an-23225901",
-      "date": "2026-08-28T10:00:00.000Z",
-      "excerpt": "Ce anume convinge un fond de investiţii să pună bani într-un start-up de tehnologie? Trei investitori care au finanţat, în total, peste 160 de com­panii din regiune au dat un..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Ce spune Ciucu despre ajutorul de la PMB pentru adulţii cu dizabilităţi, după şedinţa CGMB",
-      "link": "https://www.economica.net/ce-spune-ciucu-despre-ajutorul-de-la-pmb-pentru-adultii-cu-dizabilitati-dupa-sedinta-cgmb_971858.html",
-      "date": "2026-08-28T09:44:54.000Z",
-      "excerpt": "Primarul general al Capitalei, Ciprian Ciucu, a declarat vineri că persoanele adulte cu dizabilităţi ar urma să primească un stimulent financiar de 250 de lei pe lună până când..."
     }
   ]
 }
