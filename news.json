@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-08-30T04:29:54.488Z",
+  "generatedAt": "2026-08-30T11:31:58.613Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la Bucureşti a pierdut în această săptămână peste 8,44 miliarde de lei la capitalizare",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-pierdut-in-aceasta-saptamana-peste-844-miliarde-de-lei-la-capitalizare972195_972195.html",
+      "date": "2026-08-30T09:52:36.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, peste 8,44 miliarde de lei la capitalizare (-1,16%), în timp ce valoarea tranzacţiilor cu acţiuni a scăzut cu..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/ce-spune-ciucu-despre-ajutorul-de-la-pmb-pentru-adultii-cu-dizabilitati-dupa-sedinta-cgmb_971858.html",
       "date": "2026-08-28T09:44:54.000Z",
       "excerpt": "Primarul general al Capitalei, Ciprian Ciucu, a declarat vineri că persoanele adulte cu dizabilităţi ar urma să primească un stimulent financiar de 250 de lei pe lună până când..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "China examinează legea anticorupție transfrontalieră",
-      "link": "https://www.juridice.ro/847329/china-examineaza-legea-anticoruptie-transfrontaliera.html",
-      "date": "2026-08-28T09:02:18.000Z",
-      "excerpt": "Marți, 25 august 2026, Comisia Centrală pentru Inspecția Disciplinei a Partidului Comunist Chinez a informat că proiectul legii privind combaterea corupției transfrontaliere a..."
     }
   ]
 }
