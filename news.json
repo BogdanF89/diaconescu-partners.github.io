@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-08-31T04:34:04.543Z",
+  "generatedAt": "2026-08-31T13:05:43.612Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Un pompier militar a ucis o tânără și apoi s-a sinucis",
+      "link": "https://www.juridice.ro/848088/un-pompier-militar-a-ucis-o-tanara-si-apoi-s-a-sinucis.html",
+      "date": "2026-08-31T13:02:43.000Z",
+      "excerpt": "Luni, 31 august 2026, Parchetul Militar de pe lângă Tribunalul Militar Iaşi a dispus începerea urmăririi penale sub aspectul săvârşirii infracţiunii de omor calificat, potrivit..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "CJUE. C-510/26 | Ecoserv. Trimitere preliminară privind nivelul accizelor la băuturile alcoolice",
+      "link": "https://www.juridice.ro/848068/cjue-c-510-26-ecoserv-trimitere-preliminara-privind-nivelul-accizelor-la-bauturile-alcoolice.html",
+      "date": "2026-08-31T12:46:01.000Z",
+      "excerpt": "În Jurnalul Oficial al Uniunii Europene, seria C, din 31 august 2026, a fost publicată Cererea de decizie preliminară introdusă de Curtea de Apel Cluj (România) la 22 aprilie 2026..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "O grupare de criminalitate organizată a fost destructurată",
+      "link": "https://www.juridice.ro/848084/o-grupare-de-criminalitate-organizata-a-fost-destructurata.html",
+      "date": "2026-08-31T12:29:03.000Z",
+      "excerpt": "Luni, 31 august 2026, Parchetul de pe lângă Înalta Curte de Casație și Justiție a informat că a destructurat o grupare de criminalitate organizată formată din cetățeni români și..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Procedura de licențiere a serviciilor media audiovizuale",
+      "link": "https://www.juridice.ro/848058/procedura-de-licentiere-a-serviciilor-media-audiovizuale.html",
+      "date": "2026-08-31T11:44:57.000Z",
+      "excerpt": "În Monitorul Oficial, Partea I nr. 718 din 28 august 2026 a fost publicată Decizia nr. 116/2026 privind procedura de licențiere, de autorizare și de notificare a serviciilor media..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "René Schöb, CEE Head of Tax & Legal, Board Member KPMG in Romania: Fiscalitatea strategică, avantajul competitiv pe care companiile încă îl subestimează",
+      "link": "https://www.zf.ro/opinii/ren-sch-b-cee-head-of-tax-legal-board-member-kpmg-in-romania-fiscalitatea-strategica-avantajul-competitiv-pe-care-companiile-inca-il-subestimeaza-23227626",
+      "date": "2026-08-31T08:48:51.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -57,46 +97,6 @@
       "link": "https://www.zf.ro/profesii/romania-150-000-muncitori-tari-non-ue-piata-muncii-2018-pana-prezent-s-au-emis-aproximativ-jumatate-milion-avize-munca-schimba-sistemul-recrutarea-muncitorilor-non-ue-23224215",
       "date": "2026-08-29T18:41:00.000Z",
       "excerpt": "Recrutarea muncitorilor din afara Uniunii Europene intră într-o nouă etapă odată cu aplicarea OUG 32/2026. Dacă până acum principalul obiectiv al angajatorilor era găsirea..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Parlament bicameral şi limitarea la două mandate a conducerilor instituţiilor publice – printre priorităţile legislative ale AUR",
-      "link": "https://www.economica.net/parlament-bicameral-si-limitarea-la-doua-mandate-a-conducerilor-institutiilor-publice-printre-prioritatile-legislative-ale-aur_972162.html",
-      "date": "2026-08-29T16:55:40.000Z",
-      "excerpt": "AUR şi-a stabilit, sâmbătă, priorităţile legislative pentru sesiunea parlamentară ordinară care va începe marţi, iar printre acestea se numără Parlament bicameral cu 300 de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "ZF Live. Loredana Mihăilă, PACT: Noile reguli pentru rambursarea TVA riscă să complice activitatea companiilor fără să reducă evaziunea fiscală. A pune societăţile să suporte până la 12 inspecţii fisc",
-      "link": "https://www.zf.ro/zf-live/zf-live-loredana-mihaila-pact-noile-reguli-rambursarea-tva-risca-complice-activitatea-companiilor-reduca-evaziunea-fiscala-pune-societatile-suporte-pana-12-inspectii-fiscale-intr-an-isi-recupereze-23223582",
-      "date": "2026-08-29T10:45:00.000Z",
-      "excerpt": "Noile modificări ale Codului de procedură fiscală privind rambursarea TVA riscă să îngreuneze activitatea companiilor şi să afecteze lichiditatea acestora, fără a avea un impact..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "România a ajuns raiul falsurilor. Poate rezolva AI problema fraudelor din artă?",
-      "link": "https://www.economica.net/romania-a-ajuns-raiul-falsurilor-poate-rezolva-ai-problema-fraudelor-din-arta_969961.html",
-      "date": "2026-08-29T06:00:30.000Z",
-      "excerpt": "România este vulnerabilă, deoarece piața de artă are puțini experți, infrastructură este insuficientă pentru autentificare și investigații, iar cadrul legislativ deficitar, în..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Limbajul abstract și efectul său particular de bumerang. Câteva gânduri pe marginea recentei decizii a CCR nr. 883 din 17 august 2026",
-      "link": "https://www.juridice.ro/essentials/12254/limbajul-abstract-si-efectul-sau-particular-de-bumerang-cateva-ganduri-pe-marginea-recentei-decizii-a-ccr-nr-883-din-17-august-2026",
-      "date": "2026-08-28T20:34:47.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Președintele AEP s-a întâlnit cu reprezentanții partidelor",
-      "link": "https://www.juridice.ro/847410/presedintele-aep-s-a-intalnit-cu-reprezentantii-partidelor.html",
-      "date": "2026-08-28T19:03:43.000Z",
-      "excerpt": "Joi 27 august 2026, Adrian Țuțuianu, Președintele Autorității Electorale Permanente (AEP), s-a întâlnit cu reprezentanții partidelor politice parlamentare și ai grupurilor..."
     }
   ]
 }
