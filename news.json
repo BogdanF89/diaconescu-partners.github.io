@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-08-30T20:45:42.187Z",
+  "generatedAt": "2026-08-31T04:34:04.543Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "CCR peninte: informarea debitorului de către organul fiscal – măsurile asigurătorii se pot ridica dacă se constituie o garanție",
+      "link": "https://www.juridice.ro/847872/ccr-peninte-informarea-debitorului-de-catre-organul-fiscal-masurile-asiguratorii-se-pot-ridica-daca-se-constituie-o-garantie.html",
+      "date": "2026-08-30T21:06:16.000Z",
+      "excerpt": "În data de 24.08.2026 s-a constituit un nou dosar (5344D/2026) pe rolul Curţii Constituţionale, urmând a fi analizate dispoziţiile art. 213 alin. (4) din Codul de procedură..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Urmează ZF Health & Pharma, 28-29 septembrie. Sistemul medical din România se bazează pe 500 de spitale publice şi private. Cum pot să beneficieze pacienţii de infrastructura sanitară?",
+      "link": "https://www.zf.ro/companii/urmeaza-zf-health-pharma-28-29-septembrie-sistemul-medical-din-romania-se-bazeaza-pe-500-de-spitale-publice-si-private-cum-pot-sa-beneficieze-pacientii-de-infrastructura-sanitara-23227282",
+      "date": "2026-08-30T21:05:00.000Z",
+      "excerpt": "România are mai bine de 500 de spitale în total, dintre care 370 sunt de stat, iar restul de 180 sunt în proprietate privată, după cum arată datele de la Institutul Naţional de..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Jurnal bursier, 28 august 2026. Evoluţia principalilor indici bursieri şi a tranzacţiilor de la BVB",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/jurnal-bursier-28-august-2026-evolutia-principalilor-indici-bursieri-si-a-tranzactiilor-de-la-bvb-23227218",
+      "date": "2026-08-30T21:04:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -73,30 +97,6 @@
       "link": "https://www.juridice.ro/847410/presedintele-aep-s-a-intalnit-cu-reprezentantii-partidelor.html",
       "date": "2026-08-28T19:03:43.000Z",
       "excerpt": "Joi 27 august 2026, Adrian Țuțuianu, Președintele Autorității Electorale Permanente (AEP), s-a întâlnit cu reprezentanții partidelor politice parlamentare și ai grupurilor..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bolojan nu regretă că s-a întâlnit cu preşedinta CCR la Senat: A fost o întâlnire într-o instituţie publică",
-      "link": "https://www.economica.net/bolojan-nu-regreta-ca-s-a-intalnit-cu-presedinta-ccr-la-senat-a-fost-o-intalnire-intr-o-institutie-publica_972070.html",
-      "date": "2026-08-28T17:03:35.000Z",
-      "excerpt": "Premierul interimar Ilie Bolojan a declarat vineri că nu are de ce să regrete că s-a întâlnit cu preşedinta Curţii Constituţionale, Simina Tănăsescu, la Senat, o instituţie..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Ministerul Energiei cere convocarea unei adunări a acţionarilor Hidroelectrica pentru atragerea răspunderii lui Silviu Răzvan Avram şi recuperarea a circa 160.000 de lei",
-      "link": "https://www.zf.ro/burse-fonduri-mutuale/ministerul-energiei-cere-convocarea-unei-adunari-a-actionarilor-hidroelectrica-pentru-atragerea-raspunderii-lui-silviu-razvan-avram-si-recuperarea-a-circa-160-000-de-lei-23226533",
-      "date": "2026-08-28T15:07:16.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Scandalul Lukoil România. Ce spune ministrul Economiei despre insolvenţa rafinăriei Petrotel",
-      "link": "https://www.economica.net/scandalul-lukoil-romania-ce-spune-ministrul-economiei-despre-insolventa-rafinariei-petrotel_971863.html",
-      "date": "2026-08-28T10:09:09.000Z",
-      "excerpt": "Ministrul interimar al Economiei, Digitalizării, Antreprenoriatului şi Turismului, Irineu Darău, afirmă că insolvenţa Petrotel Lukoil este \"o răscruce\" care, în timp, poate să..."
     }
   ]
 }
