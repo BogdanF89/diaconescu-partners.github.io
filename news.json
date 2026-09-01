@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-01T16:17:59.318Z",
+  "generatedAt": "2026-09-01T20:46:06.627Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a închis pe verde ședința de tranzacționare de marți. Rulajul a depășit 147 de milioane de lei",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-pe-verde-sedinta-de-tranzactionare-de-marti-rulajul-a-depasit-147-de-milioane-de-lei_972936.html",
+      "date": "2026-09-01T19:02:08.000Z",
+      "excerpt": "Bursa de Valori Bucureşti a închis în creştere şedinţa de marţi, iar valoarea totală a tranzacţiilor s-a cifrat la 147,05 milioane de lei (27,97 de milioane de euro), relatează..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Cum intră în toamnă piaţa imobiliară rezidenţială din Bucureşti? Cât sunt preţurile la apartamente, cât sunt chiriile? Câte tranzacţii se fac efectiv? Urmăriţi ZF Live miercuri, 2 septembrie, de la or",
+      "link": "https://www.zf.ro/zf-live/intra-toamna-piata-imobiliara-rezidentiala-bucuresti-cat-preturile-apartamente-cat-chiriile-cate-tranzactii-fac-efectiv-urmariti-zf-live-miercuri-2-septembrie-ora-12-00-madalina-manoila-23229084",
+      "date": "2026-09-01T16:47:14.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -81,22 +97,6 @@
       "link": "https://www.juridice.ro/848068/cjue-c-510-26-ecoserv-trimitere-preliminara-privind-nivelul-accizelor-la-bauturile-alcoolice.html",
       "date": "2026-08-31T12:46:01.000Z",
       "excerpt": "În Jurnalul Oficial al Uniunii Europene, seria C, din 31 august 2026, a fost publicată Cererea de decizie preliminară introdusă de Curtea de Apel Cluj (România) la 22 aprilie 2026..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "O grupare de criminalitate organizată a fost destructurată",
-      "link": "https://www.juridice.ro/848084/o-grupare-de-criminalitate-organizata-a-fost-destructurata.html",
-      "date": "2026-08-31T12:29:03.000Z",
-      "excerpt": "Luni, 31 august 2026, Parchetul de pe lângă Înalta Curte de Casație și Justiție a informat că a destructurat o grupare de criminalitate organizată formată din cetățeni români și..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Procedura de licențiere a serviciilor media audiovizuale",
-      "link": "https://www.juridice.ro/848058/procedura-de-licentiere-a-serviciilor-media-audiovizuale.html",
-      "date": "2026-08-31T11:44:57.000Z",
-      "excerpt": "În Monitorul Oficial, Partea I nr. 718 din 28 august 2026 a fost publicată Decizia nr. 116/2026 privind procedura de licențiere, de autorizare și de notificare a serviciilor media..."
     }
   ]
 }
