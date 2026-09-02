@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-02T16:13:46.531Z",
+  "generatedAt": "2026-09-02T20:45:17.168Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Energia din cărbune românesc și-a găsit cumpărători pentru la iarnă. CE Oltenia a vândut tot ce a scos pe piață, la prețuri aproape de pragul de 900 lei/MWh",
+      "link": "https://www.economica.net/energia-din-carbune-romanesc-si-a-gasit-cumparatori-pentru-la-iarna-ce-oltenia-a-vandut-tot-ce-a-scos-pe-piata-la-preturi-aproape-de-pragul-de-900-lei-mwh_973208.html",
+      "date": "2026-09-02T20:15:30.000Z",
+      "excerpt": "Complexul Energetic Oltenia, singurul prodicător semnificativ de energie electrică pe bază de cărbune, a reușit să vândă energie cu livrare în primele trei luni ale anului viitor...."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Este o furtună globală pe piaţa obligaţiunilor suverane şi aceasta loveşte cele mai îndatorate economii mari ale lumii. Ce se întâmplă acum pe piaţa datoriilor este urmărit cu mare atenţie de analişti",
+      "link": "https://www.zf.ro/business-international/furtuna-globala-piata-obligatiunilor-suverane-aceasta-loveste-cele-indatorate-economii-mari-lumii-intampla-acum-piata-datoriilor-urmarit-mare-atentie-analisti-investitori-unii-isi-pun-intrebarea-23229994",
+      "date": "2026-09-02T19:57:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.juridice.ro/848454/masuri-preventive-pentru-organizatorii-ceremoniei-spirituale-amazon-weekend.html",
       "date": "2026-09-01T10:44:37.000Z",
       "excerpt": "Sâmbătă, 29 august 2026, procurorii Direcției de Investigare a Infracțiunilor de Criminalitate Organizată și Terorism – Biroul Teritorial Hunedoara au dispus reținerea a trei..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Curs de pregătire pentru examenul de acces în profesia de practician în insolvență",
-      "link": "https://www.juridice.ro/848452/curs-de-pregatire-pentru-examenul-de-acces-in-profesia-de-practician-in-insolventa.html",
-      "date": "2026-09-01T10:16:43.000Z",
-      "excerpt": "Marți, 1 septembrie 2026, Uniunea Națională a Practicienilor în Insolvență din România (UNPIR) a informat că organizează, în perioada 28 septembrie – 9 octombrie 2026, un program..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Avizul Consiliului Legislativ nr. 778/2026 favorabil ref. prelungirea măsurilor de siguranță pe piața energiei electrice",
-      "link": "https://www.juridice.ro/848427/avizul-consiliului-legislativ-nr-778-2026-favorabil-ref-prelungirea-masurilor-de-siguranta-pe-piata-energiei-electrice.html",
-      "date": "2026-09-01T10:02:47.000Z",
-      "excerpt": "Vineri, 28 august 2026, Consiliul Legislativ a emis Avizul nr. 778. „Analizând proiectul de hotărâre pentru prelungirea perioadei de aplicare a măsurilor de siguranță prevăzute în..."
     }
   ]
 }
