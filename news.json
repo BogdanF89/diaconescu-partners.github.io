@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-01T20:46:06.627Z",
+  "generatedAt": "2026-09-02T03:38:48.825Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "HoReCa a pierdut 25.000 de angajaţi într-un an, 10% din total. Federaţia Patronatelor din Industria Ospitalităţii propune zece măsuri de salvare",
+      "link": "https://www.zf.ro/companii/horeca-a-pierdut-25-000-de-angajati-intr-un-an-10-din-total-federatia-patronatelor-din-industria-ospitalitatii-propune-zece-masuri-de-salvare-23229179",
+      "date": "2026-09-01T21:07:00.000Z",
+      "excerpt": "Măsurile fiscale din ultima perioadă, dar şi scăderea puterii de cumpărare a oamenilor au dus la ieşirea a 25.000 de angajaţi din industria HoReCa, potrivit datelor Federaţiei..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.juridice.ro/848088/un-pompier-militar-a-ucis-o-tanara-si-apoi-s-a-sinucis.html",
       "date": "2026-08-31T13:02:43.000Z",
       "excerpt": "Luni, 31 august 2026, Parchetul Militar de pe lângă Tribunalul Militar Iaşi a dispus începerea urmăririi penale sub aspectul săvârşirii infracţiunii de omor calificat, potrivit..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "CJUE. C-510/26 | Ecoserv. Trimitere preliminară privind nivelul accizelor la băuturile alcoolice",
-      "link": "https://www.juridice.ro/848068/cjue-c-510-26-ecoserv-trimitere-preliminara-privind-nivelul-accizelor-la-bauturile-alcoolice.html",
-      "date": "2026-08-31T12:46:01.000Z",
-      "excerpt": "În Jurnalul Oficial al Uniunii Europene, seria C, din 31 august 2026, a fost publicată Cererea de decizie preliminară introdusă de Curtea de Apel Cluj (România) la 22 aprilie 2026..."
     }
   ]
 }
