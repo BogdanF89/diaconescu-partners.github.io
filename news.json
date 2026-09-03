@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-03T03:38:19.913Z",
+  "generatedAt": "2026-09-03T10:53:39.104Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Diana Răducanu, ​EY România: Riscurile de fraudă pot afecta o tranzacţie",
+      "link": "https://www.zf.ro/opinii/diana-raducanu-ey-romania-riscurile-de-frauda-pot-afecta-o-tranzactie-23230582",
+      "date": "2026-09-03T09:41:49.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-pe-verde-sedinta-de-tranzactionare-de-marti-rulajul-a-depasit-147-de-milioane-de-lei_972936.html",
       "date": "2026-09-01T19:02:08.000Z",
       "excerpt": "Bursa de Valori Bucureşti a închis în creştere şedinţa de marţi, iar valoarea totală a tranzacţiilor s-a cifrat la 147,05 milioane de lei (27,97 de milioane de euro), relatează..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Cum intră în toamnă piaţa imobiliară rezidenţială din Bucureşti? Cât sunt preţurile la apartamente, cât sunt chiriile? Câte tranzacţii se fac efectiv? Urmăriţi ZF Live miercuri, 2 septembrie, de la or",
-      "link": "https://www.zf.ro/zf-live/intra-toamna-piata-imobiliara-rezidentiala-bucuresti-cat-preturile-apartamente-cat-chiriile-cate-tranzactii-fac-efectiv-urmariti-zf-live-miercuri-2-septembrie-ora-12-00-madalina-manoila-23229084",
-      "date": "2026-09-01T16:47:14.000Z",
-      "excerpt": ""
     }
   ]
 }
