@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-03T10:53:39.104Z",
+  "generatedAt": "2026-09-03T16:03:30.992Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Tranzacție nouă pe piața asigurărilor. Britanicii de la PIB Group fac a doua achiziție în România",
+      "link": "https://www.economica.net/tranzactie-noua-pe-piata-asigurarilor-britanicii-de-la-pib-group-fac-a-doua-achizitie-in-romania_973569.html",
+      "date": "2026-09-03T15:44:04.000Z",
+      "excerpt": "PIB Group Ltd, unul dintre principalii intermediari independenți de asigurări specializate din Europa, a anunțat astăzi finalizarea achiziției SC CND International Insurance..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "ANAF propune schimbarea regulilor pentru răspunderea în solidar. Sunt introduse proceduri prin care analiza datoriilor se va face de la caz la caz",
+      "link": "https://www.economica.net/anaf-propune-schimbarea-regulilor-pentru-raspunderea-in-solidar-sunt-introduse-proceduri-prin-care-analiza-datoriilor-se-va-face-de-la-caz-la-caz_973559.html",
+      "date": "2026-09-03T15:06:11.000Z",
+      "excerpt": "Agenţia Naţională de Administrare Fiscală (ANAF) propune reguli mai clare pentru situaţiile în care o persoană poate fi obligată să răspundă, alături de un debitor, pentru datorii..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-mihai-marcu-ceo-al-medlife-nu-excludem-o-majorare-de-capital-prin-bursa-in-urmatoarele-luni-sau-intr-un-an-dar-nu-este-o-promisiune-nu-am-discutat-cu-boardul-si-nici-eu-nu-sunt-decis-23229073",
       "date": "2026-09-02T08:00:00.000Z",
       "excerpt": "MedLife (M) ia în calcul o majorare de capital pe bursă printre variantele de finanţare a investiţiilor viitoare şi de gestionare a datoriei în valută, însă conducerea gru­pu­lui..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "HoReCa a pierdut 25.000 de angajaţi într-un an, 10% din total. Federaţia Patronatelor din Industria Ospitalităţii propune zece măsuri de salvare",
-      "link": "https://www.zf.ro/companii/horeca-a-pierdut-25-000-de-angajati-intr-un-an-10-din-total-federatia-patronatelor-din-industria-ospitalitatii-propune-zece-masuri-de-salvare-23229179",
-      "date": "2026-09-01T21:07:00.000Z",
-      "excerpt": "Măsurile fiscale din ultima perioadă, dar şi scăderea puterii de cumpărare a oamenilor au dus la ieşirea a 25.000 de angajaţi din industria HoReCa, potrivit datelor Federaţiei..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis pe verde ședința de tranzacționare de marți. Rulajul a depășit 147 de milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-pe-verde-sedinta-de-tranzactionare-de-marti-rulajul-a-depasit-147-de-milioane-de-lei_972936.html",
-      "date": "2026-09-01T19:02:08.000Z",
-      "excerpt": "Bursa de Valori Bucureşti a închis în creştere şedinţa de marţi, iar valoarea totală a tranzacţiilor s-a cifrat la 147,05 milioane de lei (27,97 de milioane de euro), relatează..."
     }
   ]
 }
