@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-04T10:53:38.048Z",
+  "generatedAt": "2026-09-04T15:59:40.729Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Acţiunile UiPath au scăzut cu circa 15% la deschiderea şedinţei de vineri, investitorii fiind nemulţumiţi de ritmul încetinit al ARR-ului, după un entuziasm de scurtă durată în tranzacţiile de după în",
+      "link": "https://www.zf.ro/business-international/actiunile-uipath-au-scazut-circa-15-deschiderea-sedintei-vineri-investitorii-fiind-nemultumiti-ritmul-incetinit-arr-ului-dupa-entuziasm-scurta-durata-tranzactiile-dupa-inchidere-23231480",
+      "date": "2026-09-04T14:29:51.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Un val de scăderi a cuprins dintr-odată toată Bursa de la Bucureşti: De la plus 0,5% pe BET în deschidere, indicele a trecut pe minus 1,5% la prânz. Tranzacţii mici, dar dispersie bună. Minus 4% la Tr",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/val-scaderi-cuprins-dintr-odata-toata-bursa-bucuresti-plus-0-5-bet-deschidere-indicele-trecut-minus-1-5-pranz-tranzactii-mici-dispersie-buna-minus-4-transgaz-2-sphera-23231400",
+      "date": "2026-09-04T11:36:04.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/opinii/diana-raducanu-ey-romania-riscurile-de-frauda-pot-afecta-o-tranzactie-23230582",
       "date": "2026-09-03T09:41:49.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Peste 12.000 de elevi care intră în clasa a IX-a la liceele tehnologice duale riscă să rămână fără bursa tehnologică din cauza unei necorelări legislative",
-      "link": "https://www.zf.ro/profesii/peste-12-000-de-elevi-care-intra-in-clasa-a-ix-a-la-liceele-tehnologice-duale-risca-sa-ramana-fara-bursa-tehnologica-din-cauza-unei-necorelari-legislative-23230040",
-      "date": "2026-09-02T21:04:00.000Z",
-      "excerpt": "Elevii care intră în anul şcolar 2026-2027 în clasa a IX-a la liceele tehnologice duale vor pierde dreptul la bursa tehnologică, ca urmare a unei modificări a structurii..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Energia din cărbune românesc și-a găsit cumpărători pentru la iarnă. CE Oltenia a vândut tot ce a scos pe piață, la prețuri aproape de pragul de 900 lei/MWh",
-      "link": "https://www.economica.net/energia-din-carbune-romanesc-si-a-gasit-cumparatori-pentru-la-iarna-ce-oltenia-a-vandut-tot-ce-a-scos-pe-piata-la-preturi-aproape-de-pragul-de-900-lei-mwh_973208.html",
-      "date": "2026-09-02T20:15:30.000Z",
-      "excerpt": "Complexul Energetic Oltenia, singurul prodicător semnificativ de energie electrică pe bază de cărbune, a reușit să vândă energie cu livrare în primele trei luni ale anului viitor...."
     }
   ]
 }
