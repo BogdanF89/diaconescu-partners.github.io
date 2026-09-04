@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-04T03:38:42.613Z",
+  "generatedAt": "2026-09-04T10:53:38.048Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Tranzacție gigant analizată în România. O mare companie din Italia, veche de peste 145 de ani, cumpără un rival",
+      "link": "https://www.economica.net/tranzactie-gigant-analizata-in-romania-o-mare-companie-din-italia-veche-de-peste-100-de-ani-cumpara-un-rival_973794.html",
+      "date": "2026-09-04T09:49:33.000Z",
+      "excerpt": "Officine Maccaferri, furnizor de produse și soluții de inginerie de mediu, pe piața construcțiilor civile, geotehnice și de mediu cumpără Iterchimica, ambele cu afaceri în..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Tranzacţie gigant în AI: Nvidia, evaluată la 5.500 mld. dolari, cumpără platforma de modele AI Hugging Face. Ce face compania pe care Nvidia a dat 13 mld. dolari, înfiintata de 3 francezi la New York ",
+      "link": "https://www.zf.ro/eveniment/tranzactie-gigant-nvidia-evaluata-5-500-mld-dolari-cumpara-platforma-modele-hugging-face-face-compania-nvidia-dat-13-mld-dolari-infiintata-3-francezi-new-york-acum-12-ani-23231238",
+      "date": "2026-09-04T06:33:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/energia-din-carbune-romanesc-si-a-gasit-cumparatori-pentru-la-iarna-ce-oltenia-a-vandut-tot-ce-a-scos-pe-piata-la-preturi-aproape-de-pragul-de-900-lei-mwh_973208.html",
       "date": "2026-09-02T20:15:30.000Z",
       "excerpt": "Complexul Energetic Oltenia, singurul prodicător semnificativ de energie electrică pe bază de cărbune, a reușit să vândă energie cu livrare în primele trei luni ale anului viitor...."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Este o furtună globală pe piaţa obligaţiunilor suverane şi aceasta loveşte cele mai îndatorate economii mari ale lumii. Ce se întâmplă acum pe piaţa datoriilor este urmărit cu mare atenţie de analişti",
-      "link": "https://www.zf.ro/business-international/furtuna-globala-piata-obligatiunilor-suverane-aceasta-loveste-cele-indatorate-economii-mari-lumii-intampla-acum-piata-datoriilor-urmarit-mare-atentie-analisti-investitori-unii-isi-pun-intrebarea-23229994",
-      "date": "2026-09-02T19:57:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Bursa încheie cu plus 0,8% miercuri, după un avans de 2,6% la mijlocul şedinţei: Transelectrica, Aquila şi MedLife, cele mai mari creşteri. Tranzacţie cu acţiuni Longshield de 31 mil. lei",
-      "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-incheie-cu-plus-0-8-miercuri-dupa-un-avans-de-2-6-la-mijlocul-sedintei-transelectrica-aquila-si-medlife-cele-mai-mari-cresteri-tranzactie-cu-actiuni-longshield-de-31-mil-lei-23229931",
-      "date": "2026-09-02T15:14:36.000Z",
-      "excerpt": ""
     }
   ]
 }
