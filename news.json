@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-05T10:13:08.973Z",
+  "generatedAt": "2026-09-05T14:50:27.166Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Probleme pentru gigantul din consultanţă McKinsey: Autorităţile belgiene au confiscat 65 de milioane de euro în cadrul unei anchete franceze privind suspiciuni de fraudă fiscală agravată şi spălare de",
+      "link": "https://www.zf.ro/eveniment/probleme-gigantul-consultanta-mckinsey-autoritatile-belgiene-au-confiscat-65-milioane-euro-cadrul-unei-anchete-franceze-privind-suspiciuni-frauda-fiscala-agravata-spalare-bani-23232001",
+      "date": "2026-09-05T13:32:28.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-crestere-sedinta-de-tranzactionare-de-joi-rulajul-a-trecut-de-307-milioane-de-lei_973590.html",
       "date": "2026-09-03T17:05:06.000Z",
       "excerpt": "Bursa de Valori Bucureşti a închis în creştere pe toţi indicii şedinţa de joi, iar valoarea totală a tranzacţiilor s-a cifrat la 307,52 de milioane de lei (58,53 de milioane de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Tranzacție nouă pe piața asigurărilor. Britanicii de la PIB Group fac a doua achiziție în România",
-      "link": "https://www.economica.net/tranzactie-noua-pe-piata-asigurarilor-britanicii-de-la-pib-group-fac-a-doua-achizitie-in-romania_973569.html",
-      "date": "2026-09-03T15:44:04.000Z",
-      "excerpt": "PIB Group Ltd, unul dintre principalii intermediari independenți de asigurări specializate din Europa, a anunțat astăzi finalizarea achiziției SC CND International Insurance..."
     }
   ]
 }
