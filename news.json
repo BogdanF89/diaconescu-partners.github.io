@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-04T20:29:54.374Z",
+  "generatedAt": "2026-09-05T03:38:50.703Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Câţi angajaţi mai sunt în băncile din România şi câte sucursale. Ce viteză are restructurarea în banking după tranzacţiile de M&A? Aproape 3.800 de ban­cheri au ieşit din sistem în ultimul an, iar num",
+      "link": "https://www.zf.ro/banci-si-asigurari/cati-angajati-bancile-romania-cate-sucursale-viteza-restructurarea-banking-dupa-tranzactiile-m-aproape-3-800-ban-cheri-au-iesit-sistem-ultimul-an-iar-numarul-sucursale-agentii-bancare-scazut-117-23230895",
+      "date": "2026-09-04T21:07:00.000Z",
+      "excerpt": "Un număr de 3.791 de ban­cheri au plecat din sistemul bancar românesc în ultimul an, iar numărul de sucursale şi agenţii bancare a scăzut cu 117 comparativ cu situaţia de la..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/tranzactie-noua-pe-piata-asigurarilor-britanicii-de-la-pib-group-fac-a-doua-achizitie-in-romania_973569.html",
       "date": "2026-09-03T15:44:04.000Z",
       "excerpt": "PIB Group Ltd, unul dintre principalii intermediari independenți de asigurări specializate din Europa, a anunțat astăzi finalizarea achiziției SC CND International Insurance..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "ANAF propune schimbarea regulilor pentru răspunderea în solidar. Sunt introduse proceduri prin care analiza datoriilor se va face de la caz la caz",
-      "link": "https://www.economica.net/anaf-propune-schimbarea-regulilor-pentru-raspunderea-in-solidar-sunt-introduse-proceduri-prin-care-analiza-datoriilor-se-va-face-de-la-caz-la-caz_973559.html",
-      "date": "2026-09-03T15:06:11.000Z",
-      "excerpt": "Agenţia Naţională de Administrare Fiscală (ANAF) propune reguli mai clare pentru situaţiile în care o persoană poate fi obligată să răspundă, alături de un debitor, pentru datorii..."
     }
   ]
 }
