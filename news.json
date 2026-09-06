@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-06T03:40:50.489Z",
+  "generatedAt": "2026-09-06T10:33:49.880Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Din cauza problemelor din Marea Neagră, cumpărătorii asiatici se reorientează spre grâul australian şi argentinian",
+      "link": "https://www.economica.net/din-cauza-problemelor-din-marea-neagra-cumparatorii-asiatici-se-reorienteaza-spre-graul-australian-si-argentinian_974140.html",
+      "date": "2026-09-06T10:01:33.000Z",
+      "excerpt": "Importatorii asiatici de grâu au cumpărat cel puţin o jumătate de milion de tone de grâu din Australia şi Argentina cu prilejul unor tranzacţii încheiate recent, în contextul în..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la Bucureşti a pierdut săptămâna trecută 4,74 miliarde de lei la capitalizare",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-pierdut-saptamana-trecuta-474-miliarde-de-lei-la-capitalizare_974133.html",
+      "date": "2026-09-06T08:58:31.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, peste 4,74 miliarde de lei la capitalizare (-0,66%), în timp ce valoarea tranzacţiilor cu acţiuni a crescut cu..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/business-hi-tech/vodafonethree-cel-mare-operator-mobil-marea-britanie-lansat-servicii-scumpe-viteze-garantate-mari-livrate-celor-platesc-3-lire-plus-luna-printr-felie-dedicata-reteaua-5g-primesc-viteza-promisa-23230978",
       "date": "2026-09-03T19:42:03.000Z",
       "excerpt": "VodafoneThree, cel mai mare operator mobil din Marea Britanie, a lansat un abonament care garantează contractual o viteză minimă de descărcare pe reţeaua mobilă, iar dacă nu o..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Administrația Trump vrea să retragă scutirile fiscale acordate școlilor și universităților private care favorizează anumite rase",
-      "link": "https://www.economica.net/administratia-trump-vrea-sa-retraga-scutirile-fiscale-acordate-scolilor-si-universitatilor-private-care-favorizeaza-anumite-rase_973592.html",
-      "date": "2026-09-03T17:31:09.000Z",
-      "excerpt": "Guvernul american a anunțat joi că vrea să le ceară impozite şcolilor şi universităţilor private care aplică criterii care favorizează anumite \"rase\", în general în numele..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în creștere ședința de tranzacționare de joi. Rulajul a trecut de 307 milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-crestere-sedinta-de-tranzactionare-de-joi-rulajul-a-trecut-de-307-milioane-de-lei_973590.html",
-      "date": "2026-09-03T17:05:06.000Z",
-      "excerpt": "Bursa de Valori Bucureşti a închis în creştere pe toţi indicii şedinţa de joi, iar valoarea totală a tranzacţiilor s-a cifrat la 307,52 de milioane de lei (58,53 de milioane de..."
     }
   ]
 }
