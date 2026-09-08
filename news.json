@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-08T16:17:19.345Z",
+  "generatedAt": "2026-09-08T20:53:09.988Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Preşedintele sârb Aleksandăr Vucici anunţă, în urma unei contestări, alegeri legislative anticipate la 25 octombrie",
+      "link": "https://www.economica.net/presedintele-sarb-aleksandar-vucici-anunta-in-urma-unei-contestari-alegeri-legislative-anticipate-la-25-octombrie_975003.html",
+      "date": "2026-09-08T19:51:13.000Z",
+      "excerpt": "Alegeri legislative anticipate, cerute de mult timp de o contestare studenţească, urmează să aibă loc în Serbia la 25 octombrie, a anunţat marţi seara preşedintele sârb Aleksandăr..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Curentul electric continuă să se scumpească: prețul din piața la termen a sărit și pragul de 900 de lei/MWh pentru la iarnă. Este energie făcută din cărbune în Oltenia",
+      "link": "https://www.economica.net/curentul-electric-continua-sa-se-scumpeasca-pretul-din-piata-la-termen-a-sarit-si-pragul-de-900-de-lei-mwh-pentru-la-iarna-este-energie-facuta-din-carbune-in-oltenia_974933.html",
+      "date": "2026-09-08T19:32:32.000Z",
+      "excerpt": "Prețul de tranzacționare a energiei electrice cu livrare în perioada rece a depășit și pragul de 900 de lei/MWh, potrivit datelor publicate pe platforma OPCOM, asta după ce..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Semne proaste pentru economie. Statul se împrumută iar la peste 7%, semn că investitorii fug. Plătim deja dobânzi de junk și așteptăm decizia crucială din 2 octombrie",
+      "link": "https://www.economica.net/semne-proaste-pentru-economie-statul-se-imprumuta-iar-la-peste-7-semn-ca-investitorii-fug-platim-deja-dobanzi-de-junk-si-asteptam-decizia-cruciala-din-2-octombrie_974951.html",
+      "date": "2026-09-08T19:31:20.000Z",
+      "excerpt": "Statul se împrumută din ce în ce mai scump, chiar dacă nu a intrat în categoria junk. Începând cu data de 3 septembrie, când yieldurile la titlurile de stat ale României au atins..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -73,30 +97,6 @@
       "link": "https://www.zf.ro/zf-24/daniel-daianu-consiliul-fiscal-rectificarea-bugetara-constructia-bugetului-2027-reclama-formarea-unui-guvern-puteri-depline-continuata-consolidarea-bugetara-incercam-ajungem-deficitul-jur-5-5-pib-23232965",
       "date": "2026-09-07T09:28:38.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Costul datoriei explodează în toată Europa: Cele mai mari economii europene sunt puse la încercare de investitori, care cer dobânzi mai mari pentru banii lor, îngrijoraţi de criza energiei şi transfor",
-      "link": "https://www.zf.ro/business-international/costul-datoriei-explodeaza-toata-europa-cele-mari-economii-europene-puse-incercare-investitori-cer-dobanzi-mari-banii-ingrijorati-criza-energiei-transformarile-politice-23232922",
-      "date": "2026-09-07T08:04:25.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "ZF Deschiderea de astăzi la Bursă. Cristian Pandel, CEO al Christian Tour: „Noi, care suntem lideri de piaţă şi cu capital românesc, vrem să nu pierdem acest tren“ al achiziţiilor. Compania negociază ",
-      "link": "https://www.zf.ro/zf-deschiderea-de-astazi/zf-deschiderea-astazi-bursa-cristian-pandel-ceo-christian-tour-lideri-piata-capital-romanesc-vrem-pierdem-acest-tren-achizitiilor-compania-negociaza-trei-preluari-romania-dupa-polonezii-au-cumparat-23230834",
-      "date": "2026-09-06T21:05:00.000Z",
-      "excerpt": "Christian Tour (TRIP), primul turoperator român listat la Bursa de Valori Bucureşti, negociază trei achiziţii de companii din România şi vrea să încheie prima tranzacţie până la..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Fără un guvern nu putem vorbi despre cum se va reduce deficitul bugetar în 2027. Reducerea cheltuielilor, posibil combinată cu introducerea impozitului progresiv, eventuale soluții – analiști",
-      "link": "https://www.economica.net/fara-guvern-nu-putem-vorbi-de-cum-se-va-reduce-deficitul-bugetar-in-2027-reducerea-cheltuielilor-posibil-combinata-cu-introducerea-impozitului-progresiv-evnetuale-solutii-analisti_974136.html",
-      "date": "2026-09-06T18:32:54.000Z",
-      "excerpt": "Lipsa unei coaliții de guvernare ridică semne de întrebare asupra viitorului. Fără Guvern, nu se poate anticipa nici cu ce deficit bugetar vom finaliza anul 2026. Pentru 2027,..."
     }
   ]
 }
