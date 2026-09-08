@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-08T10:53:18.324Z",
+  "generatedAt": "2026-09-08T16:17:19.345Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Consiliul Concurenţei dă undă verde tranzacţiei prin care Cristian Erbaşu, unul dintre acţionarii grupului de construcţii Erbaşu, şi Vlad-Francisc Iman vor să preia Vici Evolution, furnizor de echipam",
+      "link": "https://www.zf.ro/zf-24/consiliul-concurentei-da-unda-verde-tranzactiei-cristian-erbasu-unul-dintre-actionarii-grupului-constructii-erbasu-vlad-francisc-iman-vor-preia-vici-evolution-furnizor-echipamente-medicale-solutii-23233941",
+      "date": "2026-09-08T12:56:00.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "STB intră în insolvenţă, cu datorii de peste 1,5 mld. lei. Tribunalul Bucureşti a admis cererea companiei",
+      "link": "https://www.zf.ro/companii/stb-intra-in-insolventa-cu-datorii-de-peste-1-5-mld-lei-tribunalul-bucuresti-a-admis-cererea-companiei-23233904",
+      "date": "2026-09-08T11:52:59.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/fara-guvern-nu-putem-vorbi-de-cum-se-va-reduce-deficitul-bugetar-in-2027-reducerea-cheltuielilor-posibil-combinata-cu-introducerea-impozitului-progresiv-evnetuale-solutii-analisti_974136.html",
       "date": "2026-09-06T18:32:54.000Z",
       "excerpt": "Lipsa unei coaliții de guvernare ridică semne de întrebare asupra viitorului. Fără Guvern, nu se poate anticipa nici cu ce deficit bugetar vom finaliza anul 2026. Pentru 2027,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Din cauza problemelor din Marea Neagră, cumpărătorii asiatici se reorientează spre grâul australian şi argentinian",
-      "link": "https://www.economica.net/din-cauza-problemelor-din-marea-neagra-cumparatorii-asiatici-se-reorienteaza-spre-graul-australian-si-argentinian_974140.html",
-      "date": "2026-09-06T10:01:33.000Z",
-      "excerpt": "Importatorii asiatici de grâu au cumpărat cel puţin o jumătate de milion de tone de grâu din Australia şi Argentina cu prilejul unor tranzacţii încheiate recent, în contextul în..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la Bucureşti a pierdut săptămâna trecută 4,74 miliarde de lei la capitalizare",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-pierdut-saptamana-trecuta-474-miliarde-de-lei-la-capitalizare_974133.html",
-      "date": "2026-09-06T08:58:31.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, peste 4,74 miliarde de lei la capitalizare (-0,66%), în timp ce valoarea tranzacţiilor cu acţiuni a crescut cu..."
     }
   ]
 }
