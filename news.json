@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-08T20:53:09.988Z",
+  "generatedAt": "2026-09-09T03:49:52.872Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "STB intră în insolvenţă, cu datorii de peste 1,5 mld. lei. Euro Insol, administrator judiciar: „Vom reorganiza compania cu peste 9.000 de angajaţi“",
+      "link": "https://www.zf.ro/companii/stb-intra-in-insolventa-cu-datorii-de-peste-1-5-mld-lei-euro-insol-administrator-judiciar-vom-reorganiza-compania-cu-peste-9-000-de-angajati-23234095",
+      "date": "2026-09-08T21:06:00.000Z",
+      "excerpt": "Societatea de Transport Bucureşti (STB) SA, compania care asigură transportul public de suprafaţă din Bucureşti, cu afaceri de 1,8 mld. lei şi 9.700 de angajaţi anul trecut, va..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/daianu-legea-salarizarii-a-consemnat-un-impas-pierderea-a-770-milioane-de-euro-nu-poate-cauza-in-sine-un-derapaj_974340.html",
       "date": "2026-09-07T10:52:38.000Z",
       "excerpt": "Legea salarizării a tensionat dialogul politic şi a consemnat un impas, iar pierderea de 770 milioane euro este un cost pentru buget, dar nu poate cauza în sine un derapaj, este..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Daniel Dăianu, Consiliul Fiscal: Rectificarea bugetară şi construcţia bugetului pentru 2027 reclamă formarea unui guvern cu puteri depline. Trebuie continuată consolidarea bugetară, să încercăm să aju",
-      "link": "https://www.zf.ro/zf-24/daniel-daianu-consiliul-fiscal-rectificarea-bugetara-constructia-bugetului-2027-reclama-formarea-unui-guvern-puteri-depline-continuata-consolidarea-bugetara-incercam-ajungem-deficitul-jur-5-5-pib-23232965",
-      "date": "2026-09-07T09:28:38.000Z",
-      "excerpt": ""
     }
   ]
 }
