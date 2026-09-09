@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-09T03:49:52.872Z",
+  "generatedAt": "2026-09-09T10:57:58.341Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ZF Live. Laurian Lungu, cofondator, Consilium Policy Advisors Group: Majorarea TVA a fost singura măsură fiscală majoră de creştere a taxelor care a generat venituri în plus la buget ca raport în PIB",
+      "link": "https://www.zf.ro/zf-live/zf-live-laurian-lungu-cofondator-consilium-policy-advisors-group-majorarea-tva-a-fost-singura-masura-fiscala-majora-de-crestere-a-taxelor-care-a-generat-venituri-in-plus-la-buget-ca-raport-in-pib-23233906",
+      "date": "2026-09-09T10:00:00.000Z",
+      "excerpt": "La un an după intrarea în vigoare a pachetului fiscal, analiza veniturilor bugetare arată că majorarea TVA a fost singura măsură care a adus încasări suplimentare la buget ca..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-crestere-sedinta-de-tranzactionare-de-luni-rulajul-a-depasit-808-milioane-de-lei_974541.html",
       "date": "2026-09-07T17:59:42.000Z",
       "excerpt": "Bursa de Valori Bucureşti a închis în creştere pe majoritatea indicilor şedinţa de luni, iar valoarea totală a tranzacţiilor s-a cifrat la 80,84 de milioane de lei (15,4 milioane..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Dăianu: Legea salarizării a consemnat un impas. Pierderea a 770 milioane de euro nu poate cauza în sine un derapaj",
-      "link": "https://www.economica.net/daianu-legea-salarizarii-a-consemnat-un-impas-pierderea-a-770-milioane-de-euro-nu-poate-cauza-in-sine-un-derapaj_974340.html",
-      "date": "2026-09-07T10:52:38.000Z",
-      "excerpt": "Legea salarizării a tensionat dialogul politic şi a consemnat un impas, iar pierderea de 770 milioane euro este un cost pentru buget, dar nu poate cauza în sine un derapaj, este..."
     }
   ]
 }
