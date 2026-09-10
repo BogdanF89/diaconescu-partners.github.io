@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-10T03:48:30.762Z",
+  "generatedAt": "2026-09-10T10:55:06.579Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Preşedintele Nicuşor Dan a promulgat legea care permite modificarea ariilor protejate pentru proiecte hidroenergetice aprobate sau începute înainte de 2007",
+      "link": "https://www.zf.ro/zf-24/presedintele-nicusor-dan-a-promulgat-legea-care-permite-modificarea-ariilor-protejate-pentru-proiecte-hidroenergetice-aprobate-sau-incepute-inainte-de-2007-23235359",
+      "date": "2026-09-10T09:43:45.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Gazele ating prețuri șocante în România, aproape de 400 de lei/MWh. Ce ne așteaptă la iarnă",
+      "link": "https://www.economica.net/gazele-ating-preturi-socante-in-romania-aproape-de-400-de-lei-mwh-ce-ne-asteapta-la-iarna_975459.html",
+      "date": "2026-09-10T09:02:06.000Z",
+      "excerpt": "Prima tranzacție cu gaze naturale din piața la termen de la Bursa Română de Mărfuri din luna septembrie s-a făcut la cel mai mare preț din ultimii trei ani și nouă luni, potrivit..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Tranzacţie surprinzătoare pe piaţa de tehnologie din România: Grupul polonez de software Symfonia a cumpărat Setrio Soft, companie deţinută majoritar de familia Banciu, care controlează grupul farmace",
+      "link": "https://www.zf.ro/business-hi-tech/tranzactie-surprinzatoare-piata-tehnologie-romania-grupul-polonez-software-symfonia-cumparat-setrio-soft-companie-detinuta-majoritar-familia-banciu-controleaza-grupul-farmaceutic-dona-setrio-avut-23235337",
+      "date": "2026-09-10T08:45:00.000Z",
+      "excerpt": "Symfonia Group, companie poloneză de software pentru administrarea afacerilor, cu o istorie de peste 30 de ani şi sediul central la Varşovia, a cumpărat compania românească..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -73,30 +97,6 @@
       "link": "https://www.economica.net/premierul-care-intelege-ca-jobul-lui-e-sa-uneasca-aceasta-dezbinata-natie-prin-legi-modificate-lucid-puternic-ancorat-in-realitate-e-singurul-care-va-obtine-dezvoltarea-acestei-tari-prin-masuri-dure_974556.html",
       "date": "2026-09-08T00:51:31.000Z",
       "excerpt": "Premierul care va înţelege că viitorul acestei naţii înseamnă măsuri dure, nepopulare şi care caută onest, asiduu să obţină acceptabilitate socială, explicându-i naţiei neobosit,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Pământul României s-a ieftinit masiv. Prețul terenului agricol compact, de mari dimensiuni, a scăzut de 2,4 ori anul acesta, în medie. Cine a făcut tranzacțiile",
-      "link": "https://www.economica.net/terenul-agricol-compact-de-mari-dimensiuni-s-a-ieftinit-in-medie-de-23-ori-anul-acesta-fata-de-2025-pe-o-piata-usor-mai-efervescenta-ca-anul-trecut_973460.html",
-      "date": "2026-09-07T19:29:48.000Z",
-      "excerpt": "În prima jumătate a acestui an, au avut loc 10 tranzacții cu terenuri agricole mai mari de 30 de hectare, cu două mai multe decât în perioada similară a anului trecut. S-au..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "ANAF reface calculele pentru firmele din România. Poți plăti impozit suplimentar, chiar dacă nu ai depus deja declarațiile. Cum procedează inspectorii",
-      "link": "https://www.economica.net/anaf-reface-calculele-pentru-firmele-din-romania-poti-plati-impozit-suplimentar-chiar-daca-nu-ai-depus-deja-declaratiile-cum-procedeaza-inspectorii_974415.html",
-      "date": "2026-09-07T19:29:32.000Z",
-      "excerpt": "Inspectorii ANAF au început recent să colecteze date pe fiecare industrie și să le coreleze cu datele financiare ale firmelor de profil pe zone georgrafice pentru a determina..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în creștere ședința de tranzacționare de luni. Rulajul a depășit 80,8 milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-crestere-sedinta-de-tranzactionare-de-luni-rulajul-a-depasit-808-milioane-de-lei_974541.html",
-      "date": "2026-09-07T17:59:42.000Z",
-      "excerpt": "Bursa de Valori Bucureşti a închis în creştere pe majoritatea indicilor şedinţa de luni, iar valoarea totală a tranzacţiilor s-a cifrat la 80,84 de milioane de lei (15,4 milioane..."
     }
   ]
 }
