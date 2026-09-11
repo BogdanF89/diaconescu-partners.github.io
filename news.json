@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-11T16:07:30.216Z",
+  "generatedAt": "2026-09-11T20:41:30.887Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de vineri. Rulajul s-a apropiat de 155 de milioane de lei",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-vineri-rulajul-s-a-apropiat-de-155-de-milioane-de-lei_976091.html",
+      "date": "2026-09-11T18:11:02.000Z",
+      "excerpt": "Bursa de Valori Bucureşti a închis în scădere ultima şedinţă din această săptămână, iar valoarea totală a tranzacţiilor s-a cifrat la 154,56 de milioane de lei (29,41 de milioane..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/business-hi-tech/tranzactie-surprinzatoare-piata-tehnologie-romania-grupul-polonez-software-symfonia-cumparat-setrio-soft-companie-detinuta-majoritar-familia-banciu-controleaza-grupul-farmaceutic-dona-setrio-avut-23235337",
       "date": "2026-09-10T08:45:00.000Z",
       "excerpt": "Symfonia Group, companie poloneză de software pentru administrarea afacerilor, cu o istorie de peste 30 de ani şi sediul central la Varşovia, a cumpărat compania românească..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "ZF Live. Laurian Lungu, cofondator, Consilium Policy Advisors Group: Majorarea TVA a fost singura măsură fiscală majoră de creştere a taxelor care a generat venituri în plus la buget ca raport în PIB",
-      "link": "https://www.zf.ro/zf-live/zf-live-laurian-lungu-cofondator-consilium-policy-advisors-group-majorarea-tva-a-fost-singura-masura-fiscala-majora-de-crestere-a-taxelor-care-a-generat-venituri-in-plus-la-buget-ca-raport-in-pib-23233906",
-      "date": "2026-09-09T10:00:00.000Z",
-      "excerpt": "La un an după intrarea în vigoare a pachetului fiscal, analiza veniturilor bugetare arată că majorarea TVA a fost singura măsură care a adus încasări suplimentare la buget ca..."
     }
   ]
 }
