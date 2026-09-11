@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-11T10:52:43.726Z",
+  "generatedAt": "2026-09-11T16:07:30.216Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Nu doar România are probleme cu bugetul. Franţa va plăti anul acesta o „factură” cu 25% mai mare pentru serviciul datoriei publice. „Astăzi cheltuim mai mult pentru serviciul datoriei decât pentru edu",
+      "link": "https://www.zf.ro/business-international/romania-probleme-bugetul-franta-plati-anul-acesta-factura-25-mare-serviciul-datoriei-publice-astazi-cheltuim-mult-serviciul-datoriei-educatia-copiilor-nostri-apararea-tarii-23236433",
+      "date": "2026-09-11T14:02:08.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -16,6 +24,14 @@
       "title": "Recuperare senzaţională la bursă: BET trece pe plus în doar două ore după ce pierduse peste 3%, iar acţiunile Romgaz se apreciază cu 2%, după un minus de 5%, pe fondul revenirii cumpărătorilor",
       "link": "https://www.zf.ro/zf-24/recuperare-senzationala-la-bursa-bet-trece-pe-plus-in-doar-doua-ore-dupa-ce-pierduse-peste-3-iar-actiunile-romgaz-se-apreciaza-cu-2-dupa-un-minus-de-5-pe-fondul-revenirii-cumparatorilor-23236274",
       "date": "2026-09-11T09:58:37.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Paul Aparaschivei, Concordia: Fără predictibilitate fiscală şi fără o reducere reală a costurilor cu energia, nu avem de unde relansa creşterea economiei",
+      "link": "https://www.zf.ro/zf-24/paul-aparaschivei-concordia-fara-predictibilitate-fiscala-si-fara-o-reducere-reala-a-costurilor-cu-energia-nu-avem-de-unde-relansa-cresterea-economiei-23236252",
+      "date": "2026-09-11T09:12:00.000Z",
       "excerpt": ""
     },
     {
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/zf-live/zf-live-laurian-lungu-cofondator-consilium-policy-advisors-group-majorarea-tva-a-fost-singura-masura-fiscala-majora-de-crestere-a-taxelor-care-a-generat-venituri-in-plus-la-buget-ca-raport-in-pib-23233906",
       "date": "2026-09-09T10:00:00.000Z",
       "excerpt": "La un an după intrarea în vigoare a pachetului fiscal, analiza veniturilor bugetare arată că majorarea TVA a fost singura măsură care a adus încasări suplimentare la buget ca..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "STB intră în insolvenţă, cu datorii de peste 1,5 mld. lei. Euro Insol, administrator judiciar: „Vom reorganiza compania cu peste 9.000 de angajaţi“",
-      "link": "https://www.zf.ro/companii/stb-intra-in-insolventa-cu-datorii-de-peste-1-5-mld-lei-euro-insol-administrator-judiciar-vom-reorganiza-compania-cu-peste-9-000-de-angajati-23234095",
-      "date": "2026-09-08T21:06:00.000Z",
-      "excerpt": "Societatea de Transport Bucureşti (STB) SA, compania care asigură transportul public de suprafaţă din Bucureşti, cu afaceri de 1,8 mld. lei şi 9.700 de angajaţi anul trecut, va..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Preşedintele sârb Aleksandăr Vucici anunţă, în urma unei contestări, alegeri legislative anticipate la 25 octombrie",
-      "link": "https://www.economica.net/presedintele-sarb-aleksandar-vucici-anunta-in-urma-unei-contestari-alegeri-legislative-anticipate-la-25-octombrie_975003.html",
-      "date": "2026-09-08T19:51:13.000Z",
-      "excerpt": "Alegeri legislative anticipate, cerute de mult timp de o contestare studenţească, urmează să aibă loc în Serbia la 25 octombrie, a anunţat marţi seara preşedintele sârb Aleksandăr..."
     }
   ]
 }
