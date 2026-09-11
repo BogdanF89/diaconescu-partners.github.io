@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-10T20:35:58.955Z",
+  "generatedAt": "2026-09-11T03:45:28.370Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ZF Private Health. Reţeaua de recuperare medicală Centrokinetic pregăteşte două clinici noi în Bucureşti şi încă una în Cluj, fiecare cu investiţii de peste 1,2 mil. euro : „Ţinta este să ajungem la 1",
+      "link": "https://www.zf.ro/zf-private-health/zf-private-health-reteaua-recuperare-medicala-centrokinetic-pregateste-doua-clinici-bucuresti-una-cluj-investitii-peste-1-2-mil-euro-tinta-ajungem-14-15-clinici-pana-finalul-2027-23235521",
+      "date": "2026-09-10T21:07:00.000Z",
+      "excerpt": "Reţeaua de clinici de recu­perare medicală şi ortopedie Centrokinetic, fondată în 2017, îşi continuă expan­siunea după ce a ajuns la 10 unităţi şi pregăteşte două deschideri în..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Grupul polonez Symfonia a cumpărat Setrio, companie de software care ţine casele de marcat şi reţetele pentru mai multe lanţuri de farmacii din România",
+      "link": "https://www.zf.ro/business-hi-tech/grupul-polonez-symfonia-a-cumparat-setrio-companie-de-software-care-tine-casele-de-marcat-si-retetele-pentru-mai-multe-lanturi-de-farmacii-din-romania-23235775",
+      "date": "2026-09-10T21:07:00.000Z",
+      "excerpt": "Symfonia Group, companie poloneză de software pentru administrarea afacerilor, cu sediul la Varşovia, a cumpărat Setrio, producător românesc de software pentru farmacii, clinici..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/zf-24/consiliul-concurentei-da-unda-verde-tranzactiei-cristian-erbasu-unul-dintre-actionarii-grupului-constructii-erbasu-vlad-francisc-iman-vor-preia-vici-evolution-furnizor-echipamente-medicale-solutii-23233941",
       "date": "2026-09-08T12:56:00.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "STB intră în insolvenţă, cu datorii de peste 1,5 mld. lei. Tribunalul Bucureşti a admis cererea companiei",
-      "link": "https://www.zf.ro/companii/stb-intra-in-insolventa-cu-datorii-de-peste-1-5-mld-lei-tribunalul-bucuresti-a-admis-cererea-companiei-23233904",
-      "date": "2026-09-08T11:52:59.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "ANUNȚ PRIVIND SELECȚIA UNUI MEMBRU AL DIRECTORATULUI COMPLEXUL ENERGETIC OLTENIA S.A. (P)",
-      "link": "https://www.economica.net/anunt-privind-selectia-unui-membru-al-directoratului-complexul-energetic-oltenia-s-a-p_974374.html",
-      "date": "2026-09-08T02:02:57.000Z",
-      "excerpt": "Complexul Energetic Oltenia S.A. anunță derularea procedurii de selecție pentru ocuparea unui post vacantat de membru al Directoratului, în conformitate cu prevederile O.U.G. nr...."
     }
   ]
 }
