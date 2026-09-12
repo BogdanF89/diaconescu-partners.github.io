@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-12T03:49:02.219Z",
+  "generatedAt": "2026-09-12T10:20:06.421Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Numărul cererilor de insolvență depuse în Germania a ajuns în primul semestru din 2026 la cel mai ridicat nivel începând din 2013",
+      "link": "https://www.economica.net/numarul-cererilor-de-insolventa-depuse-in-germania-a-ajuns-in-primul-semestru-din-2026-la-cel-mai-ridicat-nivel-incepand-din-2013_976127.html",
+      "date": "2026-09-12T07:28:39.000Z",
+      "excerpt": "Numărul companiilor germane care au depus în primul semestru din acest an cerere de plasare în insolvenţă a ajuns la 12.812, cel mai ridicat nivel înregistrat într-o jumătate de..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/gazele-ating-preturi-socante-in-romania-aproape-de-400-de-lei-mwh-ce-ne-asteapta-la-iarna_975459.html",
       "date": "2026-09-10T09:02:06.000Z",
       "excerpt": "Prima tranzacție cu gaze naturale din piața la termen de la Bursa Română de Mărfuri din luna septembrie s-a făcut la cel mai mare preț din ultimii trei ani și nouă luni, potrivit..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Tranzacţie surprinzătoare pe piaţa de tehnologie din România: Grupul polonez de software Symfonia a cumpărat Setrio Soft, companie deţinută majoritar de familia Banciu, care controlează grupul farmace",
-      "link": "https://www.zf.ro/business-hi-tech/tranzactie-surprinzatoare-piata-tehnologie-romania-grupul-polonez-software-symfonia-cumparat-setrio-soft-companie-detinuta-majoritar-familia-banciu-controleaza-grupul-farmaceutic-dona-setrio-avut-23235337",
-      "date": "2026-09-10T08:45:00.000Z",
-      "excerpt": "Symfonia Group, companie poloneză de software pentru administrarea afacerilor, cu o istorie de peste 30 de ani şi sediul central la Varşovia, a cumpărat compania românească..."
     }
   ]
 }
