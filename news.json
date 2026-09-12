@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-12T10:20:06.421Z",
+  "generatedAt": "2026-09-12T15:15:04.119Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Colgate-Palmolive vrea să vândă mai multe branduri din portofoliul său, pe care speră să ia peste un miliard de dolari – surse Reuters",
+      "link": "https://www.economica.net/colgate-palmolive-vrea-sa-vanda-mai-multe-branduri-din-portofoliul-sau-pe-care-spera-sa-ia-peste-un-miliard-de-dolari-surse-reuters_976181.html",
+      "date": "2026-09-12T11:47:59.000Z",
+      "excerpt": "Gigantul american Colgate-Palmolive explorează vânzarea anumitor mărci de îngrijire personală, inclusiv Softsoap, Irish Spring şi Speed, valoarea tranzacţiei fiind evaluată la..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/zf-24/presedintele-nicusor-dan-a-promulgat-legea-care-permite-modificarea-ariilor-protejate-pentru-proiecte-hidroenergetice-aprobate-sau-incepute-inainte-de-2007-23235359",
       "date": "2026-09-10T09:43:45.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Gazele ating prețuri șocante în România, aproape de 400 de lei/MWh. Ce ne așteaptă la iarnă",
-      "link": "https://www.economica.net/gazele-ating-preturi-socante-in-romania-aproape-de-400-de-lei-mwh-ce-ne-asteapta-la-iarna_975459.html",
-      "date": "2026-09-10T09:02:06.000Z",
-      "excerpt": "Prima tranzacție cu gaze naturale din piața la termen de la Bursa Română de Mărfuri din luna septembrie s-a făcut la cel mai mare preț din ultimii trei ani și nouă luni, potrivit..."
     }
   ]
 }
