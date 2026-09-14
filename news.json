@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-13T20:30:33.657Z",
+  "generatedAt": "2026-09-14T04:04:29.525Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Confederaţia Patronală Concordia: 2025 a fost anul în care motorul consumului s-a oprit. Fără predictibilitate fiscală şi fără o reducere reală a costurilor cu energia, nu avem de unde relansa creşter",
+      "link": "https://www.zf.ro/companii/confederatia-patronala-concordia-2025-anul-motorul-consumului-s-oprit-predictibilitate-fiscala-reducere-reala-costurilor-energia-avem-unde-relansa-cresterea-economiei-23237493",
+      "date": "2026-09-13T21:05:00.000Z",
+      "excerpt": "Primul semestru din 2026 a confirmat cel mai puţin dorit scenariu pentru economia românească, PIB-ul scăzând cu 0,8%, dovadă a faptului că o economie care nu mai poate creşte doar..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "După atacul de la Cadastru, şefi de instituţii publice cer să intre integral în sistemul de monitorizare a securităţii cibernetice Ţiţeica dezvoltat de SRI: „Băgaţi-ne cu toată reţeaua“. Anton Rog, şe",
+      "link": "https://www.zf.ro/business-hi-tech/dupa-atacul-cadastru-sefi-institutii-publice-cer-intre-integral-sistemul-monitorizare-securitatii-cibernetice-titeica-dezvoltat-sri-bagati-ne-toata-reteaua-anton-rog-seful-cyberint-mergem-forta-23237517",
+      "date": "2026-09-13T21:05:00.000Z",
+      "excerpt": "Atacul informatic care a blocat aproape o lună tranzacţiile imobiliare din România a produs un efect pe care ani de informări oficiale cu vulnerabilităţi nu l-au obţinut:..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Jurnal bursier, 11 septembrie 2026. Evoluţia principalilor indici bursieri şi a tranzacţiilor de la BVB",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/jurnal-bursier-11-septembrie-2026-evolutia-principalilor-indici-bursieri-si-a-tranzactiilor-de-la-bvb-23236549",
+      "date": "2026-09-13T21:00:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -73,30 +97,6 @@
       "link": "https://www.zf.ro/zf-24/paul-aparaschivei-director-executiv-confederatia-patronala-concordia-2025-anul-motorul-consumului-s-oprit-predictibilitate-fiscala-reducere-reala-costurilor-energia-avem-unde-relansa-cresterea-23236252",
       "date": "2026-09-11T09:12:00.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "ZF Private Health. Reţeaua de recuperare medicală Centrokinetic pregăteşte două clinici noi în Bucureşti şi încă una în Cluj, fiecare cu investiţii de peste 1,2 mil. euro : „Ţinta este să ajungem la 1",
-      "link": "https://www.zf.ro/zf-private-health/zf-private-health-reteaua-recuperare-medicala-centrokinetic-pregateste-doua-clinici-bucuresti-una-cluj-investitii-peste-1-2-mil-euro-tinta-ajungem-14-15-clinici-pana-finalul-2027-23235521",
-      "date": "2026-09-10T21:07:00.000Z",
-      "excerpt": "Reţeaua de clinici de recu­perare medicală şi ortopedie Centrokinetic, fondată în 2017, îşi continuă expan­siunea după ce a ajuns la 10 unităţi şi pregăteşte două deschideri în..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Grupul polonez Symfonia a cumpărat Setrio, companie de software care ţine casele de marcat şi reţetele pentru mai multe lanţuri de farmacii din România",
-      "link": "https://www.zf.ro/business-hi-tech/grupul-polonez-symfonia-a-cumparat-setrio-companie-de-software-care-tine-casele-de-marcat-si-retetele-pentru-mai-multe-lanturi-de-farmacii-din-romania-23235775",
-      "date": "2026-09-10T21:07:00.000Z",
-      "excerpt": "Symfonia Group, companie poloneză de software pentru administrarea afacerilor, cu sediul la Varşovia, a cumpărat Setrio, producător românesc de software pentru farmacii, clinici..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "BVB a închis în scădere ședința de tranzacționare de joi. Cele mai bune evoluții le-au avut acțiunile Bucur și Bermas",
-      "link": "https://www.economica.net/bvb-a-inchis-in-scadere-sedinta-de-tranzactionare-de-joi-cele-mai-bune-evolutii-le-au-avut-actiunile-bucur-si-bermas_975691.html",
-      "date": "2026-09-10T18:00:11.000Z",
-      "excerpt": "Bursa de Valori Bucureşti a închis în scădere şedinţa de joi, iar valoarea totală a tranzacţiilor s-a cifrat la 112,84 milioane de lei (21,48 milioane de euro), transmite Agerpres."
     }
   ]
 }
