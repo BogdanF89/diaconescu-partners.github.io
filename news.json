@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-15T16:34:16.778Z",
+  "generatedAt": "2026-09-15T21:00:18.378Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "România a ajuns printre cele mai îndatorate țări. Vom lua bani de la extern la dobânzi fără precedent",
+      "link": "https://www.economica.net/romania-a-ajuns-printre-cele-mai-indatorate-tari-vom-lua-bani-de-la-extern-la-dobanzi-fara-precedent_976724.html",
+      "date": "2026-09-15T19:00:17.000Z",
+      "excerpt": "România a ajuns a patra țară din Uniunea Europeană ca nivel al dobânzilor aferente datoriei publice plătite din PIB. Peste 3% din PIB-ul României se duce pe plata dobânzilor..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "BVB a închis în scădere ședința de tranzacționare de marți. Rulajul a trecut cu puțin de 104 milioane de lei",
+      "link": "https://www.economica.net/bvb-a-inchis-in-scadere-sedinta-de-tranzactionare-de-marti-rulajul-a-trecut-cu-putin-de-104-milioane-de-lei_977003.html",
+      "date": "2026-09-15T18:20:57.000Z",
+      "excerpt": "Bursa de Valori Bucureşti a închis în scădere pe toţi indicii şedinţa de marţi, iar valoarea totală a tranzacţiilor s-a cifrat la 104,02 milioane de lei (19,76 de milioane de..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/business-hi-tech/dupa-atacul-cadastru-sefi-institutii-publice-cer-intre-integral-sistemul-monitorizare-securitatii-cibernetice-titeica-dezvoltat-sri-bagati-ne-toata-reteaua-anton-rog-seful-cyberint-mergem-forta-23237517",
       "date": "2026-09-13T21:05:00.000Z",
       "excerpt": "Atacul informatic care a blocat aproape o lună tranzacţiile imobiliare din România a produs un efect pe care ani de informări oficiale cu vulnerabilităţi nu l-au obţinut:..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Jurnal bursier, 11 septembrie 2026. Evoluţia principalilor indici bursieri şi a tranzacţiilor de la BVB",
-      "link": "https://www.zf.ro/burse-fonduri-mutuale/jurnal-bursier-11-septembrie-2026-evolutia-principalilor-indici-bursieri-si-a-tranzactiilor-de-la-bvb-23236549",
-      "date": "2026-09-13T21:00:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "În culisele Carrefour România după preluarea de către Dedeman. Ce se întâmplă în spatele tranzacției",
-      "link": "https://www.economica.net/in-culisele-carrefour-romania-dupa-preluarea-de-catre-dedeman-ce-se-intampla-in-spatele-tranzactiei_975623.html",
-      "date": "2026-09-13T18:27:42.000Z",
-      "excerpt": "Trecerea Carrefour România de sub acționariatul francez sub acționariat românesc, în urma preluării de către Dedeman, înseamnă și desprinderea treptată a companiei de o serie de..."
     }
   ]
 }
