@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-15T04:03:34.038Z",
+  "generatedAt": "2026-09-15T11:22:17.031Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Datoria externă a crescut în primele şapte luni ale anului cu 6,4 mld.euro faţă de finele lui 2025, la 234 mld.euro, 54% aparţinând administraţiei publice. Gradul de acoperire a datoriei pe termen scu",
+      "link": "https://www.zf.ro/zf-24/datoria-externa-crescut-primele-sapte-luni-anului-6-4-mld-euro-fata-finele-2025-234-mld-euro-54-apartinand-administratiei-publice-gradul-acoperire-datoriei-termen-scurt-rezervele-valutare-bnr-scazut-23238812",
+      "date": "2026-09-15T09:54:50.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-vineri-rulajul-s-a-apropiat-de-155-de-milioane-de-lei_976091.html",
       "date": "2026-09-11T18:11:02.000Z",
       "excerpt": "Bursa de Valori Bucureşti a închis în scădere ultima şedinţă din această săptămână, iar valoarea totală a tranzacţiilor s-a cifrat la 154,56 de milioane de lei (29,41 de milioane..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Nu doar România are probleme cu bugetul. Franţa va plăti anul acesta o „factură” cu 25% mai mare pentru serviciul datoriei publice. „Astăzi cheltuim mai mult pentru serviciul datoriei decât pentru edu",
-      "link": "https://www.zf.ro/business-international/romania-probleme-bugetul-franta-plati-anul-acesta-factura-25-mare-serviciul-datoriei-publice-astazi-cheltuim-mult-serviciul-datoriei-educatia-copiilor-nostri-apararea-tarii-23236433",
-      "date": "2026-09-11T14:02:08.000Z",
-      "excerpt": ""
     }
   ]
 }
