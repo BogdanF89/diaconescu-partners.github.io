@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-15T21:00:18.378Z",
+  "generatedAt": "2026-09-16T04:00:47.915Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Nouă ordine europeană pe piaţa datoriilor: Vestul decade în timp ce Europa de Est creşte în ochii investitorilor",
+      "link": "https://www.zf.ro/business-international/noua-ordine-europeana-pe-piata-datoriilor-vestul-decade-in-timp-ce-europa-de-est-creste-in-ochii-investitorilor-23239201",
+      "date": "2026-09-15T21:05:00.000Z",
+      "excerpt": "Există o nouă ordine europeană pe piaţa obligaţiunilor. Vestul deca­de, în timp ce investitorii îşi îndreaptă tot mai mult atenţia către Europa de Est, urmărind pieţele..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Jurnal bursier, 15 septembrie 2026. Evoluţia principalilor indici bursieri şi a tranzacţiilor de la BVB",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/jurnal-bursier-15-septembrie-2026-evolutia-principalilor-indici-bursieri-si-a-tranzactiilor-de-la-bvb-23239144",
+      "date": "2026-09-15T21:04:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/info/litigiile-fiscale-o-realitate-tot-mai-prezenta-pentru-companiile-din-romania-23238125",
       "date": "2026-09-14T10:34:31.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Confederaţia Patronală Concordia: 2025 a fost anul în care motorul consumului s-a oprit. Fără predictibilitate fiscală şi fără o reducere reală a costurilor cu energia, nu avem de unde relansa creşter",
-      "link": "https://www.zf.ro/companii/confederatia-patronala-concordia-2025-anul-motorul-consumului-s-oprit-predictibilitate-fiscala-reducere-reala-costurilor-energia-avem-unde-relansa-cresterea-economiei-23237493",
-      "date": "2026-09-13T21:05:00.000Z",
-      "excerpt": "Primul semestru din 2026 a confirmat cel mai puţin dorit scenariu pentru economia românească, PIB-ul scăzând cu 0,8%, dovadă a faptului că o economie care nu mai poate creşte doar..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "După atacul de la Cadastru, şefi de instituţii publice cer să intre integral în sistemul de monitorizare a securităţii cibernetice Ţiţeica dezvoltat de SRI: „Băgaţi-ne cu toată reţeaua“. Anton Rog, şe",
-      "link": "https://www.zf.ro/business-hi-tech/dupa-atacul-cadastru-sefi-institutii-publice-cer-intre-integral-sistemul-monitorizare-securitatii-cibernetice-titeica-dezvoltat-sri-bagati-ne-toata-reteaua-anton-rog-seful-cyberint-mergem-forta-23237517",
-      "date": "2026-09-13T21:05:00.000Z",
-      "excerpt": "Atacul informatic care a blocat aproape o lună tranzacţiile imobiliare din România a produs un efect pe care ani de informări oficiale cu vulnerabilităţi nu l-au obţinut:..."
     }
   ]
 }
