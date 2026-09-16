@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-16T04:00:47.915Z",
+  "generatedAt": "2026-09-16T11:06:43.569Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "BRD a realizat prima tranzacţie de tip ”credit cu protecţie integrată împotriva creşterii ratei dobânzii”, prin care companiile care iau finanţări sunt protejate împotriva creşterii ratelor, într-un c",
+      "link": "https://www.zf.ro/zf-24/brd-realizat-prima-tranzactie-tip-credit-protectie-integrata-impotriva-cresterii-ratei-dobanzii-companiile-iau-finantari-protejate-impotriva-cresterii-ratelor-intr-context-economic-volatil-23239539",
+      "date": "2026-09-16T08:46:00.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "BNR continuă cercetarea privind veniturile, economiile şi datoriile populaţiei. Peste 12.000 de gospodării sunt incluse în eşantion",
+      "link": "https://www.zf.ro/banci-si-asigurari/bnr-continua-cercetarea-privind-veniturile-economiile-si-datoriile-populatiei-peste-12-000-de-gospodarii-sunt-incluse-in-esantion-23239529",
+      "date": "2026-09-16T08:23:06.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/cine-este-americanul-care-conduce-expansiunea-one-united-properties-in-sua-david-flusberg-a-cofondat-unul-dintre-cei-mai-mari-dezvoltatori-de-locuinte-in-primul-val-de-boom-imobiliar_976473.html",
       "date": "2026-09-14T11:43:19.000Z",
       "excerpt": "David Flusberg, unul dintre fondatorii Adama, unul dintre cei mai mari dezvoltatori de locuințe în perioada de boom imobiliar a Bucureștiului, conduce expansiunea One United..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "SUA: airBaltic a cerut să intre sub protecţia Legii falimentului",
-      "link": "https://www.economica.net/sua-airbaltic-a-cerut-sa-intre-sub-protectia-legii-falimentului_976438.html",
-      "date": "2026-09-14T10:40:00.000Z",
-      "excerpt": "Operatorul aerian leton airBaltic a cerut luni în Statele Unite să intre sub protecţia Legii falimentului, ca parte a restructurării financiare menite să ducă la reducerea..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Litigiile fiscale, o realitate tot mai prezentă pentru companiile din România",
-      "link": "https://www.zf.ro/info/litigiile-fiscale-o-realitate-tot-mai-prezenta-pentru-companiile-din-romania-23238125",
-      "date": "2026-09-14T10:34:31.000Z",
-      "excerpt": ""
     }
   ]
 }
