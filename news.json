@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-16T11:06:43.569Z",
+  "generatedAt": "2026-09-16T16:26:39.403Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Asociaţia pentru Pensiile Administrate Privat cere majorarea plafonului de deductibilitate pentru contribuţiile la pensiile facultative, după ce Parlamentul a promulgat legea privind Conturile de Econ",
+      "link": "https://www.zf.ro/zf-24/asociatia-pensiile-administrate-privat-cere-majorarea-plafonului-deductibilitate-contributiile-pensiile-facultative-dupa-parlamentul-promulgat-legea-privind-conturile-economii-investitii-diferentele-23239700",
+      "date": "2026-09-16T13:32:44.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Piaţa de sănătate. Operaţiile minim invazive prind avânt în privat, dar sunt rare la stat",
+      "link": "https://www.zf.ro/companii/piata-de-sanatate-operatiile-minim-invazive-prind-avant-in-privat-dar-sunt-rare-la-stat-23239222",
+      "date": "2026-09-16T12:00:00.000Z",
+      "excerpt": "Dintre cele 230 de spitale publice în care se operează hernia inghinală, doar 152 pot face operaţia laparoscopic, adică prin incizii mici, o metodă chirurgicală modernă. Totuşi,..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/zf-24/datoria-externa-crescut-primele-sapte-luni-anului-6-4-mld-euro-fata-finele-2025-234-mld-euro-54-apartinand-administratiei-publice-gradul-acoperire-datoriei-termen-scurt-rezervele-valutare-bnr-scazut-23238812",
       "date": "2026-09-15T09:54:50.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis mixt ședința de tranzacționare de luni. Rulajul a depășit 941 de milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-mixt-sedinta-de-tranzactionare-de-luni-rulajul-a-depasit-941-de-milioane-de-lei_976636.html",
-      "date": "2026-09-14T18:26:31.000Z",
-      "excerpt": "Indicii Bursei de Valori Bucureşti au avut evoluţii mixte, luni, iar valoarea totală a tranzacţiilor s-a cifrat la 941,514 milioane de lei (179,107 milioane de euro), din care..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Cine este americanul care conduce expansiunea One United Properties în SUA: David Flusberg a cofondat unul dintre cei mai mari dezvoltatori de locuințe în primul val de boom imobiliar",
-      "link": "https://www.economica.net/cine-este-americanul-care-conduce-expansiunea-one-united-properties-in-sua-david-flusberg-a-cofondat-unul-dintre-cei-mai-mari-dezvoltatori-de-locuinte-in-primul-val-de-boom-imobiliar_976473.html",
-      "date": "2026-09-14T11:43:19.000Z",
-      "excerpt": "David Flusberg, unul dintre fondatorii Adama, unul dintre cei mai mari dezvoltatori de locuințe în perioada de boom imobiliar a Bucureștiului, conduce expansiunea One United..."
     }
   ]
 }
