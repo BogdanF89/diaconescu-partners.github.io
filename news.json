@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-17T16:32:59.721Z",
+  "generatedAt": "2026-09-17T21:05:26.575Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a închis pe creștere ședința de tranzacționare de joi. Rulajul de ajuns la aproape 187 de milioane de lei",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-pe-crestere-sedinta-de-tranzactionare-de-joi-rulajul-de-ajuns-la-aproape-187-de-milioane-de-lei_977639.html",
+      "date": "2026-09-17T18:15:54.000Z",
+      "excerpt": "Bursa de Valori Bucureşti a închis în creştere şedinţa de joi, iar valoarea totală a tranzacţiilor s-a cifrat la 186,95 de milioane de lei (35,54 de milioane de euro), transmite..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/banci-si-asigurari/bnr-continua-cercetarea-privind-veniturile-economiile-si-datoriile-populatiei-peste-12-000-de-gospodarii-sunt-incluse-in-esantion-23239529",
       "date": "2026-09-16T08:23:06.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Nouă ordine europeană pe piaţa datoriilor: Vestul decade în timp ce Europa de Est creşte în ochii investitorilor",
-      "link": "https://www.zf.ro/business-international/noua-ordine-europeana-pe-piata-datoriilor-vestul-decade-in-timp-ce-europa-de-est-creste-in-ochii-investitorilor-23239201",
-      "date": "2026-09-15T21:05:00.000Z",
-      "excerpt": "Există o nouă ordine europeană pe piaţa obligaţiunilor. Vestul deca­de, în timp ce investitorii îşi îndreaptă tot mai mult atenţia către Europa de Est, urmărind pieţele..."
     }
   ]
 }
