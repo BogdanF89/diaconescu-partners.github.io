@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-20T10:55:29.297Z",
+  "generatedAt": "2026-09-20T15:42:17.660Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a pierdut 8,9 miliarde de lei din capitaizare săptămâna aceasta",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-pierdut-89-miliarde-de-lei-din-capitaizare-saptamana-aceasta_978179.html",
+      "date": "2026-09-20T13:10:31.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, peste 8,89 miliarde de lei la capitalizare (-1,29%), în timp ce valoarea tranzacţiilor cu acţiuni a crescut cu..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-pe-crestere-sedinta-de-tranzactionare-de-joi-rulajul-de-ajuns-la-aproape-187-de-milioane-de-lei_977639.html",
       "date": "2026-09-17T18:15:54.000Z",
       "excerpt": "Bursa de Valori Bucureşti a închis în creştere şedinţa de joi, iar valoarea totală a tranzacţiilor s-a cifrat la 186,95 de milioane de lei (35,54 de milioane de euro), transmite..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "CSM admite cererea de apărare a independeței prefesionale pentru judecătorii ICCJ care soluționează cazul privind plata unor drepturi salariale restante către magsitrați",
-      "link": "https://www.economica.net/csm-admite-cererea-de-aparare-a-independetei-prefesionale-pentru-judecatorii-iccj-care-solutioneaza-cazul-privind-plata-unor-drepturi-salariale-restante-catre-magsitrati_977587.html",
-      "date": "2026-09-17T15:14:27.000Z",
-      "excerpt": "Secţia pentru judecători a Consiliului Superior al Magistraturii a admis, joi, cererea de apărare a independenţei profesionale formulată de trei judecători ai Înaltei Curţi de..."
     }
   ]
 }
