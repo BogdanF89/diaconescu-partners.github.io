@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-20T15:42:17.660Z",
+  "generatedAt": "2026-09-20T20:31:31.428Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Alegeri legislative în Rusia: Partidul Rusia Unită al lui Putin este învingător (exit-poll)",
+      "link": "https://www.economica.net/alegeri-legislative-in-rusia-partidul-rusia-unita-al-lui-putin-este-invingator-exit-poll_978237.html",
+      "date": "2026-09-20T18:31:07.000Z",
+      "excerpt": "Partidul Rusia Unită al preşedintelui Vladimir Putin este, aşa cum era de aşteptat, proiectat să câştige alegerile parlamentare din Rusia, conform unui sondaj la ieşirea de la..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/zf-24/bogdan-balasa-general-manager-hils-development-dezvoltatorii-bucuresti-doresc-predictibilitate-atat-punct-vedere-legislativ-cat-punct-vedere-disponibilitatii-primariilor-special-primaria-capitalei-23241461",
       "date": "2026-09-18T13:22:36.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis pe creștere ședința de tranzacționare de joi. Rulajul de ajuns la aproape 187 de milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-pe-crestere-sedinta-de-tranzactionare-de-joi-rulajul-de-ajuns-la-aproape-187-de-milioane-de-lei_977639.html",
-      "date": "2026-09-17T18:15:54.000Z",
-      "excerpt": "Bursa de Valori Bucureşti a închis în creştere şedinţa de joi, iar valoarea totală a tranzacţiilor s-a cifrat la 186,95 de milioane de lei (35,54 de milioane de euro), transmite..."
     }
   ]
 }
