@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-22T11:12:26.122Z",
+  "generatedAt": "2026-09-22T16:34:35.213Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Trump le-a cerut, în discursul său la ONU, statelor membre CPI să se retragă din această instituție. Președintele american a anunțat că SUA vor construi două baze militare mari în Groenlanda",
+      "link": "https://www.economica.net/trump-le-a-cerut-in-discursul-sau-la-onu-statelor-membre-cpi-sa-se-retraga-din-aceasta-institutie-presedintele-american-a-anuntat-ca-sua-vor-construi-doua-baze-militare-mari-in-groenlanda_978901.html",
+      "date": "2026-09-22T15:44:13.000Z",
+      "excerpt": "Preşedintele SUA, Donald Trump, a cerut marţi tuturor statelor membre ale Curţii Penale Internaţionale (CPI) să se retragă din această instituţie, pe care a acuzat-o că este..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Modul de calcul al rovinietei se schimbă la 1 octombrie, dispare taxa de pod de la Cernavodă, dar noul sistem digital TollRo are probleme",
+      "link": "https://www.economica.net/sistemul-tollro-romania-in-blocaj-de-la-1-octombrie_978876.html",
+      "date": "2026-09-22T14:44:19.000Z",
+      "excerpt": "Implementarea Sistemului de Tarifare Rutieră Electronică din România (STRR) și a taxării digitale TollRo riscă să genereze un blocaj operațional major la data de 1 octombrie 2026...."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Proiect european de 8,3 mil. lei pentru construirea unui centru de asistenţă şi de recuperare a persoanelor vârstnice la Timişoara",
+      "link": "https://www.zf.ro/zf-transilvania/proiect-european-de-8-3-mil-lei-pentru-construirea-unui-centru-de-asistenta-si-de-recuperare-a-persoanelor-varstnice-la-timisoara-23244096",
+      "date": "2026-09-22T13:50:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -73,30 +97,6 @@
       "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-se-intra-in-ultima-saptamana-de-tranzactionare-pentru-exercitiul-de-investitii-zf-estinvest-400-de-participanti-inscrisi-pana-acum-liderul-are-un-randament-de-5-35-23241777",
       "date": "2026-09-20T21:07:00.000Z",
       "excerpt": "Exerciţiul de investiţii organizat de Ziarul Financiar în parteneriat cu brokerii de la Estinvest intră în ultima săptămână, iar clasamentul din 18 septembrie arată 400 de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Urmează miercuri, 23 septembrie, VeeamON Tour Bucharest 2026, organizat de Veeam Software, furnizor de soluţii de protecţie şi recuperare a datelor. Cum pot controla companiile accesul agenţilor AI la",
-      "link": "https://www.zf.ro/business-hi-tech/urmeaza-miercuri-23-septembrie-veeamon-tour-bucharest-2026-organizat-veeam-software-furnizor-solutii-protectie-recuperare-datelor-pot-controla-companiile-accesul-agentilor-date-23242421",
-      "date": "2026-09-20T21:05:00.000Z",
-      "excerpt": "Veeam Software, furnizor de soluţii de protecţie şi recuperare a datelor, organizează miercuri, 23 septembrie, la HALO Events Center din Bucureşti, ediţia 2026 a VeeamON Tour,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Alegeri legislative în Rusia: Partidul Rusia Unită al lui Putin este învingător (exit-poll)",
-      "link": "https://www.economica.net/alegeri-legislative-in-rusia-partidul-rusia-unita-al-lui-putin-este-invingator-exit-poll_978237.html",
-      "date": "2026-09-20T18:31:07.000Z",
-      "excerpt": "Partidul Rusia Unită al preşedintelui Vladimir Putin este, aşa cum era de aşteptat, proiectat să câştige alegerile parlamentare din Rusia, conform unui sondaj la ieşirea de la..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a pierdut 8,9 miliarde de lei din capitaizare săptămâna aceasta",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-pierdut-89-miliarde-de-lei-din-capitaizare-saptamana-aceasta_978179.html",
-      "date": "2026-09-20T13:10:31.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, peste 8,89 miliarde de lei la capitalizare (-1,29%), în timp ce valoarea tranzacţiilor cu acţiuni a crescut cu..."
     }
   ]
 }
