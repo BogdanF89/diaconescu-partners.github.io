@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-22T16:34:35.213Z",
+  "generatedAt": "2026-09-22T21:02:11.284Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Gomag, platforma românească pe care funcţionează peste 5.000 de magazine online, a intermediat tranzacţii cu mărfuri de 1,6 mld. lei în primele şapte luni din acest an, plus 11,3%",
+      "link": "https://www.zf.ro/business-hi-tech/gomag-platforma-romaneasca-pe-care-functioneaza-peste-5-000-de-magazine-online-a-intermediat-tranzactii-cu-marfuri-de-1-6-mld-lei-in-primele-sapte-luni-din-acest-an-plus-11-3-23244381",
+      "date": "2026-09-22T18:22:00.000Z",
+      "excerpt": "Magazinele online care funcţionează pe platforma românească de e-commerce Gomag au vândut mărfuri în valoare de 1,6 mld. lei în primele şapte luni din acest an, cu 11,3% mai mult..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a închis pe creștere ședința de tranzacționare de marți. Cele mai lichide acțiuni au fost ale Băncii Transilvania",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-pe-crestere-sedinta-de-tranzactionare-de-marti-cele-mai-lichide-actiuni-au-fost-ale-bancii-transilvania_978939.html",
+      "date": "2026-09-22T17:36:18.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în creştere pe toţi indicii şedinţa de marţi, iar valoarea totală a tranzacţiilor s-a cifrat la 136,51 de milioane de lei (25,93 de..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/banca-mondiala-si-fmi-sprijina-schimbarea-cadrului-de-evaluare-a-datoriei-tarilor-cu-venituri-scazute_978587.html",
       "date": "2026-09-21T18:30:55.000Z",
       "excerpt": "Comitetele executive ale Băncii Mondiale (BM) şi Fondului Monetar Internaţional (FMI) au aprobat reformele propuse cadrului comun de evaluare a datoriei ţărilor cu venituri..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în scădere ședința de luni. Rulajul a trecut de 117 milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-luni-rulajul-a-trecut-de-117-milioane-de-lei_978584.html",
-      "date": "2026-09-21T17:55:46.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere şedinţa de luni, iar valoarea totală a tranzacţiilor s-a cifrat la 117,5 milioane de lei (22,3 milioane de euro), transmite..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Bursă. Se intră în ultima săptămână de tranzacţionare pentru exerciţiul de investiţii ZF-Estinvest: 400 de participanţi înscrişi până acum. Liderul are un randament de 5,35%",
-      "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-se-intra-in-ultima-saptamana-de-tranzactionare-pentru-exercitiul-de-investitii-zf-estinvest-400-de-participanti-inscrisi-pana-acum-liderul-are-un-randament-de-5-35-23241777",
-      "date": "2026-09-20T21:07:00.000Z",
-      "excerpt": "Exerciţiul de investiţii organizat de Ziarul Financiar în parteneriat cu brokerii de la Estinvest intră în ultima săptămână, iar clasamentul din 18 septembrie arată 400 de..."
     }
   ]
 }
