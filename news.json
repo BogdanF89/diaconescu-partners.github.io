@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-22T04:00:54.042Z",
+  "generatedAt": "2026-09-22T11:12:26.122Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Urmăriţi emisiunea ZF Deschiderea de Astăzi, 22 septembrie, cu Adrian Codirlaşu (CFA România): Cel mai bun scenariu pentru bursă este consolidarea fiscală graduală, iar cel pesimist constă în reluarea",
+      "link": "https://www.zf.ro/zf-deschiderea-de-astazi/urmariti-emisiunea-zf-deschiderea-astazi-22-septembrie-adrian-codirlasu-cfa-romania-cel-bun-scenariu-bursa-consolidarea-fiscala-graduala-iar-cel-pesimist-consta-reluarea-cheltuielilor-publice-23243104",
+      "date": "2026-09-22T07:00:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-pierdut-89-miliarde-de-lei-din-capitaizare-saptamana-aceasta_978179.html",
       "date": "2026-09-20T13:10:31.000Z",
       "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, peste 8,89 miliarde de lei la capitalizare (-1,29%), în timp ce valoarea tranzacţiilor cu acţiuni a crescut cu..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Nazare: Consolidarea fiscală nu este destinaţia. Este fundaţia de pe care trebuie să începem următoarea etapă de dezvoltare",
-      "link": "https://www.economica.net/nazare-consolidarea-fiscala-nu-este-destinatia-este-fundatia-de-pe-care-trebuie-sa-incepem-urmatoarea-etapa-de-dezvoltare_978147.html",
-      "date": "2026-09-20T08:10:57.000Z",
-      "excerpt": "România nu poate alege între consolidare şi creştere, are nevoie de amândouă, trebuie să reducă cheltuielile ineficiente şi să organizeze mai bine marile servicii publice, dar..."
     }
   ]
 }
