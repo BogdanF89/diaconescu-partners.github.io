@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-23T11:03:51.497Z",
+  "generatedAt": "2026-09-23T16:25:15.323Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Industria berii avertizează: producţia a scăzut cu 9% în primul semestru, iar fabricile au aproape jumătate din capacitate nefolosită. Accizele cresc, dar aproape fără bani în plus la buget. „Nu cerem",
+      "link": "https://www.zf.ro/companii/retail-agrobusiness/industria-berii-avertizeaza-productia-scazut-9-primul-semestru-iar-fabricile-au-aproape-jumatate-capacitate-nefolosita-accizele-cresc-aproape-bani-plus-buget-cerem-facilitati-fiscale-ci-23245106",
+      "date": "2026-09-23T14:50:52.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/eveniment/siegfried-muresan-premierul-desemnat-taxele-nu-vor-creste-dar-nici-nu-vor-scadea-consolidarea-fiscala-va-continua-23243340",
       "date": "2026-09-21T21:07:00.000Z",
       "excerpt": "Premierul desemnat a spus, într-un interviu pentru Radio France International (RFI), că după prezentarea, astăzi, a principalelor priorităţi ale viitorului guvern va începe..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Autorizațiile de construire se digitalizează. Cum va funcționa Ghișeul Unic Național și când e nevoie de intervenția unui avocat",
-      "link": "https://www.economica.net/autorizatiile-de-construire-se-digitalizeaza-cum-va-functiona-ghiseul-unic-national-si-cand-e-nevoie-de-interventia-unui-avocat_977715.html",
-      "date": "2026-09-21T19:14:47.000Z",
-      "excerpt": "Noul Cod CATUC a înlocuit o parte semnificativă din vechiul cadru legislativ, inclusiv Legea nr. 350/2001 și Legea nr. 50/1991, și urmărește, printre altele, simplificarea și..."
     }
   ]
 }
