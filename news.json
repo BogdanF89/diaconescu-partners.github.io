@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-22T21:02:11.284Z",
+  "generatedAt": "2026-09-23T03:58:08.735Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ZF Real Estate by Storia. Romeo Ghica, Hercesa România: Bucureştiul stă mai prost în competiţia pentru investiţii imobiliare decât Sofia, Praga şi Madrid. Pierdem teren şi timp foarte preţios",
+      "link": "https://www.zf.ro/zf-real-estate/zf-real-estate-by-storia-romeo-ghica-hercesa-romania-bucurestiul-sta-mai-prost-in-competitia-pentru-investitii-imobiliare-decat-sofia-praga-si-madrid-pierdem-teren-si-timp-foarte-pretios-23244118",
+      "date": "2026-09-22T21:06:00.000Z",
+      "excerpt": "Bucureştiul pierde teren în competiţia regională pentru in­ves­tiţii imobiliare din cauza im­predictibilităţii legislative, a difi­cultăţii de a dezvolta proiecte în etape şi a..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/revolut-schimba-din-temelii-sistemul-de-comisoane-cine-castiga-si-cine-pierde_978506.html",
       "date": "2026-09-21T19:13:55.000Z",
       "excerpt": "Revolut Bank UAB elimină comisioanele variabile ale brokerilor cu care lucrează clienții săi și reduce comisionul pentru administrarea abonamentului de tranzacționare, Tranding..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Banca Mondială și FMI sprijină schimbarea cadrului de evaluare a datoriei ţărilor cu venituri scăzute",
-      "link": "https://www.economica.net/banca-mondiala-si-fmi-sprijina-schimbarea-cadrului-de-evaluare-a-datoriei-tarilor-cu-venituri-scazute_978587.html",
-      "date": "2026-09-21T18:30:55.000Z",
-      "excerpt": "Comitetele executive ale Băncii Mondiale (BM) şi Fondului Monetar Internaţional (FMI) au aprobat reformele propuse cadrului comun de evaluare a datoriei ţărilor cu venituri..."
     }
   ]
 }
