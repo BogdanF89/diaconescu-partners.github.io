@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-24T16:46:36.467Z",
+  "generatedAt": "2026-09-24T21:17:56.407Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bolojan s-a întâlnit cu delegația agenției de rating Standard & Poor’s. Discțiile s-au axat pe actuaul context politic și pe situația fiscal-bugetară",
+      "link": "https://www.economica.net/bolojan-s-a-intalnit-cu-delegatia-agentiei-de-rating-standard-poors-disctiile-s-au-axat-pe-actuaul-context-politic-si-pe-situatia-fiscal-bugetara_979684.html",
+      "date": "2026-09-24T19:10:46.000Z",
+      "excerpt": "Premierul interimar Ilie Bolojan a primit joi, la Palatul Victoria, o delegaţie a agenţiei internaţionale de rating financiar Standard & Poor's, aflată la Bucureşti în contextul..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de joi. Rulajul a ajuns la 150 de milioane de lei",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-joi-rulajul-a-ajuns-la-150-de-milioane-de-lei_979680.html",
+      "date": "2026-09-24T19:09:00.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere şedinţa de joi, iar valoarea totală a tranzacţiilor s-a cifrat la 150 de milioane de lei (28,43 de milioane de euro), transmite..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/zf-transilvania/proiect-european-de-8-3-mil-lei-pentru-construirea-unui-centru-de-asistenta-si-de-recuperare-a-persoanelor-varstnice-la-timisoara-23244096",
       "date": "2026-09-22T13:50:00.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Urmăriţi emisiunea ZF Deschiderea de Astăzi, 22 septembrie, cu Adrian Codirlaşu (CFA România): Cel mai bun scenariu pentru bursă este consolidarea fiscală graduală, iar cel pesimist constă în reluarea",
-      "link": "https://www.zf.ro/zf-deschiderea-de-astazi/urmariti-emisiunea-zf-deschiderea-astazi-22-septembrie-adrian-codirlasu-cfa-romania-cel-bun-scenariu-bursa-consolidarea-fiscala-graduala-iar-cel-pesimist-consta-reluarea-cheltuielilor-publice-23243104",
-      "date": "2026-09-22T07:00:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "ZF Live. Roberto Musneci, preşedintele Camerei de Comerţ Italiene pentru România: Incertitudinea politică nu a scos România de pe lista ţărilor în care investim, dar a pus proiectele on hold. Avem nev",
-      "link": "https://www.zf.ro/zf-live/zf-live-roberto-musneci-presedintele-camerei-comert-italiene-romania-incertitudinea-politica-scos-romania-lista-tarilor-investim-pus-proiectele-on-hold-avem-nevoie-guvern-puteri-depline-23238238",
-      "date": "2026-09-21T21:07:00.000Z",
-      "excerpt": "Investitorii italieni nu au renunţat la proiectele pregătite pentru România, însă le-au amânat până la momentul în care ţara va avea un guvern cu puteri depline, iar..."
     }
   ]
 }
