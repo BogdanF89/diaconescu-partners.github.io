@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-25T04:07:07.329Z",
+  "generatedAt": "2026-09-25T11:27:08.169Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "PSD s-a întâlnit cu reprezentanţii S&P şi a anunţat agenţia de rating că este pregătit să îşi asume guvernarea ţării",
+      "link": "https://www.economica.net/psd-s-a-intalnit-cu-reprezentantii-sp-si-a-anuntat-agentia-de-rating-ca-este-pregatit-sa-isi-asume-guvernarea-tarii_979906.html",
+      "date": "2026-09-25T10:56:41.000Z",
+      "excerpt": "Mai mulţi deputaţi social-democraţi au avut, vineri, o întâlnire cu reprezentanţii agenţiei financiare internaţionale Standard & Poor's, pe care i-a informat că PSD este pregătit..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/sistemul-tollro-romania-in-blocaj-de-la-1-octombrie_978876.html",
       "date": "2026-09-22T14:44:19.000Z",
       "excerpt": "Implementarea Sistemului de Tarifare Rutieră Electronică din România (STRR) și a taxării digitale TollRo riscă să genereze un blocaj operațional major la data de 1 octombrie 2026...."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Proiect european de 8,3 mil. lei pentru construirea unui centru de asistenţă şi de recuperare a persoanelor vârstnice la Timişoara",
-      "link": "https://www.zf.ro/zf-transilvania/proiect-european-de-8-3-mil-lei-pentru-construirea-unui-centru-de-asistenta-si-de-recuperare-a-persoanelor-varstnice-la-timisoara-23244096",
-      "date": "2026-09-22T13:50:00.000Z",
-      "excerpt": ""
     }
   ]
 }
