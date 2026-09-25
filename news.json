@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-09-25T11:27:08.169Z",
+  "generatedAt": "2026-09-25T16:51:20.312Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București reușește să revină pe creștere în ultima ședință de tranzacționare a săptămânii. Rulajul a trecut de 82 de milioane de lei",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-reuseste-sa-revina-pe-crestere-in-ultima-sedinta-de-tranzactionare-a-saptamanii-rulajul-a-trecut-de-82-de-milioane-de-lei_980045.html",
+      "date": "2026-09-25T16:13:25.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a revenit pe creştere în ultima şedinţă de tranzacţionare a acestei săptămâni, iar rulajul s-a cifrat la 82,65 de milioane de lei (15,68 de..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "În premieră, BVB pregăteşte lansarea unui indice compus din companii antreprenoriale. Remus Vulpescu, CEO, BVB: Urmărim acea componentă a pieţei reglementate principale unde fondatorii rămân angrenaţi",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/premiera-bvb-pregateste-lansarea-unui-indice-compus-companii-antreprenoriale-remus-vulpescu-ceo-bvb-urmarim-acea-componenta-pietei-reglementate-principale-unde-fondatorii-raman-angrenati-stabilirea-23246795",
+      "date": "2026-09-25T12:02:20.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-pe-crestere-sedinta-de-tranzactionare-de-marti-cele-mai-lichide-actiuni-au-fost-ale-bancii-transilvania_978939.html",
       "date": "2026-09-22T17:36:18.000Z",
       "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în creştere pe toţi indicii şedinţa de marţi, iar valoarea totală a tranzacţiilor s-a cifrat la 136,51 de milioane de lei (25,93 de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Trump le-a cerut, în discursul său la ONU, statelor membre CPI să se retragă din această instituție. Președintele american a anunțat că SUA vor construi două baze militare mari în Groenlanda",
-      "link": "https://www.economica.net/trump-le-a-cerut-in-discursul-sau-la-onu-statelor-membre-cpi-sa-se-retraga-din-aceasta-institutie-presedintele-american-a-anuntat-ca-sua-vor-construi-doua-baze-militare-mari-in-groenlanda_978901.html",
-      "date": "2026-09-22T15:44:13.000Z",
-      "excerpt": "Preşedintele SUA, Donald Trump, a cerut marţi tuturor statelor membre ale Curţii Penale Internaţionale (CPI) să se retragă din această instituţie, pe care a acuzat-o că este..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Modul de calcul al rovinietei se schimbă la 1 octombrie, dispare taxa de pod de la Cernavodă, dar noul sistem digital TollRo are probleme",
-      "link": "https://www.economica.net/sistemul-tollro-romania-in-blocaj-de-la-1-octombrie_978876.html",
-      "date": "2026-09-22T14:44:19.000Z",
-      "excerpt": "Implementarea Sistemului de Tarifare Rutieră Electronică din România (STRR) și a taxării digitale TollRo riscă să genereze un blocaj operațional major la data de 1 octombrie 2026...."
     }
   ]
 }
