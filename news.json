@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-27T04:27:08.333Z",
+  "generatedAt": "2026-09-27T11:41:18.092Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la Bucureşti a pierdut, în această săptămână, peste două miliarde de lei la capitalizare",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-pierdut-in-aceasta-saptamana-peste-doua-miliarde-de-lei-la-capitalizare_980296.html",
+      "date": "2026-09-27T09:46:44.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, peste 2,37 miliarde de lei la capitalizare (-0,35%), în timp ce valoarea tranzacţiilor cu acţiuni a scăzut cu..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/companii/retail-agrobusiness/industria-berii-avertizeaza-productia-scazut-9-primul-semestru-iar-fabricile-au-aproape-jumatate-capacitate-nefolosita-accizele-cresc-aproape-bani-plus-buget-cerem-facilitati-fiscale-ci-23245106",
       "date": "2026-09-23T14:50:52.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Președintele Consiliului Fiscal, Daniel Dăianu, semnal puternic de alarmă: Suntem în război civil! România, măturată de El Nino economic",
-      "link": "https://www.economica.net/presedintele-consiliului-fiscal-daniel-daianu-semnal-puternic-de-alarma-suntem-in-razboi-civil-romania-maturata-de-el-nino_979083.html",
-      "date": "2026-09-23T08:50:19.000Z",
-      "excerpt": "Președintele Consiliului Fiscal, Daniel Dăianu, trage un puternic semnal de alarmă. El arată că România este într-o situație fără precedent, măturată de un adevărat uragan..."
     }
   ]
 }
