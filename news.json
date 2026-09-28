@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-28T13:18:00.756Z",
+  "generatedAt": "2026-09-28T23:02:56.866Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Proprietarii Aaylex One, una dintre cele mai mari afaceri din industria alimentară românească, cu peste 1.600 de salariaţi, discută cu investitorii o eventuală vânzare a grupului. Compania Aaylex One ",
+      "link": "https://www.zf.ro/companii/retail-agrobusiness/proprietarii-aaylex-one-una-dintre-cele-mari-afaceri-industria-alimentara-romaneasca-peste-1-600-salariati-discuta-investitorii-eventuala-vanzare-grupului-compania-aaylex-one-cerut-intrarea-23248802",
+      "date": "2026-09-28T21:06:00.000Z",
+      "excerpt": "Antreprenorul Bogdan Stanca, acţionarul majoritar al gru­pului Aaylex One, companie româ­nească ce deţine brandul Coco­rico, poartă discuţii cu investitorii pentru o eventuală..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Cum stabilește ANAF TVA din oficiu. Efectele nedepunerii formularului 300 – avocați",
+      "link": "https://www.economica.net/cum-stabileste-anaf-tva-din-oficiu-efectele-nedepunerii-formularului-300-avocati_978651.html",
+      "date": "2026-09-28T19:36:03.000Z",
+      "excerpt": "Ordinul președintelui ANAF nr. 1.022/2026 reglementează stabilirea din oficiu a taxei pe valoarea adăugată în cazul persoanelor impozabile care nu au depus decontul de TVA –..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "ANAF pune lupa pe închirierile prin Booking și Airbnb: datele din Europa arată diferențe față de sumele declarate în România. ”Declarați veniturile! Urmează să trimitem deciziile de impunere”",
+      "link": "https://www.economica.net/anaf-pune-lupa-pe-inchirierile-prin-booking-si-airbnb-datele-din-europa-arata-diferente-fata-de-sumele-declarate-in-romania-declarati-veniturile-urmeaza-sa-trimitem-deciziile-de-impunere_980597.html",
+      "date": "2026-09-28T19:34:18.000Z",
+      "excerpt": "Agenția Națională de Administrare Fiscală (ANAF) a identificat diferențe între informațiile raportate de alte state europene privind veniturile obținute prin platforme precum..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -73,30 +97,6 @@
       "link": "https://www.economica.net/bolojan-s-a-intalnit-cu-delegatia-agentiei-de-rating-standard-poors-disctiile-s-au-axat-pe-actuaul-context-politic-si-pe-situatia-fiscal-bugetara_979684.html",
       "date": "2026-09-24T19:10:46.000Z",
       "excerpt": "Premierul interimar Ilie Bolojan a primit joi, la Palatul Victoria, o delegaţie a agenţiei internaţionale de rating financiar Standard & Poor's, aflată la Bucureşti în contextul..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de joi. Rulajul a ajuns la 150 de milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-joi-rulajul-a-ajuns-la-150-de-milioane-de-lei_979680.html",
-      "date": "2026-09-24T19:09:00.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere şedinţa de joi, iar valoarea totală a tranzacţiilor s-a cifrat la 150 de milioane de lei (28,43 de milioane de euro), transmite..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Cum se salvează o societate de la dispariție. Cazul Construcții S.A. – EVZ",
-      "link": "https://www.economica.net/cum-se-salveaza-o-societate-de-la-disparitie-cazul-constructii-s-a-evz_979457.html",
-      "date": "2026-09-24T09:10:57.000Z",
-      "excerpt": "Compania Construcții S.A. traversează ultima etapă a unei proceduri complexe de insolvență, declanșată în luna decembrie 2021 pe fondul unor dificultăți economice structurale,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Dan Popa, director regional pentru Europa de Est al companiei americane Veeam, care produce software pentru salvarea şi recuperarea datelor: Businessul nostru în Europa de Est a crescut cu 56% anul tr",
-      "link": "https://www.zf.ro/zf-live/dan-popa-director-regional-europa-est-companiei-americane-veeam-produce-software-salvarea-recuperarea-datelor-businessul-nostru-europa-est-crescut-56-anul-trecut-timp-nivel-global-veeam-creste-20-25-23245260",
-      "date": "2026-09-23T21:07:00.000Z",
-      "excerpt": "Veeam, companie americană care dezvoltă de 20 de ani programe pentru salvarea şi recuperarea datelor com­pa­niilor, creşte în Europa de Est cu peste 50% pe an, faţă de 20-25% la..."
     }
   ]
 }
