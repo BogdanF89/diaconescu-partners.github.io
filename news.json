@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-09-30T12:09:40.105Z",
+  "generatedAt": "2026-09-30T22:00:16.859Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "După ce și-a cerut insolvența, două avioane A220 din flota AnimaWings au părăsit România",
+      "link": "https://www.economica.net/dupa-ce-si-a-cerut-insolventa-doua-avioane-a220-din-flota-animawings-au-parasit-romania_981574.html",
+      "date": "2026-09-30T21:08:47.000Z",
+      "excerpt": "Două avioane Airbus A220 din flota AnimaWings au părăsit România. Avioanele au fost închiriate de la SMBC Aviation Capital și Air Lease Corporation."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Misterul AnimaWings. Cum a ajuns o companie care plănuia să îşi dubleze veniturile în acest an la a-şi cere insolvenţa?",
+      "link": "https://www.zf.ro/companii/misterul-animawings-cum-a-ajuns-o-companie-care-planuia-sa-isi-dubleze-veniturile-in-acest-an-la-a-si-cere-insolventa-23250272",
+      "date": "2026-09-30T21:07:00.000Z",
+      "excerpt": "Operatorul aerian AnimaWings, companie deţinută de fraţii Cristian şi Marius Pandel, fondatorii Christian Tour, a depus la Tribunalul Bucureşti o cerere pentru deschiderea..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ZF Deschiderea de astăzi la Bursă. Antonio Oroian, Goldring: Menţinerea ratingului de către S&P ar oferi României doar un răgaz, având nevoie de decizii pentru reducerea deficitului şi construcţia bug",
+      "link": "https://www.zf.ro/zf-deschiderea-de-astazi/zf-deschiderea-astazi-bursa-antonio-oroian-goldring-mentinerea-ratingului-catre-s-p-ar-oferi-romaniei-ragaz-avand-nevoie-decizii-reducerea-deficitului-constructia-bugetului-2027-23250035",
+      "date": "2026-09-30T21:06:00.000Z",
+      "excerpt": "Participanţii la piaţa locală de capital se aşteaptă ca S&P Global Ratings să păstreze România pe ultima treaptă a categoriei recoman­date pentru investiţii, însă cu avertis­mente..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -73,30 +97,6 @@
       "link": "https://www.zf.ro/companii/retail-agrobusiness/proprietarii-aaylex-one-una-dintre-cele-mari-afaceri-industria-alimentara-romaneasca-peste-1-600-salariati-discuta-investitorii-eventuala-vanzare-grupului-compania-aaylex-one-cerut-intrarea-23248802",
       "date": "2026-09-28T21:06:00.000Z",
       "excerpt": "Antreprenorul Bogdan Stanca, acţionarul majoritar al gru­pului Aaylex One, companie româ­nească ce deţine brandul Coco­rico, poartă discuţii cu investitorii pentru o eventuală..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Cum stabilește ANAF TVA din oficiu. Efectele nedepunerii formularului 300 – avocați",
-      "link": "https://www.economica.net/cum-stabileste-anaf-tva-din-oficiu-efectele-nedepunerii-formularului-300-avocati_978651.html",
-      "date": "2026-09-28T19:36:03.000Z",
-      "excerpt": "Ordinul președintelui ANAF nr. 1.022/2026 reglementează stabilirea din oficiu a taxei pe valoarea adăugată în cazul persoanelor impozabile care nu au depus decontul de TVA –..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "ANAF pune lupa pe închirierile prin Booking și Airbnb: datele din Europa arată diferențe față de sumele declarate în România. ”Declarați veniturile! Urmează să trimitem deciziile de impunere”",
-      "link": "https://www.economica.net/anaf-pune-lupa-pe-inchirierile-prin-booking-si-airbnb-datele-din-europa-arata-diferente-fata-de-sumele-declarate-in-romania-declarati-veniturile-urmeaza-sa-trimitem-deciziile-de-impunere_980597.html",
-      "date": "2026-09-28T19:34:18.000Z",
-      "excerpt": "Agenția Națională de Administrare Fiscală (ANAF) a identificat diferențe între informațiile raportate de alte state europene privind veniturile obținute prin platforme precum..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "CEC Bank pentru afaceri româneşti. Mircea Varga: Pregătim Star Stone pentru orice tranzacţie, chiar şi pentru bursă. Teilor Holding a ajuns la afaceri de 667 mil. lei în 2025, de la 283 mil. lei în 20",
-      "link": "https://www.zf.ro/cec-bank-pentru-afaceri-romanesti/cec-bank-afaceri-romanesti-mircea-varga-pregatim-star-stone-tranzactie-bursa-teilor-holding-ajuns-afaceri-667-mil-lei-2025-283-mil-lei-2021-iar-mircea-varga-aplica-acum-acelasi-model-management-23245101",
-      "date": "2026-09-28T10:00:00.000Z",
-      "excerpt": "Mircea Varga, preşedintele consi­liului de administraţie al Teilor Holding, grupul care controlează lanţul de bijuterii Teilor şi are patru emisiuni de obligaţiuni listate la..."
     }
   ]
 }
