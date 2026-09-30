@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-09-29T22:01:18.534Z",
+  "generatedAt": "2026-09-30T04:44:18.568Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "CCR – Sesizarea trimisă de Grindeanu privind un posibil conflict juridic între Guvern şi Parlament, dezbătută azi",
+      "link": "https://www.economica.net/ccr-sesizarea-trimisa-de-grindeanu-privind-un-posibil-conflict-juridic-intre-guvern-si-parlament-dezbatuta-azi_981107.html",
+      "date": "2026-09-30T04:35:25.000Z",
+      "excerpt": "Curtea Constituţională a României (CCR) ar putea lua o decizie miercuri în cazul sesizării preşedintelui Camerei Deputaţilor, Sorin Grindeanu, privind un posibil conflict juridic..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-pierdut-in-aceasta-saptamana-peste-doua-miliarde-de-lei-la-capitalizare_980296.html",
       "date": "2026-09-27T09:46:44.000Z",
       "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, peste 2,37 miliarde de lei la capitalizare (-0,35%), în timp ce valoarea tranzacţiilor cu acţiuni a scăzut cu..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Preşedintele Braziliei Lula interzice pariurile digitale cu doar nouă zile înaintea alegerilor prezidențiale. Rivalul său consideră gestul o escrcherie electorală",
-      "link": "https://www.economica.net/presedintele-braziliei-lula-interzice-pariurile-digitale-cu-doar-noua-zile-inaintea-alegerilor-prezidentiale-rivalul-sau-considera-gestul-o-escrcherie-electorala_980190.html",
-      "date": "2026-09-26T12:40:07.000Z",
-      "excerpt": "Preşedintele Braziliei, Luiz Inacio Lula da Silva, a anunţat vineri o măsură de interzicere a pariurilor sportive şi a cazinourilor online, cu nouă zile înaintea alegerilor..."
     }
   ]
 }
