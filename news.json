@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-10-01T12:43:26.841Z",
+  "generatedAt": "2026-10-01T22:28:21.802Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Bursă. Acţiunile Christian Tour scad cu 8%, la minim, în ziua în care compania dă explicaţii despre AnimaWings, care a cerut insolvenţa. Preluarea a 50% de către BT AM, Winners şi Evergent nu s-a înch",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-actiunile-christian-tour-scad-8-minim-ziua-compania-da-explicatii-animawings-cerut-insolventa-preluarea-50-catre-bt-winners-evergent-s-incheiat-fapt-23251301",
+      "date": "2026-10-01T21:08:00.000Z",
+      "excerpt": "Acţiunile Christian Tour (TRIP), agenţia de turism controlată de Cristian Pandel, au scăzut joi 1 octombrie cu 8% la Bursa de Valori Bucureşti, până la 1,31 lei, minimul de la..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ZF Deschiderea de astăzi la Bursă. Mihai Chişu, eVote: Nu cred că vor avea parte de noi listări de acţiuni în actualul peisaj, însă stabilitatea politică ar putea schimba situaţia. Ultimele debuturi –",
+      "link": "https://www.zf.ro/zf-deschiderea-de-astazi/zf-deschiderea-astazi-bursa-mihai-chisu-evote-cred-vor-avea-parte-listari-actiuni-actualul-peisaj-insa-stabilitatea-politica-ar-putea-schimba-situatia-ultimele-debuturi-cris-tim-electro-alfa-au-bine-23251037",
+      "date": "2026-10-01T21:06:00.000Z",
+      "excerpt": "De la începutul raliului Bursei de Valori Bucureşti din mai 2025, piaţa locală de capital a avut parte de puţine listări noi de acţiuni, însă ofertele de dimensiuni mari, precum..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Laura Vicol se alege cu noi acuzații în dosarul „Nordis”: fals în declarații, spălare de bani și complicitate la înșelăciune",
+      "link": "https://www.economica.net/laura-vicol-se-alege-cu-noi-acuzatii-in-dosarul-nordis-fals-in-declaratii-spalare-de-bani-si-complicitate-la-inselaciune_982037.html",
+      "date": "2026-10-01T18:52:56.000Z",
+      "excerpt": "Fosta deputată PSD Laura Vicol a fost chemată joi la DIICOT, fiind anunţată de procurori că a fost extinsă urmărirea penală pe numele ei pentru alte trei infracţiuni în dosarul..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -73,30 +97,6 @@
       "link": "https://www.economica.net/ccr-sesizarea-trimisa-de-grindeanu-privind-un-posibil-conflict-juridic-intre-guvern-si-parlament-dezbatuta-azi_981107.html",
       "date": "2026-09-30T04:35:25.000Z",
       "excerpt": "Curtea Constituţională a României (CCR) ar putea lua o decizie miercuri în cazul sesizării preşedintelui Camerei Deputaţilor, Sorin Grindeanu, privind un posibil conflict juridic..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Piaţa de M&A din Europa Centrală şi de Est în S1 2026: Afectată de proximitatea faţă de războiul ruso-ucrainean şi de tensiunile geopolitice în creştere, regiunea ce cuprinde şi România a raportat cea",
-      "link": "https://www.zf.ro/tranzactii/piata-m-europa-centrala-est-s1-2026-afectata-proximitatea-fata-razboiul-ruso-ucrainean-tensiunile-geopolitice-crestere-regiunea-cuprinde-romania-raportat-cea-mare-scadere-numarului-tranzactii-23249399",
-      "date": "2026-09-29T21:07:00.000Z",
-      "excerpt": "Regiunea care cuprinde România, mai exact Europa Centrală şi de Est, a raportat cea mai mare scădere a numărului de tranzacţii semnate în Europa în primele şase luni din 2026..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Bulgaria vrea să susţină părinţii cu o nouă facilitate fiscală pentru „dezvoltarea copiilor“",
-      "link": "https://www.zf.ro/business-international/bulgaria-vrea-sa-sustina-parintii-cu-o-noua-facilitate-fiscala-pentru-dezvoltarea-copiilor-23249306",
-      "date": "2026-09-29T21:05:00.000Z",
-      "excerpt": "Bulgaria va introduce o nouă facilitate fiscală pentru „dezvoltarea copiilor“ în 2027, permiţând părin­ţi­lor să-şi reducă obligaţiile fiscale prin deducerea unei părţi din..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de marți. Banca Transilvania a condus în topul celor mai lichide titluri",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-marti-banca-transilvania-a-condus-in-topul-celor-mai-lichide-titluri_981052.html",
-      "date": "2026-09-29T17:02:21.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere şedinţa de marţi, iar valoarea tranzacţiilor s-a cifrat la 117,9 milioane de lei (22,3 milioane de euro), transmite Agerpres."
     }
   ]
 }
