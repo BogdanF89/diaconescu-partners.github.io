@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-02T21:58:15.321Z",
+  "generatedAt": "2026-10-03T04:29:30.769Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Atenţie, contribuabili: Programul webinariilor ANAF din această lună",
+      "link": "https://www.zf.ro/fiscalitate/atentie-contribuabili-programul-webinariilor-anaf-din-aceasta-luna-23252023",
+      "date": "2026-10-03T04:29:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/bt-investor-day/fidelis-etf-uri-si-fonduri-de-pensii-cine-aduce-lichiditate-pe-bursa-de-la-bucuresti-23251688",
       "date": "2026-10-02T10:30:00.000Z",
       "excerpt": "BT Capital Partners a intermediat 34,7% din valoarea tranzacţiilor cu obligaţiuni de la Bursa de Valori Bucureşti în primele opt luni din 2026, înaintea BCR, cu 20,2%, şi a..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Încep să vină mesajele de anulare a zborurilor AnimaWings. Ce trebuie să facă pasagerii pentru a recupera banii",
-      "link": "https://www.economica.net/zboruri-anulate-animawings_982247.html",
-      "date": "2026-10-02T10:06:08.000Z",
-      "excerpt": "Clienții AnimaWings care au cumpărat bilete de avion la zborurile AnimaWings încep să primească mesajele de anulare. Un cititor Economica.net ne-a transmis mesajul primit în urmă..."
     }
   ]
 }
