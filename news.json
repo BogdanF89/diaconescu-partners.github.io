@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-10-03T11:18:58.563Z",
+  "generatedAt": "2026-10-03T15:56:53.385Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "ONRC: Numărul insolvențelor a crescut cu 4,85% în primele opt luni din 2026",
+      "link": "https://www.economica.net/onrc-numarul-insolventelor-a-crescut-cu-485-in-primele-opt-luni-din-2026_982559.html",
+      "date": "2026-10-03T13:48:27.000Z",
+      "excerpt": "Numărul societăţilor comerciale şi al persoanelor fizice autorizate (PFA) intrate în insolvenţă în primele opt luni din acest an a fost de 4.782, în creştere cu 4,85% faţă de..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Un mare furnizor român, al șaselea de pe piață, Getica 95, și-a cerut insolvența din cauza opririi centralei de la Cernavodă",
+      "link": "https://www.economica.net/un-mare-furnizor-roman-al-saselea-de-pe-piata-getica-95-si-a-cerut-insolventa-din-cauza-opririi-centralei-de-la-cernavoda_982553.html",
+      "date": "2026-10-03T13:34:38.000Z",
+      "excerpt": "Getica 95 Com, unul dintre furnizorii români semnificativi de energie electrică, și-a cerut insolvența, pe fondul opririi prelungite a centralei nucleare de la Cernavodă și a..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/bt-investor-day/de-pe-locul-cinci-pe-primul-bt-capital-partners-intermediaza-peste-un-sfert-din-tranzactiile-de-la-bursa-23251692",
       "date": "2026-10-02T11:30:00.000Z",
       "excerpt": "BT Capital Partners, compania de brokeraj şi investment banking a grupului Banca Transilvania, a intermediat 27,1% din valoarea tranzacţiilor cu acţiuni şi obligaţiuni de la Bursa..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Care au fost cele mai mari tranzacţii de pe piaţa de fuziuni şi achiziţii (M&A) din România, în T3 2026 – Valoarea a crescut de 2,2 ori (analiză PwC România)",
-      "link": "https://www.economica.net/care-au-fost-cele-mai-mari-tranzactii-de-pe-piata-de-fuziuni-si-achizitii-ma-din-romania-in-t3-2026-valoarea-a-crescut-de-22-ori-analiza-pwc-romania_982279.html",
-      "date": "2026-10-02T10:56:45.000Z",
-      "excerpt": "Piaţa de fuziuni şi achiziţii (M&A) din România a ajuns la o valoare estimată de 2,3 miliarde de euro în trimestrul al treilea din 2026, de 2,2 ori mai mare decât în aceeaşi..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Bilanţul PayPo, fintech-ul polonez de plăţi amânate (BNPL) după patru ani în România: Am ajuns la aproape 300.000 de utilizatori şi peste 1.000 de comercianţi, iar în primele opt luni din 2026 am proc",
-      "link": "https://www.zf.ro/business-hi-tech/bilantul-paypo-fintech-ul-polonez-plati-amanate-bnpl-dupa-patru-ani-romania-ajuns-aproape-300-000-utilizatori-peste-1-000-comercianti-iar-primele-opt-luni-2026-procesat-circa-915-000-tranzactii-23251729",
-      "date": "2026-10-02T10:49:15.000Z",
-      "excerpt": "PayPo, fintech-ul polonez prin care cumpărătorii online pot plăti o comandă în termen de 30 de zile, fără costuri suplimentare („buy now, pay later” – BNPL), a ajuns la aproape..."
     }
   ]
 }
