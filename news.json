@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-03T04:29:30.769Z",
+  "generatedAt": "2026-10-03T11:18:58.563Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ANAF va publica “lista ruşinii” în această lună. Verificaţi dacă lucraţi la o companie cu datorii",
+      "link": "https://www.zf.ro/banci-si-asigurari/anaf-va-publica-lista-rusinii-in-aceasta-luna-verificati-daca-lucrati-la-o-companie-cu-datorii-23252027",
+      "date": "2026-10-03T05:19:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/business-hi-tech/bilantul-paypo-fintech-ul-polonez-plati-amanate-bnpl-dupa-patru-ani-romania-ajuns-aproape-300-000-utilizatori-peste-1-000-comercianti-iar-primele-opt-luni-2026-procesat-circa-915-000-tranzactii-23251729",
       "date": "2026-10-02T10:49:15.000Z",
       "excerpt": "PayPo, fintech-ul polonez prin care cumpărătorii online pot plăti o comandă în termen de 30 de zile, fără costuri suplimentare („buy now, pay later” – BNPL), a ajuns la aproape..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Fidelis, ETF-uri şi fonduri de pensii: cine aduce lichiditate pe Bursa de la Bucureşti",
-      "link": "https://www.zf.ro/bt-investor-day/fidelis-etf-uri-si-fonduri-de-pensii-cine-aduce-lichiditate-pe-bursa-de-la-bucuresti-23251688",
-      "date": "2026-10-02T10:30:00.000Z",
-      "excerpt": "BT Capital Partners a intermediat 34,7% din valoarea tranzacţiilor cu obligaţiuni de la Bursa de Valori Bucureşti în primele opt luni din 2026, înaintea BCR, cu 20,2%, şi a..."
     }
   ]
 }
