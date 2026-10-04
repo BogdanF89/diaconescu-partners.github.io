@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-10-04T11:59:13.773Z",
+  "generatedAt": "2026-10-04T16:47:45.582Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Grecia reia oficial pretențiile financiare de război în fața Germaniei",
+      "link": "https://www.economica.net/pretentii-financiare-grecia-germania_982661.html",
+      "date": "2026-10-04T15:33:50.000Z",
+      "excerpt": "Divergențele financiare de natură istorică dintre Grecia și Germania continuă să genereze tensiuni diplomatice, reflectând un impact economic pe termen lung. Președintele..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Misterul AnimaWings. Cum a ajuns o companie care plănuia să îşi dubleze veniturile în acest an la a-şi cere insolvenţa?",
+      "link": "https://www.zf.ro/companii/misterul-animawings-cum-a-ajuns-o-companie-care-planuia-sa-isi-dubleze-veniturile-in-acest-an-la-a-si-cere-insolventa-23250272",
+      "date": "2026-10-04T14:31:00.000Z",
+      "excerpt": "Operatorul aerian AnimaWings, companie deţinută de fraţii Cristian şi Marius Pandel, fondatorii Christian Tour, a depus la Tribunalul Bucureşti o cerere pentru deschiderea..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/prima-reactie-oficiala-prind-tranzactia-cu-animawings-bt-asset-management-nu-a-mai-intrat-in-actionariatul-companiei_982302.html",
       "date": "2026-10-02T12:04:09.000Z",
       "excerpt": "BT Asset Management nu a mai intrat în acționariatul Animawings, a anunțat compania."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Interviu ZF. Łukasz Kotapski, Agenţia de Dezvoltare Indus­trială din Polonia: S-au creat peste 70.000 de locuri de muncă şi s-au investit miliarde de dolari în zonele economice speciale create în Polo",
-      "link": "https://www.zf.ro/companii/interviu-zf-ukasz-kotapski-agentia-dezvoltare-indus-triala-polonia-s-au-creat-peste-70-000-locuri-munca-s-au-investit-miliarde-dolari-zonele-economice-speciale-create-polonia-modelul-ar-putea-23251216",
-      "date": "2026-10-02T12:00:00.000Z",
-      "excerpt": "Dezvoltarea zonelor econo­mice speciale, care să be­neficieze de facilităţi fiscale şi vamale faţă de restul te­ritoriului unei ţări, poate fi cheia dezvoltării econo­mi­ce a unei..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Cererea de insolvenţă a AnimaWings are termen de judecată pe 14 octombrie",
-      "link": "https://www.zf.ro/companii/cererea-de-insolventa-a-animawings-are-termen-de-judecata-pe-14-octombrie-23251782",
-      "date": "2026-10-02T11:47:20.000Z",
-      "excerpt": ""
     }
   ]
 }
