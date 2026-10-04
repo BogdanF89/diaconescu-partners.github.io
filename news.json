@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-04T05:00:19.680Z",
+  "generatedAt": "2026-10-04T11:59:13.773Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Piaţa de M&A din Europa în S1/2026. Regiunea care cuprinde România a raportat cea mai mare scădere a numărului de tranzacţii. În valoare însă piaţa a crescut, semn că sunt mai puţine acorduri, dar mai",
+      "link": "https://www.zf.ro/companii/piata-m-europa-s1-2026-regiunea-cuprinde-romania-raportat-cea-mare-scadere-numarului-tranzactii-valoare-insa-piata-crescut-semn-putine-acorduri-mari-23249286",
+      "date": "2026-10-04T08:46:00.000Z",
+      "excerpt": "În primele şase luni din 2026, în Europa Centrală şi de Est, regiune ce cuprinde şi România, s-au semnat 526 de tranzacţii cu o valoare cumulată de 20,6 mld. euro, arată un raport..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/companii/cererea-de-insolventa-a-animawings-are-termen-de-judecata-pe-14-octombrie-23251782",
       "date": "2026-10-02T11:47:20.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "De pe locul cinci pe primul: BT Capital Partners intermediază peste un sfert din tranzacţiile de la bursă",
-      "link": "https://www.zf.ro/bt-investor-day/de-pe-locul-cinci-pe-primul-bt-capital-partners-intermediaza-peste-un-sfert-din-tranzactiile-de-la-bursa-23251692",
-      "date": "2026-10-02T11:30:00.000Z",
-      "excerpt": "BT Capital Partners, compania de brokeraj şi investment banking a grupului Banca Transilvania, a intermediat 27,1% din valoarea tranzacţiilor cu acţiuni şi obligaţiuni de la Bursa..."
     }
   ]
 }
