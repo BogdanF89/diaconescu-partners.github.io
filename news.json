@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-10-05T14:00:43.155Z",
+  "generatedAt": "2026-10-05T23:52:32.590Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Agenţii AI au ieşit din demonstraţii şi au intrat în producţie - sună clienţi, emit facturi, verifică documente, operează roboţi prin 5G -, dar „AI-ul nu face magie“. Proiectele reuşesc acolo unde com",
+      "link": "https://www.zf.ro/business-hi-tech/agentii-au-iesit-demonstratii-au-intrat-productie-suna-clienti-emit-facturi-verifica-documente-opereaza-roboti-5g-ul-face-magie-proiectele-reusesc-acolo-unde-compania-isi-cunoaste-procesele-stie-23253740",
+      "date": "2026-10-05T21:07:00.000Z",
+      "excerpt": "Agenţii AI - programe care nu doar răspund la întrebări, ci execută sarcini şi iau decizii în limitele stabilite de companie - filtrează la telefon cine ar putea cumpăra produsele..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Jurnal bursier, 5 octombrie 2026. Evoluţia principalilor indici bursieri şi a tranzacţiilor de la BVB",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/jurnal-bursier-5-octombrie-2026-evolutia-principalilor-indici-bursieri-si-a-tranzactiilor-de-la-bvb-23253666",
+      "date": "2026-10-05T21:05:00.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/onrc-numarul-insolventelor-a-crescut-cu-485-in-primele-opt-luni-din-2026_982559.html",
       "date": "2026-10-03T13:48:27.000Z",
       "excerpt": "Numărul societăţilor comerciale şi al persoanelor fizice autorizate (PFA) intrate în insolvenţă în primele opt luni din acest an a fost de 4.782, în creştere cu 4,85% faţă de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Un mare furnizor român, al șaselea de pe piață, Getica 95, și-a cerut insolvența din cauza opririi centralei de la Cernavodă",
-      "link": "https://www.economica.net/un-mare-furnizor-roman-al-saselea-de-pe-piata-getica-95-si-a-cerut-insolventa-din-cauza-opririi-centralei-de-la-cernavoda_982553.html",
-      "date": "2026-10-03T13:34:38.000Z",
-      "excerpt": "Getica 95 Com, unul dintre furnizorii români semnificativi de energie electrică, și-a cerut insolvența, pe fondul opririi prelungite a centralei nucleare de la Cernavodă și a..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "ANAF va publica “lista ruşinii” în această lună. Verificaţi dacă lucraţi la o companie cu datorii",
-      "link": "https://www.zf.ro/banci-si-asigurari/anaf-va-publica-lista-rusinii-in-aceasta-luna-verificati-daca-lucrati-la-o-companie-cu-datorii-23252027",
-      "date": "2026-10-03T05:19:00.000Z",
-      "excerpt": ""
     }
   ]
 }
