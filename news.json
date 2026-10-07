@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-10-07T12:55:01.029Z",
+  "generatedAt": "2026-10-07T22:53:24.342Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Ioan Simion, fondatorul spitalului SanConfind din Câmpina: Statul decontează 80 de lei pentru o şedinţă de recuperare, mult prea puţin. Am renunţat la serviciile cu CNAS",
+      "link": "https://www.zf.ro/companii/ioan-simion-fondatorul-spitalului-sanconfind-din-campina-statul-deconteaza-80-de-lei-pentru-o-sedinta-de-recuperare-mult-prea-putin-am-renuntat-la-serviciile-cu-cnas-23255542",
+      "date": "2026-10-07T21:07:00.000Z",
+      "excerpt": "Cererea pentru serviciile medi­cale de recuperare este în creş­tere la Sanconfind din Câmpina, dezvoltat de Ioan Simion, deşi unitatea a re­nun­ţat la serviciile în contract cu..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Alegeri în Spania. Liderul opoziției de dreapta Alberto Nunez Feijoo și-a lansat oficial campania, în mod simbolic, în orașul Ceuta",
+      "link": "https://www.economica.net/alegeri-in-spania-liderul-opozitiei-de-dreapta-alberto-nunez-feijoo-si-a-lansat-oficial-campania-in-mod-simbolic-in-orasul-ceuta_983731.html",
+      "date": "2026-10-07T19:09:48.000Z",
+      "excerpt": "Liderul opoziţiei de dreapta, Alberto Nunez Feijoo, şi-a lansat simbolic miercuri la Ceuta campania pentru alegerile legislative de la sfârşitul lunii noiembrie, criticând..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Piața de energie începe să dea în clocot. Cu centrala nucleară oprită, Nuclearelectrica nu-și onorează contractele, iar furnizorii rămași fără energie sunt în corzi și fac pierderi zilnic cumpărând ma",
+      "link": "https://www.economica.net/piata-de-energie-incepe-sa-dea-in-clocot-cu-centrala-nucleara-oprita-nuclearelectrica-nu-si-onoreaza-contractele-iar-furnizorii-ramasi-fara-energie-sunt-in-corzi-si-fac-pierderi-zilnic-cumparand-ma_983729.html",
+      "date": "2026-10-07T19:03:56.000Z",
+      "excerpt": "Prelungirea opririi centralei de la Cernavodă, coroborată cu situația de forță majoră pe contracte obținută de Nuclearelectrica, dar și cu creșterea prețurilor la energie din..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -73,30 +97,6 @@
       "link": "https://www.zf.ro/companii/piata-de-m-a-din-romania-in-t3-2026-cinci-dintre-cele-mai-mari-sase-tranzactii-sunt-de-fapt-mutari-internationale-care-includ-si-operatiunile-din-romania-23252786",
       "date": "2026-10-04T21:07:00.000Z",
       "excerpt": "Pe piaţa de fuziuni şi achiziţii din România, în trimestrul al treilea din 2026 s-au semnat 93 de tranzacţii cu o valoare cumulată de 2,3 mld. euro, arată o analiză a companiei de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Epopeea plăcuțelor de înmatriculare străine: Cum au ajuns 60.000 de mașini din Italia să aibă numere „de Polonia”",
-      "link": "https://www.economica.net/evaziune-taxe-auto-italia-polonia_982669.html",
-      "date": "2026-10-04T19:01:02.000Z",
-      "excerpt": "Fenomenul înmatriculărilor transfrontaliere ca metodă de optimizare fiscală agresivă capătă proporții macroeconomice în interiorul pieței unice europene. În timp ce românii au..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Avertismentul reprezentantului FMI la București: România trebuie să se gândească serios la un nou model de creștere. Avantajele pe care le avea înainte dispar",
-      "link": "https://www.economica.net/avertismentul-reprezentantului-fmi-la-bucuresti-romania-trebuie-sa-se-gandeasca-serios-la-un-nou-model-de-crestere-avantajele-pe-care-le-avea-inainte-dispar_982306.html",
-      "date": "2026-10-04T19:00:19.000Z",
-      "excerpt": "România trebuie ”să se gândească serios” la un nou model de creștere economică, în care sectorul privat să aibă un rol mult mai important în investiții, inovație și adoptarea..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "BVB a pierdut peste 6,81 miliarde de lei din capitalizare. Cele mai importante scăderi – Christian ’76 Tour, Sinteza și Bucur SA",
-      "link": "https://www.economica.net/bvb-peste-681-miliarde-de-lei-din-capitalizare-ele-mai-importante-scaderi-christian-76-tour-sinteza-si-bucur-sa_982667.html",
-      "date": "2026-10-04T17:16:32.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, peste 6,81 miliarde de lei la capitalizare (-1%), în timp ce valoarea tranzacţiilor cu acţiuni a scăzut cu 14,67..."
     }
   ]
 }
