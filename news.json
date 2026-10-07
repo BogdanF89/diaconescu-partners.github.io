@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-10-07T05:03:54.251Z",
+  "generatedAt": "2026-10-07T12:55:01.029Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Antreprenorul Sandu Băbășan lansează aiUltra și duce inteligența artificială în primării și în birourile notarilor, executorilor, juriștilor și practicienilor în insolvență",
+      "link": "https://www.economica.net/antreprenorul-sandu-babasan-lanseaza-aiultra-si-duce-inteligenta-artificiala-in-primarii-si-in-birourile-notarilor-executorilor-juristilor-si-practicienilor-in-insolventa_983533.html",
+      "date": "2026-10-07T11:33:31.000Z",
+      "excerpt": "Sandu Băbășan, antreprenor și investitor în serie, lansează aiUltra, o platformă de inteligență artificială construită pentru profesioniști și instituții care lucrează cu volume..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Raport Dealsuite & Lexters: Firmele de servicii IT din Europa Centrală şi de Est sunt cele mai dorite ţinte de achiziţie din regiune - la o companie scoasă la vânzare vin, în medie, peste opt cumpărăt",
+      "link": "https://www.zf.ro/business-hi-tech/raport-dealsuite-lexters-firmele-servicii-it-europa-centrala-est-cele-dorite-tinte-achizitie-regiune-companie-scoasa-vanzare-vin-medie-peste-opt-cumparatori-interesati-companiile-software-cee-vand-23255133",
+      "date": "2026-10-07T09:35:00.000Z",
+      "excerpt": "La o firmă de servicii IT din Europa Centrală şi de Est scoasă la vânzare vin, în medie, 8,2 cumpărători interesaţi - mai mult decât în orice alt sector al regiunii şi cu mult..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/bvb-peste-681-miliarde-de-lei-din-capitalizare-ele-mai-importante-scaderi-christian-76-tour-sinteza-si-bucur-sa_982667.html",
       "date": "2026-10-04T17:16:32.000Z",
       "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, peste 6,81 miliarde de lei la capitalizare (-1%), în timp ce valoarea tranzacţiilor cu acţiuni a scăzut cu 14,67..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Grecia reia oficial pretențiile financiare de război în fața Germaniei",
-      "link": "https://www.economica.net/pretentii-financiare-grecia-germania_982661.html",
-      "date": "2026-10-04T15:33:50.000Z",
-      "excerpt": "Divergențele financiare de natură istorică dintre Grecia și Germania continuă să genereze tensiuni diplomatice, reflectând un impact economic pe termen lung. Președintele..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Misterul AnimaWings. Cum a ajuns o companie care plănuia să îşi dubleze veniturile în acest an la a-şi cere insolvenţa?",
-      "link": "https://www.zf.ro/companii/misterul-animawings-cum-a-ajuns-o-companie-care-planuia-sa-isi-dubleze-veniturile-in-acest-an-la-a-si-cere-insolventa-23250272",
-      "date": "2026-10-04T14:31:00.000Z",
-      "excerpt": "Operatorul aerian AnimaWings, companie deţinută de fraţii Cristian şi Marius Pandel, fondatorii Christian Tour, a depus la Tribunalul Bucureşti o cerere pentru deschiderea..."
     }
   ]
 }
