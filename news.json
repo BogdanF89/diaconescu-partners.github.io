@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-08T05:14:33.230Z",
+  "generatedAt": "2026-10-08T13:03:22.664Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Numărul companiilor intrate în insolvenţă a crescut cu aproape 12% în primele nouă luni din 2026 (analiză)",
+      "link": "https://www.economica.net/numarul-companiilor-intrate-in-insolventa-a-crescut-cu-aproape-12-in-primele-noua-luni-din-2026-analiza_983890.html",
+      "date": "2026-10-08T11:38:46.000Z",
+      "excerpt": "Peste 5.250 de companii au intrat în insolvenţă în primele nouă luni ale anului 2026, în creştere cu aproximativ 12% faţă de aceeaşi perioadă a anului trecut, fiind înregistrat..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/cum-arata-romania-insolventa-situatia-firmelor-la-nivel-national-in-septembrie-2026-analiza-risco_982830.html",
       "date": "2026-10-05T12:13:40.000Z",
       "excerpt": "Un număr de 869 de dosare de insolvenţă a fost deschis la nivel naţional, în luna septembrie, dintre care aproximativ 200 în Bucureşti, arată datele publicate, luni, RisCo,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Piaţa de M&A din România în T3/2026. Cinci dintre cele mai mari şase tranzacţii sunt de fapt mutări internaţionale care includ şi operaţiunile din România",
-      "link": "https://www.zf.ro/companii/piata-de-m-a-din-romania-in-t3-2026-cinci-dintre-cele-mai-mari-sase-tranzactii-sunt-de-fapt-mutari-internationale-care-includ-si-operatiunile-din-romania-23252786",
-      "date": "2026-10-04T21:07:00.000Z",
-      "excerpt": "Pe piaţa de fuziuni şi achiziţii din România, în trimestrul al treilea din 2026 s-au semnat 93 de tranzacţii cu o valoare cumulată de 2,3 mld. euro, arată o analiză a companiei de..."
     }
   ]
 }
