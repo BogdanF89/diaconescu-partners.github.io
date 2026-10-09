@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-10-09T05:17:33.068Z",
+  "generatedAt": "2026-10-09T12:49:55.829Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Gigantul german Rheinmetall a cumpărat șantierul naval Damen din Mangalia, cu 138 de milioane de euro",
+      "link": "https://www.economica.net/gigantul-rheinmetall-real-estate-a-cumparat-damen-shipyards-mangalia-cu-138-milioane-lei-fara-tva_984293.html",
+      "date": "2026-10-09T12:12:13.000Z",
+      "excerpt": "CITR, lichidatorul judiciar al Damen Shipyards Mangalia, şi liderul pietei de restructurare si insolvență din România, anunță că a vândut vineri, 9 octombrie, șantierul în urma..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "BREAKING. Gigantul american Carlyle renunţă la negocierile pentru preluarea activelor internaţionale ale Lukoil, evaluate la 22 de miliarde de dolari. În cursă rămân Exxon Mobil şi un miliardar americ",
+      "link": "https://www.zf.ro/companii/energie/breaking-gigantul-american-carlyle-renunta-negocierile-preluarea-activelor-internationale-lukoil-evaluate-22-miliarde-dolari-cursa-raman-exxon-mobil-miliardar-american-apropiat-familia-trump-23256719",
+      "date": "2026-10-09T11:12:53.000Z",
+      "excerpt": ""
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/business-hi-tech/raport-dealsuite-lexters-firmele-servicii-it-europa-centrala-est-cele-dorite-tinte-achizitie-regiune-companie-scoasa-vanzare-vin-medie-peste-opt-cumparatori-interesati-companiile-software-cee-vand-23255133",
       "date": "2026-10-07T09:35:00.000Z",
       "excerpt": "La o firmă de servicii IT din Europa Centrală şi de Est scoasă la vânzare vin, în medie, 8,2 cumpărători interesaţi - mai mult decât în orice alt sector al regiunii şi cu mult..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Sesizarea lui Bolojan privind conflictul de natură constituţională dintre Guvern şi Instanţa supremă, la CCR",
-      "link": "https://www.economica.net/sesizarea-lui-bolojan-privind-conflictul-de-natura-constitutionala-dintre-guvern-si-instanta-suprema-la-ccr_983371.html",
-      "date": "2026-10-07T04:46:59.000Z",
-      "excerpt": "Curtea Constituţională a României (CCR) este aşteptată să ia o decizie miercuri în cazul sesizării depuse de premierul interimar Ilie Bolojan cu privire la soluţionarea unui..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Tribunalul Bucureşti a respins cererea de deschidere a insolvenţei formulată împotriva Impetum Investments, holdingul condus de Andrei Cionca care are listate pe AeRO obligaţiuni de 5 mil. euro, cu pr",
-      "link": "https://www.zf.ro/eveniment/tribunalul-bucuresti-respins-cererea-deschidere-insolventei-formulata-impotriva-impetum-investments-holdingul-condus-andrei-cionca-listate-aero-obligatiuni-5-mil-euro-prima-scadenta-4-decembrie-23254168",
-      "date": "2026-10-06T08:15:19.000Z",
-      "excerpt": ""
     }
   ]
 }
