@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-10-11T12:21:49.445Z",
+  "generatedAt": "2026-10-11T21:39:12.945Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Revolut are 5 milioane de clienţi locali, vrea să fie banca principală pentru clienţi, dar unde este transparenţa? În ultimii ani, cel puţin pentru România, care reprezintă una dintre cele mai importa",
+      "link": "https://www.zf.ro/zf-live/revolut-5-milioane-clienti-locali-vrea-fie-banca-principala-clienti-unde-transparenta-ultimii-ani-cel-putin-romania-reprezinta-una-dintre-cele-importante-piete-banca-furnizat-cifre-precum-active-23257637",
+      "date": "2026-10-11T21:07:00.000Z",
+      "excerpt": "Revolut, fintech-ul britanic care a captat în ultimii ani atenţia şi un număr consis­tent de clienţi români, în continuare, cu atât mai mult cu cât a devenit bancă în toată..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Fără excepţii la plata CASS schimbă radical finanţarea în sistem: excedent de 1,7 miliarde lei după 6 ani de deficit, cele mai mici subvenţii primite din 2020 încoace – analiză exclusivă",
+      "link": "https://www.economica.net/fara-exceptii-la-plata-cass-schimba-radical-finantarea-in-sistem-excedent-de-17-miliarde-lei-dupa-6-ani-de-deficit-cele-mai-mici-subventii-primite-din-2020-efectele-legii-141-si-ale-altor_984183.html",
+      "date": "2026-10-11T18:22:27.000Z",
+      "excerpt": "Fondul Naţional Unic de Asigurări Sociale de Sănătate (FNUASS), din care e finanţat în mare parte sistemul asigurărilor sociale de sănătate, are excedent, în primele opt luni din..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/onu-denunta-ca-fiind-inacceptabile-sanctiunile-impuse-de-sua-impotriva-curtii-penale-internationale_984382.html",
       "date": "2026-10-09T17:40:29.000Z",
       "excerpt": "Înaltul Comisar al ONU pentru Drepturile Omului, Volker Türk (foto), a declarat \"inacceptabile\" sancţiunile anunţate vineri de Statele Unite împotriva Curţii Penale Internaţionale..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "UE reacționează după ce SUA au impus sancțiuni noi împotriva CPI. Comisia anunță că va ajuta Curtea să-și continue activitatea",
-      "link": "https://www.economica.net/ue-reactioneaza-dupa-ce-sua-au-impus-sanctiuni-noi-impotriva-cpi-comisia-anunta-ca-va-ajuta-curtea-sa-si-continue-activitatea_984379.html",
-      "date": "2026-10-09T17:29:09.000Z",
-      "excerpt": "Uniunea Europeană a criticat vineri sancţiunile \"profund regretabile\" impuse de Statele Unite împotriva Curţii Penale Internaţionale (CPI) şi s-a angajat să ajute instituţia să-şi..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Gigantul german Rheinmetall a cumpărat șantierul naval Damen din Mangalia, cu 138 de milioane de euro",
-      "link": "https://www.economica.net/gigantul-rheinmetall-real-estate-a-cumparat-damen-shipyards-mangalia-cu-138-milioane-lei-fara-tva_984293.html",
-      "date": "2026-10-09T12:12:13.000Z",
-      "excerpt": "CITR, lichidatorul judiciar al Damen Shipyards Mangalia, şi liderul pietei de restructurare si insolvență din România, anunță că a vândut vineri, 9 octombrie, șantierul în urma..."
     }
   ]
 }
