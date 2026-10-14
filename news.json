@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-14T04:08:21.897Z",
+  "generatedAt": "2026-10-14T11:27:12.883Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "DECIZIE Cererea de insolvență a AnimaWings, amânată. Banca Transilvania și șapte aeroporturi, printre creditori",
+      "link": "https://www.economica.net/insolventa-animawings-amanata_985469.html",
+      "date": "2026-10-14T10:12:00.000Z",
+      "excerpt": "Tribunalul București a amânat decizia privind cererea de insolvență depusă pe 30 septembrie de AnimaWings, arata datele din portalul instanțelor de judecată."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/buzoianu-achizitii-directe-de-milioane-de-lei-realizate-la-anm-in-ultimii-patru-ani-cu-incalcarea-legislatiei_984575.html",
       "date": "2026-10-11T10:47:34.000Z",
       "excerpt": "Administraţia Naţională de Meteorologie (ANM) a realizat, în ultimii patru ani, achiziţii directe în valoare de milioane de lei, cu încălcarea legislaţiei în vigoare, potrivit..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Navi Pillay consideră inacceptabile sancţiunile SUA împotriva CPI",
-      "link": "https://www.economica.net/navi-pillay-considera-inacceptabile-sanctiunile-sua-impotriva-cpi_984511.html",
-      "date": "2026-10-10T14:52:30.000Z",
-      "excerpt": "Jurista sud-africană Navi Pillay, laureată a Premiului Nobel pentru Pace în 2026, a calificat sâmbătă drept ''inacceptabile'' sancţiunile anunţate vineri de Statele Unite contra..."
     }
   ]
 }
