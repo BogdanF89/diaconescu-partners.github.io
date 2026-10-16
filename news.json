@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-10-16T10:59:10.728Z",
+  "generatedAt": "2026-10-16T16:18:50.857Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Bursa creşte vineri şi încheie săptămâna cu un avans de 4%. Tranzacţii de 120 mil. lei astăzi şi aprecieri pe Premier Energy, Electrica şi Banca Transilvania",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-creste-vineri-si-incheie-saptamana-cu-un-avans-de-4-tranzactii-de-120-mil-lei-astazi-si-aprecieri-pe-premier-energy-electrica-si-banca-transilvania-23261718",
+      "date": "2026-10-16T15:17:19.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Ce angajamente și-a luat grupul Premier Energy în fața Consiliului Concurenței, care trebuie respectate timp de doi ani după preluarea Distribuție Energie Oltenia",
+      "link": "https://www.economica.net/ce-angajamente-si-a-luat-grupul-premier-energy-in-fata-consiliului-concurentei-care-trebuie-respectate-timp-de-doi-ani-dupa-preluarea-distributie-energie-oltenia_986529.html",
+      "date": "2026-10-16T14:58:08.000Z",
+      "excerpt": "Poziția viitoare a Premier Energy, care, după achiziția principalei firme de furnizare din zona Oltenia pentru casnici, este pe cale să preia și distribuția din zonă (DEO), va..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/se-schimba-robor-impact-pentru-toti-romanii-cu-credite-se-poate-lua-in-calcul-modelul-cursului-de-schimb-surse_985558.html",
       "date": "2026-10-14T19:33:57.000Z",
       "excerpt": "După scandalul manipulării ROBOR și cele mai mari amenzi din istoria sa date de Consiliul Concurenței au trecut 30 de zile. Băncile mai au la dispoziție încă cel puțin 30 de zile..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Parlamentul a votat măsuri noi pentru combaterea pestei porcine africane. Transportul ilegal a peste șase suine va fi infracțiune, iar animalele și autovehicolul vor fi confiscate",
-      "link": "https://www.economica.net/parlamentul-a-votat-masuri-noi-pentru-combaterea-pestei-porcine-africane-transportul-ilegal-a-peste-sase-suine-va-fi-infractiune-iar-animalele-si-autovehicolul-vor-fi-confiscate_985686.html",
-      "date": "2026-10-14T17:45:24.000Z",
-      "excerpt": "Transportul ilegal a şase sau mai multe porcine va constitui infracţiune, iar animalele şi vehiculele folosite la comiterea faptei vor fi confiscate, potrivit modificărilor aduse..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în creștere ședința de tranzacționare de miercuri. Rulajul a trecut de 104,7 milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-crestere-sedinta-de-tranzactionare-de-miercuri-rulajul-a-trecut-de-1047-milioane-de-lei_985678.html",
-      "date": "2026-10-14T16:19:42.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în creştere şedinţa de miercuri, iar valoarea tranzacţiilor s-a cifrat la 104,77 de milioane de lei (19,62 de milioane de euro), transmite..."
     }
   ]
 }
