@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-18T10:37:21.277Z",
+  "generatedAt": "2026-10-18T15:35:03.218Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la Bucureşti a câştigat aproape 23 de miliarde de lei la capitalizare în această săptămână",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-castigat-aproape-23-de-miliarde-de-lei-la-capitalizare-in-aceasta-saptamana_986843.html",
+      "date": "2026-10-18T12:10:46.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a câştigat în această săptămână aproape 23 de miliarde de lei la capitalizare (3,4%), în timp ce valoarea tranzacţiilor cu acţiuni a scăzut cu..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -88,14 +96,6 @@
       "title": "Asociaţia patronală IMM România solicită Parlamentului amânarea cu un an a amenzilor pentru antreprenorii care nu pun codul QR pe bonul fiscal. „Un nou exemplu de reglementare făcută fără o consultare",
       "link": "https://www.zf.ro/zf-24/asociatia-patronala-imm-romania-solicita-parlamentului-amanarea-an-amenzilor-antreprenorii-pun-codul-qr-bonul-fiscal-exemplu-reglementare-facuta-consultare-reala-mediului-afaceri-23261011",
       "date": "2026-10-15T16:39:34.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Un guvern funcţional, semnalul pe care îl aştepta Bursa de la Bucureşti: Indicele BET câştigă 2% joi, cu tranzacţii peste media ultimelor săptămâni. Creşteri de peste 3% pentru Nuclearelectrica, Petro",
-      "link": "https://www.zf.ro/burse-fonduri-mutuale/guvern-functional-semnalul-il-astepta-bursa-bucuresti-indicele-bet-castiga-2-joi-tranzactii-peste-media-ultimelor-saptamani-cresteri-peste-3-nuclearelectrica-petrom-transgaz-medlife-23260923",
-      "date": "2026-10-15T15:25:00.000Z",
       "excerpt": ""
     }
   ]
