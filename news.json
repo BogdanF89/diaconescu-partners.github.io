@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-19T12:34:29.173Z",
+  "generatedAt": "2026-10-19T22:07:39.285Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Industria auto europeană laudă propunerea franco-germană de relaxare a reglementărilor, dar solicită și alte modificări ale legislației",
+      "link": "https://www.economica.net/acea-reglementari-industria-auto-ue_987219.html",
+      "date": "2026-10-19T19:09:44.000Z",
+      "excerpt": "Asociația Europeană a Constructorilor de Automobile (ACEA) notează că recunoaște eforturile care stau la baza poziției comune franco-germane cu privire la „Pachetul auto” din..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/ce-angajamente-si-a-luat-grupul-premier-energy-in-fata-consiliului-concurentei-care-trebuie-respectate-timp-de-doi-ani-dupa-preluarea-distributie-energie-oltenia_986529.html",
       "date": "2026-10-16T14:58:08.000Z",
       "excerpt": "Poziția viitoare a Premier Energy, care, după achiziția principalei firme de furnizare din zona Oltenia pentru casnici, este pe cale să preia și distribuția din zonă (DEO), va..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Program de guvernare: limitarea infecţiilor intraspitaliceşti, o lege a malpraxisului, mai multe vaccinuri compensate şi gratuite. Medicii de familie vor putea lucra în spitalele publice",
-      "link": "https://www.economica.net/program-de-guvernare-limitarea-infectiilor-intraspitalicesti-o-lege-malpraxisului-mai-multe-vaccinuri-compensate-si-gratuite-medicii-de-familie-vor-putea-lucra-in-spitalele-publice_986347.html",
-      "date": "2026-10-16T10:07:23.000Z",
-      "excerpt": "Marile promisiuni asumate de Luca Niculescu în programul de guvernare la capitolul sănătate vizează crearea unor mecanisme pentru ţinerea sub control a infecţiilor..."
     }
   ]
 }
