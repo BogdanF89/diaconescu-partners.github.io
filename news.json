@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-10-20T16:33:45.250Z",
+  "generatedAt": "2026-10-20T21:23:21.043Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Ediţie specială ZF Live - Bucharest Cybersecurity Conference 2026. Dan Cîmpean, directorul DNSC: Organizaţiile care nu se conformează legislaţiei NIS2 vor fi sancţionate. „Nu este abordarea noastră pr",
+      "link": "https://www.zf.ro/zf-live/editie-speciala-zf-live-bucharest-cybersecurity-conference-2026-dan-cimpean-directorul-dnsc-organizatiile-conformeaza-legislatiei-nis2-vor-sanctionate-abordarea-noastra-preferata-vom-face-nicio-23264262",
+      "date": "2026-10-20T21:07:00.000Z",
+      "excerpt": "Directoratul Naţional de Securitate Cibernetică (DNSC) avertizează că perioada în care nu aplica amenzi pentru nerespectarea legislaţiei europene NIS2 s-a încheiat, iar după prima..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Moment important pentru piața de gaze din România. Vom avea cotații Platt’s, inclusiv în lei, pentru tranzacțiile cu gaz românesc, de la 1 decembrie",
+      "link": "https://www.economica.net/moment-important-pentru-piata-de-gaze-din-romania-vom-avea-cotatii-platts-inclusiv-in-lei-pentru-tranzactiile-cu-gaz-romanesc-de-la-1-decembrie_987670.html",
+      "date": "2026-10-20T19:21:39.000Z",
+      "excerpt": "Platts, parte a S&P Global Energy, va lansa sistemul de cotații de preț pentru gazele naturale de pe piața românească, mai exact pentru Punctul Virtual de Tranzacționare (PVT),..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-castigat-aproape-23-de-miliarde-de-lei-la-capitalizare-in-aceasta-saptamana_986843.html",
       "date": "2026-10-18T12:10:46.000Z",
       "excerpt": "Bursa de Valori Bucureşti (BVB) a câştigat în această săptămână aproape 23 de miliarde de lei la capitalizare (3,4%), în timp ce valoarea tranzacţiilor cu acţiuni a scăzut cu..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Imobiliarele duduie dincolo de rezidenţial: Piaţa comercială ar putea închide cu tranzacţii şi investiţii de 1 mld. euro anul acesta. „Ar fi al doilea cel mai bun an dupa 2007” VIDEO",
-      "link": "https://www.zf.ro/zf-live/imobiliarele-duduie-dincolo-de-rezidential-piata-comerciala-ar-putea-inchide-cu-tranzactii-si-investitii-de-1-mld-euro-anul-acesta-ar-fi-al-doilea-cel-mai-bun-an-dupa-2007-video-23262429",
-      "date": "2026-10-18T08:30:00.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Tranzacţie la cel mai înalt nivel în AI: Anthropic cumpără Opaque, un startup de securitate AI cofondat de românca Raluca Ada Popa, cercetătoare la Google DeepMind şi profesoară la Berkeley",
-      "link": "https://www.zf.ro/business-hi-tech/tranzactie-la-cel-mai-inalt-nivel-in-ai-anthropic-cumpara-opaque-un-startup-de-securitate-ai-cofondat-de-romanca-raluca-ada-popa-cercetatoare-la-google-deepmind-si-profesoara-la-berkeley-23259403",
-      "date": "2026-10-18T05:30:00.000Z",
-      "excerpt": ""
     }
   ]
 }
