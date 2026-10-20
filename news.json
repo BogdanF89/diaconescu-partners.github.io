@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-10-20T04:05:09.656Z",
+  "generatedAt": "2026-10-20T11:08:15.840Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Consiliul Concurenţei dă undă verde la preluarea Garanti Bank de către Raiffeisen Bank. După tranzacţie, Raiffeisen poate ajunge în top 3 pe piaţă, după active",
+      "link": "https://www.zf.ro/zf-24/consiliul-concurentei-da-unda-verde-la-preluarea-garanti-bank-de-catre-raiffeisen-bank-dupa-tranzactie-raiffeisen-poate-ajunge-in-top-3-pe-piata-dupa-active-23263867",
+      "date": "2026-10-20T09:34:01.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Moody’s: Instalarea unui nou Guvern şi adoptarea la timp a bugetului pentru 2027 susţin consolidarea fiscală. Deficitul ar urma să scadă la 5,5% din PIB în 2027, dar ajustarea fiscală rămâne dificilă",
+      "link": "https://www.zf.ro/eveniment/moody-s-instalarea-unui-nou-guvern-si-adoptarea-la-timp-a-bugetului-pentru-2027-sustin-consolidarea-fiscala-deficitul-ar-urma-sa-scada-la-5-5-din-pib-in-2027-dar-ajustarea-fiscala-ramane-dificila-23263821",
+      "date": "2026-10-20T08:27:29.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Bursă. Dan Drăguţanu, câştigătorul exerciţiului de investiţii ZF-Estinvest: Îmi dau seama acum de ce pe Wall Street viaţa activă a brokerilor se cam termină la 30-35 de ani. Tradingul este un consum e",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-dan-dragutanu-castigatorul-exercitiului-investitii-zf-estinvest-imi-dau-seama-acum-wall-street-viata-activa-brokerilor-cam-termina-30-35-ani-tradingul-consum-emotional-extraordinar-23263391",
+      "date": "2026-10-20T08:00:00.000Z",
+      "excerpt": "Tradingul pe bursă vine cu un consum emoţional foarte mare, iar pe lângă analiza fundamentală investi­torul are nevoie şi de o analiză psiho­logică a pieţei, spune Dan Drăguţanu,..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -73,30 +97,6 @@
       "link": "https://www.economica.net/ministrul-german-al-dezvoltarii-reem-alabali-radovan-solicita-exceptarea-finantarii-ucrainei-de-la-mecanismul-constitusional-care-limiteaza-imprumuturile-publice_986676.html",
       "date": "2026-10-17T11:48:17.000Z",
       "excerpt": "Ministrul german al Cooperării Economice şi Dezvoltării, Reem Alabali Radovan, solicită exceptarea finanţării destinate Ucrainei de la mecanismul constituţional care limitează..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Programul fiscal al Guvernului Luca Niculescu are direcția corectă, dar cifrele pe 2027 nu se leagă – analiză CC Tax Advisory",
-      "link": "https://www.economica.net/programul-fiscal-al-guvernului-luca-niculescu-are-directia-corecta-dar-cifrele-pe-2027-nu-se-leaga-analiza-cc-tax-advisory_986631.html",
-      "date": "2026-10-17T07:22:10.000Z",
-      "excerpt": "Programul de guvernare depus în Parlament promite ceva ce mediul de afaceri nu a mai auzit de mult: predictibilitate. Ni se promite că nu mai vin taxe surpriză, cota unică rămâne,..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Bursa creşte vineri şi încheie săptămâna cu un avans de 4%. Tranzacţii de 120 mil. lei astăzi şi aprecieri pe Premier Energy, Electrica şi Banca Transilvania",
-      "link": "https://www.zf.ro/burse-fonduri-mutuale/bursa-creste-vineri-si-incheie-saptamana-cu-un-avans-de-4-tranzactii-de-120-mil-lei-astazi-si-aprecieri-pe-premier-energy-electrica-si-banca-transilvania-23261718",
-      "date": "2026-10-16T15:17:19.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Ce angajamente și-a luat grupul Premier Energy în fața Consiliului Concurenței, care trebuie respectate timp de doi ani după preluarea Distribuție Energie Oltenia",
-      "link": "https://www.economica.net/ce-angajamente-si-a-luat-grupul-premier-energy-in-fata-consiliului-concurentei-care-trebuie-respectate-timp-de-doi-ani-dupa-preluarea-distributie-energie-oltenia_986529.html",
-      "date": "2026-10-16T14:58:08.000Z",
-      "excerpt": "Poziția viitoare a Premier Energy, care, după achiziția principalei firme de furnizare din zona Oltenia pentru casnici, este pe cale să preia și distribuția din zonă (DEO), va..."
     }
   ]
 }
