@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-24T10:33:24.672Z",
+  "generatedAt": "2026-10-24T15:36:34.225Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Moody’s a evitat să acorde un rating nou Franței și așteaptă ca situația în țară să se clarifice",
+      "link": "https://www.economica.net/moodys-a-evitat-sa-acorde-un-rating-nou-frantei-si-asteapta-ca-situatia-in-tara-sa-se-clarifice_988924.html",
+      "date": "2026-10-24T12:37:44.000Z",
+      "excerpt": "Moody's s-a abţinut vineri, contrar aşteptărilor generale, de la orice acţiune cu privire la ratingul datoriei franceze, menţinându-şi de facto ratingul la Aa3 cu o perspectivă..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -9,6 +17,14 @@
       "link": "https://www.zf.ro/special/analiza-luni-calendarul-marilor-tranzactii-listari-privatizari-era-capitalista-cele-30-mutari-cheie-tabla-sah-economiei-romanesti-moderne-au-schimbat-piata-privatizarea-dacia-renault-achizitia-23262535",
       "date": "2026-10-24T09:18:00.000Z",
       "excerpt": "„Vă puteţi imagina, în 2004, un OMV cu 5.000 de an­gajaţi care să preia Pe­tromul cu cei 60.000 de angajaţi ai săi? Cred că este cel mai mare succes al unei companii austriece în..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Revolut are 5 milioane de clienţi locali, vrea să fie banca principală pentru clienţi, dar unde este transparentă? În ultimii ani, cel puţin pentru România, care reprezintă una dintre cele mai importa",
+      "link": "https://www.zf.ro/zf-live/revolut-5-milioane-clienti-locali-vrea-fie-banca-principala-clienti-unde-transparenta-ultimii-ani-cel-putin-romania-reprezinta-una-dintre-cele-importante-piete-banca-furnizat-cifre-precum-active-23257637",
+      "date": "2026-10-24T08:01:00.000Z",
+      "excerpt": "Revolut, fintech-ul britanic care a captat în ultimii ani atenţia şi un număr consis­tent de clienţi români, în continuare, cu atât mai mult cu cât a devenit bancă în toată..."
     },
     {
       "lang": "ro",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/decizie-in-cazul-tranzactiei-dintre-napolact-si-bonafarm-cel-mai-mare-producator-agricol-si-de-alimente-din-ungaria-are-cateva-zile-pentru-a-si-comunica-pozitia_988366.html",
       "date": "2026-10-22T19:25:47.000Z",
       "excerpt": "Tranzacția dintre FrieslandCampina, proprietarul brandului Napolact, și compania ungurească Bonafarm Zrt a ajuns în faza procedurală finală. Reprezentanții statului român spun că..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de joi. Cele mai vândute acțiuni au fost ale Băncii Transilvania",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-joi-cele-mai-vandute-actiuni-au-fost-ale-bancii-transilvania_988473.html",
-      "date": "2026-10-22T17:32:56.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere şedinţa de joi, iar valoarea tranzacţiilor s-a cifrat la 72,83 de milioane de lei (13,62 de milioane de euro), relatează..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Ministerul Energiei va începe demersurile pentru alinierea salariilor angajaților CE Valea Jiului până la nivelul maxim aflat în plată pentru fiecare categorie de personal",
-      "link": "https://www.economica.net/ministerul-energiei-va-incepe-demersurile-pentru-alinierea-salariilor-angajatilor-ce-valea-jiului-pana-la-nivelul-maxim-aflat-in-plata-pentru-fiecare-categorie-de-personal_988460.html",
-      "date": "2026-10-22T16:43:10.000Z",
-      "excerpt": "Ministerul Energiei va iniţia, în maximum 30 de zile, demersuri legislative pentru alinierea salariilor angajaţilor Complexului Energetic Valea Jiului la nivelul maxim aflat în..."
     }
   ]
 }
