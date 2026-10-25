@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-25T15:47:12.057Z",
+  "generatedAt": "2026-10-25T20:34:28.354Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "România a plătit dobânzi record în octombrie în timp ce leul pierde substanțial în fața euro. Unde merg cursul valutar și dobânzile cu noul Guvern Niculescu",
+      "link": "https://www.economica.net/dobanzile-la-titlurile-de-stat-au-sarit-din-nou-peste-714-iar-leul-s-a-depreciat-cu-134-numai-in-octombrie-semnalele-pietelor-incep-sa-arate-o-crestere-primelor-de-risc-pentru-bonduri_988493.html",
+      "date": "2026-10-25T19:52:51.000Z",
+      "excerpt": "Trei indicatori economici încep să se suprapună în evoluții negative ceea ce arată că nu neapărat politicul este vinovat pentru evoluțiițe din economie. Deprecierea leului, cu un..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/companii/sierra-quadrant-comertul-si-constructiile-concentreaza-cele-mai-multe-insolvente-din-romania-peste-2-100-de-firme-din-cele-doua-sectoare-au-intrat-in-insolventa-in-primele-opt-luni-din-2026-23266680",
       "date": "2026-10-23T12:20:32.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Val de falimente în România, risc de efect de domino. Când vine „vârful presiunii” – Analiză Sierra Quadrant",
-      "link": "https://www.economica.net/val-de-falimente-in-romania-risc-de-efect-de-domino-cand-vine-varful-presiunii-analiza-sierra-quadrant_988634.html",
-      "date": "2026-10-23T09:53:13.000Z",
-      "excerpt": "Numărul firmelor care intră în insolvenţă va continua să crească în această iarnă, iar vârful presiunii este aşteptat la începutul lui 2027, după ce, în septembrie, insolvenţele..."
     }
   ]
 }
