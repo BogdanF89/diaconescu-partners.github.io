@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-10-26T12:30:35.371Z",
+  "generatedAt": "2026-10-26T22:25:55.154Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "PwC, 35 de ani. Diana Coroabă, partener: Cei care sunt astăzi CEO sau CFO de multinaţionale sunt extrem de educaţi, ştiu foarte bine ce vor. Majoritatea dintre ei au experienţe internaţionale şi au ec",
+      "link": "https://www.zf.ro/pwc-35-de-ani-in-romania/pwc-35-ani-diana-coroaba-partener-cei-astazi-ceo-cfo-multinationale-extrem-educati-stiu-foarte-bine-vor-majoritatea-dintre-au-experiente-internationale-au-echipe-foarte-mari-jurul-astazi-intalnesti-23268350",
+      "date": "2026-10-26T22:06:00.000Z",
+      "excerpt": "Diana Coroabă, partener, servicii de consultanţă fiscală în PwC România, a venit în cadrul companiei în urmă cu 26 de ani."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "BVB a închis în scădere ședința de tranzacționare de luni. Rulajul a depășit 72 de milioane de lei",
+      "link": "https://www.economica.net/bvb-a-inchis-in-scadere-sedinta-de-tranzactionare-de-luni-rulajul-a-depasit-72-de-milioane-de-lei_989389.html",
+      "date": "2026-10-26T19:41:30.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere pe aproape toţi indicii şedinţa de luni, iar valoarea tranzacţiilor s-a cifrat la 72,08 milioane de lei (13,48 de milioane de..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-vineri-rulajul-a-reusit-sa-treaca-de-66-de-milioane-de-lei_988842.html",
       "date": "2026-10-23T17:25:29.000Z",
       "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere pe toţi indicii şedinţa de vineri, iar valoarea tranzacţiilor s-a cifrat la 66,37 de milioane de lei (12,4 milioane de euro),..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Guvernanța fiscală înainte de exit: cât contează în prețul tranzacției?",
-      "link": "https://www.economica.net/guvernanta-fiscala-inainte-de-exit-cat-conteaza-in-pretul-tranzactiei_988754.html",
-      "date": "2026-10-23T13:36:29.000Z",
-      "excerpt": "Tranzacția prin care proprietarul unui business intenționează să iasă total sau parțial din companie trebuie privită dincolo de preț și de eventualele datorii. Cumpărătorul nu..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Sierra Quadrant: Comerţul şi construcţiile concentrează cele mai multe insolvenţe din România. Peste 2.100 de firme din cele două sectoare au intrat în insolvenţă în primele opt luni din 2026",
-      "link": "https://www.zf.ro/companii/sierra-quadrant-comertul-si-constructiile-concentreaza-cele-mai-multe-insolvente-din-romania-peste-2-100-de-firme-din-cele-doua-sectoare-au-intrat-in-insolventa-in-primele-opt-luni-din-2026-23266680",
-      "date": "2026-10-23T12:20:32.000Z",
-      "excerpt": ""
     }
   ]
 }
