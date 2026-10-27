@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-27T04:17:01.117Z",
+  "generatedAt": "2026-10-27T11:48:33.223Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Acţiunile Erste Group, proprietarul BCR, au pierdut circa 18% într-o lună pe bursa din Viena. De ce?",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/actiunile-erste-group-proprietarul-bcr-au-pierdut-circa-18-intr-o-luna-pe-bursa-din-viena-de-ce-23268434",
+      "date": "2026-10-27T09:00:00.000Z",
+      "excerpt": "Erste Group Bank, grupul austriac care deţine BCR, înregistrează o scădere de 17,6% a preţului acţiunilor în ultima lună, într-o perioadă în care investitorii au redus expunerea..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.economica.net/un-grup-de-investitii-american-va-prelua-o-participatie-de-42-la-clubul-spaniol-de-fotbal-valencia-cf_988844.html",
       "date": "2026-10-23T18:26:11.000Z",
       "excerpt": "Clubul spaniol de fotbal Valencia CF a anunţat vineri că un grup de investiţii, susţinut de cofondatorii KKR, George Roberts şi Henry Kravis, va achiziţiona o participaţie de 42%..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de vineri. Rulajul a reușit să treacă de 66 de milioane de lei",
-      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-vineri-rulajul-a-reusit-sa-treaca-de-66-de-milioane-de-lei_988842.html",
-      "date": "2026-10-23T17:25:29.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere pe toţi indicii şedinţa de vineri, iar valoarea tranzacţiilor s-a cifrat la 66,37 de milioane de lei (12,4 milioane de euro),..."
     }
   ]
 }
