@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-10-29T04:58:09.744Z",
+  "generatedAt": "2026-10-29T12:32:20.012Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ROMATSA ar putea să suspende serviciile de navigaţie aeriană pentru HiSky de la 1 noiembrie. Compania aeriană nu şi-ar fi plătit datoriile. UPDATE: ROMATSA: Au achitat, conform graficului de eşalonare",
+      "link": "https://www.zf.ro/eveniment/romatsa-ar-putea-suspende-serviciile-navigatie-aeriana-hisky-1-noiembrie-compania-aeriana-ar-platit-datoriile-update-romatsa-au-achitat-conform-graficului-esalonare-rata-era-depasita-23270350",
+      "date": "2026-10-29T12:12:47.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Doar 30% dintre pacienţii care suferă un AVC beneficiează de recuperare în secţiile de neurologie – ALIA",
+      "link": "https://www.economica.net/doar-30-dintre-pacientii-care-sufera-un-avc-beneficieaza-de-recuperare-in-sectiile-de-neurologie-alia_990329.html",
+      "date": "2026-10-29T12:07:41.000Z",
+      "excerpt": "ALIA - Asociaţia pentru Lupta Împotriva AVC atrage atenţia asupra unei nevoi esenţiale pentru persoanele care supravieţuiesc unui AVC: accesul la servicii de recuperare medicală..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/pwc-35-de-ani-in-romania/pwc-35-ani-diana-coroaba-partener-cei-astazi-ceo-cfo-multinationale-extrem-educati-stiu-foarte-bine-vor-majoritatea-dintre-au-experiente-internationale-au-echipe-foarte-mari-jurul-astazi-intalnesti-23268350",
       "date": "2026-10-26T22:06:00.000Z",
       "excerpt": "Diana Coroabă, partener, servicii de consultanţă fiscală în PwC România, a venit în cadrul companiei în urmă cu 26 de ani."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "BVB a închis în scădere ședința de tranzacționare de luni. Rulajul a depășit 72 de milioane de lei",
-      "link": "https://www.economica.net/bvb-a-inchis-in-scadere-sedinta-de-tranzactionare-de-luni-rulajul-a-depasit-72-de-milioane-de-lei_989389.html",
-      "date": "2026-10-26T19:41:30.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere pe aproape toţi indicii şedinţa de luni, iar valoarea tranzacţiilor s-a cifrat la 72,08 milioane de lei (13,48 de milioane de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "România a plătit dobânzi record în octombrie în timp ce leul pierde substanțial în fața euro. Unde merg cursul valutar și dobânzile cu noul Guvern Niculescu",
-      "link": "https://www.economica.net/dobanzile-la-titlurile-de-stat-au-sarit-din-nou-peste-714-iar-leul-s-a-depreciat-cu-134-numai-in-octombrie-semnalele-pietelor-incep-sa-arate-o-crestere-primelor-de-risc-pentru-bonduri_988493.html",
-      "date": "2026-10-25T19:52:51.000Z",
-      "excerpt": "Trei indicatori economici încep să se suprapună în evoluții negative ceea ce arată că nu neapărat politicul este vinovat pentru evoluțiițe din economie. Deprecierea leului, cu un..."
     }
   ]
 }
