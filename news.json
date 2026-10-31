@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-10-31T11:54:10.000Z",
+  "generatedAt": "2026-10-31T17:00:19.773Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Fitch menține ratingul Franței la A+, dar îi coboară perspectiva la negativă",
+      "link": "https://www.economica.net/fitch-mentine-ratingul-frantei-la-a-dar-ii-coboara-perspectiva-la-negativa_991066.html",
+      "date": "2026-10-31T12:45:23.000Z",
+      "excerpt": "Agenţia Fitch Ratings a menţinut ratingul datoriei suverane a Franţei la nivelul A+, dar i-a degradat perspectiva de la stabilă la negativă, relevând o ”deteriorare” a situaţiei..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://www.zf.ro/zf-private-health/zf-private-health-dr-valentina-contanu-fondatoarea-centrului-recuperare-pediatrica-cron-phoenix-ramanem-orientati-nisa-recuperarii-copii-piata-nevoie-protocoale-clare-le-dezvoltat-ultimii-20-ani-23270520",
       "date": "2026-10-29T22:06:00.000Z",
       "excerpt": "Recuperarea medicală pedia­trică are nevoie de protocoale clare pe care toţi actorii din piaţă să le urmeze, astfel încât copiii să obţină cele mai bune rezultate. „Dacă lucrezi..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "CEC Bank. CEC Bank pentru afaceri româneşti. Adrian Bucică, Green Ducklings: România a făcut un progres semnificativ pe partea de legislaţie de energie eoliană offshore, dar dacă ne dorim turbine mont",
-      "link": "https://www.zf.ro/cec-bank-pentru-afaceri-romanesti/cec-bank-cec-bank-afaceri-romanesti-adrian-bucica-green-ducklings-romania-facut-progres-semnificativ-partea-legislatie-energie-eoliana-offshore-ne-dorim-turbine-montate-pana-2035-doi-ani-stim-arata-23270528",
-      "date": "2026-10-29T22:05:00.000Z",
-      "excerpt": "În vara acestui an, România a făcut paşi importanţi pentru dezvoltarea producţiei de energie eoliană offshore prin delimitarea a şase perimetre, dintre care trei sunt prioritate."
     }
   ]
 }
