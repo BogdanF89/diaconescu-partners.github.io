@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-11-01T12:53:04.502Z",
+  "generatedAt": "2026-11-01T21:49:59.940Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Despăgubiri pentru creditele raportate la ROBOR: ce prevede proiectul de lege, poziția BNR, ce pot face consumatorii și care este rolul unui avocat",
+      "link": "https://www.economica.net/despagubiri-pentru-creditele-raportate-la-robor-ce-prevede-proiectul-de-lege-pozitia-bnr-ce-pot-face-consumatorii-si-care-este-rolul-unui-avocat_990841.html",
+      "date": "2026-11-01T19:44:02.000Z",
+      "excerpt": "Investigația privind stabilirea indicelui ROBOR a readus în atenție impactul acestuia asupra costului creditelor cu dobândă variabilă și posibilitatea recuperării eventualelor..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "BVB a câştigat aproape 24 de miliarde de lei la capitalizare în săptămâna 26 octombrie – 30 octombrie. Care au fost acțiunile cu cele mai mari creşteri şi cele mai mari scăderi",
+      "link": "https://www.economica.net/bvb-a-castigat-aproape-24-de-miliarde-de-lei-la-capitalizare-in-saptamana-26-octombrie-30-octombrie-care-au-fost-actiunile-cu-cele-mai-mari-cresteri-si-cele-mai-mari-scaderi_991274.html",
+      "date": "2026-11-01T16:19:31.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a câştigat, în această săptămână, 23,76 miliarde de lei la capitalizare (+3,43%), în timp ce valoarea tranzacţiilor cu acţiuni a scăzut cu 86,83..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/alexandru-nazare-despre-majorarile-salariale-rolul-ministerului-finantelor-este-sa-propuna-parametrii-credibili-pentru-aceste-decizii-iar-mai-departe-decizia-va-fi-politica-si-se-va-lua-in-guvern_990947.html",
       "date": "2026-10-30T18:06:40.000Z",
       "excerpt": "Deciziile privind solicitările de majorări salariale formulate de sindicate vor fi luate la nivelul Guvernului, în funcţie de spaţiul fiscal disponibil şi de necesităţile bugetare..."
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "Guvernul a adoptat „Ordonanța trenuleț” la propunerea Ministerului Finanțelor. Sunt alocați bani pentru sprijinirea localităților pe perioada iernii, pentru plata de facturi restante, se elimină taxa ",
-      "link": "https://www.economica.net/guvernul-a-adoptat-ordonanta-trenulet-la-propunerea-ministerului-finantelor-sunt-alocati-bani-pentru-sprijinirea-localitatilor-pe-perioada-iernii-pentru-plata-de-facturi-restante-se-elimina-tax_990924.html",
-      "date": "2026-10-30T16:41:13.000Z",
-      "excerpt": "Guvernul a aprobat, la propunerea Ministerului Finanţelor, setul de măsuri pentru sprijinirea pregătirii localităţilor pentru iarnă, finanţarea serviciilor esenţiale, continuarea..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Protagonistă inedită la bursă: Erste Bank, cea mai lichidă acţiuni de vineri, cu tranzacţii de 19 mil. lei. Indicele BET încheie primele zece luni din an cu un avans de 44%",
-      "link": "https://www.zf.ro/burse-fonduri-mutuale/protagonista-inedita-la-bursa-erste-bank-cea-mai-lichida-actiuni-de-vineri-cu-tranzactii-de-19-mil-lei-indicele-bet-incheie-primele-zece-luni-din-an-cu-un-avans-de-44-23271198",
-      "date": "2026-10-30T16:14:30.000Z",
-      "excerpt": ""
     }
   ]
 }
