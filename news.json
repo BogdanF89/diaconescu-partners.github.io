@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-11-07T12:40:35.610Z",
+  "generatedAt": "2026-11-07T21:36:33.167Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Banca Transilvania anunță că a înregistrat peste 12 milioane de tranzacții de Black Friday",
+      "link": "https://www.economica.net/banca-transilvania-anunta-ca-a-inregistrat-peste-12-milioane-de-tranzactii-de-black-friday_993215.html",
+      "date": "2026-11-07T14:07:05.000Z",
+      "excerpt": "Banca Transilvania a gestionat peste 12 milioane de tranzacţii în ziua de Black Friday, 6 noiembrie 2026, în creştere cu 10% faţă de ediţia de anul trecut, înregistrând un vârf de..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -89,14 +97,6 @@
       "link": "https://lawyersweek.net/27290/schoenherr-advises-raiffeisen-on-completion-of-garanti-bbva-group-romania-acquisition.html",
       "date": "2026-11-06T13:11:38.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Schoenherr asistă Raiffeisen cu privire la finalizarea achiziției Garanti BBVA Group România",
-      "link": "https://www.juridice.ro/866862/schoenherr-asista-raiffeisen-cu-privire-la-finalizarea-achizitiei-garanti-bbva-group-romania.html",
-      "date": "2026-11-06T13:08:30.000Z",
-      "excerpt": "Schoenherr a acordat asistență juridică Raiffeisen Bank International AG și Raiffeisen Bank SA („Raiffeisen”) cu privire la finalizarea cu succes a achiziției de către Raiffeisen..."
     }
   ]
 }
