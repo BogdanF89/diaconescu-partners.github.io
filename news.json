@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-11-07T05:16:00.014Z",
+  "generatedAt": "2026-11-07T12:40:35.610Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Problemele se agravează pentru DAN AIR",
+      "link": "https://www.zf.ro/auto/problemele-se-agraveaza-pentru-dan-air-23276723",
+      "date": "2026-11-07T10:30:54.000Z",
+      "excerpt": "Compania aeriană DAN AIR se confruntă cu noi probleme, la doar o zi după ce instanţa a decis intrarea sa în insolvenţă. ROMATSA a reziliat contractul cu operatorul aerian din..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Băncile din România, vizate de o nouă anchetă de amploare",
+      "link": "https://www.zf.ro/banci-si-asigurari/bancile-din-romania-vizate-de-o-noua-ancheta-de-amploare-23276702",
+      "date": "2026-11-07T08:58:02.000Z",
+      "excerpt": "Consiliul Concurenţei investighează modul în care băncile din România folosesc scorul FICO pentru evaluarea clienţilor care solicită împrumuturi. Autoritatea suspectează că..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -81,22 +97,6 @@
       "link": "https://www.juridice.ro/866862/schoenherr-asista-raiffeisen-cu-privire-la-finalizarea-achizitiei-garanti-bbva-group-romania.html",
       "date": "2026-11-06T13:08:30.000Z",
       "excerpt": "Schoenherr a acordat asistență juridică Raiffeisen Bank International AG și Raiffeisen Bank SA („Raiffeisen”) cu privire la finalizarea cu succes a achiziției de către Raiffeisen..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Clarificări privind balcoanele închise fără autorizație",
-      "link": "https://www.juridice.ro/866848/clarificari-privind-balcoanele-inchise-fara-autorizatie.html",
-      "date": "2026-11-06T12:44:27.000Z",
-      "excerpt": "Joi, 5 noiembrie 2026, Ministerul Dezvoltării, Lucrărilor Publice și Administrației a informat că a emis Ordinul nr. 1389/2026 privind aplicarea prevederilor referitoare la..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Alexandru Nazare, Ministrul Finanţelor: Nu putem gândi o relansare economică în absenţa menţinerii şi îmbunătăţirii ratingului de ţară şi în absenţa unei discipline fiscal-bugetare şi a unor bugete co",
-      "link": "https://www.zf.ro/zf-24/alexandru-nazare-ministrul-finantelor-putem-gandi-relansare-economica-absenta-mentinerii-imbunatatirii-ratingului-tara-absenta-unei-discipline-fiscal-bugetare-unor-bugete-construite-credibil-23276144",
-      "date": "2026-11-06T12:35:00.000Z",
-      "excerpt": ""
     }
   ]
 }
