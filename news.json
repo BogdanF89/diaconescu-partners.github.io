@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-11-08T05:11:30.602Z",
+  "generatedAt": "2026-11-08T12:57:49.375Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la Bucureşti a pierdut aproape 24,5 miliarde de lei la capitalizare în această săptămână",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-pierdut-aproape-245-miliarde-de-lei-la-capitalizare-in-aceasta-saptamana_993294.html",
+      "date": "2026-11-08T11:22:14.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, 24,46 miliarde de lei la capitalizare (-3,41%), în timp ce valoarea tranzacţiilor cu acţiuni a crescut cu 143,60..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "S&P retrogradează perspectiva ratingului Poloniei la negativă şi reduce calificativul datoriei în zloţi. Deficitul bugetar va depăşi 6% din PIB, iar datoria publică se apropie de 70%",
+      "link": "https://www.zf.ro/business-international/s-p-retrogradeaza-perspectiva-ratingului-poloniei-la-negativa-si-reduce-calificativul-datoriei-in-zloti-deficitul-bugetar-va-depasi-6-din-pib-iar-datoria-publica-se-apropie-de-70-23277150",
+      "date": "2026-11-08T11:01:27.000Z",
+      "excerpt": ""
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Datoria guvernamentală a crescut, în august 2026, cu 25 miliarde lei, la 61,1% din PIB",
+      "link": "https://www.economica.net/datoria-guvernamentala-a-crescut-in-august-2026-cu-25-miliarde-lei-la-611-din-pib_993282.html",
+      "date": "2026-11-08T09:25:01.000Z",
+      "excerpt": "Datoria administraţiei publice (datoria guvernamentală) a fost, în august 2026, de peste 1.230 miliarde lei, în creştere cu 25 miliarde lei faţă de luna anterioară, când s-a..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -72,30 +96,6 @@
       "title": "ZRVP Named Romania Law Firm of the Year at the Lexology Index Awards for the Third Consecutive Year",
       "link": "https://lawyersweek.net/27294/zrvp-named-romania-law-firm-of-the-year-at-the-lexology-index-awards-for-the-third-consecutive-year.html",
       "date": "2026-11-06T13:54:02.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "ZRVP, desemnată pentru al treilea an consecutiv „Firma de Avocatură a Anului din România” la Lexology Index Awards",
-      "link": "https://www.juridice.ro/866874/zrvp-desemnata-pentru-al-treilea-an-consecutiv-firma-de-avocatura-a-anului-din-romania-la-lexology-index-awards.html",
-      "date": "2026-11-06T13:46:11.000Z",
-      "excerpt": "Zamfirescu Racoți Vasile & Partners (ZRVP) a primit, pentru al treilea an consecutiv, distincția „Firma de Avocatură a Anului din România” (Romania Law Firm of the Year) în cadrul..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Noi activități în cadrul programului de formare continuă al INM",
-      "link": "https://www.juridice.ro/866810/noi-activitati-in-cadrul-programului-de-formare-continua-al-inm.html",
-      "date": "2026-11-06T13:43:13.000Z",
-      "excerpt": "Joi, 5 noiembrie 2026, Plenul Consiliului Superior al Magistraturii a hotărât completarea Programului de formare continuă aprobat pentru anul 2026 cu următoarele activităţi: – o..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Schoenherr advises Raiffeisen on completion of Garanti BBVA Group Romania acquisition",
-      "link": "https://lawyersweek.net/27290/schoenherr-advises-raiffeisen-on-completion-of-garanti-bbva-group-romania-acquisition.html",
-      "date": "2026-11-06T13:11:38.000Z",
       "excerpt": ""
     }
   ]
