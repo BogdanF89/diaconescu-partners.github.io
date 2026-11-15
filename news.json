@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-11-15T13:40:05.328Z",
+  "generatedAt": "2026-11-15T22:37:03.567Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ZF Deschiderea de astăzi la Bursă. Adrian Codirlaşu, CFA România: Cred că vor fi taxe mai mari anul viitor, pentru că dispar banii din PNRR. Soluţia e fiscală, nu monetară, prin reducerea cheltuielilo",
+      "link": "https://www.zf.ro/zf-deschiderea-de-astazi/zf-deschiderea-de-astazi-la-bursa-adrian-codirlasu-cfa-romania-cred-ca-vor-fi-taxe-mai-mari-anul-viitor-pentru-ca-dispar-banii-din-pnrr-solutia-e-fiscala-nu-monetara-prin-reducerea-cheltuielilor-23282192",
+      "date": "2026-11-15T22:05:00.000Z",
+      "excerpt": "Adrian Codirlaşu, preşedintele CFA România, se aşteaptă la taxe mai mari anul viitor, când bugetul pierde veniturile din PNRR, deşi crede că soluţia pentru deficit ar trebui să..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -9,6 +17,14 @@
       "link": "https://www.economica.net/bursa-de-la-bucuresti-a-castigat-19-miliarde-de-lei-la-capitalizare-dar-valoarea-tranzactiilor-de-pe-bvb-a-scazut-cu-40-in-saptamana-9-13-noiembrie-2026_995564.html",
       "date": "2026-11-15T12:39:13.000Z",
       "excerpt": "Bursa de Valori Bucureşti (BVB) a câştigat, în această săptămână, peste 18,66 miliarde de lei la capitalizare (+2,69%), în timp ce valoarea tranzacţiilor cu acţiuni a scăzut cu..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Siguranța rutieră are nevoie de o singură Direcție – Salvarea de vieți",
+      "link": "https://www.juridice.ro/869116/siguranta-rutiera-are-nevoie-de-o-singura-directie-salvarea-de-vieti.html",
+      "date": "2026-11-15T06:14:22.000Z",
+      "excerpt": "România are nevoie de un centru național de comandă și coordonare a siguranței rutiere. Nu de încă o instituție birocratică, ci de un mecanism care să unească eforturile statului..."
     },
     {
       "lang": "ro",
@@ -81,22 +97,6 @@
       "link": "https://www.economica.net/scandal-oil-terminal-dosar-evaziune-motorina-diicot-a-pus-sechestru-pe-111-imobile_995104.html",
       "date": "2026-11-13T12:21:36.000Z",
       "excerpt": "DIICOT a anunţat vineri că a pus sechestru pe 111 imobile (construcţii şi terenuri) şi pe conturile inculpaţilor implicaţi în dosarul evaziunii cu motorină, până la concurenţa..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Avizul Consiliului Legislativ nr. 934/2026 favorabil ref. modificarea Regulamentului Consiliului Concurenței",
-      "link": "https://www.juridice.ro/868499/avizul-consiliului-legislativ-nr-934-2026-favorabil-ref-modificarea-regulamentului-consiliului-concurentei.html",
-      "date": "2026-11-13T12:01:00.000Z",
-      "excerpt": "Marți, 10 noiembrie 2026, Consiliul Legislativ a emis Avizul nr. 934. „Analizând proiectul de Regulament pentru modificarea și completarea Regulamentului de organizare și..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Cadrul de autorizare a sistemelor de irigații locale",
-      "link": "https://www.juridice.ro/868549/cadrul-de-autorizare-a-sistemelor-de-irigatii-locale.html",
-      "date": "2026-11-13T11:45:01.000Z",
-      "excerpt": "Joi, 11 noiembrie 2026, Guvernul României a adoptat Hotărârea de Guvern pentru modificarea şi completarea Normelor metodologice de aplicare a Legii îmbunătățirilor funciare nr...."
     }
   ]
 }
