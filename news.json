@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-11-17T15:41:14.415Z",
+  "generatedAt": "2026-11-18T00:44:00.523Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Comisia Europeană anticipează pentru România în acest an o scădere economică de 0,3%, urmată de o creştere de 1,8% în 2027",
+      "link": "https://www.zf.ro/banci-si-asigurari/comisia-europeana-anticipeaza-pentru-romania-in-acest-an-o-scadere-economica-de-0-3-urmata-de-o-crestere-de-1-8-in-2027-23284134",
+      "date": "2026-11-17T22:07:00.000Z",
+      "excerpt": "După o creştere modestă în 2025 de 0,8%, economia românească se va contracta uşor în 2026 la minus 0,3%, deoarece consolidarea fiscală afectează consumul privat. Investiţiile..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Academia Română pune la dispoziția autorităților un studiu privind reorganizarea teritorială",
+      "link": "https://www.juridice.ro/869692/academia-romana-pune-la-dispozitia-autoritatilor-un-studiu-privind-reorganizarea-teritoriala.html",
+      "date": "2026-11-17T18:06:37.000Z",
+      "excerpt": "Vineri, 13 noiembrie 2026, Academia Română a informat că pune la dispoziția instituțiilor abilitate rezultatele unui studiu privind o nouă organizare administrativ-teritorială a..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Metodologia privind colectarea datelor despre femicid",
+      "link": "https://www.juridice.ro/869703/metodologia-privind-colectarea-datelor-despre-femicid.html",
+      "date": "2026-11-17T15:46:40.000Z",
+      "excerpt": "În Monitorul Oficial, Partea I nr. 953 din 16 noiembrie 2026 a fost publicată Metodologia privind culegerea datelor primare prevăzute la art. 2 alin. (3) din Legea nr. 53/2026..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Acord de recunoaștere a vinovăției pentru amenințarea Președintelui României",
+      "link": "https://www.juridice.ro/869694/acord-de-recunoastere-a-vinovatiei-pentru-amenintarea-presedintelui-romaniei.html",
+      "date": "2026-11-17T15:03:41.000Z",
+      "excerpt": "Marți, 17 noiembrie 2026, Parchetul de pe lângă Înalta Curte de Casație și Justiție a sesizat Judecătoria Baia Mare cu acordul de recunoaștere a vinovăției unui inculpat, sub..."
+    },
     {
       "lang": "ro",
       "source": "Economica.net",
@@ -65,38 +97,6 @@
       "link": "https://evenimente.juridice.ro/dezbateri/25671/raspunderea-unitatii-sanitare-pentru-fapta-medicului",
       "date": "2026-11-16T19:01:55.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Economica.net",
-      "title": "BVB a înschis în creștere ședința de tranzacționare de luni. Rulajul a trecut de 1,5 miliarde de lei",
-      "link": "https://www.economica.net/bvb-a-inschis-in-crestere-sedinta-de-tranzactionare-de-luni-rulajul-a-trecut-de-15-miliarde-de-lei_996015.html",
-      "date": "2026-11-16T18:55:52.000Z",
-      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în creştere prima şedinţă de tranzacţionare din această săptămână, iar valoarea schimburilor s-a cifrat la 1,54 de miliarde de lei (288,7..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Delegația CJUE a participat la reuniunea anuală a corespondenților Rețelei Judiciare a Uniunii Europene",
-      "link": "https://www.juridice.ro/869422/delegatia-cjue-a-participat-la-reuniunea-anuala-a-corespondentilor-retelei-judiciare-a-uniunii-europene.html",
-      "date": "2026-11-16T18:05:04.000Z",
-      "excerpt": "Vineri, 13 noiembrie 2026, o delegație a Curții de Justiție a Uniunii Europene (CJUE) a participat la reuniunea anuală a corespondenților Rețelei Judiciare a Uniunii Europene..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Ministrul Radu Marinescu a participat la conferința dedicată concurenței în sectoare cheie",
-      "link": "https://www.juridice.ro/869418/ministrul-radu-marinescu-a-participat-la-conferinta-dedicata-concurentei-in-sectoare-cheie.html",
-      "date": "2026-11-16T16:02:01.000Z",
-      "excerpt": "Luni, 16 noiembrie 2026, Radu Marinescu, Ministrul Justiției, a participat la conferința „Concurența în sectoare cheie: competitivitate și inovare”, organizată de Consiliul..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Demersuri pentru transferarea unui cetățean român încarcerat în China",
-      "link": "https://www.juridice.ro/866075/demersuri-pentru-transferarea-unui-cetatean-roman-incarcerat-in-china.html",
-      "date": "2026-11-16T15:01:02.000Z",
-      "excerpt": "Luni, 16 noiembrie 2026, Ministerul Justiției a informat că a transmis Ministerului Justiției din Republica Populară Chineză o solicitare privind organizarea unei videoconferințe..."
     }
   ]
 }
