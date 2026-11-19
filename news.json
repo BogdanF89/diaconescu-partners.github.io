@@ -1,7 +1,79 @@
 {
-  "generatedAt": "2026-11-19T00:01:32.478Z",
+  "generatedAt": "2026-11-19T15:27:11.109Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Nvidia depășește estimările de pe Wall Street, dar acțiunile scad pe fondul căutării unui nou CEO",
+      "link": "https://www.economica.net/nvidia-depaseste-estimarile-de-pe-wall-street-dar-actiunile-scad-pe-fondul-cautarii-unui-nou-ceo_997179.html",
+      "date": "2026-11-19T14:51:28.000Z",
+      "excerpt": "Nvidia este o companie prinsă între două lumi: una în care cofondatorul Jensen Huang s-ar întoarce în funcția de CEO și alta în care altcineva va conduce compania. Între timp,..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "DAC7: Ce trebuie să știe operatorii platformelor digitale despre raportarea tranzacțiilor",
+      "link": "https://www.economica.net/dac7-ce-trebuie-sa-stie-operatorii-platformelor-digitale-despre-raportarea-tranzactiilor_997173.html",
+      "date": "2026-11-19T14:42:39.000Z",
+      "excerpt": "De la marketplace-uri și platforme de închiriere până la aplicații care facilitează prestarea de servicii, obligațiile de raportare impuse de directiva europeană DAC7 vizează o..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "OUG pentru reducerea întârzierilor și prevenirea blocajelor în activitatea ONRC | Proiect",
+      "link": "https://www.juridice.ro/870265/oug-pentru-reducerea-intarzierilor-si-prevenirea-blocajelor-in-activitatea-onrc-proiect.html",
+      "date": "2026-11-19T13:45:48.000Z",
+      "excerpt": "Miercuri, 18 noiembrie 2026, Ministerul Justiției a supus dezbaterii publice proiectul de Ordonanță de urgență a Guvernului pentru instituirea unor măsuri privind activitatea de..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "CEDO respinge cererea de măsuri provizorii într-o cauză privind Curtea Constituțională a Poloniei",
+      "link": "https://www.juridice.ro/870253/cedo-respinge-cererea-de-masuri-provizorii-intr-o-cauza-privind-curtea-constitutionala-a-poloniei.html",
+      "date": "2026-11-19T13:17:58.000Z",
+      "excerpt": "Marți, 17 noiembrie 2026, Curtea Europeană a Drepturilor Omului, reunită într-o cameră formată din șapte judecători, a respins în unanimitate cererea de dispunere a unei măsuri..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "Raport privind numirile în cadrul CJUE",
+      "link": "https://www.juridice.ro/870251/raport-privind-numirile-in-cadrul-cjue.html",
+      "date": "2026-11-19T13:03:33.000Z",
+      "excerpt": "Marți, 17 noiembrie 2026, Comitetul consultativ pentru numirile judiciare, prevăzut la articolul 255 din Tratatul privind funcționarea Uniunii Europene, și-a publicat cel de-al..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "ANITP atrage atenția asupra vulnerabilității copiilor în fața exploatării sexuale",
+      "link": "https://www.juridice.ro/870242/anitp-atrage-atentia-asupra-vulnerabilitatii-copiilor-in-fata-exploatarii-sexuale.html",
+      "date": "2026-11-19T12:31:00.000Z",
+      "excerpt": "Miercuri, 18 noiembrie 2026, Agenția Națională Împotriva Traficului de Persoane (ANITP) a transmis, cu ocazia Zilei europene pentru protecția copiilor împotriva exploatării..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "CJUE. C-369/25 | Trenitalia și INPS. Dreptul la informare al lucrătorilor nu echivalează cu dreptul la remunerație",
+      "link": "https://www.juridice.ro/870236/cjue-c-369-25-trenitalia-si-inps-dreptul-la-informare-al-lucratorilor-nu-echivaleaza-cu-dreptul-la-remuneratie.html",
+      "date": "2026-11-19T12:02:32.000Z",
+      "excerpt": "În Jurnalul Oficial al Uniunii Europene, seria C, din 16 noiembrie 2026, a fost publicată Hotărârea Curții (Camera a cincea) din 24 septembrie 2026 (cerere de decizie preliminară..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ZF Live Special. Ionuţ Morar, CEO, BT Leasing: Planul nostru la nivel de grup este de creştere. Nu privim fragmentat, privim pe un ciclu de 5 ani. Este mult mai important să avem planurile pe un ciclu",
+      "link": "https://www.zf.ro/zf-live/zf-live-special-ionut-morar-ceo-bt-leasing-planul-nostru-la-nivel-de-grup-este-de-crestere-nu-privim-fragmentat-privim-pe-un-ciclu-de-5-ani-este-mult-mai-important-sa-avem-planurile-pe-un-ciclu-23284931",
+      "date": "2026-11-19T12:00:00.000Z",
+      "excerpt": "BT Leasing urmăreşte creşterea, obiectivul făcând parte din planurile întregului grup BT, iar perioada pentru care sunt făcute deja planurile vizează un orizont de 5 ani,..."
+    },
+    {
+      "lang": "ro",
+      "source": "Juridice.ro",
+      "title": "CJUE. C-300/25 | Duftošek. Partajul imobilului dobândit în timpul căsătoriei în cadrul regimului separației de bunuri. Jud. dr. Octavia Spineanu-Matei, judecător raportor. UPDATE: Publicare în Jurnalu",
+      "link": "https://www.juridice.ro/854912/cjue-c-300-25-duftosek-partajul-imobilului-dobandit-in-timpul-casatoriei-in-cadrul-regimului-separatiei-de-bunuri-jud-dr-octavia-spineanu-matei-judecator-raportor.html",
+      "date": "2026-11-19T11:32:37.000Z",
+      "excerpt": "În Jurnalul Oficial al Uniunii Europene, seria C, din 16 noiembrie 2026, a fost publicată Hotărârea Curții (Camera a treia) din 24 septembrie 2026 (cerere de decizie preliminară..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -25,78 +97,6 @@
       "link": "https://www.economica.net/curtea-de-conturi-europeana-avertizeaza-ca-scutul-legislativ-al-ue-impotriva-poluantilor-eterni-are-multe-brese_996880.html",
       "date": "2026-11-18T18:50:43.000Z",
       "excerpt": "\"Poluanţii eterni\", sau PFAS, continuă să se acumuleze în organismul uman şi în mediu, în timp ce acţiunile Uniunii Europene nu reuşesc să ţină pasul, arată un nou raport al..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Voinescu Lawyers a reprezentat cu succes lideri de piață din sectorul transporturilor în litigii de tip follow-on inițiate ca urmare a deciziei Comisiei Europene pronunțate în cazul „Cartelul Camioane",
-      "link": "https://www.juridice.ro/870074/voinescu-lawyers-a-reprezentat-cu-succes-lideri-de-piata-din-sectorul-transporturilor-in-litigii-de-tip-follow-on-initiate-ca-urmare-a-deciziei-comisiei-europene-pronuntate-in-cazul-cartelul.html",
-      "date": "2026-11-18T15:58:13.000Z",
-      "excerpt": "După un parcurs litigios ce a durat peste şapte ani, echipa pluridisciplinară a Voinescu Lawyers, coordonată de Timeea Ciudin (Partener), a obținut rezultatul scontat pentru..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "ANAF a sesizat organele de urmărire penală în cazul unor tranzacții cu produse software",
-      "link": "https://www.juridice.ro/870030/anaf-a-sesizat-organele-de-urmarire-penala-in-cazul-unor-tranzactii-cu-produse-software.html",
-      "date": "2026-11-18T15:44:31.000Z",
-      "excerpt": "Miercuri, 18 noiembrie 2026, Agenția Națională de Administrare Fiscală (ANAF) a anunțat că inspectorii Direcției Generale Antifraudă Fiscală (DGAF) au sesizat organele de urmărire..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Avizul Consiliului Legislativ nr. 944/2026 favorabil ref. eliminarea pragului electoral alternativ la alegerile parlamentare",
-      "link": "https://www.juridice.ro/870027/vizul-consiliului-legislativ-nr-944-2026-favorabil-ref-eliminarea-pragului-electoral-alternativ-la-alegerile-parlamentare.html",
-      "date": "2026-11-18T15:14:18.000Z",
-      "excerpt": "Marți, 17 noiembrie 2026, Consiliul Legislativ a emis Avizul nr. 944. „Analizând propunerea legislativă pentru modificarea art. 94 alin. (2) lit. a) din Legea nr. 208/2015 privind..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Parlamentarii pot sesiza CCR privind trei legi",
-      "link": "https://www.juridice.ro/869983/parlamentarii-pot-sesiza-ccr-privind-trei-legi.html",
-      "date": "2026-11-18T14:32:10.000Z",
-      "excerpt": "Miercuri, 18 noiembrie 2026, Senatul României a informat că s-au depus la secretarul general al Senatului, în vederea exercitării de către senatori a dreptului de sesizare a..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Obiecție de neconstituționalitate respinsă privind derogarea de la suspendarea unor ordine ale ministrului mediului",
-      "link": "https://www.juridice.ro/833976/obiectie-de-neconstitutionalitate-respinsa-privind-derogarea-de-la-suspendarea-unor-ordine-ale-ministrului-mediului.html",
-      "date": "2026-11-18T14:07:04.000Z",
-      "excerpt": "Miercuri, 18 noiembrie 2026, Curtea Constituțională, cu majoritate de voturi, a respins, ca neîntemeiată, obiecția de neconstituționalitate formulată de Președintele României și a..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "AMLA și EPPO au semnat un acord de cooperare",
-      "link": "https://www.juridice.ro/870002/amlasi-eppo-au-semnat-un-acord-de-cooperare.html",
-      "date": "2026-11-18T14:03:35.000Z",
-      "excerpt": "Marți, 17 noiembrie 2026, Autoritatea pentru Combaterea Spălării Banilor (AMLA) și Parchetul European (EPPO) au semnat la Frankfurt pe Main un aranjament de lucru privind..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "ANAF a găzduit vizita de lucru a Administrației Fiscale din Japonia",
-      "link": "https://www.juridice.ro/869985/anaf-a-gazduit-vizita-de-lucru-a-administratiei-fiscale-din-japonia.html",
-      "date": "2026-11-18T13:44:31.000Z",
-      "excerpt": "Miercuri, 18 noiembrie 2026, Agenția Națională de Administrare Fiscală (ANAF) a informat că a găzduit, în perioada 11-12 noiembrie 2026, o vizită de lucru a unei delegații a..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "CCR a participat la reuniunea anuală a corespondenților RJUE",
-      "link": "https://www.juridice.ro/869992/ccr-a-participat-la-reuniunea-anuala-a-corespondentilor-rjue.html",
-      "date": "2026-11-18T13:30:53.000Z",
-      "excerpt": "Miercuri, 18 noiembrie 2026, Curtea Constituțională a României a informat că prim-magistrat-asistent Benke Károly a participat, în calitate de corespondent din partea Curții..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Comisia Europeană anticipează pentru România în acest an o scădere economică de 0,3%, urmată de o creştere de 1,8% în 2027",
-      "link": "https://www.zf.ro/banci-si-asigurari/comisia-europeana-anticipeaza-pentru-romania-in-acest-an-o-scadere-economica-de-0-3-urmata-de-o-crestere-de-1-8-in-2027-23284134",
-      "date": "2026-11-17T22:07:00.000Z",
-      "excerpt": "După o creştere modestă în 2025 de 0,8%, economia românească se va contracta uşor în 2026 la minus 0,3%, deoarece consolidarea fiscală afectează consumul privat. Investiţiile..."
     }
   ]
 }
