@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-11-22T14:17:20.650Z",
+  "generatedAt": "2026-11-22T23:24:06.378Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Românii au mizat pe Claude 40-50 milioane de dolari în listarea secolului, Anthropic, prin platforme bursiere interne şi internaţionale. Doar BT Capital Partners a raportat tranzacţii Anthropic de 4 m",
+      "link": "https://www.zf.ro/burse-fonduri-mutuale/romanii-au-mizat-claude-40-50-milioane-dolari-listarea-secolului-anthropic-platforme-bursiere-interne-internationale-bt-capital-partners-raportat-tranzactii-anthropic-4-mil-dolari-23286981",
+      "date": "2026-11-22T22:08:00.000Z",
+      "excerpt": "Clienţii BT Capital Partners, cel mai mare broker de la BVB, au tranzacţionat acţiuni Anthropic de 4,3 mil. dolari în primele două zile de la debutul companiei pe Nasdaq, joi şi..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Gunter Deuber, economistul-şef al Raiffeisen Bank International: O eventuală reducere a ratingului României va avea un impact modest, pentru că acest topic este deja inclus în preţul dobânzilor. Situa",
+      "link": "https://www.zf.ro/banci-si-asigurari/gunter-deuber-economistul-sef-raiffeisen-bank-international-eventuala-reducere-ratingului-romaniei-avea-impact-modest-acest-topic-inclus-pretul-dobanzilor-situatia-fiscala-principala-problema-23286908",
+      "date": "2026-11-22T22:07:00.000Z",
+      "excerpt": "Gunter Deuber, managing di­rector şi economistul-şef al Raiffeisen Bank Internatio­nal, a declarat vineri, la Vie­na, că o eventuală reducere a ratingului de ţară al României,..."
+    },
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "ZF & NNDKP „Dialoguri despre România“. Ionuţ Sas, UiPath. România pierde teren în competiţia pentru investiţii. „Putem atrage orice hyperscaler, dar dacă nu avem o reţea electrică suficient de dezvolt",
+      "link": "https://www.zf.ro/companii/zf-nndkp-dialoguri-romania-ionut-sas-uipath-romania-pierde-teren-competitia-investitii-putem-atrage-hyperscaler-avem-retea-electrica-suficient-dezvoltata-efortul-inutil-23286910",
+      "date": "2026-11-22T22:05:00.000Z",
+      "excerpt": "Instabilitatea politică şi economică, lipsa predictibilităţii legislative şi infrastructura insuficient dezvoltată afectează competitivitatea României şi capacitatea de a atrage..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -73,30 +97,6 @@
       "link": "https://www.juridice.ro/870616/planul-pentru-2027-vizeaza-transpunerea-in-legislatia-nationala-a-87-de-directive-europene.html",
       "date": "2026-11-20T18:02:43.000Z",
       "excerpt": "Vineri, 20 noiembrie 2026, Guvernul României a adoptat memorandumul cu tema: Planul anual de transpunere a directivelor UE-2027. Executivul a adoptat Planul anual de transpunere a..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Ce arată materialele AGA Hidroelectrica: proiectul de 1,4 mld. lei de pe Olt înseamnă panouri plutitoare şi baterii la cinci hidrocentrale, cu recuperarea investiţiei în 5,5 ani",
-      "link": "https://www.zf.ro/burse-fonduri-mutuale/ce-arata-materialele-aga-hidroelectrica-proiectul-de-1-4-mld-lei-de-pe-olt-inseamna-panouri-plutitoare-si-baterii-la-cinci-hidrocentrale-cu-recuperarea-investitiei-in-5-5-ani-23286331",
-      "date": "2026-11-20T17:58:48.000Z",
-      "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "TBRCM se reorganizează",
-      "link": "https://www.juridice.ro/870591/tbrcm-se-reorganizeaza.html",
-      "date": "2026-11-20T17:31:57.000Z",
-      "excerpt": "Vineri, 20 noiembrie 2026, Guvernul României a adoptat Hotărârea de Guvern pentru modificarea Hotărârii Guvernului nr. 1469/2002 privind înfiinţarea Societăţii de Tratament..."
-    },
-    {
-      "lang": "ro",
-      "source": "Ziarul Financiar",
-      "title": "Studiu Forvis Mazars pe 15 ţări din Europa Centrală şi de Est: costurile de finanţare, preţurile de transfer şi pierderile fiscale pot eroda valoarea unei tranzacţii M&A. În România, regulile noi din ",
-      "link": "https://www.zf.ro/zf-24/studiu-forvis-mazars-15-tari-europa-centrala-est-costurile-finantare-preturile-transfer-pierderile-fiscale-pot-eroda-valoarea-unei-tranzactii-m-romania-regulile-2026-privind-activul-net-transferul-23286319",
-      "date": "2026-11-20T17:14:22.000Z",
-      "excerpt": ""
     }
   ]
 }
