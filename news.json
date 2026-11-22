@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-11-22T05:47:52.201Z",
+  "generatedAt": "2026-11-22T14:17:20.650Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Ziarul Financiar",
+      "title": "Capăt de linie pentru CFR Marfă: Transportatorul de stat, ce activa pe piaţă din 1998, a intrat în faliment prin procedura simplificată de insolvenţă, la cererea a şapte creditori",
+      "link": "https://www.zf.ro/auto/capat-de-linie-pentru-cfr-marfa-transportatorul-de-stat-ce-activa-pe-piata-din-1998-a-intrat-in-faliment-prin-procedura-simplificata-de-insolventa-la-cererea-a-sapte-creditori-23284835",
+      "date": "2026-11-22T13:52:00.000Z",
+      "excerpt": "Compania de stat CFR Marfă, cândva un colos al transportului feroviar românesc, a ajuns la capăt de linie, în faliment, după ani de pierderi, datorii şi decizii controversate...."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la Bucureşti a pierdut peste 18 miliarde de lei la capitalizare în această săptămână",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-pierdut-peste-18-miliarde-de-lei-la-capitalizare-in-aceasta-saptamana_998023.html",
+      "date": "2026-11-22T11:14:15.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a pierdut, în această săptămână, 18,4 miliarde de lei la capitalizare (-2,58%), în timp ce valoarea tranzacţiilor cu acţiuni a scăzut cu aproape 88..."
+    },
     {
       "lang": "ro",
       "source": "Ziarul Financiar",
@@ -81,22 +97,6 @@
       "link": "https://www.zf.ro/zf-24/studiu-forvis-mazars-15-tari-europa-centrala-est-costurile-finantare-preturile-transfer-pierderile-fiscale-pot-eroda-valoarea-unei-tranzactii-m-romania-regulile-2026-privind-activul-net-transferul-23286319",
       "date": "2026-11-20T17:14:22.000Z",
       "excerpt": ""
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Memorandum privind dosarele europene prioritare pentru România",
-      "link": "https://www.juridice.ro/870638/memorandum-privind-dosarele-europene-prioritare-pentru-romania.html",
-      "date": "2026-11-20T16:44:45.000Z",
-      "excerpt": "Vineri, 20 noiembrie 2026, Guvernul României a adoptat memorandumul cu tema: Dosare active pe agenda europeană de interes prioritar pentru România, aspecte referitoare la dinamica..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Se prelungește termenul pentru solicitarea ajutorului de stat în industria prelucrătoare",
-      "link": "https://www.juridice.ro/870607/se-prelungeste-termenul-pentru-solicitarea-ajutorului-de-stat-in-industria-prelucratoare.html",
-      "date": "2026-11-20T15:46:03.000Z",
-      "excerpt": "Vineri, 20 noiembrie 2026, Guvernul României a adoptat Hotărârea de Guvern pentru modificarea Hotărârii Guvernului nr. 486/2026 privind stimularea investițiilor în vederea..."
     }
   ]
 }
