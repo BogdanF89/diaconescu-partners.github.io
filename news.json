@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-11-26T07:30:51.998Z",
+  "generatedAt": "2026-11-26T21:07:42.295Z",
   "count": 12,
   "items": [
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Datoria României va continua să crească și cu un deficit bugetar mai mic. Unde se va ajunge povara conform analiștilor BCR",
+      "link": "https://www.economica.net/datoria-romaniei-va-continua-sa-creasca-si-cu-un-deficit-bugetar-mai-mic-unde-se-va-ajunge-povara-conform-analistilor-bcr_998756.html",
+      "date": "2026-11-26T20:21:22.000Z",
+      "excerpt": "Chiar cu o reducere a deficitului la 5% din PIB în 2028, datoria publică nu ar putea fi stabilizată. Potrivit scenariului BCR Erste, datoria publică ar urma să atingă un vârf de..."
+    },
+    {
+      "lang": "ro",
+      "source": "Economica.net",
+      "title": "Bursa de la București a închis în scădere ședința de tranzacționare de joi. Rulajul a fost de doar 35,5 milioane de lei",
+      "link": "https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-joi-rulajul-a-fost-de-doar-355-milioane-de-lei_999690.html",
+      "date": "2026-11-26T20:04:41.000Z",
+      "excerpt": "Bursa de Valori Bucureşti (BVB) a închis în scădere pe toţi indicii şedinţa de tranzacţionare de joi, iar valoarea totală a tranzacţiilor s-a cifrat la 35,54 de milioane de lei..."
+    },
     {
       "lang": "ro",
       "source": "Juridice.ro",
@@ -81,22 +97,6 @@
       "link": "https://www.juridice.ro/871962/o-femeie-a-fost-plasata-sub-control-judiciar-dupa-ce-a-promis-obtinerea-unei-diplome-de-licenta-contra-cost.html",
       "date": "2026-11-25T17:38:55.000Z",
       "excerpt": "Miercuri, 25 noiembrie 2026, Parchetul de pe lângă Tribunalul București a informat că a pus în mișcare acțiunea penală împotriva unei inculpate, pentru săvârșirea infracțiunii de..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "ÎCCJ. DCD de respingere privind hotărârea pronunțată de către prima instanță în procedura examinării admisibilității în principiu a contestației în anulare",
-      "link": "https://www.juridice.ro/871894/iccj-dcd-de-respingere-privind-hotararea-pronuntata-de-catre-prima-instanta-in-procedura-examinarii-admisibilitatii-in-principiu-a-contestatiei-in-anulare.html",
-      "date": "2026-11-25T17:02:44.000Z",
-      "excerpt": "Luni, 23 noiembrie 2026, Înalta Curte de Casaţie şi Justiţie – Completul pentru dezlegarea unor chestiuni de drept, legal constituit, a pronunțat următoarea soluție: Prin Decizia..."
-    },
-    {
-      "lang": "ro",
-      "source": "Juridice.ro",
-      "title": "Ministrul Radu Marinescu a participat la conferința privind combaterea violenței domestice",
-      "link": "https://www.juridice.ro/871922/ministrul-radu-marinescu-a-participat-la-conferinta-privind-combaterea-violentei-domestice.html",
-      "date": "2026-11-25T15:44:21.000Z",
-      "excerpt": "Miercuri, 25 noiembrie 2026, Ministerul Justiției a informat că ministrul Radu Marinescu a participat la conferința „Parteneri pentru siguranță. Împreună împotriva violenței..."
     }
   ]
 }
